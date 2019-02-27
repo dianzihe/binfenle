@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/testbinfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -250,3 +250,11 @@ e87ea6afc3fb59fee583e0f492b161c4 Assembly-CSharp.dll:.GrowingTargetTileDestroyEf
 e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmazonBurstlyBinding
+e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.FakeBurstlyBinding
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ResourceDisplayer
+82eaaef41a0fe615d8486036b64353ec Assembly-CSharp.dll:.DMOAnalyticsBlackboardConfig
+e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.GoolgePlayBurstlyBinding
+916dcfebf98f1f795b470a24d5d745f3 Assembly-CSharp.dll:.BurstlyBlackboardConfig
+208b2f787df4ff40088e6957949012da Assembly-CSharp.dll:.RotateAccelerometer
+674ac24d127eb47b7f074fba570f5590 Assembly-CSharp.dll:.RotateAccelerometer2

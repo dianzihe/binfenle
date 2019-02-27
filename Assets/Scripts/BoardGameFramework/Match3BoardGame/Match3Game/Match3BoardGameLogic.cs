@@ -160,6 +160,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 			Debug.LogWarning("No icon found for character index " + CharacterSpecialAnimations.CharIdx);
 		}
 		*/
+		MaleficentBlackboard.Instance.level = 1;
 		LoadLevel(MaleficentBlackboard.Instance.level);
 		
 		// Once the level is loaded get the reference to the board data
@@ -255,7 +256,8 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	/// </param>
 	public void LoadLevel(int numLevel) {
 		// Check if there isn't a level already in the hierarchy before trying to instatiate one.
-		Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
+		//Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
+		Match3BoardRenderer level = null;
 		
 		if (level == null) 
 		{

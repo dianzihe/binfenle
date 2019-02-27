@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameObjectsPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0290896893, y: .293938637, z: -.414072573}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a16a442b5b840aaa08622977ccfd9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceEditorLowRes: 0
+  tileBreakEffectMaterials:
+  - {fileID: 2100000, guid: f7c9dbd56ab352a4f80304dd7bcbde4b, type: 2}
+  - {fileID: 2100000, guid: f1b24df7ecab5954496c10978a1aea81, type: 2}
+  - {fileID: 2100000, guid: cff75940676730243a455557018e528e, type: 2}
+  - {fileID: 2100000, guid: 5c22cc95e72ee314cb38ac76ddac1888, type: 2}
+  - {fileID: 2100000, guid: 811cd201fc74fad4b91a500035e7b353, type: 2}
+  - {fileID: 2100000, guid: 510f9b2808a344c4daebf6fbc8ed30a8, type: 2}
+  - {fileID: 2100000, guid: fa498c5a7d498db4fb96f84f7e917af5, type: 2}
+  - {fileID: 2100000, guid: 3a041ef139477cf468ce5d63a98ec182, type: 2}
+  - {fileID: 2100000, guid: f37e0ee87bcdaf942bb56cd97c178d77, type: 2}
+  - {fileID: 2100000, guid: 39a776e8651087849b2f98226abeaba7, type: 2}
+  - {fileID: 2100000, guid: 637ef8691266e49408a130df709dbe6c, type: 2}
+  - {fileID: 2100000, guid: 88fd4a7d1096e6b4c9be52d141749ae4, type: 2}
+  - {fileID: 2100000, guid: 84de05d3478a4dc42b976b26b3177c5d, type: 2}
+  - {fileID: 2100000, guid: 0b092261ed37a0a47b0391f2605789c5, type: 2}
+  lowTileBreakEffectMaterials:
+  - {fileID: 2100000, guid: 177d950a108322a4ca9c86d8d67db8f3, type: 2}
+  - {fileID: 2100000, guid: 60727784765d5d740b2ce06c9f58c607, type: 2}
+  - {fileID: 2100000, guid: 8aa90942f4ba6224d89e68ed0edb0192, type: 2}
+  - {fileID: 2100000, guid: e7814a9177168f34daff1ee52ad5623d, type: 2}
+  - {fileID: 2100000, guid: 8a765659f5a45d243b74507e51cad019, type: 2}
+  - {fileID: 2100000, guid: c107f0703c0ec86438de26c1cf9f1431, type: 2}
+  - {fileID: 2100000, guid: 2e05173024ab1d740afe5899cf297647, type: 2}
+  - {fileID: 2100000, guid: 9f02927bb3db0f147a91f791dd1fd9af, type: 2}
+  - {fileID: 2100000, guid: fe0fe6201f80e4c44abfe1aea4d67d99, type: 2}
+  - {fileID: 2100000, guid: dec60aa3d05d2c040a8cb3c9baf1798b, type: 2}
+  - {fileID: 2100000, guid: 225ea551a816c6249bb5f590eeef0686, type: 2}
+  - {fileID: 2100000, guid: af2cd3bdb48ee164c815b4a964957c18, type: 2}
+  - {fileID: 2100000, guid: fbdb0ac6b5d034b38a6a0b26611b2235, type: 2}
+  - {fileID: 2100000, guid: 1b3f9cf87afde7c4083f60963bd55098, type: 2}
+  tileBreakEffectPrefab: {fileID: 100008, guid: f1e69298bceb1401cb783f1d7b431f49,
+    type: 2}
+  lowTileBreakEffectPrefab: {fileID: 100000, guid: 9ccd1b11926fa4d0ca462d8cf5acf909,
+    type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
