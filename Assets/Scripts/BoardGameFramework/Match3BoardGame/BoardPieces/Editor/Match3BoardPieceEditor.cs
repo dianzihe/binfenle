@@ -28,7 +28,7 @@ public class Match3BoardPieceEditor {
 		showBoardLinks = false;
 	}
 
-	[DrawGizmo(GizmoType.Active | GizmoType.Selected | GizmoType.SelectedOrChild) ]
+	[DrawGizmo(GizmoType.Active | GizmoType.Selected | GizmoType.InSelectionHierarchy) ]
 	public static void OnDrawGizmos(Match3BoardPiece boardPiece, GizmoType gizmoType) {
 		if ( !boardPiece.canDrawGizmos ) {
 			return;

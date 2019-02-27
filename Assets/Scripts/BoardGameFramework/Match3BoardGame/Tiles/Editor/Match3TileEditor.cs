@@ -49,7 +49,7 @@ public class Match3TileEditor {
 		tilesDebugDisplayOverride = false;
 	}
 	
-	[DrawGizmo(GizmoType.Active | GizmoType.Selected | GizmoType.SelectedOrChild)]
+	[DrawGizmo(GizmoType.Active | GizmoType.Selected | GizmoType.InSelectionHierarchy)]
 	public static void OnDrawGizmos(Match3Tile tile, GizmoType gizmoType) {
 		if ( !tile.canDrawGizmos || !tilesDebugDisplayOverride) {
 			return;
@@ -82,7 +82,7 @@ public class Match3TileEditor {
 			labelStyle.normal.background = MakeTex(2, 2, Color.black);
 		}
 		
-		Handles.Label(tile.transform.position +  new Vector3(-tile.collider.bounds.extents.x, tile.collider.bounds.extents.y, 0f), 
+		Handles.Label(tile.transform.position +  new Vector3(-tile.GetComponent<Collider>().bounds.extents.x, tile.GetComponent<Collider>().bounds.extents.y, 0f), 
 					  tileStates, labelStyle);
 		
 		Matrix4x4 pushedMatrix = Gizmos.matrix;

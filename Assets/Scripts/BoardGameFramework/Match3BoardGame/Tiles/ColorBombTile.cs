@@ -227,7 +227,7 @@ public class ColorBombTile : TriggerTile
 	
 	
 	protected bool IsGlacierShardTargetValid(NormalTile targetTile) {
-		return targetTile != null && !(targetTile is SnowTile) && !(targetTile is FreezerTile) && !targetTile.IsFrozen() && targetTile.IsDestructible && !targetTile.IsDestroying;
+		return targetTile != null /* && !(targetTile is SnowTile) && !(targetTile is FreezerTile) */&& !targetTile.IsFrozen() && targetTile.IsDestructible && !targetTile.IsDestroying;
 	}
 	
 	/// <summary>
@@ -633,7 +633,7 @@ public class ColorBombTile : TriggerTile
 			   target.IsDestructible &&
 			   target.TileColor == destroyColor &&
 			   !target.IsDestroying &&	
-			   !(target is SnowTile) &&
+			   /* !(target is SnowTile) &&*/
 			   !target.IsFrozen();
 	}
 	#region implemented abstract members of TriggerTile

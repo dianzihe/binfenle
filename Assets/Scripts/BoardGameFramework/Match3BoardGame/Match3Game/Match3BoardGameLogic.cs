@@ -259,7 +259,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		
 		if (level == null) 
 		{
-			//Debug.Log("[Match3BoardGameLogic] Trying to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel);
+			Debug.Log("[Match3BoardGameLogic] Trying to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel);
 			
 			GameObject levelPrefab = Resources.Load(Match3BoardRenderer.baseLevelPathName + numLevel) as GameObject;
 			// If for some reason we can't find this level, load the default level

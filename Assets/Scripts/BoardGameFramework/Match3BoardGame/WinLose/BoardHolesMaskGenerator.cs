@@ -206,7 +206,7 @@ public class BoardHolesMaskGenerator
 		for(int row = 0; row < boardData.NumRows; row++) {
 			for(int col = 0; col < boardData.NumColumns; col++) {
 				AbstractBoardPiece piece =  boardData[row, col];
-				gridEmptyCells[row, col] = boardData[row, col].IsEmpty && piece.GetType() != typeof(GrowingThornBoardPiece);
+				gridEmptyCells[row, col] = boardData[row, col].IsEmpty /*&& piece.GetType() != typeof(GrowingThornBoardPiece) */;
 			}
 		}
 	}

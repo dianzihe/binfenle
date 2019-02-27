@@ -150,13 +150,15 @@ public class InGameSoundEventsHandler
 		
 		WinScore.OnNewStarReached += OnNewStarSndEvent;
 		
-		SnowTile.OnSnowTileLayerBeginDestroy += OnSnowTileLayerDestroyedSndEvent;
 		
 		LayeredBoardPiece.OnNumLayersDecreased += OnFrostedPieceLayerDestroyedSndEvent;
 		
 		LockedTile.OnLockedTileDestroyed += OnLockedTileDestroyedSndEvent;
 		
 		DropTile.OnDropTileDropped += OnDropTileExited;
+
+	/* 
+		SnowTile.OnSnowTileLayerBeginDestroy += OnSnowTileLayerDestroyedSndEvent;
 		
 		FreezerTile.OnFreezerTileCreated += OnFreezerTileCreated;
 		FreezerTile.OnFreezerTileDestroyed += OnFreezerTileDestroyed;
@@ -166,6 +168,7 @@ public class InGameSoundEventsHandler
 		
 		HotChocolate.OnChocolateBeginFlowing += OnChocolateBeginFlowing;
 		HotChocolate.OnChocolateStopFlowing += OnChocolateStopFlowing;
+		*/
 	}
 	
 	public void UnregisterSoundEvents()
@@ -195,14 +198,14 @@ public class InGameSoundEventsHandler
 		
 		WinScore.OnNewStarReached -= OnNewStarSndEvent;
 		
-		SnowTile.OnSnowTileLayerBeginDestroy -= OnSnowTileLayerDestroyedSndEvent;
 		
 		LayeredBoardPiece.OnNumLayersDecreased -= OnFrostedPieceLayerDestroyedSndEvent;
 
 		LockedTile.OnLockedTileDestroyed -= OnLockedTileDestroyedSndEvent;
 		
 		DropTile.OnDropTileDropped -= OnDropTileExited;
-		
+/* 		
+		SnowTile.OnSnowTileLayerBeginDestroy -= OnSnowTileLayerDestroyedSndEvent;
 		FreezerTile.OnFreezerTileCreated -= OnFreezerTileCreated;
 		FreezerTile.OnFreezerTileDestroyed -= OnFreezerTileDestroyed;
 		
@@ -211,6 +214,7 @@ public class InGameSoundEventsHandler
 		
 		HotChocolate.OnChocolateBeginFlowing -= OnChocolateBeginFlowing;
 		HotChocolate.OnChocolateStopFlowing -= OnChocolateStopFlowing;
+		*/
 	}
 	
 	public void OnMatchCombosSndEvent()
@@ -325,11 +329,6 @@ public class InGameSoundEventsHandler
 		SoundManager.Instance.PlayOneShot(sndAchieveStars[starCount - 1]);
 	}
 	
-	public void OnSnowTileLayerDestroyedSndEvent(SnowTile snowTile)
-	{
-		sndSnowTileLayerDestroy.PlayQueued();
-	}
-	
 	public void OnFrostedPieceLayerDestroyedSndEvent(LayeredBoardPiece boardPiece)
 	{
 		sndFrostPieceLayerDestroy.PlayQueued();
@@ -344,7 +343,12 @@ public class InGameSoundEventsHandler
 	{
 		sndDropTileExit.PlayQueued();
 	}
-	
+	/* 		
+	public void OnSnowTileLayerDestroyedSndEvent(SnowTile snowTile)
+	{
+		sndSnowTileLayerDestroy.PlayQueued();
+	}
+
 	public void OnFreezerTileCreated(FreezerTile freezerTile)
 	{
 		SoundManager.Instance.PlayOneShot(sndFreezerTileCreated);
@@ -374,6 +378,6 @@ public class InGameSoundEventsHandler
 	{
 		sndChocolateFlowing.Stop();
 	}
-
+*/
 
 }

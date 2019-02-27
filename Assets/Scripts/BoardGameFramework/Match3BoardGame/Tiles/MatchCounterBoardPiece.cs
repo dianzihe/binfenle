@@ -72,7 +72,7 @@ public class MatchCounterBoardPiece : Match3BoardPiece {
 
 	protected virtual bool IgnoreMatchedTile (AbstractTile tile) 
 	{
-		bool ignore = tile is  LockedTile || tile is SnowTile || tile is FreezerTile;
+		bool ignore = tile is  LockedTile /* || tile is SnowTile || tile is FreezerTile*/;
 		return ignore;
 	}
 

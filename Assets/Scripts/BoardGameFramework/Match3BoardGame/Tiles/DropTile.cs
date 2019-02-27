@@ -53,12 +53,13 @@ public class DropTile : NormalTile {
 	public override void RaiseEventSwitchSuccess (Match3Tile neighborTile)
 	{
 		base.RaiseEventSwitchSuccess (neighborTile);
-		
+		/* 
 		//If this boardpiece is a dropperBehaviour
 		if (BoardPiece.GetComponent<DropperBehaviour>() != null && !isDropping)
 		{
 			StartCoroutine(Drop ());
 		}
+		*/
 	}
 	
 	public override void RaiseEventTileSwitchAnimEnded (AbstractTile neighborTile)
