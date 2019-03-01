@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: bda9db3eb52bf5b488fd004a29ac02cb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone006
+    100010: Bone008
+    100012: Bone009
+    100014: Bone010
+    100016: Bone011
+    100018: Bone012
+    100020: Bone013
+    100022: Bone014
+    100024: Bone015
+    100026: Bone016
+    100028: Bone017
+    100030: Bone018
+    100032: Bone019
+    100034: Bone020
+    100036: crow_002
+    100038: Crow_Bone_Beak
+    100040: Crow_Bone_Body
+    100042: Crow_Bone_Feet01R
+    100044: Crow_Bone_Feet01R001
+    100046: Crow_Bone_Feet02R
+    100048: Crow_Bone_Feet02R001
+    100050: Crow_Bone_Feet03R
+    100052: Crow_Bone_Feet03R001
+    100054: Crow_Bone_Head
+    100056: Crow_Bone_Leg01R
+    100058: Crow_Bone_Leg01R001
+    100060: Crow_Bone_leg02R
+    100062: Crow_Bone_leg02R001
+    100064: Crow_Bone_Tail
+    100066: Crow_Bone_TailL
+    100068: Crow_Bone_TailR
+    100070: Crow_Control
+    100072: Ctrl_GENERAL
+    100074: Ctrl_GeneralOjoDer
+    100076: Ctrl_GeneralOjoIzq
+    100078: Ctrl_OjoDer
+    100080: Ctrl_OjoIzq
+    100082: Ctrl_OJOS
+    100084: diaval_wolf_003
+    100086: IK Chain002
+    100088: IK Chain003
+    100090: Panther
+    100092: Panther_ParpadoDer
+    100094: Panther_ParpadoIzq
+    100096: PantherHead
+    100098: PantherHeadBone002
+    100100: PantherLArm1
+    100102: PantherLArm2
+    100104: PantherLArmPalm
+    100106: PantherLLeg1
+    100108: PantherLLeg2
+    100110: PantherLLegCollarbone
+    100112: PantherLLegDigit01
+    100114: PantherLLegDigit01 1
+    100116: PantherLLegPalm
+    100118: PantherLLegPlatform
+    100120: PantherLLegPlatform 1
+    100122: PantherLLegUpVectorNode
+    100124: PantherNeck1
+    100126: PantherNeck2
+    100128: PantherPelvis
+    100130: PantherRArm1
+    100132: PantherRArm2
+    100134: PantherRArmPalm
+    100136: PantherRibcage
+    100138: PantherRLeg1
+    100140: PantherRLeg2
+    100142: PantherRLegCollarbone
+    100144: PantherRLegDigit01
+    100146: PantherRLegDigit01 1
+    100148: PantherRLegPalm
+    100150: PantherRLegPlatform
+    100152: PantherRLegPlatform 1
+    100154: PantherRLegUpVectorNode
+    100156: PantherSpine1
+    100158: PantherSpine2
+    100160: PantherSpine3
+    100162: PantherTail1
+    100164: PantherTail2
+    100166: PantherTail3
+    100168: Point001
+    100170: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone006
+    400010: Bone008
+    400012: Bone009
+    400014: Bone010
+    400016: Bone011
+    400018: Bone012
+    400020: Bone013
+    400022: Bone014
+    400024: Bone015
+    400026: Bone016
+    400028: Bone017
+    400030: Bone018
+    400032: Bone019
+    400034: Bone020
+    400036: crow_002
+    400038: Crow_Bone_Beak
+    400040: Crow_Bone_Body
+    400042: Crow_Bone_Feet01R
+    400044: Crow_Bone_Feet01R001
+    400046: Crow_Bone_Feet02R
+    400048: Crow_Bone_Feet02R001
+    400050: Crow_Bone_Feet03R
+    400052: Crow_Bone_Feet03R001
+    400054: Crow_Bone_Head
+    400056: Crow_Bone_Leg01R
+    400058: Crow_Bone_Leg01R001
+    400060: Crow_Bone_leg02R
+    400062: Crow_Bone_leg02R001
+    400064: Crow_Bone_Tail
+    400066: Crow_Bone_TailL
+    400068: Crow_Bone_TailR
+    400070: Crow_Control
+    400072: Ctrl_GENERAL
+    400074: Ctrl_GeneralOjoDer
+    400076: Ctrl_GeneralOjoIzq
+    400078: Ctrl_OjoDer
+    400080: Ctrl_OjoIzq
+    400082: Ctrl_OJOS
+    400084: diaval_wolf_003
+    400086: IK Chain002
+    400088: IK Chain003
+    400090: Panther
+    400092: Panther_ParpadoDer
+    400094: Panther_ParpadoIzq
+    400096: PantherHead
+    400098: PantherHeadBone002
+    400100: PantherLArm1
+    400102: PantherLArm2
+    400104: PantherLArmPalm
+    400106: PantherLLeg1
+    400108: PantherLLeg2
+    400110: PantherLLegCollarbone
+    400112: PantherLLegDigit01
+    400114: PantherLLegDigit01 1
+    400116: PantherLLegPalm
+    400118: PantherLLegPlatform
+    400120: PantherLLegPlatform 1
+    400122: PantherLLegUpVectorNode
+    400124: PantherNeck1
+    400126: PantherNeck2
+    400128: PantherPelvis
+    400130: PantherRArm1
+    400132: PantherRArm2
+    400134: PantherRArmPalm
+    400136: PantherRibcage
+    400138: PantherRLeg1
+    400140: PantherRLeg2
+    400142: PantherRLegCollarbone
+    400144: PantherRLegDigit01
+    400146: PantherRLegDigit01 1
+    400148: PantherRLegPalm
+    400150: PantherRLegPlatform
+    400152: PantherRLegPlatform 1
+    400154: PantherRLegUpVectorNode
+    400156: PantherSpine1
+    400158: PantherSpine2
+    400160: PantherSpine3
+    400162: PantherTail1
+    400164: PantherTail2
+    400166: PantherTail3
+    400168: Point001
+    400170: //RootNode
+    4300000: diaval_wolf_003
+    4300002: crow_002
+    7400000: Take 001
+    7400002: Take 0010
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: crow_002
+    13700002: diaval_wolf_003
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 291
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: crow_002
+        weight: 1
+      - path: Crow_Control
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone004/Bone019
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone006
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone008
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone009
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone010
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone014/Bone020
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone015
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone016
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone017
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone018
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Head
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Head/Crow_Bone_Beak
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R/Crow_Bone_Feet01R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R/Crow_Bone_Feet01R/Crow_Bone_Feet02R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R/Crow_Bone_Feet01R/Crow_Bone_Feet03R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001/Crow_Bone_Feet01R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001/Crow_Bone_Feet01R001/Crow_Bone_Feet02R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001/Crow_Bone_Feet01R001/Crow_Bone_Feet03R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Tail
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Tail/Crow_Bone_TailL
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Tail/Crow_Bone_TailR
+        weight: 1
+      - path: Crow_Control/IK Chain002
+        weight: 1
+      - path: Crow_Control/IK Chain003
+        weight: 1
+      - path: Ctrl_GENERAL
+        weight: 1
+      - path: Ctrl_GENERAL/PantherLLegPlatform
+        weight: 1
+      - path: Ctrl_GENERAL/PantherLLegPlatform 1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1/PantherLLeg2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1/PantherLLeg2/PantherLLegPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1/PantherLLeg2/PantherLLegPalm/PantherLLegDigit01
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLegUpVectorNode
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1/PantherRLeg2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1/PantherRLeg2/PantherRLegPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1/PantherRLeg2/PantherRLegPalm/PantherRLegDigit01
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLegUpVectorNode
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1/PantherLArm2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1/PantherLArm2/PantherLArmPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1/PantherLArm2/PantherLArmPalm/PantherLLegDigit01
+          1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OjoDer
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OjoIzq
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OJOS
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OJOS/Ctrl_GeneralOjoDer
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OJOS/Ctrl_GeneralOjoIzq
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Panther_ParpadoDer
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Panther_ParpadoIzq
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/PantherHeadBone002
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Point001
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1/PantherRArm2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1/PantherRArm2/PantherRArmPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1/PantherRArm2/PantherRArmPalm/PantherRLegDigit01
+          1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherTail1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: Ctrl_GENERAL/PantherRLegPlatform
+        weight: 1
+      - path: Ctrl_GENERAL/PantherRLegPlatform 1
+        weight: 1
+      - path: diaval_wolf_003
+        weight: 1
+      - path: Panther
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 335
+      lastFrame: 336
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: crow_002
+        weight: 1
+      - path: Crow_Control
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone004/Bone019
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone006
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone008
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone002/Bone003/Bone009
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone001/Bone010
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone014/Bone020
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone015
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone016
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone012/Bone013/Bone017
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Bone011/Bone018
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Head
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Head/Crow_Bone_Beak
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R/Crow_Bone_Feet01R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R/Crow_Bone_Feet01R/Crow_Bone_Feet02R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R/Crow_Bone_leg02R/Crow_Bone_Feet01R/Crow_Bone_Feet03R
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001/Crow_Bone_Feet01R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001/Crow_Bone_Feet01R001/Crow_Bone_Feet02R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Leg01R001/Crow_Bone_leg02R001/Crow_Bone_Feet01R001/Crow_Bone_Feet03R001
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Tail
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Tail/Crow_Bone_TailL
+        weight: 1
+      - path: Crow_Control/Crow_Bone_Body/Crow_Bone_Tail/Crow_Bone_TailR
+        weight: 1
+      - path: Crow_Control/IK Chain002
+        weight: 1
+      - path: Crow_Control/IK Chain003
+        weight: 1
+      - path: Ctrl_GENERAL
+        weight: 1
+      - path: Ctrl_GENERAL/PantherLLegPlatform
+        weight: 1
+      - path: Ctrl_GENERAL/PantherLLegPlatform 1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1/PantherLLeg2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1/PantherLLeg2/PantherLLegPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLeg1/PantherLLeg2/PantherLLegPalm/PantherLLegDigit01
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherLLegUpVectorNode
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1/PantherRLeg2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1/PantherRLeg2/PantherRLegPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLeg1/PantherRLeg2/PantherRLegPalm/PantherRLegDigit01
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherRLegUpVectorNode
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1/PantherLArm2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1/PantherLArm2/PantherLArmPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLArm1/PantherLArm2/PantherLArmPalm/PantherLLegDigit01
+          1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OjoDer
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OjoIzq
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OJOS
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OJOS/Ctrl_GeneralOjoDer
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Ctrl_OJOS/Ctrl_GeneralOjoIzq
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Panther_ParpadoDer
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Panther_ParpadoIzq
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/PantherHeadBone002
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/Point001
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1/PantherRArm2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1/PantherRArm2/PantherRArmPalm
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRArm1/PantherRArm2/PantherRArmPalm/PantherRLegDigit01
+          1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherTail1
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: Ctrl_GENERAL/PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: Ctrl_GENERAL/PantherRLegPlatform
+        weight: 1
+      - path: Ctrl_GENERAL/PantherRLegPlatform 1
+        weight: 1
+      - path: diaval_wolf_003
+        weight: 1
+      - path: Panther
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 3d7662cd98126db4c88410cf69615a7c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tile_frosted1
+    100004: tile_frosted2
+    100006: tile_frosted3
+    100008: tile_frosted4
+    100010: tile_frosted10
+    100012: tile_frosted11
+    100014: tile_frosted12
+    100016: tile_frosted13
+    100018: tile_frosted20
+    100020: tile_frosted21
+    100022: tile_frosted22
+    100024: tile_frosted23
+    100026: tile_frosted30
+    100028: tile_frosted31
+    100030: tile_frosted32
+    100032: tile_frosted33
+    100034: tile_frosted40
+    100036: tile_frosted41
+    100038: tile_frosted42
+    100040: tile_frosted43
+    400000: //RootNode
+    400002: tile_frosted1
+    400004: tile_frosted2
+    400006: tile_frosted3
+    400008: tile_frosted4
+    400010: tile_frosted10
+    400012: tile_frosted11
+    400014: tile_frosted12
+    400016: tile_frosted13
+    400018: tile_frosted20
+    400020: tile_frosted21
+    400022: tile_frosted22
+    400024: tile_frosted23
+    400026: tile_frosted30
+    400028: tile_frosted31
+    400030: tile_frosted32
+    400032: tile_frosted33
+    400034: tile_frosted40
+    400036: tile_frosted41
+    400038: tile_frosted42
+    400040: tile_frosted43
+    2300000: //RootNode
+    2300002: tile_frosted1
+    2300004: tile_frosted2
+    2300006: tile_frosted3
+    2300008: tile_frosted4
+    2300010: tile_frosted10
+    2300012: tile_frosted11
+    2300014: tile_frosted12
+    2300016: tile_frosted13
+    2300018: tile_frosted20
+    2300020: tile_frosted21
+    2300022: tile_frosted22
+    2300024: tile_frosted23
+    2300026: tile_frosted30
+    2300028: tile_frosted31
+    2300030: tile_frosted32
+    2300032: tile_frosted33
+    2300034: tile_frosted40
+    2300036: tile_frosted41
+    2300038: tile_frosted42
+    2300040: tile_frosted43
+    3300000: //RootNode
+    3300002: tile_frosted1
+    3300004: tile_frosted2
+    3300006: tile_frosted3
+    3300008: tile_frosted4
+    3300010: tile_frosted10
+    3300012: tile_frosted11
+    3300014: tile_frosted12
+    3300016: tile_frosted13
+    3300018: tile_frosted20
+    3300020: tile_frosted21
+    3300022: tile_frosted22
+    3300024: tile_frosted23
+    3300026: tile_frosted30
+    3300028: tile_frosted31
+    3300030: tile_frosted32
+    3300032: tile_frosted33
+    3300034: tile_frosted40
+    3300036: tile_frosted41
+    3300038: tile_frosted42
+    3300040: tile_frosted43
+    4300000: tile_frosted
+    4300002: tile_frosted1
+    4300004: tile_frosted2
+    4300006: tile_frosted3
+    4300008: tile_frosted4
+    4300010: tile_frosted10
+    4300012: tile_frosted20
+    4300014: tile_frosted30
+    4300016: tile_frosted40
+    4300018: tile_frosted23
+    4300020: tile_frosted22
+    4300022: tile_frosted21
+    4300024: tile_frosted11
+    4300026: tile_frosted12
+    4300028: tile_frosted13
+    4300030: tile_frosted42
+    4300032: tile_frosted41
+    4300034: tile_frosted43
+    4300036: tile_frosted31
+    4300038: tile_frosted32
+    4300040: tile_frosted33
+    7400000: effect_frosted_destroy2
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: effect_02
+    second: {fileID: 2100000, guid: 8c7e470e8dc99402c93277af8eaf503d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: effect_frosted_destroy2
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

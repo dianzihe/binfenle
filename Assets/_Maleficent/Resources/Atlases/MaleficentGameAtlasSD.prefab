@@ -1,0 +1,831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MaleficentGameAtlasSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 2bbe444750327434f8632be2a5a40a33, type: 2}
+  sprites:
+  - name: promofront
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 51
+      width: 143
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 51
+      width: 143
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0209790207
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mana_base_01
+    outer:
+      serializedVersion: 2
+      x: 525
+      y: 690
+      width: 95
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 525
+      y: 690
+      width: 95
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: maleficent_layout_mana_thorns_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 536
+      width: 186
+      height: 276
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 536
+      width: 186
+      height: 276
+    rotated: 0
+    paddingLeft: .134408608
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: promoback
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 126
+      width: 138
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 126
+      width: 138
+      height: 110
+    rotated: 0
+    paddingLeft: .0217391308
+    paddingRight: .0362318829
+    paddingTop: .0363636352
+    paddingBottom: .0272727273
+  - name: powerup_crow2_disabled
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 383
+      width: 72
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 383
+      width: 72
+      height: 72
+    rotated: 0
+    paddingLeft: .125
+    paddingRight: .125
+    paddingTop: .125
+    paddingBottom: .125
+  - name: maleficent_layout_moves_01
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 817
+      width: 192
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 817
+      width: 192
+      height: 207
+    rotated: 0
+    paddingLeft: .223958328
+    paddingRight: 0
+    paddingTop: .00483091781
+    paddingBottom: .00966183562
+  - name: powerup_staff_disabled
+    outer:
+      serializedVersion: 2
+      x: 621
+      y: 692
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 621
+      y: 692
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: manastorebackground
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 237
+      width: 173
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 237
+      width: 173
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .214285716
+    paddingBottom: 0
+  - name: star_03
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 828
+      width: 47
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 828
+      width: 47
+      height: 48
+    rotated: 0
+    paddingLeft: .0212765951
+    paddingRight: .0212765951
+    paddingTop: 0
+    paddingBottom: 0
+  - name: star_02
+    outer:
+      serializedVersion: 2
+      x: 827
+      y: 838
+      width: 37
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 827
+      y: 838
+      width: 37
+      height: 38
+    rotated: 0
+    paddingLeft: .0540540554
+    paddingRight: .0810810775
+    paddingTop: 0
+    paddingBottom: 0
+  - name: powerups_wind
+    outer:
+      serializedVersion: 2
+      x: 712
+      y: 692
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 712
+      y: 692
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: powerup_greenpower_disabled
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 97
+      width: 72
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 97
+      width: 72
+      height: 79
+    rotated: 0
+    paddingLeft: .125
+    paddingRight: .125
+    paddingTop: .0253164563
+    paddingBottom: .113924049
+  - name: manapack1
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 251
+      width: 83
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 251
+      width: 83
+      height: 71
+    rotated: 0
+    paddingLeft: .168674693
+    paddingRight: .204819277
+    paddingTop: .267605633
+    paddingBottom: .169014081
+  - name: menu_power_button_x
+    outer:
+      serializedVersion: 2
+      x: 865
+      y: 845
+      width: 33
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 865
+      y: 845
+      width: 33
+      height: 31
+    rotated: 0
+    paddingLeft: .24242425
+    paddingRight: .272727281
+    paddingTop: .225806445
+    paddingBottom: .225806445
+  - name: powerups_crow
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 103
+      width: 65
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 103
+      width: 65
+      height: 72
+    rotated: 0
+    paddingLeft: .230769232
+    paddingRight: .15384616
+    paddingTop: .0833333358
+    paddingBottom: .166666672
+  - name: powerup_wind_disabled
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 497
+      width: 89
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 497
+      width: 89
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0112359552
+    paddingTop: 0
+    paddingBottom: 0
+  - name: manapack2
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 176
+      width: 74
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 176
+      width: 74
+      height: 65
+    rotated: 0
+    paddingLeft: .270270258
+    paddingRight: .270270258
+    paddingTop: .369230777
+    paddingBottom: .200000003
+  - name: powerup_throns_disabled
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 177
+      width: 80
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 177
+      width: 80
+      height: 73
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: .0250000004
+    paddingTop: .12328767
+    paddingBottom: .10958904
+  - name: powerups_yellowdust
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 588
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 588
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: powerups_greenpower
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 36
+      width: 65
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 36
+      width: 65
+      height: 66
+    rotated: 0
+    paddingLeft: .261538476
+    paddingRight: .123076923
+    paddingTop: .0303030312
+    paddingBottom: .333333343
+  - name: maleficent_layout_score_01
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 679
+      width: 222
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 679
+      width: 222
+      height: 133
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0585585572
+    paddingTop: 0
+    paddingBottom: .0902255625
+  - name: powerups_staff
+    outer:
+      serializedVersion: 2
+      x: 803
+      y: 701
+      width: 70
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 803
+      y: 701
+      width: 70
+      height: 81
+    rotated: 0
+    paddingLeft: .242857143
+    paddingRight: .042857144
+    paddingTop: 0
+    paddingBottom: .111111112
+  - name: manapack3
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 736
+      width: 57
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 736
+      width: 57
+      height: 76
+    rotated: 0
+    paddingLeft: .473684222
+    paddingRight: .526315808
+    paddingTop: .157894731
+    paddingBottom: .184210524
+  - name: mana_power_off
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 409
+      width: 87
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 409
+      width: 87
+      height: 87
+    rotated: 0
+    paddingLeft: .0114942528
+    paddingRight: .0229885057
+    paddingTop: .0114942528
+    paddingBottom: .0229885057
+  - name: mana_specular_01
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 312
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 312
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: manapack5
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 720
+      width: 114
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 720
+      width: 114
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0108695654
+    paddingBottom: .097826086
+  - name: star_01
+    outer:
+      serializedVersion: 2
+      x: 865
+      y: 819
+      width: 26
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 865
+      y: 819
+      width: 26
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0769230798
+    paddingTop: .0399999991
+    paddingBottom: .0799999982
+  - name: mana_glow_01
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 242
+      width: 70
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 242
+      width: 70
+      height: 69
+    rotated: 0
+    paddingLeft: .0142857144
+    paddingRight: .0142857144
+    paddingTop: .0144927539
+    paddingBottom: .0289855078
+  - name: star_progress_01
+    outer:
+      serializedVersion: 2
+      x: 525
+      y: 783
+      width: 348
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 525
+      y: 783
+      width: 348
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .043103449
+    paddingTop: .310344815
+    paddingBottom: .344827592
+  - name: mana_power_selected
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 847
+      width: 87
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 847
+      width: 87
+      height: 88
+    rotated: 0
+    paddingLeft: .0114942528
+    paddingRight: .0229885057
+    paddingTop: .0113636367
+    paddingBottom: .0113636367
+  - name: powerups_thorns
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 29
+      width: 80
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 29
+      width: 80
+      height: 67
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: .0250000004
+    paddingTop: .223880604
+    paddingBottom: .119402982
+  - name: manapack4
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 603
+      width: 97
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 603
+      width: 97
+      height: 75
+    rotated: 0
+    paddingLeft: .103092782
+    paddingRight: .0721649453
+    paddingTop: .186666667
+    paddingBottom: .173333332
+  - name: powerups_crow2
+    outer:
+      serializedVersion: 2
+      x: 727
+      y: 824
+      width: 51
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 727
+      y: 824
+      width: 51
+      height: 52
+    rotated: 0
+    paddingLeft: .313725501
+    paddingRight: .450980395
+    paddingTop: .442307681
+    paddingBottom: .288461536
+  - name: mana_power_normal
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 936
+      width: 87
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 936
+      width: 87
+      height: 88
+    rotated: 0
+    paddingLeft: .0114942528
+    paddingRight: .0229885057
+    paddingTop: .0113636367
+    paddingBottom: .0113636367
+  - name: manapack0
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 323
+      width: 72
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 323
+      width: 72
+      height: 85
+    rotated: 0
+    paddingLeft: .263888896
+    paddingRight: .319444448
+    paddingTop: .0823529437
+    paddingBottom: .117647059
+  - name: paper
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 148
+      height: 199
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 148
+      height: 199
+    rotated: 0
+    paddingLeft: .00675675692
+    paddingRight: .00675675692
+    paddingTop: .0552763827
+    paddingBottom: .00502512557
+  - name: menu_livesbroken_icon
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 530
+      width: 74
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 530
+      width: 74
+      height: 72
+    rotated: 0
+    paddingLeft: .0135135138
+    paddingRight: 0
+    paddingTop: .027777778
+    paddingBottom: .013888889
+  - name: menu_lives_icon
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 614
+      width: 66
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 614
+      width: 66
+      height: 64
+    rotated: 0
+    paddingLeft: .0151515156
+    paddingRight: .121212125
+    paddingTop: .109375
+    paddingBottom: .0625
+  - name: powerup_wolf_disabled
+    outer:
+      serializedVersion: 2
+      x: 278
+      y: 456
+      width: 72
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 278
+      y: 456
+      width: 72
+      height: 73
+    rotated: 0
+    paddingLeft: .125
+    paddingRight: .125
+    paddingTop: .10958904
+    paddingBottom: .12328767
+  - name: powerups_wolf
+    outer:
+      serializedVersion: 2
+      x: 874
+      y: 722
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 874
+      y: 722
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medium_gift
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 833
+      width: 241
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 833
+      width: 241
+      height: 191
+    rotated: 0
+    paddingLeft: .078838177
+    paddingRight: .190871373
+    paddingTop: .0785340294
+    paddingBottom: .0261780098
+  - name: low_gift
+    outer:
+      serializedVersion: 2
+      x: 727
+      y: 877
+      width: 208
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 727
+      y: 877
+      width: 208
+      height: 147
+    rotated: 0
+    paddingLeft: .0432692319
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hign_gift
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 813
+      width: 291
+      height: 211
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 813
+      width: 291
+      height: 211
+    rotated: 0
+    paddingLeft: .0515463911
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 2
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

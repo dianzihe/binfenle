@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 5e22064a380138c4fb8b8b17d7aa75d2
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object005
+    100004: Object006
+    100006: Object007
+    100008: Object008
+    100010: Object009
+    100012: Object010
+    100014: troll1
+    100016: troll1_eyes
+    100018: troll1_hand
+    100020: troll2
+    100022: troll2_eyes
+    100024: troll2_hand
+    100026: troll3
+    100028: troll3_eyes
+    100030: troll3_hand
+    400000: //RootNode
+    400002: Object005
+    400004: Object006
+    400006: Object007
+    400008: Object008
+    400010: Object009
+    400012: Object010
+    400014: troll1
+    400016: troll1_eyes
+    400018: troll1_hand
+    400020: troll2
+    400022: troll2_eyes
+    400024: troll2_hand
+    400026: troll3
+    400028: troll3_eyes
+    400030: troll3_hand
+    2300000: Object005
+    2300002: Object006
+    2300004: Object007
+    2300006: Object008
+    2300008: Object009
+    2300010: Object010
+    2300012: troll1
+    2300014: troll1_eyes
+    2300016: troll1_hand
+    2300018: troll2
+    2300020: troll2_eyes
+    2300022: troll2_hand
+    2300024: troll3
+    2300026: troll3_eyes
+    2300028: troll3_hand
+    3300000: Object005
+    3300002: Object006
+    3300004: Object007
+    3300006: Object008
+    3300008: Object009
+    3300010: Object010
+    3300012: troll1
+    3300014: troll1_eyes
+    3300016: troll1_hand
+    3300018: troll2
+    3300020: troll2_eyes
+    3300022: troll2_hand
+    3300024: troll3
+    3300026: troll3_eyes
+    3300028: troll3_hand
+    4300000: Object005
+    4300002: Object006
+    4300004: Object007
+    4300006: Object008
+    4300008: Object009
+    4300010: Object010
+    4300012: troll2_hand
+    4300014: troll1_hand
+    4300016: troll3
+    4300018: troll3_eyes
+    4300020: troll2
+    4300022: troll2_eyes
+    4300024: troll3_hand
+    4300026: troll1
+    4300028: troll1_eyes
+    7400000: trolls_idle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: trolls_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 433
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

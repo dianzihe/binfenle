@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: effect_28_icepick
+  m_Shader: {fileID: 4800000, guid: bec17891f2bba43bba162b1e4815b2f6, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 01bf9a4a030acb441b9b4dd26be6420b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 771474382ecc3784db2fab2d7a9c73c5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: 5.73121595e-09
+      data:
+        first:
+          name: _Shininess
+        second: .160133928
+      data:
+        first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .307692319
+      data:
+        first:
+          name: _FrezPow
+        second: .942307711
+      data:
+        first:
+          name: _FrezFalloff
+        second: 3.42307687
+      data:
+        first:
+          name: _Metalics
+        second: .807692289
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 0
+      data:
+        first:
+          name: _RimPower
+        second: 4.53846169
+      data:
+        first:
+          name: _AmbientLightStrength
+        second: 2
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: .888059676, b: .888059676, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .541176498}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: 1, b: 1, a: 0}

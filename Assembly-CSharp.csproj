@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C5FB6A16-5301-928B-8172-7B16B93A4EF6}</ProjectGuid>
+    <ProjectGuid>{93E38DE6-CAC1-BC2F-D3B1-70250C0438F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -130,12 +130,14 @@
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\LoseFree.cs" />
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\LoseMoves.cs" />
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\LoseTimer.cs" />
+     <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyLightPieces.cs" />
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTiles.cs" />
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesDrop.cs" />
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesFrost.cs" />
      <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinScore.cs" />
      <Compile Include="Assets\Scripts\Burstly\BurstlyBlackboardConfig.cs" />
      <Compile Include="Assets\Scripts\Burstly\BurstlyManager.cs" />
+     <Compile Include="Assets\Scripts\Burstly\CloneableMaterial.cs" />
      <Compile Include="Assets\Scripts\Burstly\DMOAnalyticsBlackboardConfig.cs" />
      <Compile Include="Assets\Scripts\Burstly\IBurstlyBinding.cs" />
      <Compile Include="Assets\Scripts\Burstly\IlluminableBoardPiece.cs" />
@@ -144,7 +146,6 @@
      <Compile Include="Assets\Scripts\Burstly\Implementations\GoolgePlayBurstlyBinding.cs" />
      <Compile Include="Assets\Scripts\Burstly\Implementations\IOSBurstlyBinding.cs" />
      <Compile Include="Assets\Scripts\Burstly\MaleficentBlackboard.cs" />
-     <Compile Include="Assets\Scripts\Burstly\MatchCounterBoardPiece.cs" />
      <Compile Include="Assets\Scripts\Burstly\ResourceDisplayer.cs" />
      <Compile Include="Assets\Scripts\Burstly\RotateAccelerometer.cs" />
      <Compile Include="Assets\Scripts\Burstly\RotateAccelerometer2.cs" />
@@ -163,21 +164,64 @@
      <Compile Include="Assets\Scripts\UserCloud.cs" />
      <Compile Include="Assets\Scripts\UserManagerCloud.cs" />
      <Compile Include="Assets\Scripts\UVAnim.cs" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuse.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask.shader" />
+     <None Include="Assets\Shaders\HalfLambert.shader" />
+     <None Include="Assets\_Maleficent\Shaders\DiffuseSpecularMap.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
+     <None Include="Assets\Shaders\BlackAndWhite.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumped.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseLightProbes.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\BottleShader.shader" />
+     <None Include="Assets\Shaders\Shine.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask2.shader" />
      <None Include="Assets\HOTween\readme.txt" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentDiffuse.shader" />
+     <None Include="Assets\_Maleficent\Shaders\FlorinCharacterShader.shader" />
+     <None Include="Assets\_Maleficent\Shaders\HalfLambertTransparent.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularFastLightProbes.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaTint.shader" />
+     <None Include="Assets\_Maleficent\Shaders\HalfLambert.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaTint.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Blur.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\Additive.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedLightProbes.shader" />
+     <None Include="Assets\Shaders\FlorinCharacterShader.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularLightProbes.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentTexturedAlpha.shader" />
+     <None Include="Assets\Shaders\BlackAndWhiteTRN2.shader" />
+     <None Include="Assets\_Maleficent\Shaders\BlackAndWhite.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentDiffuse.shader" />
+     <None Include="Assets\Shaders\DiffuseSpecularMap.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\BottleShader.shader" />
+     <None Include="Assets\Shaders\HalfLambertTransparent.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentTexturedAlpha.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Additive.shader" />
+     <None Include="Assets\_Maleficent\Shaders\BlackAndWhiteTRN2.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitAlpha.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitAlpha.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
+     <None Include="Assets\Shaders\Blur.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/source/unity/testbinfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/source/unity/testbinfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/source/unity/testbinfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/source/unity/testbinfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>D:/source/unity/testbinfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -381,16 +425,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>D:/source/unity/testbinfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>D:/source/unity/testbinfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>D:/source/unity/testbinfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/source/unity/testbinfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -740,7 +784,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{BE84460A-1B0F-9FDA-4F99-1A8FEB1EB76D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{A64E898D-25AF-C24E-753F-2374E4F42A72}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

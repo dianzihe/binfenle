@@ -1,11 +1,12 @@
 Win64
 PlayerPath?
-D:/source/unity/testbinfenle/Packages/testbinfenle.exe
+E:/source/unity-src/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
 41f975216b50e59e9b7ff7b3c6d5d5a0 Assembly-CSharp.dll:.TokensSystem
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+d4abb82e0a34d438dc18bc862bd778ca Assembly-CSharp.dll:.IlluminableBoardPiece
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 fe8477122074b2337f09f15ddd8cde42 Assembly-CSharp-firstpass.dll:.FingerDownDetector
 ea3673013844fe4faa58c48e23581d43 Assembly-CSharp-firstpass.dll:.TBHoverChangeMaterial
@@ -32,6 +33,7 @@ a8e4ea96642f36d81fd8640b31c9f7f4 Assembly-CSharp.dll:.CrossDestroyTile
 51f1d9e3514bf4585fb2ee14428a9b93 Assembly-CSharp.dll:.WinDestroyTiles
 382e6d9dcbe28043fff7362d60dacc46 Assembly-CSharp.dll:.LoseTimer
 ba91b21ef24778da55f5f0fd0e9e3509 Assembly-CSharp.dll:.TileDestroyEffect
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmazonBurstlyBinding
 1f201b0860ef2ddea23019018bbc514c Assembly-CSharp.dll:.SoundEffectController
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -141,6 +143,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 a44fc12174990fd438dba3c71c9fd42a Assembly-CSharp.dll:.BoardShuffleController
 cbbeebc5907b6758cc7b9ae9a3329c04 Assembly-CSharp.dll:.TileBombDestroyEffect
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.JSON
+e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.FakeBurstlyBinding
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 ba91b21ef24778da55f5f0fd0e9e3509 Assembly-CSharp.dll:.TileBreakEffectSpawner
@@ -157,6 +160,7 @@ d76f039f29d43ecbeb99938d780ad715 Assembly-CSharp.dll:.ScoreSystem
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 257848ec2634a417e28c6851cdbb8e54 Assembly-CSharp-firstpass.dll:.TBOrbit
 35f8bed8999bbeed1965de9debc506c4 Assembly-CSharp-firstpass.dll:.FingerMotionDetector
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ResourceDisplayer
 dbdccb0e98ff1830d47bcd6083bc7b08 Assembly-CSharp-firstpass.dll:.ScreenRaycaster
 c67802fce38d26e1ef9d76c265bbeb6a Assembly-CSharp.dll:.LocalizedAsset
 ed47c75080c4c454ff715ac3fdacd134 Assembly-CSharp.dll:.BombTile
@@ -166,6 +170,7 @@ fe8477122074b2337f09f15ddd8cde42 Assembly-CSharp-firstpass.dll:.FingerUpDetector
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 7b1d66908c628f59a7551bfb82843060 Assembly-CSharp.dll:.Match3BoardGameLogic
 e808d818e72372ed4ea634f58dea95d9 Assembly-CSharp.dll:.TileSpawnerBehavior
+82eaaef41a0fe615d8486036b64353ec Assembly-CSharp.dll:.DMOAnalyticsBlackboardConfig
 76761ba229127c4f2a43a1fb6731d56a Assembly-CSharp.dll:.DropTile
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:.TBLookAtTap
 c2e1da7329a280cffb79239e04fe5182 Assembly-CSharp-firstpass.dll:.FingerClusterManager
@@ -192,6 +197,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 396f5951f443c02f04ebd115ac8d0447 Assembly-CSharp.dll:.DirectionalDestroyTile
+e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.GoolgePlayBurstlyBinding
 771603ed1619220a0ee901135bb2c49e Assembly-CSharp.dll:.GlacierSpikeEffect
 c2e69ce78a1f5b6cc4c002cc61b8edbe Assembly-CSharp-firstpass.dll:.TBDragView
 eeff33a57065356de7b19fbac50881db Assembly-CSharp.dll:.CrossBombCombineVisualEffect
@@ -204,6 +210,8 @@ aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 c718032eb978a18bba40838e29bf86e9 Assembly-CSharp.dll:.MatchCounterBoardPiece
 7ee76871a025e1a649cfc64ba921e8e8 Assembly-CSharp-firstpass.dll:.TBTwistToRotate
+916dcfebf98f1f795b470a24d5d745f3 Assembly-CSharp.dll:.BurstlyBlackboardConfig
+208b2f787df4ff40088e6957949012da Assembly-CSharp.dll:.RotateAccelerometer
 396f5951f443c02f04ebd115ac8d0447 Assembly-CSharp.dll:.ColumnDestroyTile
 d9b104f50714f12d082c3347fce5bb48 Assembly-CSharp.dll:.LocalizationSettings
 71bb6a6b6c8f052f948db64c7dd3ca4f HOTween.dll:Holoville.HOTween.HOTween
@@ -247,14 +255,8 @@ ede1288708845f2c935f872b0b24d4b4 Assembly-CSharp.dll:.TimeColorBomb
 ad8ce386e30dcf263fccdbc3bf8f6c52 Assembly-CSharp.dll:.WinDestroyTilesDrop
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 e87ea6afc3fb59fee583e0f492b161c4 Assembly-CSharp.dll:.GrowingTargetTileDestroyEffect
+674ac24d127eb47b7f074fba570f5590 Assembly-CSharp.dll:.RotateAccelerometer2
 e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmazonBurstlyBinding
-e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.FakeBurstlyBinding
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ResourceDisplayer
-82eaaef41a0fe615d8486036b64353ec Assembly-CSharp.dll:.DMOAnalyticsBlackboardConfig
-e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.GoolgePlayBurstlyBinding
-916dcfebf98f1f795b470a24d5d745f3 Assembly-CSharp.dll:.BurstlyBlackboardConfig
-208b2f787df4ff40088e6957949012da Assembly-CSharp.dll:.RotateAccelerometer
-674ac24d127eb47b7f074fba570f5590 Assembly-CSharp.dll:.RotateAccelerometer2
+5125032ab42b5f35c80ed422ca36300d Assembly-CSharp.dll:.WinDestroyLightPieces

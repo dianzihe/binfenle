@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: dcf543ff391267849891478cfab18162
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base Human001
+    100002: Base Human001Head
+    100004: Base Human001LCollarbone
+    100006: Base Human001LDigit11
+    100008: Base Human001LDigit12
+    100010: Base Human001LDigit21
+    100012: Base Human001LDigit22
+    100014: Base Human001LForearm
+    100016: Base Human001LIKTarget
+    100018: Base Human001LPalm
+    100020: Base Human001LUpperarm
+    100022: Base Human001LUpVectorNode
+    100024: Base Human001Neck
+    100026: Base Human001Pelvis
+    100028: Base Human001RCollarbone
+    100030: Base Human001RDigit11
+    100032: Base Human001RDigit12
+    100034: Base Human001RDigit21
+    100036: Base Human001RDigit22
+    100038: Base Human001RForearm
+    100040: Base Human001Ribcage
+    100042: Base Human001RPalm
+    100044: Base Human001RPlatform
+    100046: Base Human001RThigh
+    100048: Base Human001RUpperarm
+    100050: Base Human001Spine1
+    100052: Base Human001Spine2
+    100054: Base Human001Spine3
+    100056: Base HumanPelvisRotation
+    100058: Baston
+    100060: Bone Coat L
+    100062: Bone Coat R
+    100064: Bone_Brow_01_L
+    100066: Bone_Brow_01_R
+    100068: Bone_Brow_Mid
+    100070: Bone_Cheek_L
+    100072: Bone_Cheek_R
+    100074: Bone_Crn_Lip_L
+    100076: Bone_Crn_Lip_R
+    100078: Bone_Crn_UpperLeft_Lip
+    100080: Bone_Crn_UpperRight_Lip
+    100082: Bone_Eye_L
+    100084: Bone_Eye_R
+    100086: Bone_Eyelid_L
+    100088: Bone_Eyelid_R
+    100090: Bone_Jaw
+    100092: Bone_Lower_Lip
+    100094: Bone_Upper_Lip
+    100096: Line001
+    100098: //RootNode
+    100100: maleficent_tPose_01
+    100102: Point001
+    100104: Point002
+    100106: Point003
+    100108: Point004
+    100110: Point005
+    100112: Point006
+    100114: Camera001
+    100116: Camera001.Target
+    100118: Omni001
+    100120: Omni002
+    100122: Base Human001RIKTarget
+    100124: Dedos01
+    100126: Dedos02
+    100128: staff_maleficent_01
+    100130: Point007
+    400000: Base Human001
+    400002: Base Human001Head
+    400004: Base Human001LCollarbone
+    400006: Base Human001LDigit11
+    400008: Base Human001LDigit12
+    400010: Base Human001LDigit21
+    400012: Base Human001LDigit22
+    400014: Base Human001LForearm
+    400016: Base Human001LIKTarget
+    400018: Base Human001LPalm
+    400020: Base Human001LUpperarm
+    400022: Base Human001LUpVectorNode
+    400024: Base Human001Neck
+    400026: Base Human001Pelvis
+    400028: Base Human001RCollarbone
+    400030: Base Human001RDigit11
+    400032: Base Human001RDigit12
+    400034: Base Human001RDigit21
+    400036: Base Human001RDigit22
+    400038: Base Human001RForearm
+    400040: Base Human001Ribcage
+    400042: Base Human001RPalm
+    400044: Base Human001RPlatform
+    400046: Base Human001RThigh
+    400048: Base Human001RUpperarm
+    400050: Base Human001Spine1
+    400052: Base Human001Spine2
+    400054: Base Human001Spine3
+    400056: Base HumanPelvisRotation
+    400058: Baston
+    400060: Bone Coat L
+    400062: Bone Coat R
+    400064: Bone_Brow_01_L
+    400066: Bone_Brow_01_R
+    400068: Bone_Brow_Mid
+    400070: Bone_Cheek_L
+    400072: Bone_Cheek_R
+    400074: Bone_Crn_Lip_L
+    400076: Bone_Crn_Lip_R
+    400078: Bone_Crn_UpperLeft_Lip
+    400080: Bone_Crn_UpperRight_Lip
+    400082: Bone_Eye_L
+    400084: Bone_Eye_R
+    400086: Bone_Eyelid_L
+    400088: Bone_Eyelid_R
+    400090: Bone_Jaw
+    400092: Bone_Lower_Lip
+    400094: Bone_Upper_Lip
+    400096: Line001
+    400098: //RootNode
+    400100: maleficent_tPose_01
+    400102: Point001
+    400104: Point002
+    400106: Point003
+    400108: Point004
+    400110: Point005
+    400112: Point006
+    400114: Camera001
+    400116: Camera001.Target
+    400118: Omni001
+    400120: Omni002
+    400122: Base Human001RIKTarget
+    400124: Dedos01
+    400126: Dedos02
+    400128: staff_maleficent_01
+    400130: Point007
+    2300000: Base HumanPelvisRotation
+    2300002: Baston
+    2300004: Base Human001Head
+    2300006: Base Human001LCollarbone
+    2300008: Base Human001LDigit11
+    2300010: Base Human001LDigit12
+    2300012: Base Human001LDigit21
+    2300014: Base Human001LDigit22
+    2300016: Base Human001LForearm
+    2300018: Base Human001LPalm
+    2300020: Base Human001LUpperarm
+    2300022: Base Human001Neck
+    2300024: Base Human001Pelvis
+    2300026: Base Human001RCollarbone
+    2300028: Base Human001RDigit11
+    2300030: Base Human001RDigit12
+    2300032: Base Human001RDigit21
+    2300034: Base Human001RDigit22
+    2300036: Base Human001RForearm
+    2300038: Base Human001Ribcage
+    2300040: Base Human001RPalm
+    2300042: Base Human001RThigh
+    2300044: Base Human001RUpperarm
+    2300046: Base Human001Spine1
+    2300048: Base Human001Spine2
+    2300050: Base Human001Spine3
+    2300052: Bone_Brow_01_L
+    2300054: Bone_Brow_01_R
+    2300056: Bone_Brow_Mid
+    2300058: Bone_Cheek_L
+    2300060: Bone_Cheek_R
+    2300062: Bone_Crn_Lip_L
+    2300064: Bone_Crn_Lip_R
+    2300066: Bone_Crn_UpperLeft_Lip
+    2300068: Bone_Crn_UpperRight_Lip
+    2300070: Bone_Eye_L
+    2300072: Bone_Eye_R
+    2300074: Bone_Eyelid_L
+    2300076: Bone_Eyelid_R
+    2300078: Bone_Jaw
+    2300080: Bone_Lower_Lip
+    2300082: Bone_Upper_Lip
+    2300084: staff_maleficent_01
+    3300000: Base HumanPelvisRotation
+    3300002: Baston
+    3300004: Base Human001Head
+    3300006: Base Human001LCollarbone
+    3300008: Base Human001LDigit11
+    3300010: Base Human001LDigit12
+    3300012: Base Human001LDigit21
+    3300014: Base Human001LDigit22
+    3300016: Base Human001LForearm
+    3300018: Base Human001LPalm
+    3300020: Base Human001LUpperarm
+    3300022: Base Human001Neck
+    3300024: Base Human001Pelvis
+    3300026: Base Human001RCollarbone
+    3300028: Base Human001RDigit11
+    3300030: Base Human001RDigit12
+    3300032: Base Human001RDigit21
+    3300034: Base Human001RDigit22
+    3300036: Base Human001RForearm
+    3300038: Base Human001Ribcage
+    3300040: Base Human001RPalm
+    3300042: Base Human001RThigh
+    3300044: Base Human001RUpperarm
+    3300046: Base Human001Spine1
+    3300048: Base Human001Spine2
+    3300050: Base Human001Spine3
+    3300052: Bone_Brow_01_L
+    3300054: Bone_Brow_01_R
+    3300056: Bone_Brow_Mid
+    3300058: Bone_Cheek_L
+    3300060: Bone_Cheek_R
+    3300062: Bone_Crn_Lip_L
+    3300064: Bone_Crn_Lip_R
+    3300066: Bone_Crn_UpperLeft_Lip
+    3300068: Bone_Crn_UpperRight_Lip
+    3300070: Bone_Eye_L
+    3300072: Bone_Eye_R
+    3300074: Bone_Eyelid_L
+    3300076: Bone_Eyelid_R
+    3300078: Bone_Jaw
+    3300080: Bone_Lower_Lip
+    3300082: Bone_Upper_Lip
+    3300084: staff_maleficent_01
+    4300000: maleficent_tPose_01
+    4300002: Base HumanPelvisRotation
+    4300004: Baston
+    4300006: Base Human001Pelvis
+    4300008: Base Human001Spine1
+    4300010: Base Human001Spine2
+    4300012: Base Human001Spine3
+    4300014: Base Human001Ribcage
+    4300016: Base Human001LCollarbone
+    4300018: Base Human001LUpperarm
+    4300020: Base Human001LForearm
+    4300022: Base Human001LPalm
+    4300024: Base Human001LDigit11
+    4300026: Base Human001LDigit12
+    4300028: Base Human001LDigit21
+    4300030: Base Human001LDigit22
+    4300032: Base Human001RCollarbone
+    4300034: Base Human001RUpperarm
+    4300036: Base Human001RForearm
+    4300038: Base Human001RPalm
+    4300040: Base Human001RDigit11
+    4300042: Base Human001RDigit12
+    4300044: Base Human001RDigit21
+    4300046: Base Human001RDigit22
+    4300048: Base Human001Neck
+    4300050: Base Human001Head
+    4300052: Bone_Brow_01_L
+    4300054: Bone_Eye_L
+    4300056: Bone_Upper_Lip
+    4300058: Bone_Brow_Mid
+    4300060: Bone_Brow_01_R
+    4300062: Bone_Eye_R
+    4300064: Bone_Eyelid_R
+    4300066: Bone_Crn_Lip_R
+    4300068: Bone_Eyelid_L
+    4300070: Bone_Crn_Lip_L
+    4300072: Bone_Cheek_L
+    4300074: Bone_Cheek_R
+    4300076: Bone_Jaw
+    4300078: Bone_Crn_UpperLeft_Lip
+    4300080: Bone_Crn_UpperRight_Lip
+    4300082: Bone_Lower_Lip
+    4300084: Base Human001RThigh
+    4300086: staff_maleficent_01
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: maleficent_tPose_01
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

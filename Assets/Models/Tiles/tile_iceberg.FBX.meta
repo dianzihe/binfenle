@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 7fb012ccd44a1d742bc3a628f286cce0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Object002
+    100002: Object003
+    100004: Object004
+    100006: Object005
+    100008: Object006
+    100010: Object007
+    100012: Plane001
+    100014: //RootNode
+    100016: iceberg
+    100018: water1
+    100020: water2
+    100022: water3
+    100024: water4
+    100026: water5
+    100028: water6
+    100030: tile_iceberg1
+    100032: tile_iceberg2
+    400000: Object002
+    400002: Object003
+    400004: Object004
+    400006: Object005
+    400008: Object006
+    400010: Object007
+    400012: Plane001
+    400014: //RootNode
+    400016: iceberg
+    400018: water1
+    400020: water2
+    400022: water3
+    400024: water4
+    400026: water5
+    400028: water6
+    400030: tile_iceberg1
+    400032: tile_iceberg2
+    2300000: Object002
+    2300002: Object003
+    2300004: Object004
+    2300006: Object005
+    2300008: Object006
+    2300010: Object007
+    2300012: Plane001
+    2300014: iceberg
+    2300016: water1
+    2300018: water2
+    2300020: water3
+    2300022: water4
+    2300024: water5
+    2300026: water6
+    2300028: tile_iceberg1
+    2300030: tile_iceberg2
+    3300000: Object002
+    3300002: Object003
+    3300004: Object004
+    3300006: Object005
+    3300008: Object006
+    3300010: Object007
+    3300012: Plane001
+    3300014: iceberg
+    3300016: water1
+    3300018: water2
+    3300020: water3
+    3300022: water4
+    3300024: water5
+    3300026: water6
+    3300028: tile_iceberg1
+    3300030: tile_iceberg2
+    4300000: Object002
+    4300002: Object003
+    4300004: Object004
+    4300006: Object005
+    4300008: Object006
+    4300010: Object007
+    4300012: Plane001
+    4300014: water2
+    4300016: water4
+    4300018: water5
+    4300020: water6
+    4300022: water3
+    4300024: water1
+    4300026: iceberg
+    4300028: tile_iceberg1
+    4300030: tile_iceberg2
+    7400000: tile_iceberg_idle
+    7400002: tile_iceberg_destroy
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: tile_iceberg_idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: tile_iceberg_destroy
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

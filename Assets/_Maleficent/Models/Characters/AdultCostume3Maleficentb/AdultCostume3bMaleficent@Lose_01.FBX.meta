@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: e5e3b75ef17562a44b1a5b9baa70a9be
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base Human001
+    100004: Base Human001Head
+    100006: Base Human001LCollarbone
+    100008: Base Human001LDigit11
+    100010: Base Human001LDigit12
+    100012: Base Human001LDigit21
+    100014: Base Human001LDigit22
+    100016: Base Human001LForearm
+    100018: Base Human001LIKTarget
+    100020: Base Human001LPalm
+    100022: Base Human001LUpperarm
+    100024: Base Human001LUpVectorNode
+    100026: Base Human001Neck
+    100028: Base Human001Pelvis
+    100030: Base Human001RCollarbone
+    100032: Base Human001RDigit11
+    100034: Base Human001RDigit12
+    100036: Base Human001RDigit21
+    100038: Base Human001RDigit22
+    100040: Base Human001RForearm
+    100042: Base Human001Ribcage
+    100044: Base Human001RIKTarget
+    100046: Base Human001RPalm
+    100048: Base Human001RPlatform
+    100050: Base Human001RThigh
+    100052: Base Human001RUpperarm
+    100054: Base Human001Spine1
+    100056: Base Human001Spine2
+    100058: Base Human001Spine3
+    100060: Base HumanPelvisRotation
+    100062: Bone Coat L
+    100064: Bone Coat R
+    100066: Bone_Brow_01_L
+    100068: Bone_Brow_01_R
+    100070: Bone_Brow_Mid
+    100072: Bone_Cheek_L
+    100074: Bone_Cheek_R
+    100076: Bone_Crn_Lip_L
+    100078: Bone_Crn_Lip_R
+    100080: Bone_Crn_UpperLeft_Lip
+    100082: Bone_Crn_UpperRight_Lip
+    100084: Bone_Eye_L
+    100086: Bone_Eye_R
+    100088: Bone_Eyelid_L
+    100090: Bone_Eyelid_R
+    100092: Bone_Jaw
+    100094: Bone_Lower_Lip
+    100096: Bone_Upper_Lip
+    100098: Dedos01
+    100100: Dedos02
+    100102: Line001
+    100104: maleficent_tPose_01
+    100106: Point001
+    100108: Point002
+    100110: Point003
+    100112: Point004
+    100114: Point005
+    100116: Point006
+    400000: //RootNode
+    400002: Base Human001
+    400004: Base Human001Head
+    400006: Base Human001LCollarbone
+    400008: Base Human001LDigit11
+    400010: Base Human001LDigit12
+    400012: Base Human001LDigit21
+    400014: Base Human001LDigit22
+    400016: Base Human001LForearm
+    400018: Base Human001LIKTarget
+    400020: Base Human001LPalm
+    400022: Base Human001LUpperarm
+    400024: Base Human001LUpVectorNode
+    400026: Base Human001Neck
+    400028: Base Human001Pelvis
+    400030: Base Human001RCollarbone
+    400032: Base Human001RDigit11
+    400034: Base Human001RDigit12
+    400036: Base Human001RDigit21
+    400038: Base Human001RDigit22
+    400040: Base Human001RForearm
+    400042: Base Human001Ribcage
+    400044: Base Human001RIKTarget
+    400046: Base Human001RPalm
+    400048: Base Human001RPlatform
+    400050: Base Human001RThigh
+    400052: Base Human001RUpperarm
+    400054: Base Human001Spine1
+    400056: Base Human001Spine2
+    400058: Base Human001Spine3
+    400060: Base HumanPelvisRotation
+    400062: Bone Coat L
+    400064: Bone Coat R
+    400066: Bone_Brow_01_L
+    400068: Bone_Brow_01_R
+    400070: Bone_Brow_Mid
+    400072: Bone_Cheek_L
+    400074: Bone_Cheek_R
+    400076: Bone_Crn_Lip_L
+    400078: Bone_Crn_Lip_R
+    400080: Bone_Crn_UpperLeft_Lip
+    400082: Bone_Crn_UpperRight_Lip
+    400084: Bone_Eye_L
+    400086: Bone_Eye_R
+    400088: Bone_Eyelid_L
+    400090: Bone_Eyelid_R
+    400092: Bone_Jaw
+    400094: Bone_Lower_Lip
+    400096: Bone_Upper_Lip
+    400098: Dedos01
+    400100: Dedos02
+    400102: Line001
+    400104: maleficent_tPose_01
+    400106: Point001
+    400108: Point002
+    400110: Point003
+    400112: Point004
+    400114: Point005
+    400116: Point006
+    4300000: maleficent_tPose_01
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: maleficent_tPose_01
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

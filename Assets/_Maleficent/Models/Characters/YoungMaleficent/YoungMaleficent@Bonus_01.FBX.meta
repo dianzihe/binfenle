@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 1dbe6791552d35c4db5500bebf3b25f6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: Base Human001Head
+    100004: Base Human001LForearm
+    100006: Base Human001LPalm
+    100008: Base Human001LUpperarm
+    100010: Base Human001Pelvis
+    100012: Base Human001RCollarbone
+    100014: Base Human001RForearm
+    100016: Base Human001Ribcage
+    100018: Base Human001RPalm
+    100020: Base Human001RUpperarm
+    100022: Base HumanLCalf
+    100024: Base HumanLCollarbone
+    100026: Base HumanLDigit11
+    100028: Base HumanLDigit12
+    100030: Base HumanLDigit21
+    100032: Base HumanLDigit22
+    100034: Base HumanLDigit41
+    100036: Base HumanLFoot
+    100038: Base HumanLIKTarget
+    100040: Base HumanLPlatform
+    100042: Base HumanLThigh
+    100044: Base HumanLUpVectorNode
+    100046: Base HumanLUpVectorNodePies
+    100048: Base HumanNeck
+    100050: Base HumanRCalf
+    100052: Base HumanRDigit11
+    100054: Base HumanRDigit12
+    100056: Base HumanRDigit21
+    100058: Base HumanRDigit22
+    100060: Base HumanRDigit31
+    100062: Base HumanRFoot
+    100064: Base HumanRIKTarget
+    100066: Base HumanRPlatform
+    100068: Base HumanRThigh
+    100070: Base HumanRUpVectorNode
+    100072: Base HumanRUpVectorNodePies
+    100074: Base HumanSpine1
+    100076: Base HumanSpine2
+    100078: Base HumanSpine3
+    100080: Bone001
+    100082: Bone002
+    100084: Bone_Brow_01_L
+    100086: Bone_Brow_01_R
+    100088: Bone_Brow_Mid
+    100090: Bone_Cheek_L
+    100092: Bone_Cheek_R
+    100094: Bone_Crn_Lip_L
+    100096: Bone_Crn_Lip_R
+    100098: Bone_Crn_UpperLeft_Lip
+    100100: Bone_Crn_UpperRight_Lip
+    100102: Bone_Eye_L
+    100104: Bone_Eye_R
+    100106: Bone_Eyelid_L
+    100108: Bone_Eyelid_R
+    100110: Bone_Jaw
+    100112: Bone_Lower_Lip
+    100114: Bone_Upper_Lip
+    100116: Dedos01
+    100118: Dedos02
+    100120: Dummy001
+    100122: Dummy002
+    100124: Hueso PeloPuntas
+    100126: maleficent_young_01
+    100128: wing_maleficent_right_002
+    100130: wing_maleficent_right_01
+    100132: WingR_008
+    100134: WingR_009
+    100136: WingR_01
+    100138: WingR_010
+    100140: WingR_011
+    100142: WingR_012
+    100144: WingR_013
+    100146: WingR_014
+    100148: WingR_02
+    100150: WingR_03
+    100152: WingR_04
+    100154: WingR_05
+    100156: WingR_06
+    100158: WingR_07
+    100160: //RootNode
+    400000: Base Human
+    400002: Base Human001Head
+    400004: Base Human001LForearm
+    400006: Base Human001LPalm
+    400008: Base Human001LUpperarm
+    400010: Base Human001Pelvis
+    400012: Base Human001RCollarbone
+    400014: Base Human001RForearm
+    400016: Base Human001Ribcage
+    400018: Base Human001RPalm
+    400020: Base Human001RUpperarm
+    400022: Base HumanLCalf
+    400024: Base HumanLCollarbone
+    400026: Base HumanLDigit11
+    400028: Base HumanLDigit12
+    400030: Base HumanLDigit21
+    400032: Base HumanLDigit22
+    400034: Base HumanLDigit41
+    400036: Base HumanLFoot
+    400038: Base HumanLIKTarget
+    400040: Base HumanLPlatform
+    400042: Base HumanLThigh
+    400044: Base HumanLUpVectorNode
+    400046: Base HumanLUpVectorNodePies
+    400048: Base HumanNeck
+    400050: Base HumanRCalf
+    400052: Base HumanRDigit11
+    400054: Base HumanRDigit12
+    400056: Base HumanRDigit21
+    400058: Base HumanRDigit22
+    400060: Base HumanRDigit31
+    400062: Base HumanRFoot
+    400064: Base HumanRIKTarget
+    400066: Base HumanRPlatform
+    400068: Base HumanRThigh
+    400070: Base HumanRUpVectorNode
+    400072: Base HumanRUpVectorNodePies
+    400074: Base HumanSpine1
+    400076: Base HumanSpine2
+    400078: Base HumanSpine3
+    400080: Bone001
+    400082: Bone002
+    400084: Bone_Brow_01_L
+    400086: Bone_Brow_01_R
+    400088: Bone_Brow_Mid
+    400090: Bone_Cheek_L
+    400092: Bone_Cheek_R
+    400094: Bone_Crn_Lip_L
+    400096: Bone_Crn_Lip_R
+    400098: Bone_Crn_UpperLeft_Lip
+    400100: Bone_Crn_UpperRight_Lip
+    400102: Bone_Eye_L
+    400104: Bone_Eye_R
+    400106: Bone_Eyelid_L
+    400108: Bone_Eyelid_R
+    400110: Bone_Jaw
+    400112: Bone_Lower_Lip
+    400114: Bone_Upper_Lip
+    400116: Dedos01
+    400118: Dedos02
+    400120: Dummy001
+    400122: Dummy002
+    400124: Hueso PeloPuntas
+    400126: maleficent_young_01
+    400128: wing_maleficent_right_002
+    400130: wing_maleficent_right_01
+    400132: WingR_008
+    400134: WingR_009
+    400136: WingR_01
+    400138: WingR_010
+    400140: WingR_011
+    400142: WingR_012
+    400144: WingR_013
+    400146: WingR_014
+    400148: WingR_02
+    400150: WingR_03
+    400152: WingR_04
+    400154: WingR_05
+    400156: WingR_06
+    400158: WingR_07
+    400160: //RootNode
+    4300000: maleficent_young_01
+    4300002: wing_maleficent_right_01
+    4300004: wing_maleficent_right_002
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: maleficent_young_01
+    13700002: wing_maleficent_right_002
+    13700004: wing_maleficent_right_01
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

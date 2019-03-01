@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: b00e96700574f0846ab152769b7338c0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone008
+    100012: Box002
+    100014: Camera001
+    100016: cover_01
+    100018: //RootNode
+    100020: pages_01
+    100022: Plane001
+    100024: Plane003
+    100026: base
+    100028: fairy_mount
+    100030: page_flip
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone008
+    400012: Box002
+    400014: Camera001
+    400016: cover_01
+    400018: //RootNode
+    400020: pages_01
+    400022: Plane001
+    400024: Plane003
+    400026: base
+    400028: fairy_mount
+    400030: page_flip
+    2300000: cover_01
+    2300002: pages_01
+    2300004: Plane001
+    2300006: base
+    3300000: cover_01
+    3300002: pages_01
+    3300004: Plane001
+    3300006: base
+    4300000: Box002
+    4300002: cover_01
+    4300004: pages_01
+    4300006: Plane001
+    4300008: Plane003
+    4300010: page_flip
+    4300012: base
+    4300014: fairy_mount
+    7400000: page_flip
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Box002
+    13700002: Plane003
+    13700004: fairy_mount
+    13700006: page_flip
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: page_flip
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: Bone001/Bone008
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: cover_01
+        weight: 1
+      - path: pages_01
+        weight: 1
+      - path: Plane001
+        weight: 1
+      - path: Plane003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

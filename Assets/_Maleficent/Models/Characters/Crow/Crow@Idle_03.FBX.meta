@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 3dc1af10c45a62242bc98cd6109ff17b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone006
+    100010: Bone008
+    100012: Bone009
+    100014: Bone010
+    100016: Bone011
+    100018: Bone012
+    100020: Bone013
+    100022: Bone014
+    100024: Bone015
+    100026: Bone016
+    100028: Bone017
+    100030: Bone018
+    100032: Bone019
+    100034: Bone020
+    100036: //RootNode
+    100038: crow_01
+    100040: Crow_Bone_Beak
+    100042: Crow_Bone_Body
+    100044: Crow_Bone_Feet01R
+    100046: Crow_Bone_Feet01R001
+    100048: Crow_Bone_Feet02R
+    100050: Crow_Bone_Feet02R001
+    100052: Crow_Bone_Feet03R
+    100054: Crow_Bone_Feet03R001
+    100056: Crow_Bone_Head
+    100058: Crow_Bone_Leg01R
+    100060: Crow_Bone_Leg01R001
+    100062: Crow_Bone_leg02R
+    100064: Crow_Bone_leg02R001
+    100066: Crow_Bone_Tail
+    100068: Crow_Bone_TailL
+    100070: Crow_Bone_TailR
+    100072: Crow_Control
+    100074: IK Chain002
+    100076: IK Chain003
+    100078: Camera002.Target
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone006
+    400010: Bone008
+    400012: Bone009
+    400014: Bone010
+    400016: Bone011
+    400018: Bone012
+    400020: Bone013
+    400022: Bone014
+    400024: Bone015
+    400026: Bone016
+    400028: Bone017
+    400030: Bone018
+    400032: Bone019
+    400034: Bone020
+    400036: //RootNode
+    400038: crow_01
+    400040: Crow_Bone_Beak
+    400042: Crow_Bone_Body
+    400044: Crow_Bone_Feet01R
+    400046: Crow_Bone_Feet01R001
+    400048: Crow_Bone_Feet02R
+    400050: Crow_Bone_Feet02R001
+    400052: Crow_Bone_Feet03R
+    400054: Crow_Bone_Feet03R001
+    400056: Crow_Bone_Head
+    400058: Crow_Bone_Leg01R
+    400060: Crow_Bone_Leg01R001
+    400062: Crow_Bone_leg02R
+    400064: Crow_Bone_leg02R001
+    400066: Crow_Bone_Tail
+    400068: Crow_Bone_TailL
+    400070: Crow_Bone_TailR
+    400072: Crow_Control
+    400074: IK Chain002
+    400076: IK Chain003
+    400078: Camera002.Target
+    4300000: crow_01
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: crow_01
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

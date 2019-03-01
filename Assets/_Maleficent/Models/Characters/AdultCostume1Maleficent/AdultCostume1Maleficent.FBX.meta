@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: d46a9cae317c32545a6e96da4d121255
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base Human001
+    100004: Base Human001Head
+    100006: Base Human001LCollarbone
+    100008: Base Human001LDigit11
+    100010: Base Human001LDigit12
+    100012: Base Human001LDigit21
+    100014: Base Human001LDigit22
+    100016: Base Human001LForearm
+    100018: Base Human001LPalm
+    100020: Base Human001LUpperarm
+    100022: Base Human001LUpVectorNode
+    100024: Base Human001Neck
+    100026: Base Human001Pelvis
+    100028: Base Human001RCollarbone
+    100030: Base Human001RDigit11
+    100032: Base Human001RDigit12
+    100034: Base Human001RDigit21
+    100036: Base Human001RDigit22
+    100038: Base Human001RForearm
+    100040: Base Human001Ribcage
+    100042: Base Human001RPalm
+    100044: Base Human001RPlatform
+    100046: Base Human001RThigh
+    100048: Base Human001RUpperarm
+    100050: Base Human001Spine1
+    100052: Base Human001Spine2
+    100054: Base Human001Spine3
+    100056: Base HumanPelvisRotation
+    100058: Bone_Brow_01_L
+    100060: Bone_Brow_01_R
+    100062: Bone_Brow_Mid
+    100064: Bone_Cheek_L
+    100066: Bone_Cheek_R
+    100068: Bone_Crn_Lip_L
+    100070: Bone_Crn_Lip_R
+    100072: Bone_Crn_UpperLeft_Lip
+    100074: Bone_Crn_UpperRight_Lip
+    100076: Bone_Eye_L
+    100078: Bone_Eye_R
+    100080: Bone_Eyelid_L
+    100082: Bone_Eyelid_R
+    100084: Bone_Feet
+    100086: Bone_Jaw
+    100088: Bone_Lower_Lip
+    100090: Bone_Upper_Lip
+    100092: Bone_WearL
+    100094: Bone_WearR
+    100096: Bone_WearSup
+    100098: maleficent2_costume_02
+    100100: Bone001
+    100102: Bone002
+    100104: Bone003
+    100106: Bone007
+    100108: Bone010
+    100110: Bone011
+    100112: Bone019
+    100114: Bone020
+    100116: Bone021
+    100118: Bone022
+    100120: Bone023
+    100122: Bone024
+    100124: Bone025
+    100126: Bone026
+    100128: wing_maleficent_right_002
+    100130: wing_maleficent_right_01
+    100132: WingL_01
+    100134: WingL_02
+    100136: WingL_03
+    100138: WingL_04
+    100140: WingL_05
+    100142: WingL_06
+    100144: WingL_07
+    100146: WingR_01
+    100148: WingR_02
+    100150: WingR_03
+    100152: WingR_04
+    100154: WingR_05
+    100156: WingR_06
+    100158: WingR_07
+    100160: Dummy001
+    100162: Dummy002
+    100164: WingR_008
+    100166: WingR_009
+    100168: WingR_010
+    100170: WingR_011
+    100172: WingR_012
+    100174: WingR_013
+    100176: WingR_014
+    400000: //RootNode
+    400002: Base Human001
+    400004: Base Human001Head
+    400006: Base Human001LCollarbone
+    400008: Base Human001LDigit11
+    400010: Base Human001LDigit12
+    400012: Base Human001LDigit21
+    400014: Base Human001LDigit22
+    400016: Base Human001LForearm
+    400018: Base Human001LPalm
+    400020: Base Human001LUpperarm
+    400022: Base Human001LUpVectorNode
+    400024: Base Human001Neck
+    400026: Base Human001Pelvis
+    400028: Base Human001RCollarbone
+    400030: Base Human001RDigit11
+    400032: Base Human001RDigit12
+    400034: Base Human001RDigit21
+    400036: Base Human001RDigit22
+    400038: Base Human001RForearm
+    400040: Base Human001Ribcage
+    400042: Base Human001RPalm
+    400044: Base Human001RPlatform
+    400046: Base Human001RThigh
+    400048: Base Human001RUpperarm
+    400050: Base Human001Spine1
+    400052: Base Human001Spine2
+    400054: Base Human001Spine3
+    400056: Base HumanPelvisRotation
+    400058: Bone_Brow_01_L
+    400060: Bone_Brow_01_R
+    400062: Bone_Brow_Mid
+    400064: Bone_Cheek_L
+    400066: Bone_Cheek_R
+    400068: Bone_Crn_Lip_L
+    400070: Bone_Crn_Lip_R
+    400072: Bone_Crn_UpperLeft_Lip
+    400074: Bone_Crn_UpperRight_Lip
+    400076: Bone_Eye_L
+    400078: Bone_Eye_R
+    400080: Bone_Eyelid_L
+    400082: Bone_Eyelid_R
+    400084: Bone_Feet
+    400086: Bone_Jaw
+    400088: Bone_Lower_Lip
+    400090: Bone_Upper_Lip
+    400092: Bone_WearL
+    400094: Bone_WearR
+    400096: Bone_WearSup
+    400098: maleficent2_costume_02
+    400100: Bone001
+    400102: Bone002
+    400104: Bone003
+    400106: Bone007
+    400108: Bone010
+    400110: Bone011
+    400112: Bone019
+    400114: Bone020
+    400116: Bone021
+    400118: Bone022
+    400120: Bone023
+    400122: Bone024
+    400124: Bone025
+    400126: Bone026
+    400128: wing_maleficent_right_002
+    400130: wing_maleficent_right_01
+    400132: WingL_01
+    400134: WingL_02
+    400136: WingL_03
+    400138: WingL_04
+    400140: WingL_05
+    400142: WingL_06
+    400144: WingL_07
+    400146: WingR_01
+    400148: WingR_02
+    400150: WingR_03
+    400152: WingR_04
+    400154: WingR_05
+    400156: WingR_06
+    400158: WingR_07
+    400160: Dummy001
+    400162: Dummy002
+    400164: WingR_008
+    400166: WingR_009
+    400168: WingR_010
+    400170: WingR_011
+    400172: WingR_012
+    400174: WingR_013
+    400176: WingR_014
+    2300000: Base HumanPelvisRotation
+    2300002: Bone_WearL
+    2300004: Bone_WearR
+    2300006: Bone_WearSup
+    2300008: Base Human001Head
+    2300010: Base Human001LCollarbone
+    2300012: Base Human001LDigit11
+    2300014: Base Human001LDigit12
+    2300016: Base Human001LDigit21
+    2300018: Base Human001LDigit22
+    2300020: Base Human001LForearm
+    2300022: Base Human001LPalm
+    2300024: Base Human001LUpperarm
+    2300026: Base Human001Neck
+    2300028: Base Human001Pelvis
+    2300030: Base Human001RCollarbone
+    2300032: Base Human001RDigit11
+    2300034: Base Human001RDigit12
+    2300036: Base Human001RDigit21
+    2300038: Base Human001RDigit22
+    2300040: Base Human001RForearm
+    2300042: Base Human001Ribcage
+    2300044: Base Human001RPalm
+    2300046: Base Human001RThigh
+    2300048: Base Human001RUpperarm
+    2300050: Base Human001Spine1
+    2300052: Base Human001Spine2
+    2300054: Base Human001Spine3
+    2300056: Bone_Brow_01_L
+    2300058: Bone_Brow_01_R
+    2300060: Bone_Brow_Mid
+    2300062: Bone_Cheek_L
+    2300064: Bone_Cheek_R
+    2300066: Bone_Crn_Lip_L
+    2300068: Bone_Crn_Lip_R
+    2300070: Bone_Crn_UpperLeft_Lip
+    2300072: Bone_Crn_UpperRight_Lip
+    2300074: Bone_Eye_L
+    2300076: Bone_Eye_R
+    2300078: Bone_Eyelid_L
+    2300080: Bone_Eyelid_R
+    2300082: Bone_Jaw
+    2300084: Bone_Lower_Lip
+    2300086: Bone_Upper_Lip
+    3300000: Base HumanPelvisRotation
+    3300002: Bone_WearL
+    3300004: Bone_WearR
+    3300006: Bone_WearSup
+    3300008: Base Human001Head
+    3300010: Base Human001LCollarbone
+    3300012: Base Human001LDigit11
+    3300014: Base Human001LDigit12
+    3300016: Base Human001LDigit21
+    3300018: Base Human001LDigit22
+    3300020: Base Human001LForearm
+    3300022: Base Human001LPalm
+    3300024: Base Human001LUpperarm
+    3300026: Base Human001Neck
+    3300028: Base Human001Pelvis
+    3300030: Base Human001RCollarbone
+    3300032: Base Human001RDigit11
+    3300034: Base Human001RDigit12
+    3300036: Base Human001RDigit21
+    3300038: Base Human001RDigit22
+    3300040: Base Human001RForearm
+    3300042: Base Human001Ribcage
+    3300044: Base Human001RPalm
+    3300046: Base Human001RThigh
+    3300048: Base Human001RUpperarm
+    3300050: Base Human001Spine1
+    3300052: Base Human001Spine2
+    3300054: Base Human001Spine3
+    3300056: Bone_Brow_01_L
+    3300058: Bone_Brow_01_R
+    3300060: Bone_Brow_Mid
+    3300062: Bone_Cheek_L
+    3300064: Bone_Cheek_R
+    3300066: Bone_Crn_Lip_L
+    3300068: Bone_Crn_Lip_R
+    3300070: Bone_Crn_UpperLeft_Lip
+    3300072: Bone_Crn_UpperRight_Lip
+    3300074: Bone_Eye_L
+    3300076: Bone_Eye_R
+    3300078: Bone_Eyelid_L
+    3300080: Bone_Eyelid_R
+    3300082: Bone_Jaw
+    3300084: Bone_Lower_Lip
+    3300086: Bone_Upper_Lip
+    4300000: Bone_WearSup
+    4300002: Base HumanPelvisRotation
+    4300004: Bone_WearL
+    4300006: maleficent2_costume_02
+    4300008: Bone_WearR
+    4300010: wing_maleficent_right_01
+    4300012: wing_maleficent_right_002
+    4300014: Base Human001Pelvis
+    4300016: Base Human001Spine1
+    4300018: Base Human001Spine2
+    4300020: Base Human001Spine3
+    4300022: Base Human001Ribcage
+    4300024: Base Human001LCollarbone
+    4300026: Base Human001LUpperarm
+    4300028: Base Human001LForearm
+    4300030: Base Human001LPalm
+    4300032: Base Human001LDigit11
+    4300034: Base Human001LDigit12
+    4300036: Base Human001LDigit21
+    4300038: Base Human001LDigit22
+    4300040: Base Human001RCollarbone
+    4300042: Base Human001RUpperarm
+    4300044: Base Human001RForearm
+    4300046: Base Human001RPalm
+    4300048: Base Human001RDigit11
+    4300050: Base Human001RDigit12
+    4300052: Base Human001RDigit21
+    4300054: Base Human001RDigit22
+    4300056: Base Human001Neck
+    4300058: Base Human001Head
+    4300060: Bone_Brow_01_L
+    4300062: Bone_Eye_L
+    4300064: Bone_Upper_Lip
+    4300066: Bone_Brow_Mid
+    4300068: Bone_Brow_01_R
+    4300070: Bone_Eye_R
+    4300072: Bone_Eyelid_R
+    4300074: Bone_Crn_Lip_R
+    4300076: Bone_Eyelid_L
+    4300078: Bone_Crn_Lip_L
+    4300080: Bone_Cheek_L
+    4300082: Bone_Cheek_R
+    4300084: Bone_Jaw
+    4300086: Bone_Crn_UpperLeft_Lip
+    4300088: Bone_Crn_UpperRight_Lip
+    4300090: Bone_Lower_Lip
+    4300092: Base Human001RThigh
+    7400000: Idle_01
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: maleficent2_costume_02
+    13700002: wing_maleficent_right_002
+    13700004: wing_maleficent_right_01
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 17a31b754dbdaca4f9b7737b68f54f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maleficent_1_body
+    second: {fileID: 2100000, guid: 8d736b64bfed4db4187cef44c6db336b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maleficent_1_eyelashes
+    second: {fileID: 2100000, guid: db428eb262b3c644495ed220be24e97a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maleficent_1_eyes
+    second: {fileID: 2100000, guid: 746b89ea64fed3c429a99b13fca4eacc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maleficent_1_face
+    second: {fileID: 2100000, guid: 6c5b660be54ea3f458fae6c76229461f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maleficent_1_shoulder
+    second: {fileID: 2100000, guid: 71f5b6898a400204e81225ec90c8fc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wing_maleficent_01
+    second: {fileID: 2100000, guid: 981a9456f9cc19c41851f6d4bf8ca71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wing_maleficent_02
+    second: {fileID: 2100000, guid: ee0b299177a6a264db5f40a2a455a382, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_01
+      takeName: Take 001
+      firstFrame: 914
+      lastFrame: 984
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human001
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm/Base Human001LDigit11
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm/Base Human001LDigit11/Base Human001LDigit12
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm/Base Human001LDigit21
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm/Base Human001LDigit21/Base Human001LDigit22
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001LUpVectorNode
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Brow_01_L
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Brow_01_R
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Brow_Mid
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Cheek_L
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Cheek_R
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Crn_Lip_L
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Crn_Lip_R
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Crn_UpperLeft_Lip
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Crn_UpperRight_Lip
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Eye_L
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Eye_R
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Eyelid_L
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Eyelid_R
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Jaw
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Lower_Lip
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001Neck/Base Human001Head/Bone_Upper_Lip
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm/Base Human001RDigit11
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm/Base Human001RDigit11/Base Human001RDigit12
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm/Base Human001RDigit21
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm/Base Human001RDigit21/Base Human001RDigit22
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base
+          Human001Spine3/Base Human001Ribcage/Bone_WearSup
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base HumanPelvisRotation
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Base HumanPelvisRotation/Base Human001RThigh
+        weight: 1
+      - path: Base Human001/Base Human001Pelvis/Bone_WearL
+        weight: 1
+      - path: Base Human001/Base Human001RPlatform
+        weight: 1
+      - path: Bone_Feet
+        weight: 1
+      - path: Bone_WearR
+        weight: 1
+      - path: maleficent2_costume_02
+        weight: 1
+      - path: wing_maleficent_right_01
+        weight: 1
+      - path: wing_maleficent_right_002
+        weight: 1
+      - path: WingL_01
+        weight: 1
+      - path: WingL_01/WingL_02
+        weight: 1
+      - path: WingL_01/WingL_02/WingL_03
+        weight: 1
+      - path: WingL_01/WingL_02/WingL_03/WingL_04
+        weight: 1
+      - path: WingL_01/WingL_02/WingL_03/WingL_04/WingL_05
+        weight: 1
+      - path: WingL_01/WingL_02/WingL_06
+        weight: 1
+      - path: WingL_01/WingL_02/WingL_06/WingL_07
+        weight: 1
+      - path: WingR_01
+        weight: 1
+      - path: WingR_01/WingR_02
+        weight: 1
+      - path: WingR_01/WingR_02/WingR_03
+        weight: 1
+      - path: WingR_01/WingR_02/WingR_03/WingR_04
+        weight: 1
+      - path: WingR_01/WingR_02/WingR_03/WingR_04/WingR_05
+        weight: 1
+      - path: WingR_01/WingR_02/WingR_03/WingR_06
+        weight: 1
+      - path: WingR_01/WingR_02/WingR_03/WingR_06/WingR_07
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

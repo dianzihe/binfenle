@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 2fea1b3f2129b204e86763cb7fcdc578
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: next_tile_break01
+    100004: next_tile_break02
+    100006: next_tile_break03
+    100008: next_tile_break04
+    100010: next_tile_break05
+    100012: next_tile_break06
+    100014: next_tile_break07
+    100016: next_tile_break08
+    100018: next_tile_break09
+    100020: next_tile_break10
+    100022: next_tile_break11
+    100024: next_tile_break12
+    400000: //RootNode
+    400002: next_tile_break01
+    400004: next_tile_break02
+    400006: next_tile_break03
+    400008: next_tile_break04
+    400010: next_tile_break05
+    400012: next_tile_break06
+    400014: next_tile_break07
+    400016: next_tile_break08
+    400018: next_tile_break09
+    400020: next_tile_break10
+    400022: next_tile_break11
+    400024: next_tile_break12
+    2300000: //RootNode
+    2300002: next_tile_break01
+    2300004: next_tile_break02
+    2300006: next_tile_break03
+    2300008: next_tile_break04
+    2300010: next_tile_break05
+    2300012: next_tile_break06
+    2300014: next_tile_break07
+    2300016: next_tile_break08
+    2300018: next_tile_break09
+    2300020: next_tile_break10
+    2300022: next_tile_break11
+    2300024: next_tile_break12
+    3300000: //RootNode
+    3300002: next_tile_break01
+    3300004: next_tile_break02
+    3300006: next_tile_break03
+    3300008: next_tile_break04
+    3300010: next_tile_break05
+    3300012: next_tile_break06
+    3300014: next_tile_break07
+    3300016: next_tile_break08
+    3300018: next_tile_break09
+    3300020: next_tile_break10
+    3300022: next_tile_break11
+    3300024: next_tile_break12
+    4300000: next_tile_glow
+    4300002: next_tile_break01
+    4300004: next_tile_break02
+    4300006: next_tile_break03
+    4300008: next_tile_break04
+    4300010: next_tile_break05
+    4300012: next_tile_break06
+    4300014: next_tile_break07
+    4300016: next_tile_break08
+    4300018: next_tile_break09
+    4300020: next_tile_break10
+    4300022: next_tile_break11
+    4300024: next_tile_break12
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

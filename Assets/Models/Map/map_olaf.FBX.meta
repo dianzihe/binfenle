@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: cce448de354902d4c86d47d1832e2d8a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: olaf_body
+    100004: olaf_eyes
+    100006: olaf_foot1
+    100008: olaf_hand1
+    100010: olaf_hand2
+    100012: olaf_head
+    400000: //RootNode
+    400002: olaf_body
+    400004: olaf_eyes
+    400006: olaf_foot1
+    400008: olaf_hand1
+    400010: olaf_hand2
+    400012: olaf_head
+    2300000: //RootNode
+    2300002: olaf_body
+    2300004: olaf_eyes
+    2300006: olaf_foot1
+    2300008: olaf_hand1
+    2300010: olaf_hand2
+    2300012: olaf_head
+    3300000: //RootNode
+    3300002: olaf_body
+    3300004: olaf_eyes
+    3300006: olaf_foot1
+    3300008: olaf_hand1
+    3300010: olaf_hand2
+    3300012: olaf_head
+    4300000: olaf_foot2
+    4300002: olaf_body
+    4300004: olaf_head
+    4300006: olaf_eyes
+    4300008: olaf_foot1
+    4300010: olaf_hand1
+    4300012: olaf_hand2
+    7400000: olaf_idle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: olaf_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 277
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

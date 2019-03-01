@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 0d56f65c419dab1469a55f78259f710e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: character:jnt_chest
+    100002: character:jnt_dress
+    100004: character:jnt_forehead
+    100006: character:jnt_hair_02
+    100008: character:jnt_hair_03
+    100010: character:jnt_hair_04
+    100012: character:jnt_hair_05
+    100014: character:jnt_head
+    100016: character:jnt_hip
+    100018: character:jnt_jaw
+    100020: character:jnt_L_arm
+    100022: character:jnt_L_cheek
+    100024: character:jnt_L_eyBrow
+    100026: character:jnt_L_eye
+    100028: character:jnt_L_eyeLid
+    100030: character:jnt_L_forearm
+    100032: character:jnt_L_mouthCornner
+    100034: character:jnt_L_palm
+    100036: character:jnt_L_shldShape
+    100038: character:jnt_L_shoulder
+    100040: character:jnt_L_thumb
+    100042: character:jnt_L_wrist
+    100044: character:jnt_mouthLow
+    100046: character:jnt_mouthUp
+    100048: character:jnt_neck
+    100050: character:jnt_R_arm
+    100052: character:jnt_R_cheek
+    100054: character:jnt_R_eyBrow
+    100056: character:jnt_R_eye
+    100058: character:jnt_R_eyeLid
+    100060: character:jnt_R_forearm
+    100062: character:jnt_R_mouthCornner
+    100064: character:jnt_R_palm
+    100066: character:jnt_R_shldShape
+    100068: character:jnt_R_shoulder
+    100070: character:jnt_R_thumb
+    100072: character:jnt_R_wrist
+    100074: character:jnt_root
+    100076: character:model
+    100078: //RootNode
+    100080: character:Elsa_model
+    400000: character:jnt_chest
+    400002: character:jnt_dress
+    400004: character:jnt_forehead
+    400006: character:jnt_hair_02
+    400008: character:jnt_hair_03
+    400010: character:jnt_hair_04
+    400012: character:jnt_hair_05
+    400014: character:jnt_head
+    400016: character:jnt_hip
+    400018: character:jnt_jaw
+    400020: character:jnt_L_arm
+    400022: character:jnt_L_cheek
+    400024: character:jnt_L_eyBrow
+    400026: character:jnt_L_eye
+    400028: character:jnt_L_eyeLid
+    400030: character:jnt_L_forearm
+    400032: character:jnt_L_mouthCornner
+    400034: character:jnt_L_palm
+    400036: character:jnt_L_shldShape
+    400038: character:jnt_L_shoulder
+    400040: character:jnt_L_thumb
+    400042: character:jnt_L_wrist
+    400044: character:jnt_mouthLow
+    400046: character:jnt_mouthUp
+    400048: character:jnt_neck
+    400050: character:jnt_R_arm
+    400052: character:jnt_R_cheek
+    400054: character:jnt_R_eyBrow
+    400056: character:jnt_R_eye
+    400058: character:jnt_R_eyeLid
+    400060: character:jnt_R_forearm
+    400062: character:jnt_R_mouthCornner
+    400064: character:jnt_R_palm
+    400066: character:jnt_R_shldShape
+    400068: character:jnt_R_shoulder
+    400070: character:jnt_R_thumb
+    400072: character:jnt_R_wrist
+    400074: character:jnt_root
+    400076: character:model
+    400078: //RootNode
+    400080: character:Elsa_model
+    4300000: character:model
+    4300002: character:Elsa_model
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: character:model
+    13700002: character:Elsa_model
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

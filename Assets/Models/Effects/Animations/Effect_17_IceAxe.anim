@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Effect_17_IceAxe
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .666666687
+        value: 1
+        inSlope: 0
+        outSlope: -7.36000395
+        tangentMode: 21
+      - time: .766666651
+        value: .26399985
+        inSlope: -7.36000395
+        outSlope: -2.75999784
+        tangentMode: 21
+      - time: .833333313
+        value: .0799999982
+        inSlope: -2.75999784
+        outSlope: -0
+        tangentMode: 21
+      - time: 2.33333325
+        value: .0799999982
+        inSlope: 0
+        outSlope: 2.7599988
+        tangentMode: 21
+      - time: 2.66666675
+        value: 1
+        inSlope: 2.7599988
+        outSlope: 2.99999857
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Cutoff
+    path: next_tile_glow
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: .733333349
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1.00000012
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 2.66666675
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: EmissionModule.enabled
+    path: effect_sparks
+    classID: 198
+    script: {fileID: 0}
+  m_SampleRate: 30
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: .233400345, y: -6.55651093e-07, z: .983789444}
+    m_Extent: {x: 13.329504, y: .160614893, z: 11.7136669}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 2.63333344
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .666666687
+        value: 1
+        inSlope: 0
+        outSlope: -7.36000395
+        tangentMode: 21
+      - time: .766666651
+        value: .26399985
+        inSlope: -7.36000395
+        outSlope: -2.75999784
+        tangentMode: 21
+      - time: .833333313
+        value: .0799999982
+        inSlope: -2.75999784
+        outSlope: -0
+        tangentMode: 21
+      - time: 2.33333325
+        value: .0799999982
+        inSlope: 0
+        outSlope: 2.7599988
+        tangentMode: 21
+      - time: 2.66666675
+        value: 1
+        inSlope: 2.7599988
+        outSlope: 2.99999857
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Cutoff
+    path: next_tile_glow
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: .733333349
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1.00000012
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 2.66666675
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: EmissionModule.enabled
+    path: effect_sparks
+    classID: 198
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

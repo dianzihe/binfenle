@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Crow2nd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 456.525238, y: 4.10296249, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2768e727c3eb4bfbb2b85163330c98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 100000, guid: f3acb69e3b7fe47c2a86399748e68eb0, type: 2}
+  effectPosition: {fileID: 0}
+  effectOffset: {x: 0, y: 0, z: 0}
+  nameSingularKey: CROW_SWIPE_POWER_UP
+  namePluralKey: CROW_SWIPE_POWER_UP
+  iconName: powerups_crow2
+  defaultManaPointsCost: 60
+  unlockLevel: 47
+  unlockTextKey: CROW2ND_UNLOCK_KEY
+  canBeCancelled: 1
+  useItemDelay: 1
+  tweaksSystemCostId: Crow2ndCost
+  animState: Use Crow 2
+  m_strPropertyCostID: Crow2nd_Prop_Cost
+  m_ndefaultPropertyCost: 1
+  m_strPropertyName: Crow2nd_Prop_Count
+  crowEffect: {fileID: 100076, guid: 6f12d10cb3f179d48868863ac0f414bc, type: 2}
+  swipeEffect: {fileID: 100002, guid: 06ae0b2106bea499d8e775ac3c4dbd5f, type: 2}
+  effectName: {fileID: 8300000, guid: b39495e4c6ce34d57a9707f6807ee97c, type: 3}
+  effectNameSwipe: {fileID: 8300000, guid: 00fa7e70f4df1458db9fa28e714d89c1, type: 3}
+  swipeEffectDelay: .800000012
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890f878cf3266497ba544c1966499b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interpolate: 1
+  lerpTreshold: 100
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

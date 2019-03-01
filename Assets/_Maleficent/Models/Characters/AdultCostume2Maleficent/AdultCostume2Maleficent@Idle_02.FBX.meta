@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: b0010a3188eb30340b6de1dd964550f5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base Human001Head
+    100004: Base Human001LCollarbone
+    100006: Base Human001LDigit11
+    100008: Base Human001LDigit12
+    100010: Base Human001LDigit21
+    100012: Base Human001LDigit22
+    100014: Base Human001LForearm
+    100016: Base Human001LIKTarget
+    100018: Base Human001LPalm
+    100020: Base Human001LUpperarm
+    100022: Base Human001LUpVectorNode
+    100024: Base Human001Neck
+    100026: Base Human001Pelvis
+    100028: Base Human001RCollarbone
+    100030: Base Human001RDigit11
+    100032: Base Human001RDigit12
+    100034: Base Human001RDigit21
+    100036: Base Human001RDigit22
+    100038: Base Human001RForearm
+    100040: Base Human001Ribcage
+    100042: Base Human001RPalm
+    100044: Base Human001RPlatform
+    100046: Base Human001RThigh
+    100048: Base Human001RUpperarm
+    100050: Base Human001Spine1
+    100052: Base Human001Spine2
+    100054: Base Human001Spine3
+    100056: Base HumanPelvisRotation
+    100058: Baston
+    100060: Bone002
+    100062: Bone004
+    100064: Bone008
+    100066: Bone010
+    100068: Bone_Brow_01_L
+    100070: Bone_Brow_01_R
+    100072: Bone_Brow_Mid
+    100074: Bone_Cheek_L
+    100076: Bone_Cheek_R
+    100078: Bone_CoatL_01
+    100080: Bone_CoatL_02
+    100082: Bone_CoatR_01
+    100084: Bone_CoatR_02
+    100086: Bone_Crn_Lip_L
+    100088: Bone_Crn_Lip_R
+    100090: Bone_Crn_UpperLeft_Lip
+    100092: Bone_Crn_UpperRight_Lip
+    100094: Bone_Eye_L
+    100096: Bone_Eye_R
+    100098: Bone_Eyelid_L
+    100100: Bone_Eyelid_R
+    100102: Bone_Jaw
+    100104: Bone_Lower_Lip
+    100106: Bone_Upper_Lip
+    100108: Point006
+    100110: Base Human001
+    100112: maleficent_cos_02_01
+    400000: //RootNode
+    400002: Base Human001Head
+    400004: Base Human001LCollarbone
+    400006: Base Human001LDigit11
+    400008: Base Human001LDigit12
+    400010: Base Human001LDigit21
+    400012: Base Human001LDigit22
+    400014: Base Human001LForearm
+    400016: Base Human001LIKTarget
+    400018: Base Human001LPalm
+    400020: Base Human001LUpperarm
+    400022: Base Human001LUpVectorNode
+    400024: Base Human001Neck
+    400026: Base Human001Pelvis
+    400028: Base Human001RCollarbone
+    400030: Base Human001RDigit11
+    400032: Base Human001RDigit12
+    400034: Base Human001RDigit21
+    400036: Base Human001RDigit22
+    400038: Base Human001RForearm
+    400040: Base Human001Ribcage
+    400042: Base Human001RPalm
+    400044: Base Human001RPlatform
+    400046: Base Human001RThigh
+    400048: Base Human001RUpperarm
+    400050: Base Human001Spine1
+    400052: Base Human001Spine2
+    400054: Base Human001Spine3
+    400056: Base HumanPelvisRotation
+    400058: Baston
+    400060: Bone002
+    400062: Bone004
+    400064: Bone008
+    400066: Bone010
+    400068: Bone_Brow_01_L
+    400070: Bone_Brow_01_R
+    400072: Bone_Brow_Mid
+    400074: Bone_Cheek_L
+    400076: Bone_Cheek_R
+    400078: Bone_CoatL_01
+    400080: Bone_CoatL_02
+    400082: Bone_CoatR_01
+    400084: Bone_CoatR_02
+    400086: Bone_Crn_Lip_L
+    400088: Bone_Crn_Lip_R
+    400090: Bone_Crn_UpperLeft_Lip
+    400092: Bone_Crn_UpperRight_Lip
+    400094: Bone_Eye_L
+    400096: Bone_Eye_R
+    400098: Bone_Eyelid_L
+    400100: Bone_Eyelid_R
+    400102: Bone_Jaw
+    400104: Bone_Lower_Lip
+    400106: Bone_Upper_Lip
+    400108: Point006
+    400110: Base Human001
+    400112: maleficent_cos_02_01
+    2300000: Base HumanPelvisRotation
+    2300002: Baston
+    3300000: Base HumanPelvisRotation
+    3300002: Baston
+    4300000: Base HumanPelvisRotation
+    4300002: Baston
+    4300004: maleficent_cos_02_01
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: maleficent_cos_02_01
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

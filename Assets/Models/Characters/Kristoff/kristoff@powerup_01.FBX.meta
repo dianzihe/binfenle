@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 9b144498d897f1f47a781a158b368fee
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: Base HumanHead
+    100004: Base HumanLCalf
+    100006: Base HumanLCollarbone
+    100008: Base HumanLDigit11
+    100010: Base HumanLDigit21
+    100012: Base HumanLFoot
+    100014: Base HumanLForearm
+    100016: Base HumanLIKTarget
+    100018: Base HumanLPalm
+    100020: Base HumanLPlatform
+    100022: Base HumanLThigh
+    100024: Base HumanLUpperarm
+    100026: Base HumanNeck
+    100028: Base HumanPelvis
+    100030: Base HumanRCalf
+    100032: Base HumanRCollarbone
+    100034: Base HumanRDigit11
+    100036: Base HumanRDigit21
+    100038: Base HumanRFoot
+    100040: Base HumanRForearm
+    100042: Base HumanRibcage
+    100044: Base HumanRIKTarget
+    100046: Base HumanRPalm
+    100048: Base HumanRPlatform
+    100050: Base HumanRThigh
+    100052: Base HumanRUpperarm
+    100054: Base HumanSpine1
+    100056: Base HumanSpine2
+    100058: Bone_Brow_01_L
+    100060: Bone_Brow_01_R
+    100062: Bone_Brow_Mid
+    100064: Bone_Cheek_L
+    100066: Bone_Cheek_R
+    100068: Bone_Crn_Lip_L
+    100070: Bone_Crn_Lip_R
+    100072: Bone_Eye_L
+    100074: Bone_Eye_R
+    100076: Bone_Eyelid_L
+    100078: Bone_Eyelid_R
+    100080: Bone_Jaw
+    100082: Bone_Lower_Lip
+    100084: Bone_UArm_Twist_L
+    100086: Bone_UArm_Twist_R
+    100088: Bone_Upper_Lip
+    100090: Eye_Left
+    100092: Eye_Right
+    100094: Kristoff
+    100096: //RootNode
+    400000: Base Human
+    400002: Base HumanHead
+    400004: Base HumanLCalf
+    400006: Base HumanLCollarbone
+    400008: Base HumanLDigit11
+    400010: Base HumanLDigit21
+    400012: Base HumanLFoot
+    400014: Base HumanLForearm
+    400016: Base HumanLIKTarget
+    400018: Base HumanLPalm
+    400020: Base HumanLPlatform
+    400022: Base HumanLThigh
+    400024: Base HumanLUpperarm
+    400026: Base HumanNeck
+    400028: Base HumanPelvis
+    400030: Base HumanRCalf
+    400032: Base HumanRCollarbone
+    400034: Base HumanRDigit11
+    400036: Base HumanRDigit21
+    400038: Base HumanRFoot
+    400040: Base HumanRForearm
+    400042: Base HumanRibcage
+    400044: Base HumanRIKTarget
+    400046: Base HumanRPalm
+    400048: Base HumanRPlatform
+    400050: Base HumanRThigh
+    400052: Base HumanRUpperarm
+    400054: Base HumanSpine1
+    400056: Base HumanSpine2
+    400058: Bone_Brow_01_L
+    400060: Bone_Brow_01_R
+    400062: Bone_Brow_Mid
+    400064: Bone_Cheek_L
+    400066: Bone_Cheek_R
+    400068: Bone_Crn_Lip_L
+    400070: Bone_Crn_Lip_R
+    400072: Bone_Eye_L
+    400074: Bone_Eye_R
+    400076: Bone_Eyelid_L
+    400078: Bone_Eyelid_R
+    400080: Bone_Jaw
+    400082: Bone_Lower_Lip
+    400084: Bone_UArm_Twist_L
+    400086: Bone_UArm_Twist_R
+    400088: Bone_Upper_Lip
+    400090: Eye_Left
+    400092: Eye_Right
+    400094: Kristoff
+    400096: //RootNode
+    2300000: Bone_UArm_Twist_L
+    2300002: Bone_UArm_Twist_R
+    3300000: Bone_UArm_Twist_L
+    3300002: Bone_UArm_Twist_R
+    4300000: Bone_UArm_Twist_L
+    4300002: Bone_UArm_Twist_R
+    4300004: Kristoff
+    4300006: Eye_Right
+    4300008: Eye_Left
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Eye_Left
+    13700002: Eye_Right
+    13700004: Kristoff
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

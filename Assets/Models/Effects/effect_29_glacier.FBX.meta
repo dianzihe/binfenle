@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: caabb5b26fb775440b8eb08f744e71b7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group1117
+    100004: Group26111
+    100006: mesh_icecle_Part_1
+    100008: mesh_icecle_Part_10
+    100010: mesh_icecle_Part_2
+    100012: mesh_icecle_Part_3
+    100014: mesh_icecle_Part_4
+    100016: mesh_icecle_Part_5
+    100018: mesh_icecle_Part_6
+    100020: mesh_icecle_Part_7
+    100022: mesh_icecle_Part_8
+    100024: mesh_icecle_Part_9
+    400000: //RootNode
+    400002: Group1117
+    400004: Group26111
+    400006: mesh_icecle_Part_1
+    400008: mesh_icecle_Part_10
+    400010: mesh_icecle_Part_2
+    400012: mesh_icecle_Part_3
+    400014: mesh_icecle_Part_4
+    400016: mesh_icecle_Part_5
+    400018: mesh_icecle_Part_6
+    400020: mesh_icecle_Part_7
+    400022: mesh_icecle_Part_8
+    400024: mesh_icecle_Part_9
+    2300000: //RootNode
+    2300002: Group1117
+    2300004: Group26111
+    2300006: mesh_icecle_Part_1
+    2300008: mesh_icecle_Part_10
+    2300010: mesh_icecle_Part_2
+    2300012: mesh_icecle_Part_3
+    2300014: mesh_icecle_Part_4
+    2300016: mesh_icecle_Part_5
+    2300018: mesh_icecle_Part_6
+    2300020: mesh_icecle_Part_7
+    2300022: mesh_icecle_Part_8
+    2300024: mesh_icecle_Part_9
+    3300000: //RootNode
+    3300002: Group1117
+    3300004: Group26111
+    3300006: mesh_icecle_Part_1
+    3300008: mesh_icecle_Part_10
+    3300010: mesh_icecle_Part_2
+    3300012: mesh_icecle_Part_3
+    3300014: mesh_icecle_Part_4
+    3300016: mesh_icecle_Part_5
+    3300018: mesh_icecle_Part_6
+    3300020: mesh_icecle_Part_7
+    3300022: mesh_icecle_Part_8
+    3300024: mesh_icecle_Part_9
+    4300000: mesh_icecle
+    4300002: Group1117
+    4300004: Group26111
+    4300006: mesh_icecle_Part_1
+    4300008: mesh_icecle_Part_2
+    4300010: mesh_icecle_Part_3
+    4300012: mesh_icecle_Part_4
+    4300014: mesh_icecle_Part_5
+    4300016: mesh_icecle_Part_6
+    4300018: mesh_icecle_Part_7
+    4300020: mesh_icecle_Part_8
+    4300022: mesh_icecle_Part_9
+    4300024: mesh_icecle_Part_10
+    4300026: mesh_icecle_Part_030
+    7400000: effect_glacier_idel
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_directional2
+    second: {fileID: 2100000, guid: 9258f3b4d87f9427aa038fd3c26245a7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: effect_glacier_idel
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 6e245929de806b54f88bb97d6bec4e32
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder002
+    100002: IK Chain001
+    100004: IK Chain002
+    100006: IK Chain003
+    100008: IK Chain004
+    100010: IK Chain005
+    100012: IK Chain006
+    100014: IK Chain007
+    100016: IK Chain008
+    100018: IK Chain009
+    100020: IK Chain010
+    100022: IK Chain011
+    100024: IK Chain012
+    100026: IK Chain013
+    100028: IK Chain014
+    100030: IK Chain015
+    100032: IK Chain016
+    100034: IK Chain017
+    100036: Line001
+    100038: Line002
+    100040: Line003
+    100042: Line004
+    100044: Line005
+    100046: Plane001
+    100048: Plane002
+    100050: Plane003
+    100052: Point047
+    100054: Point048
+    100056: Point049
+    100058: Point050
+    100060: Point051
+    100062: Point052
+    100064: Point053
+    100066: Point054
+    100068: Point055
+    100070: Point056
+    100072: Point057
+    100074: Point058
+    100076: Point059
+    100078: Point060
+    100080: Point061
+    100082: Point062
+    100084: Point063
+    100086: Point064
+    100088: Point065
+    100090: Point066
+    100092: Point067
+    100094: Point068
+    100096: Point069
+    100098: Point070
+    100100: Point071
+    100102: Point072
+    100104: Point073
+    100106: Point074
+    100108: Point075
+    100110: Point076
+    100112: Point077
+    100114: Point078
+    100116: Point079
+    100118: Point080
+    100120: Point081
+    100122: Point082
+    100124: Point083
+    100126: Point084
+    100128: Point085
+    100130: Point086
+    100132: Point087
+    100134: Point088
+    100136: Point089
+    100138: Point090
+    100140: Point091
+    100142: Point092
+    100144: //RootNode
+    100146: Thorn_001
+    100148: Thorn_001_B_bn
+    100150: Thorn_001_bn
+    100152: Thorn_002_B_bn
+    100154: Thorn_002_bn
+    100156: Thorn_003_B_bn
+    100158: Thorn_003_bn
+    100160: Thorn_004_B_bn
+    100162: Thorn_004_B_end
+    100164: Thorn_004_bn
+    100166: Thorn_005_bn
+    100168: Thorn_006_bn
+    100170: Thorn_006_end
+    100172: Thorn_A1_ctrl
+    100174: Thorn_A_ctrl
+    100176: Thorn_B1_ctrl
+    100178: Thorn_B_ctrl
+    100180: Thorn_Base_bn
+    100182: Thorn_Base_ctrl
+    100184: Thorn_C_ctrl
+    100186: Thorn_Controls
+    100188: Thorn_Master_ctrl
+    100190: ThornPath_001
+    100192: ThornPath_002
+    100194: ThornPath_003
+    100196: ThornPath_004
+    100198: ThornPath_005
+    100200: ThornPath_006
+    100202: ThornPath_007
+    100204: ThornPath_Rig_10_bn_007
+    100206: ThornPath_Rig_11_bn_007
+    100208: ThornPath_Rig_12_bn_007
+    100210: ThornPath_Rig_13_bn_007
+    100212: ThornPath_Rig_13_end_007
+    100214: ThornPath_Rig_1_bn_007
+    100216: ThornPath_Rig_2_bn_007
+    100218: ThornPath_Rig_3_bn_007
+    100220: ThornPath_Rig_4_bn_007
+    100222: ThornPath_Rig_6_bn_007
+    100224: ThornPath_Rig_7_bn_007
+    100226: ThornPath_Rig_8_bn_007
+    100228: ThornPath_Rig_Base_bn_007
+    100230: ThornPath_Rig_Spline
+    100232: ThornPath_Skin_10_bn
+    100234: ThornPath_Skin_10_bn001
+    100236: ThornPath_Skin_10_bn002
+    100238: ThornPath_Skin_10_bn003
+    100240: ThornPath_Skin_10_bn004
+    100242: ThornPath_Skin_10_bn005
+    100244: ThornPath_Skin_11_bn
+    100246: ThornPath_Skin_11_bn001
+    100248: ThornPath_Skin_11_bn002
+    100250: ThornPath_Skin_11_bn003
+    100252: ThornPath_Skin_11_bn004
+    100254: ThornPath_Skin_11_bn005
+    100256: ThornPath_Skin_12_bn
+    100258: ThornPath_Skin_12_bn001
+    100260: ThornPath_Skin_12_bn002
+    100262: ThornPath_Skin_12_bn003
+    100264: ThornPath_Skin_12_bn004
+    100266: ThornPath_Skin_12_bn005
+    100268: ThornPath_Skin_13_bn
+    100270: ThornPath_Skin_13_bn001
+    100272: ThornPath_Skin_13_bn002
+    100274: ThornPath_Skin_13_bn003
+    100276: ThornPath_Skin_13_bn004
+    100278: ThornPath_Skin_13_bn005
+    100280: ThornPath_Skin_13_end
+    100282: ThornPath_Skin_13_end001
+    100284: ThornPath_Skin_13_end002
+    100286: ThornPath_Skin_13_end003
+    100288: ThornPath_Skin_13_end004
+    100290: ThornPath_Skin_13_end005
+    100292: ThornPath_Skin_1_bn
+    100294: ThornPath_Skin_1_bn001
+    100296: ThornPath_Skin_1_bn002
+    100298: ThornPath_Skin_1_bn003
+    100300: ThornPath_Skin_1_bn004
+    100302: ThornPath_Skin_1_bn005
+    100304: ThornPath_Skin_2_bn
+    100306: ThornPath_Skin_2_bn001
+    100308: ThornPath_Skin_2_bn002
+    100310: ThornPath_Skin_2_bn003
+    100312: ThornPath_Skin_2_bn004
+    100314: ThornPath_Skin_2_bn005
+    100316: ThornPath_Skin_3_bn
+    100318: ThornPath_Skin_3_bn001
+    100320: ThornPath_Skin_3_bn002
+    100322: ThornPath_Skin_3_bn003
+    100324: ThornPath_Skin_3_bn004
+    100326: ThornPath_Skin_3_bn005
+    100328: ThornPath_Skin_4_bn
+    100330: ThornPath_Skin_4_bn001
+    100332: ThornPath_Skin_4_bn002
+    100334: ThornPath_Skin_4_bn003
+    100336: ThornPath_Skin_4_bn004
+    100338: ThornPath_Skin_4_bn005
+    100340: ThornPath_Skin_6_bn
+    100342: ThornPath_Skin_6_bn001
+    100344: ThornPath_Skin_6_bn002
+    100346: ThornPath_Skin_6_bn003
+    100348: ThornPath_Skin_6_bn004
+    100350: ThornPath_Skin_6_bn005
+    100352: ThornPath_Skin_7_bn
+    100354: ThornPath_Skin_7_bn001
+    100356: ThornPath_Skin_7_bn002
+    100358: ThornPath_Skin_7_bn003
+    100360: ThornPath_Skin_7_bn004
+    100362: ThornPath_Skin_7_bn005
+    100364: ThornPath_Skin_8_bn
+    100366: ThornPath_Skin_8_bn001
+    100368: ThornPath_Skin_8_bn002
+    100370: ThornPath_Skin_8_bn003
+    100372: ThornPath_Skin_8_bn004
+    100374: ThornPath_Skin_8_bn005
+    100376: ThornPath_Skin_9_bn
+    100378: ThornPath_Skin_9_bn007
+    100380: ThornPath_Skin_9_bn008
+    100382: ThornPath_Skin_9_bn009
+    100384: ThornPath_Skin_9_bn010
+    100386: ThornPath_Skin_9_bn011
+    100388: ThornPath_Skin_9_bn012
+    100390: ThornPath_Skin_Base_bn
+    100392: ThornPath_Skin_Base_bn001
+    100394: ThornPath_Skin_Base_bn002
+    100396: ThornPath_Skin_Base_bn003
+    100398: ThornPath_Skin_Base_bn004
+    100400: ThornPath_Skin_Base_bn005
+    400000: Cylinder002
+    400002: IK Chain001
+    400004: IK Chain002
+    400006: IK Chain003
+    400008: IK Chain004
+    400010: IK Chain005
+    400012: IK Chain006
+    400014: IK Chain007
+    400016: IK Chain008
+    400018: IK Chain009
+    400020: IK Chain010
+    400022: IK Chain011
+    400024: IK Chain012
+    400026: IK Chain013
+    400028: IK Chain014
+    400030: IK Chain015
+    400032: IK Chain016
+    400034: IK Chain017
+    400036: Line001
+    400038: Line002
+    400040: Line003
+    400042: Line004
+    400044: Line005
+    400046: Plane001
+    400048: Plane002
+    400050: Plane003
+    400052: Point047
+    400054: Point048
+    400056: Point049
+    400058: Point050
+    400060: Point051
+    400062: Point052
+    400064: Point053
+    400066: Point054
+    400068: Point055
+    400070: Point056
+    400072: Point057
+    400074: Point058
+    400076: Point059
+    400078: Point060
+    400080: Point061
+    400082: Point062
+    400084: Point063
+    400086: Point064
+    400088: Point065
+    400090: Point066
+    400092: Point067
+    400094: Point068
+    400096: Point069
+    400098: Point070
+    400100: Point071
+    400102: Point072
+    400104: Point073
+    400106: Point074
+    400108: Point075
+    400110: Point076
+    400112: Point077
+    400114: Point078
+    400116: Point079
+    400118: Point080
+    400120: Point081
+    400122: Point082
+    400124: Point083
+    400126: Point084
+    400128: Point085
+    400130: Point086
+    400132: Point087
+    400134: Point088
+    400136: Point089
+    400138: Point090
+    400140: Point091
+    400142: Point092
+    400144: //RootNode
+    400146: Thorn_001
+    400148: Thorn_001_B_bn
+    400150: Thorn_001_bn
+    400152: Thorn_002_B_bn
+    400154: Thorn_002_bn
+    400156: Thorn_003_B_bn
+    400158: Thorn_003_bn
+    400160: Thorn_004_B_bn
+    400162: Thorn_004_B_end
+    400164: Thorn_004_bn
+    400166: Thorn_005_bn
+    400168: Thorn_006_bn
+    400170: Thorn_006_end
+    400172: Thorn_A1_ctrl
+    400174: Thorn_A_ctrl
+    400176: Thorn_B1_ctrl
+    400178: Thorn_B_ctrl
+    400180: Thorn_Base_bn
+    400182: Thorn_Base_ctrl
+    400184: Thorn_C_ctrl
+    400186: Thorn_Controls
+    400188: Thorn_Master_ctrl
+    400190: ThornPath_001
+    400192: ThornPath_002
+    400194: ThornPath_003
+    400196: ThornPath_004
+    400198: ThornPath_005
+    400200: ThornPath_006
+    400202: ThornPath_007
+    400204: ThornPath_Rig_10_bn_007
+    400206: ThornPath_Rig_11_bn_007
+    400208: ThornPath_Rig_12_bn_007
+    400210: ThornPath_Rig_13_bn_007
+    400212: ThornPath_Rig_13_end_007
+    400214: ThornPath_Rig_1_bn_007
+    400216: ThornPath_Rig_2_bn_007
+    400218: ThornPath_Rig_3_bn_007
+    400220: ThornPath_Rig_4_bn_007
+    400222: ThornPath_Rig_6_bn_007
+    400224: ThornPath_Rig_7_bn_007
+    400226: ThornPath_Rig_8_bn_007
+    400228: ThornPath_Rig_Base_bn_007
+    400230: ThornPath_Rig_Spline
+    400232: ThornPath_Skin_10_bn
+    400234: ThornPath_Skin_10_bn001
+    400236: ThornPath_Skin_10_bn002
+    400238: ThornPath_Skin_10_bn003
+    400240: ThornPath_Skin_10_bn004
+    400242: ThornPath_Skin_10_bn005
+    400244: ThornPath_Skin_11_bn
+    400246: ThornPath_Skin_11_bn001
+    400248: ThornPath_Skin_11_bn002
+    400250: ThornPath_Skin_11_bn003
+    400252: ThornPath_Skin_11_bn004
+    400254: ThornPath_Skin_11_bn005
+    400256: ThornPath_Skin_12_bn
+    400258: ThornPath_Skin_12_bn001
+    400260: ThornPath_Skin_12_bn002
+    400262: ThornPath_Skin_12_bn003
+    400264: ThornPath_Skin_12_bn004
+    400266: ThornPath_Skin_12_bn005
+    400268: ThornPath_Skin_13_bn
+    400270: ThornPath_Skin_13_bn001
+    400272: ThornPath_Skin_13_bn002
+    400274: ThornPath_Skin_13_bn003
+    400276: ThornPath_Skin_13_bn004
+    400278: ThornPath_Skin_13_bn005
+    400280: ThornPath_Skin_13_end
+    400282: ThornPath_Skin_13_end001
+    400284: ThornPath_Skin_13_end002
+    400286: ThornPath_Skin_13_end003
+    400288: ThornPath_Skin_13_end004
+    400290: ThornPath_Skin_13_end005
+    400292: ThornPath_Skin_1_bn
+    400294: ThornPath_Skin_1_bn001
+    400296: ThornPath_Skin_1_bn002
+    400298: ThornPath_Skin_1_bn003
+    400300: ThornPath_Skin_1_bn004
+    400302: ThornPath_Skin_1_bn005
+    400304: ThornPath_Skin_2_bn
+    400306: ThornPath_Skin_2_bn001
+    400308: ThornPath_Skin_2_bn002
+    400310: ThornPath_Skin_2_bn003
+    400312: ThornPath_Skin_2_bn004
+    400314: ThornPath_Skin_2_bn005
+    400316: ThornPath_Skin_3_bn
+    400318: ThornPath_Skin_3_bn001
+    400320: ThornPath_Skin_3_bn002
+    400322: ThornPath_Skin_3_bn003
+    400324: ThornPath_Skin_3_bn004
+    400326: ThornPath_Skin_3_bn005
+    400328: ThornPath_Skin_4_bn
+    400330: ThornPath_Skin_4_bn001
+    400332: ThornPath_Skin_4_bn002
+    400334: ThornPath_Skin_4_bn003
+    400336: ThornPath_Skin_4_bn004
+    400338: ThornPath_Skin_4_bn005
+    400340: ThornPath_Skin_6_bn
+    400342: ThornPath_Skin_6_bn001
+    400344: ThornPath_Skin_6_bn002
+    400346: ThornPath_Skin_6_bn003
+    400348: ThornPath_Skin_6_bn004
+    400350: ThornPath_Skin_6_bn005
+    400352: ThornPath_Skin_7_bn
+    400354: ThornPath_Skin_7_bn001
+    400356: ThornPath_Skin_7_bn002
+    400358: ThornPath_Skin_7_bn003
+    400360: ThornPath_Skin_7_bn004
+    400362: ThornPath_Skin_7_bn005
+    400364: ThornPath_Skin_8_bn
+    400366: ThornPath_Skin_8_bn001
+    400368: ThornPath_Skin_8_bn002
+    400370: ThornPath_Skin_8_bn003
+    400372: ThornPath_Skin_8_bn004
+    400374: ThornPath_Skin_8_bn005
+    400376: ThornPath_Skin_9_bn
+    400378: ThornPath_Skin_9_bn007
+    400380: ThornPath_Skin_9_bn008
+    400382: ThornPath_Skin_9_bn009
+    400384: ThornPath_Skin_9_bn010
+    400386: ThornPath_Skin_9_bn011
+    400388: ThornPath_Skin_9_bn012
+    400390: ThornPath_Skin_Base_bn
+    400392: ThornPath_Skin_Base_bn001
+    400394: ThornPath_Skin_Base_bn002
+    400396: ThornPath_Skin_Base_bn003
+    400398: ThornPath_Skin_Base_bn004
+    400400: ThornPath_Skin_Base_bn005
+    2300000: Cylinder002
+    2300002: Plane001
+    2300004: Plane002
+    2300006: Plane003
+    2300008: Thorn_001
+    2300010: Thorn_Controls
+    2300012: ThornPath_002
+    2300014: ThornPath_001
+    2300016: ThornPath_003
+    2300018: ThornPath_004
+    2300020: ThornPath_005
+    2300022: ThornPath_006
+    2300024: ThornPath_007
+    3300000: Cylinder002
+    3300002: Plane001
+    3300004: Plane002
+    3300006: Plane003
+    3300008: Thorn_001
+    3300010: Thorn_Controls
+    3300012: ThornPath_002
+    3300014: ThornPath_001
+    3300016: ThornPath_003
+    3300018: ThornPath_004
+    3300020: ThornPath_005
+    3300022: ThornPath_006
+    3300024: ThornPath_007
+    4300000: Plane001
+    4300002: ThornPath_001
+    4300004: Plane002
+    4300006: Plane003
+    4300008: Thorn_001
+    4300010: Cylinder002
+    4300012: Thorn_Controls
+    4300014: ThornPath_002
+    4300016: ThornPath_003
+    4300018: ThornPath_004
+    4300020: ThornPath_005
+    4300022: ThornPath_006
+    4300024: ThornPath_007
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ThornPath_001
+    13700002: ThornPath_003
+    13700004: ThornPath_004
+    13700006: ThornPath_005
+    13700008: ThornPath_006
+    13700010: ThornPath_007
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

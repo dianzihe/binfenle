@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 0c0e664767a764e4aa4b36334516afc1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: IK Chain006
+    100002: IK Chain007
+    100004: IK Chain008
+    100006: IK Chain009
+    100008: IK Chain010
+    100010: IK Chain011
+    100012: IK Chain012
+    100014: IK Chain013
+    100016: IK Chain014
+    100018: IK Chain015
+    100020: IK Chain016
+    100022: IK Chain017
+    100024: IK Chain018
+    100026: IK Chain020
+    100028: IK Chain021
+    100030: IK Chain022
+    100032: IK Chain023
+    100034: IK Chain024
+    100036: IK Chain025
+    100038: IK Chain026
+    100040: IK Chain027
+    100042: IK Chain028
+    100044: IK Chain030
+    100046: Line001
+    100048: Line003
+    100050: Line004
+    100052: Line005
+    100054: Line006
+    100056: Line007
+    100058: Line008
+    100060: Line009
+    100062: Line010
+    100064: Line011
+    100066: Line013
+    100068: Line014
+    100070: //RootNode
+    100072: Planar_Thorn_001
+    100074: Planar_Thorn_002
+    100076: Planar_Thorn_018
+    100078: Planar_Thorn_019
+    100080: Planar_Thorn_020
+    100082: Planar_Thorn_021
+    100084: Planar_Thorn_022
+    100086: Planar_Thorn_023
+    100088: Planar_Thorn_024
+    100090: Planar_Thorn_025
+    100092: Planar_Thorn_027
+    100094: Planar_Thorn_Base_bn_001
+    100096: Planar_Thorn_Base_bn_002
+    100098: Planar_Thorn_Base_bn_018
+    100100: Planar_Thorn_Base_bn_019
+    100102: Planar_Thorn_Base_bn_020
+    100104: Planar_Thorn_Base_bn_021
+    100106: Planar_Thorn_Base_bn_022
+    100108: Planar_Thorn_Base_bn_023
+    100110: Planar_Thorn_Base_bn_024
+    100112: Planar_Thorn_Base_bn_025
+    100114: Planar_Thorn_Base_bn_027
+    100116: Planar_Thorn_Bn1_bn_001
+    100118: Planar_Thorn_Bn1_bn_002
+    100120: Planar_Thorn_Bn1_bn_018
+    100122: Planar_Thorn_Bn1_bn_019
+    100124: Planar_Thorn_Bn1_bn_020
+    100126: Planar_Thorn_Bn1_bn_021
+    100128: Planar_Thorn_Bn1_bn_022
+    100130: Planar_Thorn_Bn1_bn_023
+    100132: Planar_Thorn_Bn1_bn_024
+    100134: Planar_Thorn_Bn1_bn_025
+    100136: Planar_Thorn_Bn1_bn_027
+    100138: Planar_Thorn_Bn2_bn_001
+    100140: Planar_Thorn_Bn2_bn_002
+    100142: Planar_Thorn_Bn2_bn_018
+    100144: Planar_Thorn_Bn2_bn_019
+    100146: Planar_Thorn_Bn2_bn_020
+    100148: Planar_Thorn_Bn2_bn_021
+    100150: Planar_Thorn_Bn2_bn_022
+    100152: Planar_Thorn_Bn2_bn_023
+    100154: Planar_Thorn_Bn2_bn_024
+    100156: Planar_Thorn_Bn2_bn_025
+    100158: Planar_Thorn_Bn2_bn_027
+    100160: Planar_Thorn_Bn3_bn_001
+    100162: Planar_Thorn_Bn3_bn_002
+    100164: Planar_Thorn_Bn3_bn_018
+    100166: Planar_Thorn_Bn3_bn_019
+    100168: Planar_Thorn_Bn3_bn_020
+    100170: Planar_Thorn_Bn3_bn_021
+    100172: Planar_Thorn_Bn3_bn_022
+    100174: Planar_Thorn_Bn3_bn_023
+    100176: Planar_Thorn_Bn3_bn_024
+    100178: Planar_Thorn_Bn3_bn_025
+    100180: Planar_Thorn_Bn3_bn_027
+    100182: Planar_Thorn_Bn4_bn_001
+    100184: Planar_Thorn_Bn4_bn_002
+    100186: Planar_Thorn_Bn4_bn_018
+    100188: Planar_Thorn_Bn4_bn_019
+    100190: Planar_Thorn_Bn4_bn_020
+    100192: Planar_Thorn_Bn4_bn_021
+    100194: Planar_Thorn_Bn4_bn_022
+    100196: Planar_Thorn_Bn4_bn_023
+    100198: Planar_Thorn_Bn4_bn_024
+    100200: Planar_Thorn_Bn4_bn_025
+    100202: Planar_Thorn_Bn4_bn_027
+    100204: Planar_Thorn_Bn5_bn_001
+    100206: Planar_Thorn_Bn5_bn_002
+    100208: Planar_Thorn_Bn5_bn_018
+    100210: Planar_Thorn_Bn5_bn_019
+    100212: Planar_Thorn_Bn5_bn_020
+    100214: Planar_Thorn_Bn5_bn_021
+    100216: Planar_Thorn_Bn5_bn_022
+    100218: Planar_Thorn_Bn5_bn_023
+    100220: Planar_Thorn_Bn5_bn_024
+    100222: Planar_Thorn_Bn5_bn_025
+    100224: Planar_Thorn_Bn5_bn_027
+    100226: Planar_Thorn_Bn6_bn_001
+    100228: Planar_Thorn_Bn6_bn_002
+    100230: Planar_Thorn_Bn6_bn_018
+    100232: Planar_Thorn_Bn6_bn_019
+    100234: Planar_Thorn_Bn6_bn_020
+    100236: Planar_Thorn_Bn6_bn_021
+    100238: Planar_Thorn_Bn6_bn_022
+    100240: Planar_Thorn_Bn6_bn_023
+    100242: Planar_Thorn_Bn6_bn_024
+    100244: Planar_Thorn_Bn6_bn_025
+    100246: Planar_Thorn_Bn6_bn_027
+    100248: Planar_Thorn_Bn7_bn_001
+    100250: Planar_Thorn_Bn7_bn_002
+    100252: Planar_Thorn_Bn7_bn_018
+    100254: Planar_Thorn_Bn7_bn_019
+    100256: Planar_Thorn_Bn7_bn_020
+    100258: Planar_Thorn_Bn7_bn_021
+    100260: Planar_Thorn_Bn7_bn_022
+    100262: Planar_Thorn_Bn7_bn_023
+    100264: Planar_Thorn_Bn7_bn_024
+    100266: Planar_Thorn_Bn7_bn_025
+    100268: Planar_Thorn_Bn7_bn_027
+    100270: Planar_Thorn_Bn7_end_001
+    100272: Planar_Thorn_Bn7_end_002
+    100274: Planar_Thorn_Bn7_end_018
+    100276: Planar_Thorn_Bn7_end_019
+    100278: Planar_Thorn_Bn7_end_020
+    100280: Planar_Thorn_Bn7_end_021
+    100282: Planar_Thorn_Bn7_end_022
+    100284: Planar_Thorn_Bn7_end_023
+    100286: Planar_Thorn_Bn7_end_024
+    100288: Planar_Thorn_Bn7_end_025
+    100290: Planar_Thorn_Bn7_end_027
+    100292: Point047
+    100294: Point048
+    100296: Point049
+    100298: Point050
+    100300: Point051
+    100302: Point052
+    100304: Point053
+    100306: Point054
+    100308: Point055
+    100310: Point056
+    100312: Point057
+    100314: Point058
+    100316: Point059
+    100318: Point060
+    100320: Point061
+    100322: Point062
+    100324: Point063
+    100326: Point064
+    100328: Point065
+    100330: Point066
+    100332: Point067
+    100334: Point068
+    100336: Point069
+    100338: Point070
+    100340: Point071
+    100342: Point072
+    100344: Point073
+    100346: Point074
+    100348: Point075
+    100350: Point076
+    100352: Point077
+    100354: Point078
+    100356: Point079
+    100358: Point080
+    100360: Point081
+    100362: Point082
+    100364: Point083
+    100366: Point084
+    100368: Point085
+    100370: Point086
+    100372: Point087
+    100374: Point088
+    100376: Point089
+    100378: Point090
+    100380: Point091
+    100382: Point092
+    400000: IK Chain006
+    400002: IK Chain007
+    400004: IK Chain008
+    400006: IK Chain009
+    400008: IK Chain010
+    400010: IK Chain011
+    400012: IK Chain012
+    400014: IK Chain013
+    400016: IK Chain014
+    400018: IK Chain015
+    400020: IK Chain016
+    400022: IK Chain017
+    400024: IK Chain018
+    400026: IK Chain020
+    400028: IK Chain021
+    400030: IK Chain022
+    400032: IK Chain023
+    400034: IK Chain024
+    400036: IK Chain025
+    400038: IK Chain026
+    400040: IK Chain027
+    400042: IK Chain028
+    400044: IK Chain030
+    400046: Line001
+    400048: Line003
+    400050: Line004
+    400052: Line005
+    400054: Line006
+    400056: Line007
+    400058: Line008
+    400060: Line009
+    400062: Line010
+    400064: Line011
+    400066: Line013
+    400068: Line014
+    400070: //RootNode
+    400072: Planar_Thorn_001
+    400074: Planar_Thorn_002
+    400076: Planar_Thorn_018
+    400078: Planar_Thorn_019
+    400080: Planar_Thorn_020
+    400082: Planar_Thorn_021
+    400084: Planar_Thorn_022
+    400086: Planar_Thorn_023
+    400088: Planar_Thorn_024
+    400090: Planar_Thorn_025
+    400092: Planar_Thorn_027
+    400094: Planar_Thorn_Base_bn_001
+    400096: Planar_Thorn_Base_bn_002
+    400098: Planar_Thorn_Base_bn_018
+    400100: Planar_Thorn_Base_bn_019
+    400102: Planar_Thorn_Base_bn_020
+    400104: Planar_Thorn_Base_bn_021
+    400106: Planar_Thorn_Base_bn_022
+    400108: Planar_Thorn_Base_bn_023
+    400110: Planar_Thorn_Base_bn_024
+    400112: Planar_Thorn_Base_bn_025
+    400114: Planar_Thorn_Base_bn_027
+    400116: Planar_Thorn_Bn1_bn_001
+    400118: Planar_Thorn_Bn1_bn_002
+    400120: Planar_Thorn_Bn1_bn_018
+    400122: Planar_Thorn_Bn1_bn_019
+    400124: Planar_Thorn_Bn1_bn_020
+    400126: Planar_Thorn_Bn1_bn_021
+    400128: Planar_Thorn_Bn1_bn_022
+    400130: Planar_Thorn_Bn1_bn_023
+    400132: Planar_Thorn_Bn1_bn_024
+    400134: Planar_Thorn_Bn1_bn_025
+    400136: Planar_Thorn_Bn1_bn_027
+    400138: Planar_Thorn_Bn2_bn_001
+    400140: Planar_Thorn_Bn2_bn_002
+    400142: Planar_Thorn_Bn2_bn_018
+    400144: Planar_Thorn_Bn2_bn_019
+    400146: Planar_Thorn_Bn2_bn_020
+    400148: Planar_Thorn_Bn2_bn_021
+    400150: Planar_Thorn_Bn2_bn_022
+    400152: Planar_Thorn_Bn2_bn_023
+    400154: Planar_Thorn_Bn2_bn_024
+    400156: Planar_Thorn_Bn2_bn_025
+    400158: Planar_Thorn_Bn2_bn_027
+    400160: Planar_Thorn_Bn3_bn_001
+    400162: Planar_Thorn_Bn3_bn_002
+    400164: Planar_Thorn_Bn3_bn_018
+    400166: Planar_Thorn_Bn3_bn_019
+    400168: Planar_Thorn_Bn3_bn_020
+    400170: Planar_Thorn_Bn3_bn_021
+    400172: Planar_Thorn_Bn3_bn_022
+    400174: Planar_Thorn_Bn3_bn_023
+    400176: Planar_Thorn_Bn3_bn_024
+    400178: Planar_Thorn_Bn3_bn_025
+    400180: Planar_Thorn_Bn3_bn_027
+    400182: Planar_Thorn_Bn4_bn_001
+    400184: Planar_Thorn_Bn4_bn_002
+    400186: Planar_Thorn_Bn4_bn_018
+    400188: Planar_Thorn_Bn4_bn_019
+    400190: Planar_Thorn_Bn4_bn_020
+    400192: Planar_Thorn_Bn4_bn_021
+    400194: Planar_Thorn_Bn4_bn_022
+    400196: Planar_Thorn_Bn4_bn_023
+    400198: Planar_Thorn_Bn4_bn_024
+    400200: Planar_Thorn_Bn4_bn_025
+    400202: Planar_Thorn_Bn4_bn_027
+    400204: Planar_Thorn_Bn5_bn_001
+    400206: Planar_Thorn_Bn5_bn_002
+    400208: Planar_Thorn_Bn5_bn_018
+    400210: Planar_Thorn_Bn5_bn_019
+    400212: Planar_Thorn_Bn5_bn_020
+    400214: Planar_Thorn_Bn5_bn_021
+    400216: Planar_Thorn_Bn5_bn_022
+    400218: Planar_Thorn_Bn5_bn_023
+    400220: Planar_Thorn_Bn5_bn_024
+    400222: Planar_Thorn_Bn5_bn_025
+    400224: Planar_Thorn_Bn5_bn_027
+    400226: Planar_Thorn_Bn6_bn_001
+    400228: Planar_Thorn_Bn6_bn_002
+    400230: Planar_Thorn_Bn6_bn_018
+    400232: Planar_Thorn_Bn6_bn_019
+    400234: Planar_Thorn_Bn6_bn_020
+    400236: Planar_Thorn_Bn6_bn_021
+    400238: Planar_Thorn_Bn6_bn_022
+    400240: Planar_Thorn_Bn6_bn_023
+    400242: Planar_Thorn_Bn6_bn_024
+    400244: Planar_Thorn_Bn6_bn_025
+    400246: Planar_Thorn_Bn6_bn_027
+    400248: Planar_Thorn_Bn7_bn_001
+    400250: Planar_Thorn_Bn7_bn_002
+    400252: Planar_Thorn_Bn7_bn_018
+    400254: Planar_Thorn_Bn7_bn_019
+    400256: Planar_Thorn_Bn7_bn_020
+    400258: Planar_Thorn_Bn7_bn_021
+    400260: Planar_Thorn_Bn7_bn_022
+    400262: Planar_Thorn_Bn7_bn_023
+    400264: Planar_Thorn_Bn7_bn_024
+    400266: Planar_Thorn_Bn7_bn_025
+    400268: Planar_Thorn_Bn7_bn_027
+    400270: Planar_Thorn_Bn7_end_001
+    400272: Planar_Thorn_Bn7_end_002
+    400274: Planar_Thorn_Bn7_end_018
+    400276: Planar_Thorn_Bn7_end_019
+    400278: Planar_Thorn_Bn7_end_020
+    400280: Planar_Thorn_Bn7_end_021
+    400282: Planar_Thorn_Bn7_end_022
+    400284: Planar_Thorn_Bn7_end_023
+    400286: Planar_Thorn_Bn7_end_024
+    400288: Planar_Thorn_Bn7_end_025
+    400290: Planar_Thorn_Bn7_end_027
+    400292: Point047
+    400294: Point048
+    400296: Point049
+    400298: Point050
+    400300: Point051
+    400302: Point052
+    400304: Point053
+    400306: Point054
+    400308: Point055
+    400310: Point056
+    400312: Point057
+    400314: Point058
+    400316: Point059
+    400318: Point060
+    400320: Point061
+    400322: Point062
+    400324: Point063
+    400326: Point064
+    400328: Point065
+    400330: Point066
+    400332: Point067
+    400334: Point068
+    400336: Point069
+    400338: Point070
+    400340: Point071
+    400342: Point072
+    400344: Point073
+    400346: Point074
+    400348: Point075
+    400350: Point076
+    400352: Point077
+    400354: Point078
+    400356: Point079
+    400358: Point080
+    400360: Point081
+    400362: Point082
+    400364: Point083
+    400366: Point084
+    400368: Point085
+    400370: Point086
+    400372: Point087
+    400374: Point088
+    400376: Point089
+    400378: Point090
+    400380: Point091
+    400382: Point092
+    4300000: Planar_Thorn_001
+    4300002: Planar_Thorn_002
+    4300004: Planar_Thorn_018
+    4300006: Planar_Thorn_019
+    4300008: Planar_Thorn_020
+    4300010: Planar_Thorn_021
+    4300012: Planar_Thorn_022
+    4300014: Planar_Thorn_023
+    4300016: Planar_Thorn_024
+    4300018: Planar_Thorn_025
+    4300020: Planar_Thorn_027
+    9500000: //RootNode
+    13700000: Planar_Thorn_001
+    13700002: Planar_Thorn_002
+    13700004: Planar_Thorn_018
+    13700006: Planar_Thorn_019
+    13700008: Planar_Thorn_020
+    13700010: Planar_Thorn_021
+    13700012: Planar_Thorn_022
+    13700014: Planar_Thorn_023
+    13700016: Planar_Thorn_024
+    13700018: Planar_Thorn_025
+    13700020: Planar_Thorn_027
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
