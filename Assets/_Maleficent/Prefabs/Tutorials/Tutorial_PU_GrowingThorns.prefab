@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Tutorial_PU_GrowingThorns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 453.458282, y: -7.21306562, z: .0354115218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d223bdb00b61d40a283be26ab46b28d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightObjects: []
+  highlightEffect: {fileID: 100008, guid: 26fd381b6572d43499e3b808fd674cd8, type: 2}
+  textKey: TUTORIAL_GROWING_THORNS
+  messagePosition: {x: 0, y: -200, z: 0}
+  openManaBallOnShow: 1
+  lastTutorial: 0
+  highlightItemIdx: 6
+  isFirstTimeOnlyTutorial: 0
+  giveManaFromItem: {fileID: 0}
+  pieceToMove: {fileID: 0}
+  pieceToMoveDestination: {fileID: 0}
+  moveIndicatorAngle: 0
+  selectionDismiss: Thorns
+  dismissOnSelectionEnd: 1
+  disableBoardInteraction: 0
+  disableManaBallInteraction: 1
+  disableOtherPowerUpsInteraction: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d223bdb00b61d40a283be26ab46b28d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightObjects: []
+  highlightEffect: {fileID: 100008, guid: 26fd381b6572d43499e3b808fd674cd8, type: 2}
+  textKey: TUTORIAL_FREE_MANA
+  messagePosition: {x: 0, y: -200, z: 0}
+  openManaBallOnShow: 0
+  lastTutorial: 0
+  highlightItemIdx: -1
+  isFirstTimeOnlyTutorial: 1
+  giveManaFromItem: {fileID: 11400000, guid: 562ab8c52450e421a88d0028b320947e, type: 2}
+  pieceToMove: {fileID: 0}
+  pieceToMoveDestination: {fileID: 0}
+  moveIndicatorAngle: 0
+  selectionDismiss: 
+  dismissOnSelectionEnd: 0
+  disableBoardInteraction: 0
+  disableManaBallInteraction: 0
+  disableOtherPowerUpsInteraction: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

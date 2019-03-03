@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 14
+  m_Name: TrollMagic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.68220901e-07, y: 0, z: -11.511097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7058909a79cb84d2e9750a354ae95e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 100002, guid: b1a1d2b6f1bdd074ca997fdf33403cfb, type: 2}
+  effectPosition: {fileID: 0}
+  effectOffset: {x: 0, y: 0, z: -.800000012}
+  nameSingularKey: Troll Magic
+  namePluralKey: Troll Magics
+  iconName: gui_powerup_icon9
+  eligibleItems:
+  - {fileID: 11400000, guid: 5dfa6b6063fe64b42a46a23357d063b4, type: 2}
+  - {fileID: 11400000, guid: 845ba81429a8b48269b3969977048c19, type: 2}
+  - {fileID: 11400000, guid: ab16b988c469445d7913a76054f609f9, type: 2}
+  - {fileID: 11400000, guid: 29b1bcecdbee3424fa15cb640186a4dc, type: 2}
+  - {fileID: 11400000, guid: ab1a062ba858a48118118c906dd21f48, type: 2}
+  - {fileID: 11400002, guid: fb453e613ee72429a8b82493e1a81500, type: 2}
+  - {fileID: 11400000, guid: 056d2831596c74db09ace356825c4290, type: 2}
+  - {fileID: 11400000, guid: 7bbce32316d354ac988eaad4a63ba4ed, type: 2}
+  - {fileID: 11400002, guid: 4cdad7728230248bf8812ea0aaa654e5, type: 2}
+  unlockLevels: 510000000600000008000000070000005c0000002a00000009000000100000006f000000
+  theChosenOne: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

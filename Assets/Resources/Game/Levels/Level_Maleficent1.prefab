@@ -1321,10 +1321,10 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300010}
   points: 1000
   stagesMaterials: []
-  beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
+  beatAnimationFromColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100040
 GameObject:
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300012}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300006}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300002}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2443,10 +2443,10 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300000}
   points: 1000
   stagesMaterials: []
-  beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
+  beatAnimationFromColor: {r: 0.003921569, g: 0.003921569, b: 0.003921569, a: 0.003921569}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100072
 GameObject:
@@ -2590,7 +2590,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300024}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3004,7 +3004,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300018}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3151,7 +3151,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300018}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4431,7 +4431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilesPrefabs:
-  - {fileID: 0}
+  - {fileID: 100102}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -4677,7 +4677,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300014}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4824,7 +4824,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300026}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5020,10 +5020,10 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300016}
   points: 1000
   stagesMaterials: []
-  beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
+  beatAnimationFromColor: {r: 0.18867922, g: 0.082769655, b: 0.082769655, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100146
 GameObject:
@@ -5167,7 +5167,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300020}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5314,7 +5314,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300022}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5461,7 +5461,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300028}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5608,7 +5608,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300024}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5755,7 +5755,7 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300030}
   points: 1000
   stagesMaterials: []
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}

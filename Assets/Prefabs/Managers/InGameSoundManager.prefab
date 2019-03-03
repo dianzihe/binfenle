@@ -1,0 +1,743 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: InGameSoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.94226217, y: -.291545182, z: 19.9499512}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd92f9a76ee6c4e45bad0a0383b676e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  registeredSoundsList:
+  - id: combo7_sfx
+    audioClip: {fileID: 8300000, guid: 0c7bec04033014afd9dde406f3d19e46, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo1_sfx
+    audioClip: {fileID: 8300000, guid: 05a715695093846c1b1714187a3d8624, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo5_sfx
+    audioClip: {fileID: 8300000, guid: f0e8951f888a343ac99a4076fa1a1e20, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: item_select_sfx
+    audioClip: {fileID: 8300000, guid: 42b5f2a1c44e44b0384ba6fed1e28c92, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: close_sfx
+    audioClip: {fileID: 8300000, guid: fff303652e8324674b99360cc724b42e, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: match_sfx
+    audioClip: {fileID: 8300000, guid: 41222b8a0defa493899c45b3d6b4c21d, type: 3}
+    randomAudioClips:
+    - {fileID: 8300000, guid: 41222b8a0defa493899c45b3d6b4c21d, type: 3}
+    - {fileID: 8300000, guid: 6be5563b9b9344a45a6e3a942856b993, type: 3}
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: panel_out_sfx
+    audioClip: {fileID: 8300000, guid: 0fb50ec69f3674cf2a2a11f857980403, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: item_unselect_sfx
+    audioClip: {fileID: 8300000, guid: 90430f34564534f44ac8c8089685f514, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: swap_sfx
+    audioClip: {fileID: 8300000, guid: 0f3db108cbfdc4dc4a5ed06ea46c4e5b, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: winterchill_glacier_sfx
+    audioClip: {fileID: 8300000, guid: a20cc43d855f1403fa21c1aa37d3939f, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo9_sfx
+    audioClip: {fileID: 8300000, guid: e0ae13cf0de0e49179d44c8c3e87d740, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo10_sfx
+    audioClip: {fileID: 8300000, guid: ef7f40140a42f42cdbfa7631a284af3a, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: panel_in_sfx
+    audioClip: {fileID: 8300000, guid: 794fcd656d7f34d79af448aec7a13040, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo4_sfx
+    audioClip: {fileID: 8300000, guid: da18bb4fc84774266a46d8ef6ed55b5c, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: glacier_create_sfx
+    audioClip: {fileID: 8300000, guid: aea50ecad46394b24934ccd847afde22, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: drop_sfx
+    audioClip: {fileID: 8300000, guid: 37c911a29c2904e709d277da49da669e, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: iceberg_create_sfx
+    audioClip: {fileID: 8300000, guid: fc4f57de4797e4258a16aec031369f14, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo2_sfx
+    audioClip: {fileID: 8300000, guid: b9a849fd0cfb84d70b39ed5f02fef9cd, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: winterchill_iceberg_sfx
+    audioClip: {fileID: 8300000, guid: b358811e1294448aaafb20c1f8f293f8, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo3_sfx
+    audioClip: {fileID: 8300000, guid: bce4b2418c0524c57856fd1e4cbf9e96, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: glacier_sfx
+    audioClip: {fileID: 8300000, guid: eb9541ba8f1ad43989c87816b3ff63aa, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: glacier_glacier_sfx
+    audioClip: {fileID: 8300000, guid: f4c4de470f5e1429db29dbcc81f16bb3, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: snowball_sfx
+    audioClip: {fileID: 8300000, guid: 75bc5388b438c4c74ae10f4d1e2fab9c, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo8_sfx
+    audioClip: {fileID: 8300000, guid: e1855d90899954243a99ef1bb34114e1, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: glacier_iceberg_sfx
+    audioClip: {fileID: 8300000, guid: bc96592bb5db14cbc8bcc8b89bc0db5e, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: combo6_sfx
+    audioClip: {fileID: 8300000, guid: 75efa7d06b2d94a60a61071eabb26e0b, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: swap_bad_sfx
+    audioClip: {fileID: 8300000, guid: 77fdf127104d4494184409a55c4ab913, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: winterchill_sfx
+    audioClip: {fileID: 8300000, guid: 2e99134810b8a4643bc8bb0cd6138648, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 3
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: iceberg_iceberg_sfx
+    audioClip: {fileID: 8300000, guid: aa22feb8b0f804ec9bedf76698ce9fce, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: winterchill_winterchill_sfx
+    audioClip: {fileID: 8300000, guid: 40599bef2fc1245819970bba9e8cca4f, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: winter_create_sfx
+    audioClip: {fileID: 8300000, guid: 68922e509c56b4c0fa8189f313722062, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: tile_destroy_sfx
+    audioClip: {fileID: 8300000, guid: 41222b8a0defa493899c45b3d6b4c21d, type: 3}
+    randomAudioClips:
+    - {fileID: 8300000, guid: 41222b8a0defa493899c45b3d6b4c21d, type: 3}
+    - {fileID: 8300000, guid: 6be5563b9b9344a45a6e3a942856b993, type: 3}
+    maxAudioSources: 3
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .100000001
+    delayUntilNextPlay: .0500000007
+  - id: star1_sfx
+    audioClip: {fileID: 8300000, guid: ea876e1d5909f44099db11ea20ee797c, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: star3_sfx
+    audioClip: {fileID: 8300000, guid: d74e2f03c0a94490db13c6a209022bb2, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: star2_sfx
+    audioClip: {fileID: 8300000, guid: c764e96348f104c0f97ad64b5740a0a0, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 0
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: locked_sfx
+    audioClip: {fileID: 8300000, guid: 7ce0fb600dfc84cbd9619acbcb1333a2, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: iceberg_freeze_sfx
+    audioClip: {fileID: 8300000, guid: cda1847921d4e4fbb8f299a6f6f42fd3, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: iceberg_destroy_sfx
+    audioClip: {fileID: 8300000, guid: 86a2de5cf9fb0474da8dc9743dbada5b, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: 0
+  - id: fall_impact_sfx_01
+    audioClip: {fileID: 8300000, guid: 8867dda5ac8e146299babef003eab347, type: 3}
+    randomAudioClips:
+    - {fileID: 8300000, guid: 8867dda5ac8e146299babef003eab347, type: 3}
+    - {fileID: 8300000, guid: d86b4edb0bc5241ac9927ba96df709f3, type: 3}
+    - {fileID: 8300000, guid: 3c75610e4d6b24951872921a737d1cc4, type: 3}
+    maxAudioSources: 3
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: tile_eater_sfx
+    audioClip: {fileID: 8300000, guid: 97f254dffd96e4b3bb105fab6b1fcc75, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: grow_targets_sfx
+    audioClip: {fileID: 8300000, guid: 955cd9cdd0efd42d2ae0edfc03239e60, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: grow_targets_complete_sfx
+    audioClip: {fileID: 8300000, guid: 99445de3a4dd24c779e9c657041ece15, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_crow_sfx
+    audioClip: {fileID: 8300000, guid: b39495e4c6ce34d57a9707f6807ee97c, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: illuminable_sfx
+    audioClip: {fileID: 8300000, guid: 9d5452be6563346eab9d32a0e7bbe749, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: manaball_open_sfx
+    audioClip: {fileID: 8300000, guid: b1e7f8094cc294abd8dda252cd1226d0, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: manaball_close_sfx
+    audioClip: {fileID: 8300000, guid: 8b75546f34a5241d0aa7d660785e0cd6, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_crowswipe_sfx
+    audioClip: {fileID: 8300000, guid: 00fa7e70f4df1458db9fa28e714d89c1, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_staff_sfx
+    audioClip: {fileID: 8300000, guid: 542e3497379ce448c8296b099542ed9a, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: snow_sfx
+    audioClip: {fileID: 8300000, guid: 0019ae2eb3492437a9dbf95e3c201685, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: .600000024
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_yellowpixiedust_sfx
+    audioClip: {fileID: 8300000, guid: f07772714ec6e45e19f0b21c9fdecf72, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_greenmagic_sfx
+    audioClip: {fileID: 8300000, guid: 24d2e0ef2e26f4ab49b5e5563f09becf, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_wind_sfx
+    audioClip: {fileID: 8300000, guid: 9e484f99bf3c54c0d8267db460ac3669, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: powerup_growingthorns_sfx
+    audioClip: {fileID: 8300000, guid: acc6f28a34e8547758381a9241d5e76e, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: mana_earn_sfx
+    audioClip: {fileID: 8300000, guid: 36ff296460a954c68b0b49abc9ee542b, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: crow_fly_left_sfx
+    audioClip: {fileID: 8300000, guid: 98f6e7c1d61524dfcb8d17a646150515, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: crow_fly_right_sfx
+    audioClip: {fileID: 8300000, guid: 824e5375fdb5e4f5a897c6748abbfdc6, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: soldier_destroy_sfx
+    audioClip: {fileID: 8300000, guid: 1c601169256ff4995b659745c9fc49c8, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: soldier_move_sfx
+    audioClip: {fileID: 8300000, guid: 84befc5fa445845d8b9d226b912fef3a, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: thorn_burn_sfx
+    audioClip: {fileID: 8300000, guid: b9f90c9c16a90451ca63b60dd0614dc4, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: DIAVAL Wolf Vocal 3
+    audioClip: {fileID: 8300000, guid: 77d2ff1f45cae1042a977a8273bde754, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: Magic_reveal_sfx
+    audioClip: {fileID: 8300000, guid: 8f6cf21eed9c2a04787c5f3dc13908a0, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  - id: soldier_appear_sfx
+    audioClip: {fileID: 8300000, guid: a01a5b56536174d9884f04e5544ea3d7, type: 3}
+    randomAudioClips: []
+    maxAudioSources: 1
+    loop: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    pan: 0
+    multiplePlayDelay: .0500000007
+    delayUntilNextPlay: .100000001
+  numAllocatedAudioSources: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

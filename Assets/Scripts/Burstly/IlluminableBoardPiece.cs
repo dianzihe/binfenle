@@ -77,6 +77,7 @@ public class IlluminableBoardPiece : MatchCounterBoardPiece {
 		
 			GetComponent<Collider>().enabled = false;
 		}else {
+			Debug.Log("-->" + matchesCount + "-" + (stagesMaterials.Length - 1) + "-" + Mathf.Min(matchesCount, stagesMaterials.Length - 1));
 			backModel.sharedMaterial = stagesMaterials[Mathf.Min(matchesCount, stagesMaterials.Length - 1)];
 		}
 	}

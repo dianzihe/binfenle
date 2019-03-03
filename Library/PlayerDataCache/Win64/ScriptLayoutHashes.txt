@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -252,6 +252,7 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 03307611cea6df25c7163665f0963386 Assembly-CSharp.dll:.UnlockSystem
 0fec93efe18225fadca9e9ed4223c3cc Assembly-CSharp.dll:.SnowDestroyEffect
 ede1288708845f2c935f872b0b24d4b4 Assembly-CSharp.dll:.TimeColorBomb
+5125032ab42b5f35c80ed422ca36300d Assembly-CSharp.dll:.WinDestroyLightPieces
 ad8ce386e30dcf263fccdbc3bf8f6c52 Assembly-CSharp.dll:.WinDestroyTilesDrop
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 e87ea6afc3fb59fee583e0f492b161c4 Assembly-CSharp.dll:.GrowingTargetTileDestroyEffect
@@ -259,4 +260,28 @@ e87ea6afc3fb59fee583e0f492b161c4 Assembly-CSharp.dll:.GrowingTargetTileDestroyEf
 e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
-5125032ab42b5f35c80ed422ca36300d Assembly-CSharp.dll:.WinDestroyLightPieces
+d89b4609775a2b77188075c206732132 Assembly-CSharp.dll:.InputBlock
+9356faa32b668669ac8d145c596568ae Assembly-CSharp.dll:.Block
+c3361a535659aef250ba37e70d1f5e83 Assembly-CSharp.dll:.AudioBlock
+c3361a535659aef250ba37e70d1f5e83 Assembly-CSharp.dll:.MusicBlock
+d89b4609775a2b77188075c206732132 Assembly-CSharp.dll:.ArrowBlock
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AnimationEvents
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityThreadHelper
+22b4b7100a87b620c523722b22014ce2 Assembly-CSharp.dll:.AnimationBlock
+0ba8ac86f5d6394aafdd5cb0abe97bc9 Assembly-CSharp.dll:.FlowBlock
+4e84590696942d75730d70255f4da44f Assembly-CSharp.dll:.AudioController
+265e94f32d08d67fb28f42e1d396c4ab Assembly-CSharp.dll:.AnimationController
+f84c5c925d0bf978838be693611c0f4a Assembly-CSharp.dll:.ScenesController
+5749689cd7e755c18c38b1188d258080 Assembly-CSharp.dll:.TextController
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AudioEvents
+fa5b16e5e1ec437d772bc1d3dba8b538 Assembly-CSharp.dll:.TextBlock
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TextEvents
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Events
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameObjectPoolMgr
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MemoryProfiler
+5642ebd84f7111958a27a487917b0d3a Assembly-CSharp.dll:.SceneBlock
+0d1162eb826b589fe3f78a8f929b0e40 Assembly-CSharp.dll:.InputManager
+c9843219e46311047ce271c97cd9b745 Assembly-CSharp.dll:.PoolObject
+0d13e58bdd2a7251a6900ae22499cc79 Assembly-CSharp.dll:.FlowController
+c3361a535659aef250ba37e70d1f5e83 Assembly-CSharp.dll:.NarrationBlock
+718a64d1e5a0135900923a8c1dc91baa Assembly-CSharp.dll:.GenericSettings
