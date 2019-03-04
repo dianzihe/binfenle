@@ -34,7 +34,7 @@ Shader "Bravo/MatCap/MatCap Diffuse" {
 					half2	uv : TEXCOORD0;
 					half3	TtoV0 : TEXCOORD1;
 					half3	TtoV1 : TEXCOORD2;
-					half3 	n;
+					half3 	n : NORMAL1;
 				};
 				
 				v2f vert (appdata_tan v)

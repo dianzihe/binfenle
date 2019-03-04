@@ -65,7 +65,7 @@ public class IlluminableBoardPiece : MatchCounterBoardPiece {
 	private void UpdateMaterial()
 	{
 		if(IsLighten()) {
-
+			Debug.LogError("-->") ;
 			if (firstIlluminatedPiece == null) {
 				firstIlluminatedPiece = this;
 				
@@ -77,7 +77,8 @@ public class IlluminableBoardPiece : MatchCounterBoardPiece {
 		
 			GetComponent<Collider>().enabled = false;
 		}else {
-			Debug.Log("-->" + matchesCount + "-" + (stagesMaterials.Length - 1) + "-" + Mathf.Min(matchesCount, stagesMaterials.Length - 1));
+            System.Console.WriteLine("------------" + Mathf.Min(matchesCount, stagesMaterials.Length - 1));
+            Debug.LogError("-->" + matchesCount + "=" + (stagesMaterials.Length - 1) + "=" + Mathf.Min(matchesCount, stagesMaterials.Length - 1));
 			backModel.sharedMaterial = stagesMaterials[Mathf.Min(matchesCount, stagesMaterials.Length - 1)];
 		}
 	}

@@ -25,7 +25,7 @@ Shader "_Maleficent/Shine" {
 				struct v2f { 
 					half4 	pos : SV_POSITION;
 					half2	uv : TEXCOORD0;
-					half4	cachePos;
+					half4	cachePos : NORMAL1;
 				};
 				
 				// vertex input: position, color

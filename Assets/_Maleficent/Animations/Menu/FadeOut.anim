@@ -1,0 +1,772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FadeOut
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .333333313
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Controls
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: -2}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .333333313
+        value: {x: 0, y: 0, z: -2}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: 
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: -3.00000024, y: -3.00000024, z: 0}
+        outSlope: {x: -3.00000024, y: -3.00000024, z: 0}
+        tangentMode: -559038737
+      - time: .333333313
+        value: {x: 0, y: 0, z: 1}
+        inSlope: {x: -3.00000024, y: -3.00000024, z: 0}
+        outSlope: {x: -0, y: -0, z: 0}
+        tangentMode: -559038737
+      - time: .75
+        value: {x: 0, y: 0, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Controls
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .266666681
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .516666651
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e03
+    path: Controls/Grid/03 Sound Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .266666681
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .516666651
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e03
+    path: Controls/Grid/04 Music Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e03
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3.00000024
+        outSlope: -3.00000024
+        tangentMode: 10
+      - time: .333333313
+        value: 0
+        inSlope: -3.00000024
+        outSlope: -3.00000024
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: Background
+    classID: 114
+    script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 512
+        inSlope: -1919.99988
+        outSlope: -1919.99988
+        tangentMode: 10
+      - time: .266666681
+        value: 0
+        inSlope: -959.999939
+        outSlope: -959.999939
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 19840.0566
+        outSlope: 19840.0566
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e00
+    path: Controls/Grid/03 Sound Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 512
+        inSlope: -1919.99988
+        outSlope: -1919.99988
+        tangentMode: 10
+      - time: .266666681
+        value: 0
+        inSlope: -959.999939
+        outSlope: -959.999939
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 19840.0566
+        outSlope: 19840.0566
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e00
+    path: Controls/Grid/04 Music Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333343
+        value: 0
+        inSlope: 39680.1133
+        outSlope: 39680.1133
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e11
+    path: Controls/Grid/03 Sound Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333343
+        value: 0
+        inSlope: 39680.1133
+        outSlope: 39680.1133
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e11
+    path: Controls/Grid/04 Music Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Controls
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 8.42943573e-20
+        outSlope: -1.99903774
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Controls
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 8.42943573e-20
+        outSlope: -1.99903774
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Controls
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333313
+        value: 0
+        inSlope: -1.99850368
+        outSlope: -1.99850368
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333313
+        value: -2
+        inSlope: -1.99850368
+        outSlope: -1.99850368
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .266666681
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .516666651
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: -11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e03
+    path: Controls/Grid/03 Sound Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .266666681
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .516666651
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: -33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e03
+    path: Controls/Grid/04 Music Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e03
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3.00000024
+        outSlope: -3.00000024
+        tangentMode: 10
+      - time: .333333313
+        value: 0
+        inSlope: -3.00000024
+        outSlope: -3.00000024
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: Background
+    classID: 114
+    script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3.00000024
+        outSlope: -3.00000024
+        tangentMode: 10
+      - time: .333333313
+        value: 0
+        inSlope: -3.00000024
+        outSlope: -0
+        tangentMode: 21
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: Controls
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3.00000024
+        outSlope: -3.00000024
+        tangentMode: 10
+      - time: .333333313
+        value: 0
+        inSlope: -3.00000024
+        outSlope: -0
+        tangentMode: 21
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: Controls
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333313
+        value: 1
+        inSlope: -1.99850368
+        outSlope: -1.99850368
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: Controls
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 512
+        inSlope: -1919.99988
+        outSlope: -1919.99988
+        tangentMode: 10
+      - time: .266666681
+        value: 0
+        inSlope: -959.999939
+        outSlope: -959.999939
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 19840.0566
+        outSlope: 19840.0566
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e00
+    path: Controls/Grid/03 Sound Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 512
+        inSlope: -1919.99988
+        outSlope: -1919.99988
+        tangentMode: 10
+      - time: .266666681
+        value: 0
+        inSlope: -959.999939
+        outSlope: -959.999939
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 19840.0566
+        outSlope: 19840.0566
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e00
+    path: Controls/Grid/04 Music Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333343
+        value: 0
+        inSlope: 39680.1133
+        outSlope: 39680.1133
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e11
+    path: Controls/Grid/03 Sound Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .333333343
+        value: 0
+        inSlope: 39680.1133
+        outSlope: 39680.1133
+        tangentMode: 10
+      - time: .466666669
+        value: 5290.68164
+        inSlope: 99200.5781
+        outSlope: 99200.5781
+        tangentMode: 10
+      - time: .483333319
+        value: 7936.02979
+        inSlope: -158720.156
+        outSlope: -158720.156
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -238080.688
+        outSlope: -238080.688
+        tangentMode: 10
+      - time: .516666651
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldToLocal.e11
+    path: Controls/Grid/04 Music Button
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_EulerEditorCurves: []
+  m_Events: []

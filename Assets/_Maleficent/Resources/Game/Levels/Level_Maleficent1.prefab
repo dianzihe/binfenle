@@ -1321,9 +1321,11 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300018}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100040
@@ -1468,9 +1470,11 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300010}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100044
@@ -1867,9 +1871,11 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300018}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100056
@@ -2014,9 +2020,11 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   matchesLimit: 0
-  backModel: {fileID: 0}
+  backModel: {fileID: 2300022}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100060
@@ -2445,7 +2453,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300010}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100072
@@ -2592,7 +2602,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300012}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100076
@@ -3006,7 +3018,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300014}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100088
@@ -3153,7 +3167,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300016}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100092
@@ -4642,7 +4658,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300016}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100136
@@ -4789,7 +4807,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300018}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100140
@@ -4985,7 +5005,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300020}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100146
@@ -5132,7 +5154,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300022}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100150
@@ -5279,7 +5303,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300024}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100154
@@ -5426,7 +5452,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300026}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100158
@@ -5573,7 +5601,9 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300028}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &100162
@@ -5720,6 +5750,8 @@ MonoBehaviour:
   matchesLimit: 0
   backModel: {fileID: 2300030}
   points: 1000
-  stagesMaterials: []
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: a89e0183854204338801ee7c0e036f91, type: 2}
   beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
   beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
