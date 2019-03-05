@@ -3237,7 +3237,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3000
+  startingRenderQueue: 3001
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -7935,7 +7935,6 @@ GameObject:
   - component: {fileID: 908082254}
   - component: {fileID: 908082253}
   - component: {fileID: 908082252}
-  - component: {fileID: 908082256}
   - component: {fileID: 908082251}
   m_Layer: 13
   m_Name: CharacterCameraLandscape
@@ -8042,23 +8041,6 @@ Transform:
   m_Father: {fileID: 1912063132}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &908082256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908082250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 599290af2e269ec4499e095d03b37493, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  offset: 0
-  leftLimit: {x: 0, y: 0}
-  rightLimit: {x: 0, y: 0}
-  testAngle: 0
 --- !u!1001 &926750703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10125,7 +10107,7 @@ Transform:
   m_GameObject: {fileID: 1558411365}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.00625, y: 0.00625, z: 0.00625}
+  m_LocalScale: {x: 0.0036429872, y: 0.0036429872, z: 0.0036429872}
   m_Children:
   - {fileID: 1081719452}
   m_Father: {fileID: 0}
@@ -10191,7 +10173,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3000
+  startingRenderQueue: 3001
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0

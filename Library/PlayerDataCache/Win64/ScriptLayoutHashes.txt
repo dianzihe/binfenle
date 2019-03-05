@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/Home.unity
 SceneListEnd?
@@ -48,6 +48,7 @@ a99b59d27d911423ed976291aea0f77f Assembly-CSharp.dll:.UIButtonScale
 382e6d9dcbe28043fff7362d60dacc46 Assembly-CSharp.dll:.LoseTimer
 39d540f3ca9be7720d821610adc88e2d Assembly-CSharp.dll:.OrientationListener
 ba91b21ef24778da55f5f0fd0e9e3509 Assembly-CSharp.dll:.TileDestroyEffect
+d3d4896b5f932e70d2ae38019557311a Assembly-CSharp.dll:.RenderBufferSize
 d7eb5423d443dd019c0473f0450a1f00 Assembly-CSharp.dll:.TweenScale
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmazonBurstlyBinding
 73b5bfb772a2ba237fd7c1e14f5f2f22 Assembly-CSharp.dll:.TweenColor
@@ -138,8 +139,11 @@ dbd4de5b28444cf2e259c5714e57bcfa Assembly-CSharp.dll:.DestroyFrostLabel
 c3361a535659aef250ba37e70d1f5e83 Assembly-CSharp.dll:.MusicBlock
 09cb269af205e45d8a8b2b846a873367 Assembly-CSharp.dll:.WindowAutoYaw
 b6274313cd299edac124b98e254fa293 Assembly-CSharp.dll:.IntroAnim
+29bcc1d179c7e6157dee1d396664c61f Assembly-CSharp.dll:.PauseAnim
+9ec51e0c841212f206b465137731507b Assembly-CSharp.dll:.TextStyleManager
 90b191986c1e24af87d5dc973b0d2a11 Assembly-CSharp.dll:.WinScore
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LivesSystem
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.IgnoreFontTranslations
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -179,6 +183,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 fe55ad413aaff46c91b516a43b752510 Assembly-CSharp-firstpass.dll:.TBHoverChangeScale
 3882922ca0f91a771970d0ec6d5cc006 Assembly-CSharp.dll:.TweenAlpha
 00d9f714270df1d7e9b628227136d26d Assembly-CSharp.dll:.AnimatedWidget
+bb14cdb6d060993fcaa9b72c83b67eca Assembly-CSharp.dll:.IgnoreForRenderToTexture
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 2acfcdc99c7b09d97d193f5315c49769 Assembly-CSharp.dll:.UILabel
 28bf1153305871a1b9794f7e24f750b6 Assembly-CSharp.dll:.HorizontalFOVCamera
@@ -221,6 +226,7 @@ f84c5c925d0bf978838be693611c0f4a Assembly-CSharp.dll:.ScenesController
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UISoundVolume
 2bb6392c9e8ecfd3157a38a7f7af8309 Assembly-CSharp.dll:.HOTweenDemoBrain
 3882922ca0f91a771970d0ec6d5cc006 Assembly-CSharp.dll:.TweenFOV
+22493542fea62a45d45d76e1efd17ea3 Assembly-CSharp.dll:.LocalizedToggle
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LevelIndexLabel
 00fe22251866b55c79b945eefd0d12c8 Assembly-CSharp.dll:.UIPlayAnimation
 218a8101db24f71ae4b21e3c0e33891b Assembly-CSharp.dll:.DownloadTexture
@@ -239,6 +245,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 b7981929821abd132370246ec4d57571 Assembly-CSharp.dll:.PropertyBinding
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ResourceDisplayer
 14a71b262db23785deef59b9660eb41c Assembly-CSharp.dll:.LagRotation
+1f2d531245e3c5c89ffc5704c1d085d9 Assembly-CSharp.dll:.CameraOffset
 1dfb225149e66dddbb8c8187a3128d34 Assembly-CSharp.dll:.TweenLetters
 dbdccb0e98ff1830d47bcd6083bc7b08 Assembly-CSharp-firstpass.dll:.ScreenRaycaster
 1edda90bd56ec046791e104758f27481 Assembly-CSharp.dll:.UIToggle
@@ -369,6 +376,7 @@ fe8129d778628d5ac8f99788590a84b6 Assembly-CSharp-firstpass.dll:.PointCloudGestur
 914a4ea75ef00cb6543d20c55c7a476e Assembly-CSharp.dll:.LookAtTarget
 df3eadb13df19952988f70b2af13f14d Assembly-CSharp-firstpass.dll:.TBDragToMove
 6aed80ce73ce8e49bb8b9531cb34e90e Assembly-CSharp.dll:.UIAtlas
+a49e47be150de5bd9a0f6912c049a7e2 Assembly-CSharp.dll:.TextStyle
 a99b59d27d911423ed976291aea0f77f Assembly-CSharp.dll:.UIButtonRotation
 be659d314c072d29e5800e563263325b Assembly-CSharp.dll:.PossibleMatchesController
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
@@ -376,6 +384,7 @@ f8cc0c63272c9086d64b25955eba0720 Assembly-CSharp.dll:.Match3BoardPiece
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 479a2f2678b1c854a552057391642d36 Assembly-CSharp.dll:.ScaleUpByDpi
 9e91e872c10e8312d0de8b4654683f9e Assembly-CSharp.dll:.UIWrapContent
+d101b7ca7c4ee2c68755ed62a02d5459 Assembly-CSharp.dll:.QualityDisabler
 a99b59d27d911423ed976291aea0f77f Assembly-CSharp.dll:.UIButtonOffset
 e06aa123242209769e8a06c82ae0cdce Assembly-CSharp.dll:.TargetScoreLabel
 bd6729f3ac620f14dd64a223a7fe983f Assembly-CSharp.dll:.WindowDragTilt
@@ -390,6 +399,7 @@ b0183d25c0c9c9406e8c9c95ff8fcb18 Assembly-CSharp.dll:.BoardPieceTouchController
 b29f3b546c4c8daaf864491e6c89a3ec Assembly-CSharp.dll:.UIKeyNavigation
 b3ed03d302c29cd0147d66a8975759b7 Assembly-CSharp.dll:.UIButtonKeys
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.EndLabel
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.OpenLinkButton
 fb099559c2ace725dcbe00e3af632ba5 Assembly-CSharp.dll:.UIToggledObjects
 ce81001563bf27e3e2e4cf1faa2b2e48 Assembly-CSharp.dll:.UIEventListener
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.InvEquipment
@@ -445,13 +455,3 @@ e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RealTime
-d3d4896b5f932e70d2ae38019557311a Assembly-CSharp.dll:.RenderBufferSize
-29bcc1d179c7e6157dee1d396664c61f Assembly-CSharp.dll:.PauseAnim
-9ec51e0c841212f206b465137731507b Assembly-CSharp.dll:.TextStyleManager
-1f2d531245e3c5c89ffc5704c1d085d9 Assembly-CSharp.dll:.CameraOffset
-a49e47be150de5bd9a0f6912c049a7e2 Assembly-CSharp.dll:.TextStyle
-d101b7ca7c4ee2c68755ed62a02d5459 Assembly-CSharp.dll:.QualityDisabler
-bb14cdb6d060993fcaa9b72c83b67eca Assembly-CSharp.dll:.IgnoreForRenderToTexture
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.IgnoreFontTranslations
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.OpenLinkButton
-22493542fea62a45d45d76e1efd17ea3 Assembly-CSharp.dll:.LocalizedToggle
