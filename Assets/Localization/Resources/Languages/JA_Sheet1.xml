@@ -1,0 +1,590 @@
+<entries>
+<entry name="HOW_TO_PLAY">遊び方</entry>
+<entry name="TUTORIAL_GLACIER">5個を1列にマッチさせて
+マジックカラーパワーアップを作ろう！
+このパワーアップを使うと
+同じ色の結晶が全て壊れます。</entry>
+<entry name="PURCHASE">購入</entry>
+<entry name="PRICE_BUY">手に入れよう！</entry>
+<entry name="CONNECT_REWARD">インターネット接続が必要です。</entry>
+<entry name="MANA_PACK_5_NAME">大がま</entry>
+<entry name="HELP_OBJECTIVES">各ステージのゴールと目標スコアをクリアして、
+物語を進めながら
+新たなステージをアンロックしよう！</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">マレフィセント
+Free Fall</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">チェーンをすべて壊して
+ステージをクリアしよう</entry>
+<entry name="ABOUT_DEVELOPER">開発：</entry>
+<entry name="ENDING_BUTTON">最高！</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">すべてのタイルを光らせることができませんでした</entry>
+<entry name="APP_RATE_MESSAGE">「マレフィセント Free Fall」を
+お楽しみいただけましたら、
+ぜひ評価をお願いします。</entry>
+<entry name="PRICE_CANCEL">キャンセル</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">やったね！
+いばらのパワーアップを
+アンロック！</entry>
+<entry name="APP_RATE_TITLE">「マレフィセント Free Fall」を評価する</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">スペシャルアイテムを
+ボードの一番下まで落とそう。</entry>
+<entry name="TUTORIAL_COMBINE">2つのパワーアップを組み合わせると
+強力な効果が発生します。
+この2つの宝石のパワーアップで
+試してみましょう！</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">シールドをすべて壊そう</entry>
+<entry name="STORE_WAITING_TEXT">ストアをロード中…</entry>
+<entry name="ABOUT_VERSION">Version 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">スペシャルアイテムを
+ボードの一番下まで落とそう。</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">すべてのいばらを育てて
+ステージをクリアしよう</entry>
+<entry name="NO_MORE_MOVES">これ以上動かせない</entry>
+<entry name="TUTORIAL_SOLDIERS_3">彼らが上まで来て
+いばらの壁を焼き払う前に
+倒しましょう！</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">ウェブサイト： 
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">アプリ内課金　免責条項</entry>
+<entry name="LINK_CONFIRMATION">ゲームを終了して
+リンクを開きますか？</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">すべてのいばらを育てよう！</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">アイテムを落とそう</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">特定の色のタイルを
+ビンの上に置いて
+ビンを満たそう！</entry>
+<entry name="LOSE_SHIELD">すべてのシールドを
+壊せませんでした。</entry>
+<entry name="MANA_WON">魔力：</entry>
+<entry name="LEVEL_COMPANION">仲間</entry>
+<entry name="STORE_DISABLED_TITLE">無効</entry>
+<entry name="MANA_PACK_4_NAME">細首大ビンのセット</entry>
+<entry name="CROW_POWER_UP">オオガラス</entry>
+<entry name="RESUME">再開</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">残りのボードを光らせて
+ステージをクリアしよう！</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">兵士たちがいばらの壁を
+焼き払う前に倒しましょう。</entry>
+<entry name="END_SHORT_WIN_GOOD">最高！</entry>
+<entry name="CONGRATULATIONS">おめでとう！</entry>
+<entry name="FINISH_GAME_TITLE">すばらしい！</entry>
+<entry name="WING_WIND_UNLOCK_KEY">やったね！
+翼の風のパワーアップを
+アンロック！</entry>
+<entry name="RESET_PROGRESS">リセット</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">ライフがいっぱいになりました！またプレイしましょう！</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">やったね！
+オオカミのパワーアップを
+アンロック！</entry>
+<entry name="TUTORIAL_CROW_2ND">新しいオオガラスの
+パワーアップを選択！</entry>
+<entry name="GREEN_MAGIC_POWER_UP">緑の魔法</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">黄色の魔法</entry>
+<entry name="HELP_MULTIPLIER">ヒント：目標スコアに
+なかなか届かない？
+すばやくマッチさせて
+得点を倍にしよう！</entry>
+<entry name="NEXT_LIFE">次のライフまで：</entry>
+<entry name="TUTORIAL_WIND">翼の風のパワーアップは
+強風を巻き起こしてタイルを
+ランダムに壊します。</entry>
+<entry name="APP_RATE_BUTTON_NEVER">評価しない</entry>
+<entry name="TUTORIAL_ICEBERG">色を「T」または「L」の形にマッチ
+させて宝石のパワーアップを
+作ろう！宝石のパワーアップは周囲の
+タイルをすべて壊します。</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">秒</entry>
+<entry name="FINISH_GAME_MESSAGE">全ステージをクリア！
+新しいステージは
+もうすぐ登場予定！</entry>
+<entry name="ABOUT_PRIVACY_POLICY">プライバシーポリシー</entry>
+<entry name="MORE_FREE">さらに&lt;percentage&gt;無料！</entry>
+<entry name="CROW_SWIPE_POWER_UP">オオガラス</entry>
+<entry name="GAME_TIME">タイム</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">シールドをすべて壊そう</entry>
+<entry name="RETRY">リトライ</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">シールドをすべて壊して
+ステージをクリアしよう。</entry>
+<entry name="OFF">オフ</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">ターゲットのタイルを壊す</entry>
+<entry name="FINISH_GAME_BUTTON">最高！</entry>
+<entry name="LEVEL_NAME">ステージ</entry>
+<entry name="SALE">セール</entry>
+<entry name="MANA_PACK_3_NAME">細首大ビン</entry>
+<entry name="CONNECT_FAILED">サーバーに
+接続失敗</entry>
+<entry name="STORE_FAILED_TITLE">失敗</entry>
+<entry name="GAME_OBJECTIVE_SCORE">ムーブがなくなる前に
+目標スコアを達成しよう！</entry>
+<entry name="MENU_PLAY">プレイ</entry>
+<entry name="ENDING_MESSAGE">全ステージをクリア！
+新しいステージはもうすぐ登場予定！</entry>
+<entry name="TUTORIAL_OBJECTIVE">ボード上で光らせる
+タイルの残り枚数は
+ここに表示されます。</entry>
+<entry name="ABOUT_TERMS_OF_USE">利用規約</entry>
+<entry name="PLAY_AGAIN">リトライ</entry>
+<entry name="LOSE_SCORE">目標スコアを達成
+できませんでした</entry>
+<entry name="MAP_OBJECTIVE_EATER">ビンをいっぱいにしよう</entry>
+<entry name="STORE_PURCHASED_TEXT">購入が完了しました。</entry>
+<entry name="HELP_MAGIC">魔力はスターの獲得や
+レベルのリプレイで
+いつでも獲得できます</entry>
+<entry name="HELP_COMBOS">特別なパワーアップを
+組み合わせて強力な
+効果を発動させよう！</entry>
+<entry name="TUTORIAL_MATCH_3">宝石をスワイプして
+同じ色の宝石を3個マッチさせよう。</entry>
+<entry name="TUTORIAL_STAFF">杖のパワーアップを選択し、
+ボード上をスワイプして
+タイルを壊しましょう。</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">やったね！
+杖のパワーアップを
+アンロック！</entry>
+<entry name="NO">いいえ</entry>
+<entry name="EXIT">ゲームを終了</entry>
+<entry name="HELP_MATCH">タイルをタッチしてスライドさせましょう。
+同じ色を3枚マッチさせると壊すことができます。</entry>
+<entry name="WIND_POWER_UP">翼の風</entry>
+<entry name="GOOD_PACK">お買い得</entry>
+<entry name="LOSE_TARGET_TILES">指定された数のタイルを
+壊せませんでした。</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">いばらの芽の隣にマッチを
+作って育てていこう！</entry>
+<entry name="MANA_PACK_2_NAME">たくさんのビン</entry>
+<entry name="ON">オン</entry>
+<entry name="MANA_PACK_GET_POINTS">魔力&lt;points&gt;ポイント</entry>
+<entry name="YES">はい</entry>
+<entry name="LOSE_TIME">時間切れ！</entry>
+<entry name="LEVEL_OBJECTIVE">目標：</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">魔力追加</entry>
+<entry name="TUTORIAL_FREE_MANA">魔力&lt;points&gt;ポイントをプレゼント！
+自由にお使いください！</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">購入に失敗しました。
+ネットワークの設定を
+確認して、もう一度
+試してみてください。</entry>
+<entry name="TUTORIAL_TAP">画面をタップすると、
+チュートリアルを
+スキップできます。</entry>
+<entry name="END_SHORT_LOSE">残念！</entry>
+<entry name="BEST_PACK">超お得</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">後で</entry>
+<entry name="LIFE_LOST">ライフを1つ失った</entry>
+<entry name="TUTORIAL_SOLDIERS_1">兵士の近くにマッチを作って
+倒しましょう。</entry>
+<entry name="PURCHASES_WARNING">「マレフィセント Free Fall」で
+追加コンテンツを購入する際は
+実際の支払いが発生し、
+登録されたiTunesアカウントに
+課金されます。デバイスの
+設定によりアプリ内課金を
+無効にすることもできます。</entry>
+<entry name="STORE_DISABLED_TEXT">アプリ内課金をご利用
+いただけません。デバイスの
+設定をご確認の上、もう一度
+試してみてください。</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">できるだけたくさんのいばらを育てて
+ステージをクリアしよう。</entry>
+<entry name="HOME">ホーム</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">やったね！
+黄色の魔法のパワーアップを
+アンロック！</entry>
+<entry name="EXIT_CONFIRMATION">ゲームを終了しますか？</entry>
+<entry name="TUTORIAL_MANA">パワーアップの使用には
+魔力が必要な場合があります。 
+でもステージをクリアすることで魔力を
+獲得できるので心配はいりません。</entry>
+<entry name="CREDITS">クレジット</entry>
+<entry name="HOW_TO_PLAY_TITLE">遊び方</entry>
+<entry name="LOSE_SOLDIERS">いばらの壁は焼かれてしまいました。</entry>
+<entry name="LOSE_LOCKED_TILES">チェーンをすべて壊すことができませんでした</entry>
+<entry name="SOUND">SFX：</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">次は残りのビンを
+いっぱいにすると
+ステージがクリアできる！</entry>
+<entry name="HELP_FUN">やってみよう！</entry>
+<entry name="MUSIC">BGM：</entry>
+<entry name="LOSE_MOVES">もうムーブがない！</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">シールドの隣にマッチを作って
+シールドを壊してみましょう。</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">チェーンをすべて壊そう</entry>
+<entry name="END_SHORT_WIN_GREAT">すばらしい！</entry>
+<entry name="HELP_COLOR_BOMB">5個を1列＝マジックカラーのパワーアップ</entry>
+<entry name="TUTORIAL_GROWING_THORNS">いばらのパワーアップを
+タップし、8枚の連結した
+タイルを選択して壊しましょう。</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">チェーンは下の宝石と同じ色の
+宝石をマッチさせると破壊できます。</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">ビンのセット</entry>
+<entry name="TUTORIAL_CROW">オオガラスのパワーアップを選択し、
+タイルを選んで壊そう！</entry>
+<entry name="TUTORIAL_WINTERCHILL">4個を1列にマッチさせて
+宝石のパワーアップを作ろう！
+宝石のパワーアップで
+進行方向のタイルを全て壊せます。</entry>
+<entry name="STORE_PURCHASED_TITLE">成功</entry>
+<entry name="END_SHORT_WIN">すごい</entry>
+<entry name="LOSE_SOLDIERS_TARGET">いばらの壁は焼かれてしまいました。</entry>
+<entry name="CROW2ND_UNLOCK_KEY">やったね！
+新しいオオガラスのパワーアップを
+アンロック！</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">タイルをスワイプして
+ボードを光らせよう！</entry>
+<entry name="LOSE_GROW_TARGETS">すべてのいばらを育てられませんでした</entry>
+<entry name="GROWING_THORNS_POWER_UP">いばら</entry>
+<entry name="HELP_BOMB">5個をTまたはL字形＝バクダンのパワーアップ</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">黄色の魔法で5ムーブ追加しよう。</entry>
+<entry name="LEVEL_TARGET">目標：</entry>
+<entry name="BOOK_CHAPTER5">Chapter V</entry>
+<entry name="LIVES_PACK_NAME">ライフ</entry>
+<entry name="STORE_WAITING_TITLE">ロード中</entry>
+<entry name="HELP_SPECIALS">4枚か5枚のタイルを色んな形にして
+様々な宝石のパワーアップを作ろう！</entry>
+<entry name="TUTORIAL_MULTIPLIER">ヒント：目標スコアに
+なかなか届かない？
+すばやくマッチさせて
+得点を倍にしよう！</entry>
+<entry name="WIN_SHORT_FREE_FALL">FREE FALL！</entry>
+<entry name="ABOUT">ｹﾞｰﾑについて</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">やったね！
+緑の魔法の
+パワーアップをアンロック！</entry>
+<entry name="BASIC_PACK">基本パック</entry>
+<entry name="TUTORIAL_MANA_BALL">魔法のボールをタップすると、
+マレフィセントのアビリティを
+すべて見ることができます。</entry>
+<entry name="RESHUFFLE_MESSAGE">これ以上動かせない</entry>
+<entry name="THE_STAFF_POWER_UP">杖</entry>
+<entry name="LOST_LIFE">ライフを
+1つ失った</entry>
+<entry name="TUTORIAL_WC_LOCKED">チェーンをすべて壊してステージクリア！</entry>
+<entry name="BEST">ベスト</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">緑の魔法のパワーアップを選択し、
+宝石を選んで同じ色の
+宝石をすべて壊しましょう。</entry>
+<entry name="TUTORIAL_SOLDIERS_2">兵士を倒せなかった場合、
+倒せなかったムーブごとに
+兵士が1列上に移動します。</entry>
+<entry name="LOSE_DROP_TILES">すべてのスペシャルアイテムを
+ボードの下まで落せませんでした</entry>
+<entry name="BOOK_CHAPTER1">Chapter I</entry>
+<entry name="BOOK_CHAPTER2">Chapter II</entry>
+<entry name="BOOK_CHAPTER3">Chapter III</entry>
+<entry name="BOOK_CHAPTER4">Chapter IV</entry>
+<entry name="FOR_PRICE">&lt;price&gt;で</entry>
+<entry name="BOOK_CHAPTER6">Chapter VI</entry>
+<entry name="BOOK_CHAPTER7">Chapter VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">目標スコア</entry>
+<entry name="CONTINUE">続ける</entry>
+<entry name="MANA_PACK_0_NAME">ビン</entry>
+<entry name="NEXT_LEVEL">次のステージ！</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">次に宝石を2つ選んで場所を
+入れ替えてみましょう。</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4個を1列＝方向宝石のパワーアップ</entry>
+<entry name="SCORE_SEPARATOR">,</entry>
+<entry name="BUY_ITEMS">アイテムを購入</entry>
+<entry name="ENDING_CONGRATULATIONS">すばらしい！</entry>
+<entry name="LOSE_CONTINUE_MOVES">黄色の魔法1個で5ムーブ追加して
+このステージを続ける？</entry>
+<entry name="APP_RATE_BUTTON_RATE">このアプリを評価する</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">指定された数のタイルを壊そう</entry>
+<entry name="LEVEL_TARGET_SCORE">目標スコア：</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">ボードを光らせよう</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">ボードを光らせて
+ステージをクリアしよう。</entry>
+<entry name="CONNECT_RECEIVED">すでに今日のボーナスは
+受け取っています。</entry>
+<entry name="GAME_OBJECTIVE_EATER">すべてのビンを指定された色で満たして
+ステージをクリアしよう</entry>
+<entry name="LOADING">ロード中…</entry>
+<entry name="TUTORIAL_WOLF_HOWL">オオカミを選択して
+ボード上のジェムをすべて
+シャッフルしましょう。</entry>
+<entry name="GAME_SCORE">スコア</entry>
+<entry name="CONNECT_SERVER">サーバーに
+接続中</entry>
+<entry name="OUT_OF_LIVES">ライフ追加</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">カスタマーサポート</entry>
+<entry name="CROW_UNLOCK_KEY">やったね！
+オオガラスのパワーアップを
+アンロック！</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">兵士を倒そう</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">「マレフィセント Free Fall」をプレイ</entry>
+<entry name="RESET_CONFIRMATION">ゲームをリセットしますか？</entry>
+<entry name="LOSE_EATER">すべてのビンを
+いっぱいにできませんでした。</entry>
+<entry name="GAME_MOVES">ムーブ</entry>
+</entries>

@@ -1,0 +1,572 @@
+<entries>
+<entry name="HOW_TO_PLAY">Como jogar</entry>
+<entry name="TUTORIAL_GLACIER">Combine 5 cores de uma vez para
+criar um Poder de Magia Colorida! Combine-o
+com qualquer Joia para quebrar
+todas as Joias da mesma cor.</entry>
+<entry name="PURCHASE">Comprar</entry>
+<entry name="PRICE_BUY">Obtenha agora!</entry>
+<entry name="CONNECT_REWARD">Você precisa de internet</entry>
+<entry name="MANA_PACK_5_NAME">Caldeirão</entry>
+<entry name="HELP_OBJECTIVES">Complete o objetivo de
+cada nível e alcance a
+pontuação alvo para
+avançar na história e
+desbloquear novos níveis.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">Malévola
+Free Fall</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">Quebre todas as
+peças Corrente para
+completar o nível.</entry>
+<entry name="ABOUT_DEVELOPER">Desenvolvido por</entry>
+<entry name="ENDING_BUTTON">Sensacional!</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">Você não acendeu todas as peças.</entry>
+<entry name="APP_RATE_MESSAGE">Se você está gostando de Malévola Free Fall,
+reserve um momento para avaliá-lo.</entry>
+<entry name="PRICE_CANCEL">Cancelar</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">Parabéns! Você
+desbloqueou o Poder Espinhos Crescentes!</entry>
+<entry name="APP_RATE_TITLE">Avalie Malévola Free Fall</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">Derrube os itens especiais para o fundo do tabuleiro.</entry>
+<entry name="TUTORIAL_COMBINE">Combine dois Poderes
+para criar um efeito mais
+poderoso. Experimente
+com esses 2 Poderes Joia!</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">QUEBRE TODOS OS ESCUDOS</entry>
+<entry name="STORE_WAITING_TEXT">Aguardando a loja...</entry>
+<entry name="ABOUT_VERSION">Versão 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">Derrube os itens
+especiais para o
+fundo do tabuleiro.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">Cultive todos os Espinhos
+para completar o nível.</entry>
+<entry name="NO_MORE_MOVES">Não há mais movimentos possíveis</entry>
+<entry name="TUTORIAL_SOLDIERS_3">Destrua-os antes que
+eles alcancem o topo e
+queimem a parede de espinhos!</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">Visite-nos em:
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">Aviso Legal IAP</entry>
+<entry name="LINK_CONFIRMATION">Abrir o link e
+sair do jogo?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">CULTIVE TODOS OS ALVOS!</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">Baixe os itens</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">Coloque a peça de cor específica no topo da garrafa para enchê-la!</entry>
+<entry name="LOSE_SHIELD">Você não quebrou todos os Escudos.</entry>
+<entry name="MANA_WON">Magia:</entry>
+<entry name="LEVEL_COMPANION">Seu parceiro</entry>
+<entry name="STORE_DISABLED_TITLE">Desativado</entry>
+<entry name="MANA_PACK_4_NAME">Conjunto de Garrafões</entry>
+<entry name="CROW_POWER_UP">Corvo</entry>
+<entry name="RESUME">Retomar</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">Agora acenda o resto
+do tabuleiro para
+completar o nível!</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">Destrua os soldados antes
+que queimem a parede de espinhos.</entry>
+<entry name="END_SHORT_WIN_GOOD">Excelente!</entry>
+<entry name="CONGRATULATIONS">Parabéns!</entry>
+<entry name="FINISH_GAME_TITLE">Incrível!</entry>
+<entry name="WING_WIND_UNLOCK_KEY">Parabéns! Você
+desbloqueou o Poder Asa de Vento!</entry>
+<entry name="RESET_PROGRESS">Resetar</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">Volte e JOGUE! Você está com as vidas completas!</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">Parabéns!
+Você desbloqueou
+o Poder Lobo!</entry>
+<entry name="TUTORIAL_CROW_2ND">Selecione o novo Poder Corvo!</entry>
+<entry name="GREEN_MAGIC_POWER_UP">Magia Verde</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">Magia Amarela</entry>
+<entry name="HELP_MULTIPLIER">DICA: Com problemas
+para alcançar a
+pontuação alvo?
+Faça combinações
+rapidamente
+para obter
+multiplicadores.</entry>
+<entry name="NEXT_LIFE">Próxima vida em:</entry>
+<entry name="TUTORIAL_WIND">Agora selecione o Poder
+Asa de Vento para criar um poderoso
+vento que quebra peças aleatórias.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">Nunca avaliar</entry>
+<entry name="TUTORIAL_ICEBERG">Combine cores em formato de
+&quot;T&quot; ou &quot;L&quot; para criar um Poder Joia!
+Combine-o de novo para quebrar todas
+as peças ao seu redor.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">Segundos</entry>
+<entry name="FINISH_GAME_MESSAGE">Você terminou todos os níveis!
+Novos níveis chegando EM BREVE!</entry>
+<entry name="ABOUT_PRIVACY_POLICY">Política de priv.</entry>
+<entry name="MORE_FREE">&lt;percentage&gt; Mais
+Grátis!</entry>
+<entry name="CROW_SWIPE_POWER_UP">Corvo</entry>
+<entry name="GAME_TIME">Tempo</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">Quebre todos os Escudos!</entry>
+<entry name="RETRY">Repetir nível</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">Quebre todos os Escudos para completar o nível.</entry>
+<entry name="OFF">Não</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">Quebrar os
+ladrilhos alvo</entry>
+<entry name="FINISH_GAME_BUTTON">Sensacional!</entry>
+<entry name="LEVEL_NAME">Nível</entry>
+<entry name="SALE">PROMOÇÃO</entry>
+<entry name="MANA_PACK_3_NAME">Garrafão</entry>
+<entry name="CONNECT_FAILED">Conexão com o
+servidor falhou</entry>
+<entry name="STORE_FAILED_TITLE">Falha</entry>
+<entry name="GAME_OBJECTIVE_SCORE">Alcance os pontos
+alvo antes de 
+ficar sem JOGADAS!</entry>
+<entry name="MENU_PLAY">Jogar</entry>
+<entry name="ENDING_MESSAGE">Você terminou todos os níveis!
+Novos níveis chegando em breve!</entry>
+<entry name="TUTORIAL_OBJECTIVE">Aqui está o número de
+peças restantes que você
+tem para acender o tabuleiro.</entry>
+<entry name="ABOUT_TERMS_OF_USE">Termos de uso</entry>
+<entry name="PLAY_AGAIN">Jogar de novo</entry>
+<entry name="LOSE_SCORE">Você não alcançou
+os pontos alvo.</entry>
+<entry name="MAP_OBJECTIVE_EATER">ENCHA AS GARRAFAS</entry>
+<entry name="STORE_PURCHASED_TEXT">Parabéns, sua compra foi
+realizada com sucesso!</entry>
+<entry name="HELP_MAGIC">Você sempre pode receber pontos
+de magia obtendo estrelas
+e jogando níveis novamente</entry>
+<entry name="HELP_COMBOS">Combine Poderes especiais
+para liberar efeitos
+poderosos.</entry>
+<entry name="TUTORIAL_MATCH_3">Deslize a Joia para
+combinar 3 da mesma cor.</entry>
+<entry name="TUTORIAL_STAFF">Selecione o Poder Cajado, depois deslize pelo tabuleiro para quebrar peças.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">Parabéns! Você
+desbloqueou o Poder Cajado!</entry>
+<entry name="NO">Não</entry>
+<entry name="EXIT">Sair do jogo</entry>
+<entry name="HELP_MATCH">Toque em uma peça e
+deslize-a com seu dedo.
+Combine 3 peças da
+mesma cor para quebrá-las.</entry>
+<entry name="WIND_POWER_UP">Asa de Vento</entry>
+<entry name="GOOD_PACK">Boa oferta</entry>
+<entry name="LOSE_TARGET_TILES">Você não eliminou todas
+as peças necessárias.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">Faça uma combinação ao lado de um broto de Espinho para fazê-lo crescer!</entry>
+<entry name="MANA_PACK_2_NAME">Pacote de Jarros</entry>
+<entry name="ON">Sim</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; de MAGIA</entry>
+<entry name="YES">Sim</entry>
+<entry name="LOSE_TIME">Acabou o tempo!</entry>
+<entry name="LEVEL_OBJECTIVE">Objetivo:</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">Magia Extra</entry>
+<entry name="TUTORIAL_FREE_MANA">Pegue &lt;points&gt; de Magia 
+grátis para usar como quiser!</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">A compra falhou. Confira suas
+configurações de rede e tente
+novamente mais tarde.</entry>
+<entry name="TUTORIAL_TAP">Toque em qualquer lugar para
+pular este tutorial.</entry>
+<entry name="END_SHORT_LOSE">Que pena!</entry>
+<entry name="BEST_PACK">Melhor ofer.</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">Lembre-me depois</entry>
+<entry name="LIFE_LOST">Você perdeu uma Vida.</entry>
+<entry name="TUTORIAL_SOLDIERS_1">Faça uma combinação perto
+de um soldado para destruí-lo.</entry>
+<entry name="PURCHASES_WARNING">Conteúdo adicional pode ser comprado em Malévola Free Fall. A compra custa dinheiro real e será cobrada na sua conta iTunes. Você pode ajustar as configurações do seu dispositivo para bloquear as compras no aplicativo.</entry>
+<entry name="STORE_DISABLED_TEXT">Compras em aplicativos estão
+desativadas. Ative-as nas
+Configurações do dispositivo.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">Agora cultive todos os Espinhos o máximo possível para completar o nível.</entry>
+<entry name="HOME">Início</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">Parabéns! Você
+desbloqueou o Poder
+Magia Amarela!</entry>
+<entry name="EXIT_CONFIRMATION">Fechar aplicativo?</entry>
+<entry name="TUTORIAL_MANA">Usar um Poder pode custar 
+Magia. Mas não se preocupe, 
+você pode obter Magia 
+conforme jogar os níveis.</entry>
+<entry name="CREDITS">CRÉDITOS</entry>
+<entry name="HOW_TO_PLAY_TITLE">Como jogar</entry>
+<entry name="LOSE_SOLDIERS">Parede de espinhos queimada.</entry>
+<entry name="LOSE_LOCKED_TILES">Você não quebrou todas as peças Corrente.</entry>
+<entry name="SOUND">Som:</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">Agora encha o resto das garrafas
+para completar o nível!</entry>
+<entry name="HELP_FUN">Divirta-se!</entry>
+<entry name="MUSIC">Música:</entry>
+<entry name="LOSE_MOVES">Sem jogadas!</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">Faça uma combinação ao lado dos Escudos para quebrá-los.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">QUEBRE TODAS AS PEÇAS CORRENTE</entry>
+<entry name="END_SHORT_WIN_GREAT">Incrível!</entry>
+<entry name="HELP_COLOR_BOMB">5 em linha = Poder de Magia Colorida</entry>
+<entry name="TUTORIAL_GROWING_THORNS">Toque no Poder Espinhos Crescentes, depois selecione
+oito peças conectadas para destruí-las.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">A peça Corrente pode ser quebrada combinando a peça abaixo dela com 2 Joias da mesma cor.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">Conjunto de Jarros</entry>
+<entry name="TUTORIAL_CROW">Selecione o Poder Corvo, 
+depois selecione qualquer peça
+para quebrá-la!</entry>
+<entry name="TUTORIAL_WINTERCHILL">Combine 4 cores de uma vez
+para criar um Poder Joia!
+Combine-o de novo para quebrar todas as peças em seu caminho.</entry>
+<entry name="STORE_PURCHASED_TITLE">Sucesso</entry>
+<entry name="END_SHORT_WIN">Muito bem!</entry>
+<entry name="LOSE_SOLDIERS_TARGET">Parede de espinhos queimada</entry>
+<entry name="CROW2ND_UNLOCK_KEY">Parabéns! Você
+desbloqueou um novo Poder Corvo!</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">Deslize a peça para
+iluminar o tabuleiro!</entry>
+<entry name="LOSE_GROW_TARGETS">Você não cultivou todos os alvos.</entry>
+<entry name="GROWING_THORNS_POWER_UP">Espinhos Crescentes</entry>
+<entry name="HELP_BOMB">5 em T ou L = Poder Bomba</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">Use a Magia Amarela
+para adicionar mais 5 movimentos.</entry>
+<entry name="LEVEL_TARGET">Alvo:</entry>
+<entry name="BOOK_CHAPTER5">Capítulo V</entry>
+<entry name="LIVES_PACK_NAME">Vidas</entry>
+<entry name="STORE_WAITING_TITLE">Aguardando</entry>
+<entry name="HELP_SPECIALS">Combine 4 ou 5 peças
+em formas diferentes para
+criar Poderes Joia diferentes!</entry>
+<entry name="TUTORIAL_MULTIPLIER">DICA: Com problemas para alcançar a pontuação alvo?
+Faça combinações rapidamente para obter multiplicadores de pontuação.</entry>
+<entry name="WIN_SHORT_FREE_FALL">Free Fall!</entry>
+<entry name="ABOUT">Sobre</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">Parabéns! Você
+desbloqueou o Poder Magia Verde!</entry>
+<entry name="BASIC_PACK">Pacote base</entry>
+<entry name="TUTORIAL_MANA_BALL">Toque na Bola Mágica
+para exibir todos
+os Poderes da Malévola.</entry>
+<entry name="RESHUFFLE_MESSAGE">Não há mais movimentos</entry>
+<entry name="THE_STAFF_POWER_UP">Cajado</entry>
+<entry name="LOST_LIFE">Você perdeu uma Vida.</entry>
+<entry name="TUTORIAL_WC_LOCKED">Agora quebre todas as peças Corrente para completar o nível!</entry>
+<entry name="BEST">Melhor</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">Selecione o Poder Magia Verde, depois selecione qualquer Joia para quebrar todas as Joias da mesma cor.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">Cada movimento feito que
+um soldado não é destruído,
+eles sobem uma linha.</entry>
+<entry name="LOSE_DROP_TILES">Você não derrubou todos
+os itens especiais.</entry>
+<entry name="BOOK_CHAPTER1">Capítulo I</entry>
+<entry name="BOOK_CHAPTER2">Capítulo II</entry>
+<entry name="BOOK_CHAPTER3">Capítulo III</entry>
+<entry name="BOOK_CHAPTER4">Capítulo IV</entry>
+<entry name="FOR_PRICE">Por &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">Capítulo VI</entry>
+<entry name="BOOK_CHAPTER7">Capítulo VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">Pontos alvo</entry>
+<entry name="CONTINUE">Continuar</entry>
+<entry name="MANA_PACK_0_NAME">Jarro</entry>
+<entry name="NEXT_LEVEL">Próximo</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">Agora selecione 2 Joias
+para trocá-las.</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4 em linha = Poder Joia Direcional</entry>
+<entry name="SCORE_SEPARATOR">.</entry>
+<entry name="BUY_ITEMS">Tenha mais itens</entry>
+<entry name="ENDING_CONGRATULATIONS">Incrível!</entry>
+<entry name="LOSE_CONTINUE_MOVES">Usar Magia Amarela (+5 movimentos)
+para continuar esse nível?</entry>
+<entry name="APP_RATE_BUTTON_RATE">Avaliar aplicativo</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">Elimine todas as
+peças necessárias!</entry>
+<entry name="LEVEL_TARGET_SCORE">Pontos alvo:</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">ACENDA O TABULEIRO</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">Acenda o tabuleiro para completar o nível.</entry>
+<entry name="CONNECT_RECEIVED">Você já recebeu a
+recompensa de hoje.</entry>
+<entry name="GAME_OBJECTIVE_EATER">Encha todas as garrafas 
+com as cores corretas 
+para completar o nível.</entry>
+<entry name="LOADING">Carregando...</entry>
+<entry name="TUTORIAL_WOLF_HOWL">Selecione o Lobo
+para embaralhar todas
+as Joias no tabuleiro.</entry>
+<entry name="GAME_SCORE">Pontos</entry>
+<entry name="CONNECT_SERVER">Conectando
+ao servidor</entry>
+<entry name="OUT_OF_LIVES">Reabastecer vidas</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">Suporte</entry>
+<entry name="CROW_UNLOCK_KEY">Parabéns! Você
+desbloqueou Diaval, 
+o Poder Corvo!</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">DESTRUA OS SOLDADOS</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">Jogar Maleficent Free Fall</entry>
+<entry name="RESET_CONFIRMATION">Resetar todo o progresso?</entry>
+<entry name="LOSE_EATER">Você não encheu 
+todas as garrafas.</entry>
+<entry name="GAME_MOVES">Jogadas</entry>
+</entries>

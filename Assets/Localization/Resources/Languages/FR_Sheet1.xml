@@ -1,0 +1,563 @@
+<entries>
+<entry name="HOW_TO_PLAY">Instructions</entry>
+<entry name="TUTORIAL_GLACIER">5 associations d&apos;affilée créent un bonus Couleur magique ! Associe-le à une gemme pour détruire toutes les gemmes de même couleur.</entry>
+<entry name="PURCHASE">Acheter</entry>
+<entry name="PRICE_BUY">Télécharger !</entry>
+<entry name="CONNECT_REWARD">Connexion Internet
+req. pour recevoir ta
+récompense du jour.</entry>
+<entry name="MANA_PACK_5_NAME">Chaudron</entry>
+<entry name="HELP_OBJECTIVES">Accomplis l&apos;objectif de
+chaque niveau et bats
+le score cible pour faire
+avancer l&apos;histoire et
+débloquer de nouveaux
+niveaux.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">Maléfique
+Free Fall</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">Détruis toutes les cases 
+chaîne pour finir le niveau.</entry>
+<entry name="ABOUT_DEVELOPER">Développé par</entry>
+<entry name="ENDING_BUTTON">Génial !</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">Tu n&apos;as pas illuminé toutes les cases.</entry>
+<entry name="APP_RATE_MESSAGE">Si tu aimes jouer à Maléfique Free Fall, prends quelques instants pour lui attribuer une note.</entry>
+<entry name="PRICE_CANCEL">Annuler</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">Félicitations ! Tu as débloqué le bonus Épines croissantes !</entry>
+<entry name="APP_RATE_TITLE">Donner une note à Maléfique Free Fall</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">Fais descendre les
+objets spéciaux en
+bas de l&apos;écran.</entry>
+<entry name="TUTORIAL_COMBINE">Combine 2 bonus pour créer un effet plus puissant. Essaie avec ces 2 bonus Gemmes !</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">DÉTRUIS TOUS LES BOUCLIERS</entry>
+<entry name="STORE_WAITING_TEXT">En attente de la boutique...</entry>
+<entry name="ABOUT_VERSION">Version 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">Fais descendre les
+objets spéciaux en
+bas de l&apos;écran.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">Fais pousser toutes les 
+épines pour finir le niveau.</entry>
+<entry name="NO_MORE_MOVES">Plus de coups possibles</entry>
+<entry name="TUTORIAL_SOLDIERS_3">Détruis-les avant qu&apos;ils 
+n&apos;arrivent au sommet du mur 
+de ronces et le détruisent !</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">Rends-toi sur le site : 
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">Avertissement</entry>
+<entry name="LINK_CONFIRMATION">Ouvrir le lien et
+quitter le jeu ?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">FAIS POUSSER TOUTES LES CIBLES !</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">Objets en bas</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">Place la case colorée spécifique en haut de la bouteille pour la remplir !</entry>
+<entry name="LOSE_SHIELD">Tu n&apos;as pas détruit tous les boucliers.</entry>
+<entry name="MANA_WON">Magie :</entry>
+<entry name="LEVEL_COMPANION">Ton compagnon</entry>
+<entry name="STORE_DISABLED_TITLE">Achats désactivés</entry>
+<entry name="MANA_PACK_4_NAME">Pack de bonbonnes</entry>
+<entry name="CROW_POWER_UP">Grand Corbeau</entry>
+<entry name="RESUME">Reprendre</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">Maintenant, illumine le reste du plateau pour finir le niveau !</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">Détruis les soldats avant 
+qu&apos;ils ne brûlent le mur de ronces.</entry>
+<entry name="END_SHORT_WIN_GOOD">Excellent !</entry>
+<entry name="CONGRATULATIONS">Bravo !</entry>
+<entry name="FINISH_GAME_TITLE">Incroyable !</entry>
+<entry name="WING_WIND_UNLOCK_KEY">Félicitations ! 
+Tu as débloqué le bonus 
+Aile venteuse !</entry>
+<entry name="RESET_PROGRESS">Réinitialiser</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">Reviens vite JOUER ! Tu possèdes tout un stock de vies !</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">Félicitations !
+Tu as débloqué
+le bonus Loup !</entry>
+<entry name="TUTORIAL_CROW_2ND">Choisis le nouveau bonus
+Grand Corbeau !</entry>
+<entry name="GREEN_MAGIC_POWER_UP">Magie verte</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">Magie jaune</entry>
+<entry name="HELP_MULTIPLIER">ASTUCE : Tu as du mal
+à atteindre le score
+cible ? Fais des
+combos rapides pour
+obtenir des
+multiplicateurs
+de score.</entry>
+<entry name="NEXT_LIFE">Prochaine vie dans :</entry>
+<entry name="TUTORIAL_WIND">Maintenant, choisis le bonus Aile venteuse pour créer un vent puissant qui va détruire des cases aléatoires.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">Ne jamais noter</entry>
+<entry name="TUTORIAL_ICEBERG">Fais des associations en T ou en L pour créer un bonus Gemmes ! 
+Associe-le encore pour détruire toutes les cases autour de lui.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">Secondes</entry>
+<entry name="FINISH_GAME_MESSAGE">Tu as fini tous les niveaux ! 
+D&apos;autres arriveront BIENTÔT !</entry>
+<entry name="ABOUT_PRIVACY_POLICY">Charte de confident.</entry>
+<entry name="MORE_FREE"> +&lt;percentage&gt; 
+gratuits :</entry>
+<entry name="CROW_SWIPE_POWER_UP">Grand Corbeau</entry>
+<entry name="GAME_TIME">Temps</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">Détruis tous les boucliers !</entry>
+<entry name="RETRY">Réessayer niv.</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">Détruis tous les boucliers pour finir le niveau.</entry>
+<entry name="OFF">Non</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">Détruis les
+cases cibles</entry>
+<entry name="FINISH_GAME_BUTTON">Génial !</entry>
+<entry name="LEVEL_NAME">Niveau</entry>
+<entry name="SALE">OFFRE</entry>
+<entry name="MANA_PACK_3_NAME">Bonbonne</entry>
+<entry name="CONNECT_FAILED">Échec de la
+connexion au
+serveur.</entry>
+<entry name="STORE_FAILED_TITLE">Échec</entry>
+<entry name="GAME_OBJECTIVE_SCORE">Atteins le score
+cible avant d&apos;être
+à court de coups !</entry>
+<entry name="MENU_PLAY">Jouer</entry>
+<entry name="ENDING_MESSAGE">Tu as fini tous les niveaux ! 
+D&apos;autres arriveront bientôt !</entry>
+<entry name="TUTORIAL_OBJECTIVE">Voici le nombre 
+de cases restées 
+éteintes sur le plateau.</entry>
+<entry name="ABOUT_TERMS_OF_USE">Cond. d&apos;utilisation</entry>
+<entry name="PLAY_AGAIN">Rejouer</entry>
+<entry name="LOSE_SCORE">Tu n&apos;as pas
+atteint le score
+cible.</entry>
+<entry name="MAP_OBJECTIVE_EATER">REMPLIS LES BOUTEILLES</entry>
+<entry name="STORE_PURCHASED_TEXT">Bravo, l&apos;achat a bien été
+effectué !</entry>
+<entry name="HELP_MAGIC">Il est possible d&apos;obtenir de
+la magie en récupérant
+des étoiles et en rejouant.</entry>
+<entry name="HELP_COMBOS">Combine des bonus spéciaux 
+pour déclencher de 
+puissants effets.</entry>
+<entry name="TUTORIAL_MATCH_3">Fais glisser les gemmes
+pour en associer 3 de
+même couleur.</entry>
+<entry name="TUTORIAL_STAFF">Choisis le bonus Bâton, 
+puis balaie le plateau 
+pour détruire des cases.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">Félicitations ! Tu as débloqué le bonus Bâton !</entry>
+<entry name="NO">Non</entry>
+<entry name="EXIT">Quitter</entry>
+<entry name="HELP_MATCH">Touche une case et 
+glisse-la avec ton doigt. 
+Associe 3 cases de même 
+couleur pour les détruire.</entry>
+<entry name="WIND_POWER_UP">Aile venteuse</entry>
+<entry name="GOOD_PACK">Affaire</entry>
+<entry name="LOSE_TARGET_TILES">Tu n&apos;as pas fait disparaître toutes les cases requises.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">Fais une association à côté d&apos;une petite épine pour la faire pousser !</entry>
+<entry name="MANA_PACK_2_NAME">Lot de jarres</entry>
+<entry name="ON">Oui</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; MAGIE</entry>
+<entry name="YES">Oui</entry>
+<entry name="LOSE_TIME">Temps écoulé !</entry>
+<entry name="LEVEL_OBJECTIVE">Objectif :</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">Magie 
+bonus</entry>
+<entry name="TUTORIAL_FREE_MANA">Voici &lt;points&gt; points de magie 
+gratuits à utiliser comme tu veux !</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">Échec de l&apos;achat. Vérifier les
+paramètres réseau et réessayer
+plus tard.</entry>
+<entry name="TUTORIAL_TAP">Touche pour passer
+ce didacticiel.</entry>
+<entry name="END_SHORT_LOSE">Dommage !</entry>
+<entry name="BEST_PACK">Meill. prix</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">Rappeler plus tard</entry>
+<entry name="LIFE_LOST">Tu as perdu 1 vie.</entry>
+<entry name="TUTORIAL_SOLDIERS_1">Fais une association à côté
+d&apos;un soldat pour le détruire.</entry>
+<entry name="PURCHASES_WARNING">Dans Maléfique Free Fall, vous pouvez acheter des éléments de jeu à l&apos;aide d&apos;argent réel. Le montant sera débité de votre compte iTunes. Vous pouvez bloquer les achats intégrés dans les paramètres de votre appareil.</entry>
+<entry name="STORE_DISABLED_TEXT">Achats intégrés désactivés.
+Les activer dans les paramètres
+de l&apos;appareil et réessayer.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">Maintenant, fais pousser 
+toutes les épines au maximum 
+pour finir le niveau.</entry>
+<entry name="HOME">Accueil</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">Félicitations ! 
+Tu as débloqué le bonus 
+Magie jaune !</entry>
+<entry name="EXIT_CONFIRMATION">Fermer l&apos;application ?</entry>
+<entry name="TUTORIAL_MANA">Utiliser un bonus coûte de la magie. 
+Mais ne t&apos;inquiète pas, tu peux en obtenir en parcourant les niveaux.</entry>
+<entry name="CREDITS">CREDITS</entry>
+<entry name="HOW_TO_PLAY_TITLE">Instructions</entry>
+<entry name="LOSE_SOLDIERS">Mur de ronces brûlé.</entry>
+<entry name="LOSE_LOCKED_TILES">Tu n&apos;as pas détruit toutes les cases chaîne.</entry>
+<entry name="SOUND">Son :</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">Maintenant, remplis les autres bouteilles pour finir le niveau !</entry>
+<entry name="HELP_FUN">Bonne chance !</entry>
+<entry name="MUSIC">Musique :</entry>
+<entry name="LOSE_MOVES">Plus de coups !</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">Fais une association à côté des boucliers pour les détruire.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">DÉTRUIS TOUTES LES CASES CHAÎNE</entry>
+<entry name="END_SHORT_WIN_GREAT">Incroyable !</entry>
+<entry name="HELP_COLOR_BOMB">5 en ligne = bonus Couleur magique</entry>
+<entry name="TUTORIAL_GROWING_THORNS">Touche le bonus Épines croissantes, puis choisis 8 cases adjacentes pour les détruire.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">Pour détruire la case chaîne, associe la case située dessous à 2 gemmes de même couleur.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">Pack de jarres</entry>
+<entry name="TUTORIAL_CROW">Choisis le bonus Grand Corbeau,
+puis choisis n&apos;importe quelle
+case pour la détruire !</entry>
+<entry name="TUTORIAL_WINTERCHILL">Fais 4 associations d&apos;affilée pour créer un bonus Gemmes ! 
+Associe-le encore pour détruire toutes les cases sur son chemin.</entry>
+<entry name="STORE_PURCHASED_TITLE">Achat réussi</entry>
+<entry name="END_SHORT_WIN">Bien joué !</entry>
+<entry name="LOSE_SOLDIERS_TARGET">Mur de ronces brûlé</entry>
+<entry name="CROW2ND_UNLOCK_KEY">Félicitations ! Tu as
+débloqué un nouveau bonus
+Grand Corbeau !</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">Fais glisser la case pour illuminer le plateau !</entry>
+<entry name="LOSE_GROW_TARGETS">Tu n&apos;as pas fait pousser toutes les cibles.</entry>
+<entry name="GROWING_THORNS_POWER_UP">Épines croissantes</entry>
+<entry name="HELP_BOMB">5 ou forme de T ou de L = bonus Bombe</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">Utilise la magie jaune 
+pour ajouter 5 coups.</entry>
+<entry name="LEVEL_TARGET">Cible :</entry>
+<entry name="BOOK_CHAPTER5">Chapitre V</entry>
+<entry name="LIVES_PACK_NAME">Vies</entry>
+<entry name="STORE_WAITING_TITLE">En attente</entry>
+<entry name="HELP_SPECIALS">Associe 4 ou 5 cases
+en faisant différentes
+formes pour créer divers bonus !</entry>
+<entry name="TUTORIAL_MULTIPLIER">ASTUCE : Tu as du mal à atteindre le score cible ? Fais des combos rapides pour obtenir des multiplicateurs de score.</entry>
+<entry name="WIN_SHORT_FREE_FALL">Free Fall !</entry>
+<entry name="ABOUT">Infos</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">Félicitations ! 
+Tu as débloqué le bonus
+Magie verte !</entry>
+<entry name="BASIC_PACK">Pack de base</entry>
+<entry name="TUTORIAL_MANA_BALL">Touche la boule magique pour afficher tous les pouvoirs de Maléfique.</entry>
+<entry name="RESHUFFLE_MESSAGE">Plus de coups</entry>
+<entry name="THE_STAFF_POWER_UP">Bâton</entry>
+<entry name="LOST_LIFE">Tu as perdu 1 vie.</entry>
+<entry name="TUTORIAL_WC_LOCKED">Maintenant, détruis toutes les cases chaîne pour finir le niveau !</entry>
+<entry name="BEST">Meilleur</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">Choisis le bonus Magie verte, puis choisis n&apos;importe quelle gemme pour détruire toutes les gemmes de même couleur.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">Chaque coup n&apos;entrainant pas la 
+destruction d&apos;un soldat le fait 
+monter d&apos;un rang.</entry>
+<entry name="LOSE_DROP_TILES">Tu n&apos;as pas fait
+descendre tous les
+objets spéciaux.</entry>
+<entry name="BOOK_CHAPTER1">Chapitre I</entry>
+<entry name="BOOK_CHAPTER2">Chapitre II</entry>
+<entry name="BOOK_CHAPTER3">Chapitre III</entry>
+<entry name="BOOK_CHAPTER4">Chapitre IV</entry>
+<entry name="FOR_PRICE">Pour &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">Chapitre VI</entry>
+<entry name="BOOK_CHAPTER7">Chapitre VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">Score cible</entry>
+<entry name="CONTINUE">Continuer</entry>
+<entry name="MANA_PACK_0_NAME">Jarre</entry>
+<entry name="NEXT_LEVEL">Continuer</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">Maintenant,
+choisis 2 gemmes pour les échanger.</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4 en ligne = bonus Gemme directionnelle</entry>
+<entry name="SCORE_SEPARATOR"></entry>
+<entry name="BUY_ITEMS">Plus d&apos;objets</entry>
+<entry name="ENDING_CONGRATULATIONS">Incroyable !</entry>
+<entry name="LOSE_CONTINUE_MOVES">Utiliser de la magie jaune
+(+5 coups) pour continuer ?</entry>
+<entry name="APP_RATE_BUTTON_RATE">Noter cette app</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">Élimine toutes les cases requises !</entry>
+<entry name="LEVEL_TARGET_SCORE">Score cible :</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">ILLUMINE LE PLATEAU</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">Illumine le plateau 
+pour finir le niveau.</entry>
+<entry name="CONNECT_RECEIVED">Tu as déjà reçu ta
+récompense du jour.</entry>
+<entry name="GAME_OBJECTIVE_EATER">Remplis les bouteilles
+avec les bonnes couleurs
+pour finir le niveau.</entry>
+<entry name="LOADING">Chargement en cours...</entry>
+<entry name="TUTORIAL_WOLF_HOWL">Sélectionne le Loup
+pour mélanger toutes
+les gemmes du plateau.</entry>
+<entry name="GAME_SCORE">Score </entry>
+<entry name="CONNECT_SERVER">Connexion
+au serveur</entry>
+<entry name="OUT_OF_LIVES">Remplir vies</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">Service clientèle</entry>
+<entry name="CROW_UNLOCK_KEY">Félicitations !
+Tu as débloqué Diaval,
+le bonus Grand Corbeau !</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">DÉTRUIS LES SOLDATS</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">Jouer à Maléfique Free Fall</entry>
+<entry name="RESET_CONFIRMATION">Réinitialiser toute progression ?</entry>
+<entry name="LOSE_EATER">Tu n&apos;as pas rempli toutes les bouteilles.</entry>
+<entry name="GAME_MOVES">Coups</entry>
+</entries>

@@ -59,6 +59,7 @@
      <Compile Include="Assets\_Maleficent\Scripts\UI\PauseAnim.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\Texts\TextStyle.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\Texts\TextStyleManager.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\Utils\IgnoreFontTranslations.cs" />
      <Compile Include="Assets\HOTween\_Demo\HOTweenDemoBrain.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
@@ -347,6 +348,7 @@
      <Compile Include="Assets\Scripts\CustomInput.cs" />
      <Compile Include="Assets\Scripts\Game\BottomCollider.cs" />
      <Compile Include="Assets\Scripts\HorizontalFOVCamera.cs" />
+     <Compile Include="Assets\Scripts\IgnoreForRenderToTexture.cs" />
      <Compile Include="Assets\Scripts\InGameSoundEventsHandler.cs" />
      <Compile Include="Assets\Scripts\Localization\LocalizableImage.cs" />
      <Compile Include="Assets\Scripts\Localization\LocalizableText.cs" />
@@ -358,6 +360,7 @@
      <Compile Include="Assets\Scripts\Localization\Plugins\LightXML\XMLParser.cs" />
      <Compile Include="Assets\Scripts\Localization\Plugins\LocalizationSettings.cs" />
      <Compile Include="Assets\Scripts\Localization\Plugins\LocalizedAsset.cs" />
+     <Compile Include="Assets\Scripts\LocalizedToggle.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\AwardCoinsLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\BestScoreLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\CoinsLabel.cs" />
@@ -381,6 +384,7 @@
      <Compile Include="Assets\Scripts\NGUI Actions\ManaLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\MapLevelObjective.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ObjectiveLevel.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\OpenLinkButton.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\PlayAnimation.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ScaleUpByDpi.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ScoreLabel.cs" />
@@ -454,6 +458,7 @@
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentOverlay.shader" />
      <None Include="Assets\_Maleficent\Shaders\HalfLambertTransparent.shader" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
+     <None Include="Assets\Localization\Resources\Languages\IT_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaZWrite.shader" />
      <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
      <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularFastLightProbes.shader" />
@@ -472,6 +477,7 @@
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color ZWriteOn.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
      <None Include="Assets\_Maleficent\Shaders\HalfLambert.shader" />
+     <None Include="Assets\Localization\Resources\Languages\KO_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive.shader" />
      <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaTint.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
@@ -489,7 +495,9 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
      <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularLightProbes.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Localization\Resources\Languages\FR_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Binormals.shader" />
+     <None Include="Assets\Localization\README.txt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\AlphaMaskWithDetail.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\RadialFeather.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glitch.shader" />
@@ -505,10 +513,15 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Normals.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lit\Mobile Rim Lit.shader" />
+     <None Include="Assets\Localization\Resources\Languages\JA_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush-Hulk.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaCullOff.shader" />
+     <None Include="Assets\Localization\Resources\Languages\ZH_Sheet1.xml" />
+     <None Include="Assets\Resources\Generic\Ice.shader" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Localization\Resources\Languages\DE_Sheet1.xml" />
+     <None Include="Assets\Localization\Resources\Languages\RU_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\TexturedAlphaMask.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush.shader" />
@@ -532,6 +545,8 @@
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\MobileTransparentVertexColorZWriteOnCullOff.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Localization\Resources\Languages\PT_Sheet1.xml" />
+     <None Include="Assets\Localization\Resources\Languages\ES_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive-Culled.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glass-Stained-BumpDistort.shader" />
@@ -540,7 +555,9 @@
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\_Maleficent\Shaders\BlackAndWhiteTRN2.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug VertexColor.shader" />
+     <None Include="Assets\Localization\Resources\ZH_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\2TextureBlending.shader" />
+     <None Include="Assets\Localization\Resources\Languages\EN_Sheet1.xml" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2.shader" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitAlpha.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\diamond shader.shader" />
@@ -552,19 +569,19 @@
      <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
      <None Include="Assets\Shaders\Blur.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -768,16 +785,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>D:/source/unity/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

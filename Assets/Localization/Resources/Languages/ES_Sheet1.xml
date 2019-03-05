@@ -1,0 +1,572 @@
+<entries>
+<entry name="HOW_TO_PLAY">Cómo jugar</entry>
+<entry name="TUTORIAL_GLACIER">¡Combina 5 colores seguidos
+para crear un poder Color mágico!
+Combínalo con cualquier Gema
+para romper todas las Gemas
+del mismo color.</entry>
+<entry name="PURCHASE">Comprar </entry>
+<entry name="PRICE_BUY">¡Consíguelo!</entry>
+<entry name="CONNECT_REWARD">Necesitas conexión a Internet</entry>
+<entry name="MANA_PACK_5_NAME">Caldero</entry>
+<entry name="HELP_OBJECTIVES">Consigue el objetivo de
+cada nivel y alcanza la
+puntuación de la meta
+para avanzar en la
+historia y desbloquear
+nuevos niveles.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">Maléfica
+Free Fall</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">Rompe todas las 
+casillas Cadena para 
+completar el nivel.</entry>
+<entry name="ABOUT_DEVELOPER">Desarrollado por</entry>
+<entry name="ENDING_BUTTON">¡Genial!</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">No iluminaste todas las casillas.</entry>
+<entry name="APP_RATE_MESSAGE">Si te está gustando Maléfica Free Fall,
+dedica unos minutos a puntuarlo.</entry>
+<entry name="PRICE_CANCEL">Cancelar</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+el poder Brotar espinas!</entry>
+<entry name="APP_RATE_TITLE">Puntúa Maléfica Free Fall</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">Lleva los objetos especiales hacia la parte de abajo del tablero.</entry>
+<entry name="TUTORIAL_COMBINE">Combina dos poderes y crea
+un efecto más potente.
+¡Pruébalo con estos
+dos poderes Gema!</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">ROMPE TODOS LOS ESCUDOS</entry>
+<entry name="STORE_WAITING_TEXT">Esperando a la tienda...</entry>
+<entry name="ABOUT_VERSION">Versión 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">Lleva los objetos
+especiales hacia la parte
+de abajo del tablero.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">Haz crecer todas
+las Espinas para
+completar el nivel.</entry>
+<entry name="NO_MORE_MOVES">No hay más jugadas posibles.</entry>
+<entry name="TUTORIAL_SOLDIERS_3">¡Destrúyelos antes de que
+lleguen a lo más alto e
+incendien el muro de espinas!</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">Visítanos en:
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">Aviso legal de IAP</entry>
+<entry name="LINK_CONFIRMATION">¿Abrir el enlace
+y salir del juego?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">¡HAZ CRECER TODOS LOS OBJETIVOS!</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">Mover Objetos</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">¡Coloca la casilla del color apropiado encima de la botella para llenarla!</entry>
+<entry name="LOSE_SHIELD">No rompiste todos los escudos.</entry>
+<entry name="MANA_WON">Magia:</entry>
+<entry name="LEVEL_COMPANION">Tu compañero</entry>
+<entry name="STORE_DISABLED_TITLE">Inhabilitada</entry>
+<entry name="MANA_PACK_4_NAME">Set de garrafones</entry>
+<entry name="CROW_POWER_UP">Cuervo</entry>
+<entry name="RESUME">Reanudar</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">¡Ilumina el resto del tablero
+para completar el nivel!</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">Destruye a los soldados antes de que 
+incendien el muro de espinas.</entry>
+<entry name="END_SHORT_WIN_GOOD">¡Genial!</entry>
+<entry name="CONGRATULATIONS">¡Felicidades!</entry>
+<entry name="FINISH_GAME_TITLE">¡Increíble!</entry>
+<entry name="WING_WIND_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+el poder Viento alado!</entry>
+<entry name="RESET_PROGRESS">Reiniciar</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">¡Vuelve y JUEGA! ¡Tienes un set completo de vidas!</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">¡Felicidades!
+¡Desbloqueaste
+el poder Lobo!</entry>
+<entry name="TUTORIAL_CROW_2ND">¡Selecciona el nuevo Poder Cuervo!</entry>
+<entry name="GREEN_MAGIC_POWER_UP">Magia verde</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">Magia amarilla</entry>
+<entry name="HELP_MULTIPLIER">Consejo: combina
+rápidamente para ganar
+multiplicadores de
+puntuación y alcanzar
+la puntuación
+objetivo.</entry>
+<entry name="NEXT_LIFE">Siguiente vida:</entry>
+<entry name="TUTORIAL_WIND">Selecciona el poder Viento
+alado para crear una ráfaga
+que rompe casillas aleatorias.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">No puntuar nunca</entry>
+<entry name="TUTORIAL_ICEBERG">¡Combina colores en forma de T o L
+para crear un poder Gema!
+Úsalo para romper todas
+las casillas que le rodean.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">Segundos</entry>
+<entry name="FINISH_GAME_MESSAGE">¡Terminaste todos los niveles!
+¡Próximamente más!</entry>
+<entry name="ABOUT_PRIVACY_POLICY">Política de priv.</entry>
+<entry name="MORE_FREE">¡&lt;percentage&gt; más
+gratis!</entry>
+<entry name="CROW_SWIPE_POWER_UP">Cuervo</entry>
+<entry name="GAME_TIME">Tiempo</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">¡Rompe todos los Escudos!</entry>
+<entry name="RETRY">Reintentar</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">Rompe todos los Escudos para completar el nivel.</entry>
+<entry name="OFF">No</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">Rompe las
+casillas de
+la meta.</entry>
+<entry name="FINISH_GAME_BUTTON">¡Genial!</entry>
+<entry name="LEVEL_NAME">Nivel</entry>
+<entry name="SALE">OFERTA</entry>
+<entry name="MANA_PACK_3_NAME">Garrafón</entry>
+<entry name="CONNECT_FAILED">Error conexión
+con servidor.</entry>
+<entry name="STORE_FAILED_TITLE">Fallo</entry>
+<entry name="GAME_OBJECTIVE_SCORE">¡Llega a la meta
+antes de agotar
+todas las JUGADAS!</entry>
+<entry name="MENU_PLAY">Jugar</entry>
+<entry name="ENDING_MESSAGE">¡Terminaste todos los niveles!
+¡Próximamente más!</entry>
+<entry name="TUTORIAL_OBJECTIVE">Este es el número de
+casillas que te quedan
+por iluminar en el tablero.</entry>
+<entry name="ABOUT_TERMS_OF_USE">Términos de uso</entry>
+<entry name="PLAY_AGAIN">Otra vez</entry>
+<entry name="LOSE_SCORE">Tu puntuación
+no alcanzó
+la meta.</entry>
+<entry name="MAP_OBJECTIVE_EATER">LLENA LAS BOTELLAS</entry>
+<entry name="STORE_PURCHASED_TEXT">¡Felicidades, tu compra
+se efectuó con éxito!</entry>
+<entry name="HELP_MAGIC">Obtén puntos de magia
+consiguiendo estrellas y
+volviendo a jugar niveles.</entry>
+<entry name="HELP_COMBOS">Combina poderes especiales
+para provocar efectos
+más potentes.</entry>
+<entry name="TUTORIAL_MATCH_3">Arrastra la Gema para hacer
+coincidir 3 del mismo color.</entry>
+<entry name="TUTORIAL_STAFF">Selecciona el poder Bastón, y luego deslízate por el tablero para romper casillas.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+el poder Bastón!</entry>
+<entry name="NO">No</entry>
+<entry name="EXIT">Salir</entry>
+<entry name="HELP_MATCH">Toca una casilla y
+deslízala con el dedo.
+Combina 3 del mismo
+color para romperlas.</entry>
+<entry name="WIND_POWER_UP">Viento alado</entry>
+<entry name="GOOD_PACK">Oferta</entry>
+<entry name="LOSE_TARGET_TILES">No eliminaste todas
+las casillas necesarias.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">¡Haz una combinación al lado de un Brote de espina para hacerlo crecer!</entry>
+<entry name="MANA_PACK_2_NAME">Conjunto de frascos</entry>
+<entry name="ON">Sí</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; de MAGIA</entry>
+<entry name="YES">Sí</entry>
+<entry name="LOSE_TIME">Tiempo agotado</entry>
+<entry name="LEVEL_OBJECTIVE">Objetivo:</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">Magia adicional</entry>
+<entry name="TUTORIAL_FREE_MANA">¡&lt;points&gt; de Magia gratis
+para usar como quieras!</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">Fallo en la compra.
+Comprueba la configuración
+de red e inténtalo de nuevo.</entry>
+<entry name="TUTORIAL_TAP">Toca en cualquier parte para omitir
+este tutorial.</entry>
+<entry name="END_SHORT_LOSE">¡Lástima!</entry>
+<entry name="BEST_PACK">Superoferta</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">Recordar más tarde</entry>
+<entry name="LIFE_LOST">Perdiste 1 vida.</entry>
+<entry name="TUTORIAL_SOLDIERS_1">Haz una combinación cerca de 
+un soldado para destruirlo.</entry>
+<entry name="PURCHASES_WARNING">Puedes comprar contenido adicional para Maléfica Free Fall. Este contenido cuesta dinero real y se cargará a tu cuenta de iTunes. Puedes cambiar los ajustes de tu dispositivo para bloquear las compras desde aplicaciones.</entry>
+<entry name="STORE_DISABLED_TEXT">Compra desde aplicaciones 
+inhabilitada. Puedes habilitarla
+en los ajustes de tu dispositivo.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">Haz que crezcan todas las Espinas posibles para completar el nivel.</entry>
+<entry name="HOME">Inicio</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+el poder Magia amarilla!</entry>
+<entry name="EXIT_CONFIRMATION">¿Cerrar aplicación?</entry>
+<entry name="TUTORIAL_MANA">Usar un poder puede costarte magia,
+pero no te preocupes, puedes ganar
+magia a medida que juegas.</entry>
+<entry name="CREDITS">CRÉDITOS</entry>
+<entry name="HOW_TO_PLAY_TITLE">Cómo jugar</entry>
+<entry name="LOSE_SOLDIERS">Muro de espinas quemado.</entry>
+<entry name="LOSE_LOCKED_TILES">No rompiste todas las casillas Cadena.</entry>
+<entry name="SOUND">Sonido:</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">¡Llena el resto de botellas
+para completar el nivel!</entry>
+<entry name="HELP_FUN">¡A divertirse!</entry>
+<entry name="MUSIC">Música:</entry>
+<entry name="LOSE_MOVES">¡Sin jugadas!</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">Para romper los Escudos, haz una combinación cerca de ellos.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">ROMPE TODAS LAS CASILLAS CADENA</entry>
+<entry name="END_SHORT_WIN_GREAT">¡Increíble!</entry>
+<entry name="HELP_COLOR_BOMB">5 en línea = poder Color mágico</entry>
+<entry name="TUTORIAL_GROWING_THORNS">Toca el poder Brotar espinas, y luego
+selecciona 8 casillas contiguas para destruirlas.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">La casilla Cadena se puede romper combinando la casilla de abajo con dos Gemas del mismo color.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">Set de frascos</entry>
+<entry name="TUTORIAL_CROW">¡Selecciona el poder Cuervo y luego la casilla que quieras romper!</entry>
+<entry name="TUTORIAL_WINTERCHILL">¡Combina 4 colores seguidos
+para crear un poder Gema!
+Úsalo para romper todas
+las casillas que encuentre.</entry>
+<entry name="STORE_PURCHASED_TITLE">Hecho</entry>
+<entry name="END_SHORT_WIN">¡Bien hecho!</entry>
+<entry name="LOSE_SOLDIERS_TARGET">Muro de espinas quemado</entry>
+<entry name="CROW2ND_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+un nuevo poder Cuervo!</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">¡Arrastra la casilla para
+iluminar la pieza del tablero!</entry>
+<entry name="LOSE_GROW_TARGETS">No hiciste crecer todos los objetivos.</entry>
+<entry name="GROWING_THORNS_POWER_UP">Brotar espinas</entry>
+<entry name="HELP_BOMB">5 en forma de T o L = poder Bomba</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">Usa la Magia amarilla
+para añadir 5 jugadas.</entry>
+<entry name="LEVEL_TARGET">Meta:</entry>
+<entry name="BOOK_CHAPTER5">Capítulo V</entry>
+<entry name="LIVES_PACK_NAME">Vidas</entry>
+<entry name="STORE_WAITING_TITLE">Esperando</entry>
+<entry name="HELP_SPECIALS">¡Combina 4 o 5 casillas
+de distintas formas para
+crear distintos poderes Gema!</entry>
+<entry name="TUTORIAL_MULTIPLIER">CONSEJO: ¿No consigues alcanzar la meta?
+Combina rápidamente y obtén multiplicadores.</entry>
+<entry name="WIN_SHORT_FREE_FALL">¡Free Fall!</entry>
+<entry name="ABOUT">Acerca de</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+el poder Magia verde!</entry>
+<entry name="BASIC_PACK">Pack básico</entry>
+<entry name="TUTORIAL_MANA_BALL">Toca la Esfera mágica
+para ver todos los
+poderes de Maléfica.</entry>
+<entry name="RESHUFFLE_MESSAGE">No hay más jugadas</entry>
+<entry name="THE_STAFF_POWER_UP">Bastón</entry>
+<entry name="LOST_LIFE">Perdiste 1 vida.</entry>
+<entry name="TUTORIAL_WC_LOCKED">¡Rompe todas las casillas Cadena para completar el nivel!</entry>
+<entry name="BEST">Mejor</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">Selecciona el poder Magia verde, y luego una Gema para romper todas las de ese color.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">Por cada movimiento que realices
+sin destruir a un soldado, estos
+ascenderán una fila.</entry>
+<entry name="LOSE_DROP_TILES">No llevaste todos
+los objetos especiales.</entry>
+<entry name="BOOK_CHAPTER1">Capítulo I</entry>
+<entry name="BOOK_CHAPTER2">Capítulo II</entry>
+<entry name="BOOK_CHAPTER3">Capítulo III</entry>
+<entry name="BOOK_CHAPTER4">Capítulo IV</entry>
+<entry name="FOR_PRICE">Por &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">Capítulo VI</entry>
+<entry name="BOOK_CHAPTER7">Capítulo VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">TRAS LA META</entry>
+<entry name="CONTINUE">Continuar</entry>
+<entry name="MANA_PACK_0_NAME">Frasco</entry>
+<entry name="NEXT_LEVEL">Continuar</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">¡Ahora elige dos Gemas
+para intercambiarlas!</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4 en línea = poder Gema direccional</entry>
+<entry name="SCORE_SEPARATOR">,</entry>
+<entry name="BUY_ITEMS">Compra objetos</entry>
+<entry name="ENDING_CONGRATULATIONS">¡Increíble!</entry>
+<entry name="LOSE_CONTINUE_MOVES">¿Usar Magia amarilla (+5 jugadas)
+y continuar con el nivel?</entry>
+<entry name="APP_RATE_BUTTON_RATE">Puntuar aplicación</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">¡Elimina todas las
+casillas necesarias!</entry>
+<entry name="LEVEL_TARGET_SCORE">Meta:</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">ILUMINA EL TABLERO</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">Ilumina el tablero 
+para completar el nivel.</entry>
+<entry name="CONNECT_RECEIVED">Ya recibiste tu
+recompensa diaria.</entry>
+<entry name="GAME_OBJECTIVE_EATER">Llena las botellas con
+los colores adecuados
+para completar el nivel.</entry>
+<entry name="LOADING">Cargando...</entry>
+<entry name="TUTORIAL_WOLF_HOWL">Selecciona al lobo
+para reorganizar las Gemas
+del tablero.</entry>
+<entry name="GAME_SCORE">Puntos</entry>
+<entry name="CONNECT_SERVER">Conectando con
+el servidor</entry>
+<entry name="OUT_OF_LIVES">Recargar Vidas</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">Atención al Cliente</entry>
+<entry name="CROW_UNLOCK_KEY">¡Felicidades! ¡Desbloqueaste
+el poder Cuervo!</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">DESTRUYE A LOS SOLDADOS</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">Juega a Maléfica Free Fall</entry>
+<entry name="RESET_CONFIRMATION">¿Reiniciar todo el progreso?</entry>
+<entry name="LOSE_EATER">No llenaste todas
+las botellas.</entry>
+<entry name="GAME_MOVES">Jugadas</entry>
+</entries>

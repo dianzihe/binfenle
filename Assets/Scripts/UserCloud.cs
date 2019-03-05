@@ -12,7 +12,6 @@ public class UserCloud
 	private static UserCloud currentUser;
 	public static UserCloud CurrentCloudUser;
 
-	
 	#region Serialized Info
 	
 	private int _UserNumPurchases;

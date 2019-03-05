@@ -637,8 +637,10 @@ public class EventDelegate
 					}
 					catch (System.Exception ex)
 					{
-						if (ex.InnerException != null) Debug.LogException(ex.InnerException);
-						else Debug.LogException(ex);
+						/* 
+						if (ex.InnerException != null) Debug.LogError(ex.InnerException);
+						else Debug.LogError(ex);
+						*/
 					}
 #else
 					del.Execute();

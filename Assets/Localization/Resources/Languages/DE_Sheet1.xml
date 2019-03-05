@@ -1,0 +1,569 @@
+<entries>
+<entry name="HOW_TO_PLAY">Anleitung</entry>
+<entry name="TUTORIAL_GLACIER">Kombiniere eine 5er-Reihe
+zu einem Magiefarben-Bonus!
+Kombiniere ihn mit einem beliebigen
+Juwel, um alle Juwelen derselben
+Farbe zu zerschlagen.</entry>
+<entry name="PURCHASE">Kaufen</entry>
+<entry name="PRICE_BUY">Jetzt holen!</entry>
+<entry name="CONNECT_REWARD">Du benötigst eine Internetverbindung.</entry>
+<entry name="MANA_PACK_5_NAME">Kessel</entry>
+<entry name="HELP_OBJECTIVES">Erreiche das Ziel jedes
+Levels und schlage
+die Zielpunktzahl,
+um die Handlung
+weiterzuspielen
+und neue Level
+freizuschalten.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">Maleficent
+Free Fall</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">Zerschlage alle 
+Kettenblöcke, um 
+den Level abzuschließen.</entry>
+<entry name="ABOUT_DEVELOPER">Entwickelt von</entry>
+<entry name="ENDING_BUTTON">Genial!</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">Du hast nicht alle Blöcke erhellt.</entry>
+<entry name="APP_RATE_MESSAGE">Wenn dir &quot;Maleficent Free Fall&quot; gefällt,
+nimm dir bitte einen Moment Zeit für eine Bewertung.</entry>
+<entry name="PRICE_CANCEL">Abbrechen</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">Glückwunsch! Du hast den
+Dornenwachstum-Bonus freigeschaltet!</entry>
+<entry name="APP_RATE_TITLE">Bewerte &quot;Maleficent Free Fall&quot;</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">Lass Spezialobjekte nach unten fallen.</entry>
+<entry name="TUTORIAL_COMBINE">Die Kombination zweier
+Boni ergibt einen noch
+mächtigeren Effekt.
+Versuche es nun mit diesen
+beiden Juwelen-Boni!</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">ZERSCHLAGE ALLE SCHILDE</entry>
+<entry name="STORE_WAITING_TEXT">Wartet auf Store...</entry>
+<entry name="ABOUT_VERSION">Version 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">Lass Spezialobjekte nach unten fallen.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">Lass alle Dornen wachsen,
+um den Level 
+abzuschließen.</entry>
+<entry name="NO_MORE_MOVES">Keine Züge mehr möglich.</entry>
+<entry name="TUTORIAL_SOLDIERS_3">Besiege sie, bevor sie die Spitze 
+des Spielbretts erreichen und 
+den Dornenwall niederbrennen!</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">Besuche uns auf: 
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">IAP Haftungsausschluss</entry>
+<entry name="LINK_CONFIRMATION">Link öffnen und
+Spiel verlassen?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">LASS ALLE ZIELE WACHSEN!</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">Fallen lassen</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">Platziere den Block der benötigten Farbe auf der Flasche, um sie zu füllen!</entry>
+<entry name="LOSE_SHIELD">Du hast nicht alle Schilde zerschlagen.</entry>
+<entry name="MANA_WON">Magie:</entry>
+<entry name="LEVEL_COMPANION">Dein Begleiter</entry>
+<entry name="STORE_DISABLED_TITLE">Deaktiviert</entry>
+<entry name="MANA_PACK_4_NAME">Ballonflaschen-Set</entry>
+<entry name="CROW_POWER_UP">Rabe</entry>
+<entry name="RESUME">Fortsetzen</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">Nun erhelle den Rest des Spielbretts,
+um den Level abzuschließen!</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">Besiege die Soldaten, bevor
+sie den Dornenwall niederbrennen.</entry>
+<entry name="END_SHORT_WIN_GOOD">Exzellent!</entry>
+<entry name="CONGRATULATIONS">Glückwunsch!</entry>
+<entry name="FINISH_GAME_TITLE">Toll!</entry>
+<entry name="WING_WIND_UNLOCK_KEY">Glückwunsch! Du hast den
+Flügelrauschen-Bonus freigeschaltet!</entry>
+<entry name="RESET_PROGRESS">Zurücksetzen</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">Schau wieder vorbei und SPIELE! Du hast ein volles Pack Leben!</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">Glückwunsch! Du hast den
+Wolf-Bonus freigeschaltet!</entry>
+<entry name="TUTORIAL_CROW_2ND">Wähle den neuen Raben-Bonus!</entry>
+<entry name="GREEN_MAGIC_POWER_UP">Grüne Magie</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">Gelbe Magie</entry>
+<entry name="HELP_MULTIPLIER">TIPP: Erreichst du
+die Zielpunktzahl
+nicht? Kombiniere
+schnell und
+vervielfache deine
+Punkte.</entry>
+<entry name="NEXT_LIFE">Nächstes Leben in:</entry>
+<entry name="TUTORIAL_WIND">Nun wähle den Flügelrauschen-Bonus,
+um einen mächtigen Wind zu beschwören,
+der zufällige Blöcke zerschlägt.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">Nie bewerten</entry>
+<entry name="TUTORIAL_ICEBERG">Kombiniere T- oder L-förmige
+Farben zu einem Juwelen-Bonus!
+Kombiniere ihn erneut und zerschlage
+alle Kristalle um ihn herum.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">Sekunden</entry>
+<entry name="FINISH_GAME_MESSAGE">Du hast alle Level beendet!
+Neue Level BALD erhältlich!</entry>
+<entry name="ABOUT_PRIVACY_POLICY">Datenschutz</entry>
+<entry name="MORE_FREE">&lt;percentage&gt; mehr kostenlos!</entry>
+<entry name="CROW_SWIPE_POWER_UP">Rabe</entry>
+<entry name="GAME_TIME">Zeit</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">Zerschlage alle Schilde!</entry>
+<entry name="RETRY">Wiederholen</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">Zerschlage alle Schilde, um den Level abzuschließen.</entry>
+<entry name="OFF">Aus</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">Zerstöre Zielblöcke</entry>
+<entry name="FINISH_GAME_BUTTON">Genial!</entry>
+<entry name="LEVEL_NAME">Level</entry>
+<entry name="SALE">AKTION</entry>
+<entry name="MANA_PACK_3_NAME">Ballonflasche</entry>
+<entry name="CONNECT_FAILED">Server nicht
+verbunden.</entry>
+<entry name="STORE_FAILED_TITLE">Fehlgeschlagen</entry>
+<entry name="GAME_OBJECTIVE_SCORE">Erreiche die Ziel-
+punktzahl, solange
+du noch ZÜGE hast!</entry>
+<entry name="MENU_PLAY">Spielen</entry>
+<entry name="ENDING_MESSAGE">Du hast alle Level beendet!
+Neue Level bald erhältlich!</entry>
+<entry name="TUTORIAL_OBJECTIVE">Dies ist die Anzahl der 
+Blöcke auf dem Spielbrett, 
+die du noch erhellen musst.</entry>
+<entry name="ABOUT_TERMS_OF_USE">Nutzungsbedingungen</entry>
+<entry name="PLAY_AGAIN">Erneut spielen</entry>
+<entry name="LOSE_SCORE">Du hast die
+Zielpunktzahl
+nicht erreicht.</entry>
+<entry name="MAP_OBJECTIVE_EATER">FÜLLE ALLE FLASCHEN</entry>
+<entry name="STORE_PURCHASED_TEXT">Glückwunsch, dein Kauf war erfolgreich!</entry>
+<entry name="HELP_MAGIC">Du kannst dir immer Magiepunkte
+holen, indem du Sterne erhältst
+und Levels wiederholst.</entry>
+<entry name="HELP_COMBOS">Kombiniere spezielle Boni
+zu mächtigen Effekten.</entry>
+<entry name="TUTORIAL_MATCH_3">Wische über das Juwel,
+um 3 gleichfarbige zu kombinieren.</entry>
+<entry name="TUTORIAL_STAFF">Verwende den Stab-Bonus und wische dann über das Spielbrett, um Blöcke zu zerschlagen.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">Glückwunsch! Du hast den
+Stab-Bonus freigeschaltet!</entry>
+<entry name="NO">Nein</entry>
+<entry name="EXIT">Spiel beenden</entry>
+<entry name="HELP_MATCH">Berühre einen Block und
+verschiebe ihn mit dem Finger.
+Kombiniere 3 Blöcke derselben
+Farbe, um sie zu zerschlagen.</entry>
+<entry name="WIND_POWER_UP">Flügelrauschen</entry>
+<entry name="GOOD_PACK">Schnäppchen</entry>
+<entry name="LOSE_TARGET_TILES">Du hast nicht alle
+nötigen Blöcke zerstört.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">Bilde eine Kombination neben einem Dornenschössling, um ihn wachsen zu lassen!</entry>
+<entry name="MANA_PACK_2_NAME">Krug-Bündel</entry>
+<entry name="ON">An</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; MAGIE</entry>
+<entry name="YES">Ja</entry>
+<entry name="LOSE_TIME">Zeit abgelaufen</entry>
+<entry name="LEVEL_OBJECTIVE">Ziel:</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">Extra-Magie</entry>
+<entry name="TUTORIAL_FREE_MANA">Hier hast du &lt;points&gt; kostenlose Magie. Verwende sie nach Belieben!</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">Kauf fehlgeschlagen. Überprüfe die Netzwerkeinstellungen und versuche
+es noch einmal.</entry>
+<entry name="TUTORIAL_TAP">Antippen zum Fortfahren.</entry>
+<entry name="END_SHORT_LOSE">Schade!</entry>
+<entry name="BEST_PACK">Topangebot</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">Später erinnern</entry>
+<entry name="LIFE_LOST">Du verlierst 1 Leben.</entry>
+<entry name="TUTORIAL_SOLDIERS_1">Bilde eine Kombination neben
+einem Soldaten, um ihn zu besiegen.</entry>
+<entry name="PURCHASES_WARNING">In Maleficent Free Fall können Zusatzinhalte erworben werden. Diese Inhalte kosten reales Geld und werden von deinem iTunes-Konto abgezogen. Du kannst deine Geräte-Einstellungen anpassen, um In-App-Käufe zu aktivieren.</entry>
+<entry name="STORE_DISABLED_TEXT">In-App-Käufe deaktiviert. Aktiviere
+sie in den Geräte-Einstellungen und versuche es noch einmal.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">Nun lass alle Dornen so hoch wie möglich wachsen, um den Level abzuschließen!</entry>
+<entry name="HOME">Hauptmenü</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">Glückwunsch! Du hast den
+Gelbe-Magie-Bonus freigeschaltet!</entry>
+<entry name="EXIT_CONFIRMATION">Anwendung schließen?</entry>
+<entry name="TUTORIAL_MANA">Manchmal brauchst du Magie,
+um einen Bonus zu benutzen.
+Aber keine Sorge, du erhältst beim
+Durchspielen der Level Magie.</entry>
+<entry name="CREDITS">MITWIRKENDE</entry>
+<entry name="HOW_TO_PLAY_TITLE">Anleitung</entry>
+<entry name="LOSE_SOLDIERS">Dornenmauer verbrannt</entry>
+<entry name="LOSE_LOCKED_TILES">Du hast nicht alle Kettenblöcke zerschlagen.</entry>
+<entry name="SOUND">Ton:</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">Nun fülle auch alle anderen Flaschen,
+um den Level abzuschließen!</entry>
+<entry name="HELP_FUN">Viel Spaß!</entry>
+<entry name="MUSIC">Musik:</entry>
+<entry name="LOSE_MOVES">Kein Zug mehr!</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">Bilde eine Kombination neben den Schilden, um sie zu zerschlagen.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">ZERSCHLAGE ALLE KETTENBLÖCKE</entry>
+<entry name="END_SHORT_WIN_GREAT">Toll!</entry>
+<entry name="HELP_COLOR_BOMB">5 in einer Reihe = Magiefarben-Bonus</entry>
+<entry name="TUTORIAL_GROWING_THORNS">Tippe den Dornenwachstum-Bonus an, dann wähle
+acht benachbarte Blöcke, um sie zu zerstören.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">Du kannst den Kettenblock zerschlagen, indem du den darunterliegenden Block mit 2 Juwelen derselben Farbe kombinierst.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">Krug-Set</entry>
+<entry name="TUTORIAL_CROW">Wähle den Raben-Bonus und 
+anschließend einen beliebigen 
+Block, um ihn zu zerschlagen!</entry>
+<entry name="TUTORIAL_WINTERCHILL">Kombiniere 4 Farben in einer Reihe
+zu einem Juwelen-Bonus!
+Kombiniere ihn erneut und er zerschlägt
+alle Blöcke in seinem Weg!</entry>
+<entry name="STORE_PURCHASED_TITLE">Erfolg</entry>
+<entry name="END_SHORT_WIN">Gut gemacht!</entry>
+<entry name="LOSE_SOLDIERS_TARGET">Dornenmauer verbrannt</entry>
+<entry name="CROW2ND_UNLOCK_KEY">Glückwunsch! Du hast einen 
+neuen Raben-Bonus 
+freigeschaltet!</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">Wische über den Block,
+um das Spielbrett zu erhellen!</entry>
+<entry name="LOSE_GROW_TARGETS">Du hast nicht alle Ziele wachsen lassen.</entry>
+<entry name="GROWING_THORNS_POWER_UP">Dornenwachstum</entry>
+<entry name="HELP_BOMB">5 in T- oder L-Form = Bomben-Bonus</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">Verwende die Gelbe Magie,
+um 5 weitere Züge zu erhalten.</entry>
+<entry name="LEVEL_TARGET">Ziel:</entry>
+<entry name="BOOK_CHAPTER5">Kapitel V</entry>
+<entry name="LIVES_PACK_NAME">Leben</entry>
+<entry name="STORE_WAITING_TITLE">Wartet</entry>
+<entry name="HELP_SPECIALS">Kombiniere 4 oder 5 Blöcke
+in verschiedenen Formen,
+um unterschiedliche
+Juwelen-Boni zu erschaffen!</entry>
+<entry name="TUTORIAL_MULTIPLIER">TIPP: Erreichst du die Zielpunktzahl nicht?
+Kombiniere schnell und vervielfache deine Punkte.</entry>
+<entry name="WIN_SHORT_FREE_FALL">Free Fall!</entry>
+<entry name="ABOUT">Über</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">Glückwunsch! Du hast den
+Grüne-Magie-Bonus freigeschaltet!</entry>
+<entry name="BASIC_PACK">Basispack</entry>
+<entry name="TUTORIAL_MANA_BALL">Tippe auf die Magiekugel,
+um alle Kräfte von Malefiz
+anzuzeigen.</entry>
+<entry name="RESHUFFLE_MESSAGE">Keine Züge mehr.</entry>
+<entry name="THE_STAFF_POWER_UP">Stab</entry>
+<entry name="LOST_LIFE">Du verlierst 1 Leben.</entry>
+<entry name="TUTORIAL_WC_LOCKED">Zerschlage nun alle Kettenblöcke, um den Level abzuschließen!</entry>
+<entry name="BEST">Top</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">Wähle den Grüne-Magie-Bonus und anschließend ein Juwel, um alle Juwelen derselben Farbe zu zerschlagen.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">Für jeden Zug, der einen Soldaten
+nicht besiegt, rückt er
+eine Reihe weiter nach oben.</entry>
+<entry name="LOSE_DROP_TILES">Du hast nicht alle
+Spezialobjekte
+fallen gelassen.</entry>
+<entry name="BOOK_CHAPTER1">Kapitel I</entry>
+<entry name="BOOK_CHAPTER2">Kapitel II</entry>
+<entry name="BOOK_CHAPTER3">Kapitel III</entry>
+<entry name="BOOK_CHAPTER4">Kapitel IV</entry>
+<entry name="FOR_PRICE">Für &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">Kapitel VI</entry>
+<entry name="BOOK_CHAPTER7">Kapitel VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">Zielpunktzahl</entry>
+<entry name="CONTINUE">Fortfahren</entry>
+<entry name="MANA_PACK_0_NAME">Krug</entry>
+<entry name="NEXT_LEVEL">Weiter</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">Dann wähle 2 Juwelen, um sie 
+zu vertauschen.</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4 in einer Reihe = Gebündelter Juwelen-Bonus</entry>
+<entry name="SCORE_SEPARATOR"></entry>
+<entry name="BUY_ITEMS">Weitere Objekte</entry>
+<entry name="ENDING_CONGRATULATIONS">Toll!</entry>
+<entry name="LOSE_CONTINUE_MOVES">Gelbe Magie (+5 Züge) verwenden,
+um weiterzuspielen?</entry>
+<entry name="APP_RATE_BUTTON_RATE">Diese App bewerten</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">Zerstöre alle
+nötigen Blöcke!</entry>
+<entry name="LEVEL_TARGET_SCORE">Zielpunktzahl:</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">ERHELLE DAS SPIELBRETT</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">Erhelle das Spielbrett, 
+um den Level 
+abzuschließen.</entry>
+<entry name="CONNECT_RECEIVED">Tägliche Belohnung
+bereits erhalten.</entry>
+<entry name="GAME_OBJECTIVE_EATER">Fülle alle Flaschen mit 
+den passenden Farben, um 
+den Level abzuschließen.</entry>
+<entry name="LOADING">Lädt ...</entry>
+<entry name="TUTORIAL_WOLF_HOWL">Wähle den Wolf, um 
+alle Juwelen auf dem
+Spielbrett neu zu mischen.</entry>
+<entry name="GAME_SCORE">Punkte</entry>
+<entry name="CONNECT_SERVER">Server wird
+verbunden.</entry>
+<entry name="OUT_OF_LIVES">Neue Leben</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">Kundendienst</entry>
+<entry name="CROW_UNLOCK_KEY">Glückwunsch! Du hast den
+Raben-Bonus freigeschaltet!</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">BESIEGE DIE SOLDATEN</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">Spiele &quot;Maleficent Free Fall&quot;</entry>
+<entry name="RESET_CONFIRMATION">Spielfortschritt zurücksetzen?</entry>
+<entry name="LOSE_EATER">Du hast nicht alle
+Flaschen gefüllt.</entry>
+<entry name="GAME_MOVES">Züge</entry>
+</entries>

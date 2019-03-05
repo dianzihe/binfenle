@@ -1,0 +1,392 @@
+<entries>
+<entry name="HOW_TO_PLAY">玩法教程</entry>
+<entry name="TUTORIAL_GLACIER">5个同色宝石在一行可以得到一个色彩魔法石！以任何颜色与色彩魔法石对换可以消除所有对应颜色的宝石
+</entry>
+<entry name="PURCHASE">购买</entry>
+
+<entry name="PRICE_BUY">立即购买</entry>
+<entry name="CONNECT_REWARD">请您联网</entry>
+<entry name="MANA_PACK_5_NAME">魔法之釜</entry>
+<entry name="HELP_OBJECTIVES">完成关卡目标和分数推动故事发展并解锁新关卡</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">沉睡魔咒:缤纷乐</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">关卡目标：打破所有铁链</entry>
+<entry name="ABOUT_DEVELOPER">开发者</entry>
+<entry name="ENDING_BUTTON">关闭</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">你没能点亮格子</entry>
+<entry name="APP_RATE_MESSAGE">如果您喜欢《沉睡魔咒：缤纷乐》，请用一点时间来为她评分。</entry>
+<entry name="PRICE_CANCEL">取消</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">恭喜！你解锁了荆棘丛生魔法！</entry>
+<entry name="APP_RATE_TITLE">评价《沉睡魔咒：缤纷乐》</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">使特定物品从下方落下</entry>
+<entry name="TUTORIAL_COMBINE">两个魔法石的组合能爆发出更强大的魔法威力，快用这两个魔法石体验下！</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">破坏所有盾牌</entry>
+<entry name="STORE_WAITING_TEXT">请稍候</entry>
+<entry name="ABOUT_VERSION">版本 1.1.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">使特定物品朝下方落下</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">使所有荆棘生长来完成关卡。</entry>
+<entry name="NO_MORE_MOVES">没有可以移动的宝石了，重新布局！</entry>
+<entry name="TUTORIAL_SOLDIERS_3">在他们到达顶部烧毁荆棘墙前摧毁他们！</entry>
+<entry name="CREDITS_DISNEY">迪士尼</entry>
+<entry name="SUPPORT_BUY_TOOL">购买此套装需要消耗</entry>
+<entry name="ABOUT_VISIT">Visit us at:
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">IAP免责声明</entry>
+<entry name="LINK_CONFIRMATION">是否打开链接并退出游戏？</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">使他们成长！</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">物品掉落</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">将相应颜色的宝石放在瓶口处就能填满它！</entry>
+<entry name="LOSE_SHIELD">你没能破坏所有盾牌。</entry>
+<entry name="MANA_WON">魔法：</entry>
+<entry name="LEVEL_COMPANION">你的伙伴</entry>
+<entry name="STORE_DISABLED_TITLE">禁用</entry>
+<entry name="MANA_PACK_4_NAME">魔法之釜</entry>
+<entry name="CROW_POWER_UP">乌鸦</entry>
+<entry name="RESUME">继续</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">请点亮剩余的格子完成关卡！</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">在士兵烧毁荆棘墙前消灭他们。</entry>
+<entry name="END_SHORT_WIN_GOOD">太神奇了</entry>
+<entry name="CONGRATULATIONS">恭喜！</entry>
+<entry name="FINISH_GAME_TITLE">酷毙了！</entry>
+<entry name="WING_WIND_UNLOCK_KEY">恭喜！你解锁了风之翼魔法！</entry>
+<entry name="RESET_PROGRESS">重置</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">你的生命值已经满了！快回来挑战吧！</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">恭喜！您解锁了狼魔法！
+</entry>
+<entry name="TUTORIAL_CROW_2ND">选择新的魔法！</entry>
+<entry name="GREEN_MAGIC_POWER_UP">绿雾魔法</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">金风魔法</entry>
+<entry name="HELP_MULTIPLIER">提示：很难达成目标分数？
+	试试快速消除来获得更高的连击分数吧！</entry>
+<entry name="NEXT_LIFE">生命恢复：</entry>
+<entry name="TUTORIAL_WIND">请选择风之翼魔法，召唤强力风暴破坏随机宝石。</entry>
+<entry name="APP_RATE_BUTTON_NEVER">不再提醒</entry>
+<entry name="TUTORIAL_ICEBERG">将宝石组成T或L型可以得到一个新星魔法石！消除它可以同时消除它周围的所有魔法石。</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">秒</entry>
+<entry name="FINISH_GAME_MESSAGE">您完成了所有关卡！全新关卡尽请期待！</entry>
+<entry name="ABOUT_PRIVACY_POLICY">隐私协议</entry>
+<entry name="MORE_FREE">&lt;percentage&gt; More
+Free!</entry>
+<entry name="CROW_SWIPE_POWER_UP">乌鸦</entry>
+<entry name="GAME_TIME">时间</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">破坏所有盾牌!</entry>
+<entry name="RETRY">重新挑战</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">破坏所有盾牌来完成关卡。</entry>
+<entry name="OFF">关闭</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">消除特定宝石</entry>
+<entry name="FINISH_GAME_BUTTON">等不及了！</entry>
+<entry name="LEVEL_NAME">关卡</entry>
+<entry name="SALE">出售</entry>
+<entry name="MANA_PACK_3_NAME">一堆魔法坛</entry>
+<entry name="CONNECT_FAILED">连接服务器失败</entry>
+<entry name="STORE_FAILED_TITLE">失败</entry>
+<entry name="GAME_OBJECTIVE_SCORE">在步数用尽前达到指定分数</entry>
+<entry name="MENU_PLAY">开始</entry>
+<entry name="ENDING_MESSAGE">您完成了所有关卡！全新关卡尽请期待！</entry>
+<entry name="TUTORIAL_OBJECTIVE">只剩下几个格子没有点亮了，加油！</entry>
+<entry name="ABOUT_TERMS_OF_USE">使用条款</entry>
+<entry name="PLAY_AGAIN">再来</entry>
+<entry name="LOSE_SCORE">你没有达到目标分数</entry>
+<entry name="MAP_OBJECTIVE_EATER">装满瓶子</entry>
+<entry name="STORE_PURCHASED_TEXT">祝贺！购买成功！</entry>
+<entry name="HELP_MAGIC">您可以随时重新挑战之前关卡
+	，只要获得更多星星就能获得魔法值</entry>
+<entry name="HELP_COMBOS">组合特殊的魔法石来释放更强大的魔法能量。</entry>
+<entry name="TUTORIAL_MATCH_3">滑动宝石使3个同样颜色的宝石在一起</entry>
+<entry name="TUTORIAL_STAFF">选择权杖魔法，然后划过宝石并消除它们。</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">恭喜! 你解锁了权杖魔法!</entry>
+<entry name="NO">不</entry>
+<entry name="EXIT">退出游戏</entry>
+<entry name="HELP_MATCH">用手指点击和滑动，将3个相同颜色的宝石放到一起消除它们。</entry>
+<entry name="WIND_POWER_UP">风之翼</entry>
+<entry name="GOOD_PACK">交易完成</entry>
+<entry name="LOSE_TARGET_TILES">您没能消除指定的宝石</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">在荆棘之芽旁边消除宝石来使它成长！</entry>
+<entry name="MANA_PACK_2_NAME">魔法坛</entry>
+<entry name="ON">开启</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; 魔法值</entry>
+<entry name="YES">是的</entry>
+<entry name="LOSE_TIME">时间用尽！</entry>
+<entry name="LEVEL_OBJECTIVE">目标：</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">附加的魔法</entry>
+<entry name="TUTORIAL_FREE_MANA">赠送&lt;points&gt;点免费魔法值，
+	祝您游戏愉快！</entry>
+<entry name="CREDITS_DISNEY_NAMES">购买失败。请检查您的网络设定并稍后重试。</entry>
+<entry name="STORE_FAILED_TEXT">购买失败。不支持的sim卡类型。</entry>
+<entry name="CHANGE_CODE_SUCCESS">兑换码成功！
+获得：</entry>
+<entry name="CHANGE_CODE_WRONG_NOT_EXIST">兑换码不存在，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_HAVE_USED">兑换码已兑换过，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_TIMEOUT">兑换码已过期，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_PACKAGE">渠道版本不支持，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_NULL">兑换码值为空，不能完成兑换。</entry>
+<entry name="CHANGE_USERNAME">恭喜您，成功更改名字为</entry>
+<entry name="CHANGE_USERNAME_NULL">抱歉，你输入的值为空。</entry>
+<entry name="TUTORIAL_TAP">点击任意处跳过教程</entry>
+<entry name="END_SHORT_LOSE">太遗憾了！</entry>
+<entry name="BEST_PACK">最好的价钱</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">稍后提醒</entry>
+<entry name="LIFE_LOST">你失去了1点生命值</entry>
+<entry name="TUTORIAL_SOLDIERS_1">在士兵附近消除宝石就能摧毁他们。</entry>
+<entry name="PURCHASES_WARNING">在《沉睡魔咒：缤纷乐》可以购买额外内容，购买这些内容将花费您的真实货币。您可以调整您的设备来锁定内购功能。</entry>
+<entry name="STORE_DISABLED_TEXT">应用购买失败。请重新设置并再次尝试。</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">使所有荆棘充分成长来完成关卡。</entry>
+<entry name="HOME">主页</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">恭喜！您解锁了金风魔法！</entry>
+<entry name="EXIT_CONFIRMATION">关闭应用？</entry>
+<entry name="TUTORIAL_MANA">使用魔法将消耗您的魔法值，但是不用担心，每当您完成关卡就能获得相应魔法值。</entry>
+<entry name="CREDITS">制作人员</entry>
+<entry name="HOW_TO_PLAY_TITLE">玩法教程</entry>
+<entry name="LOSE_SOLDIERS">士兵会烧毁荆棘墙。</entry>
+<entry name="LOSE_LOCKED_TILES">您没能打破所有锁链。</entry>
+<entry name="SOUND">音效：</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">装满剩下的瓶子来完成挑战。</entry>
+<entry name="HELP_FUN">游戏愉快！</entry>
+<entry name="MUSIC">音乐：</entry>
+<entry name="LOSE_MOVES">步数用尽！</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">在盾牌附近消除宝石就可以打破他们。</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">打破所有锁链</entry>
+<entry name="END_SHORT_WIN_GREAT">完美！</entry>
+<entry name="HELP_COLOR_BOMB">5个宝石连接=色彩魔法石</entry>
+<entry name="TUTORIAL_GROWING_THORNS">使用荆棘丛生魔法然后选择8个相邻的宝石消除它们。</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">消除铁链内的宝石可以打破铁链</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">一堆魔法瓶</entry>
+<entry name="TUTORIAL_CROW">选择乌鸦魔法然后选择任意宝石消除它们！</entry>
+<entry name="TUTORIAL_WINTERCHILL">消除4个宝石可以获得一个横消或竖消魔法石，消除它可以消除所有它所指向的宝石。</entry>
+<entry name="STORE_PURCHASED_TITLE">成功</entry>
+<entry name="END_SHORT_WIN">十分精彩！</entry>
+<entry name="LOSE_SOLDIERS_TARGET">荆棘墙被烧毁了</entry>
+<entry name="CROW2ND_UNLOCK_KEY">恭喜！您解锁了一个新的乌鸦魔法！</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">消除宝石照亮格子！</entry>
+<entry name="LOSE_GROW_TARGETS">您没有使所有荆棘获得成长。</entry>
+<entry name="GROWING_THORNS_POWER_UP">荆棘生长</entry>
+<entry name="HELP_BOMB">以T型或L型消除5个宝石=炸弹魔法石</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">使用金风魔法来获得额外的5个步数。</entry>
+<entry name="LEVEL_TARGET">目标：</entry>
+<entry name="BOOK_CHAPTER5">章节 V</entry>
+<entry name="LIVES_PACK_NAME">生命值</entry>
+<entry name="STORE_WAITING_TITLE">等待中</entry>
+<entry name="HELP_SPECIALS">消除4或5个不同方向的宝石来获得不同的魔法石！</entry>
+<entry name="TUTORIAL_MULTIPLIER">提示：觉得很难得到目标分数？快速消除以获得翻倍分数。</entry>
+<entry name="WIN_SHORT_FREE_FALL">奖励时间！</entry>
+<entry name="ABOUT">关于我们</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">恭喜！您解锁了绿雾魔法！</entry>
+<entry name="BASIC_PACK">基础包</entry>
+<entry name="TUTORIAL_MANA_BALL">点击魔法球显示所有可用魔法</entry>
+<entry name="RESHUFFLE_MESSAGE">没有可移动的宝石了，重新布局！</entry>
+<entry name="THE_STAFF_POWER_UP">权杖</entry>
+<entry name="LOST_LIFE">您失去了1点生命值</entry>
+<entry name="TUTORIAL_WC_LOCKED">消除所有铁链完成挑战！</entry>
+<entry name="BEST">最佳</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">选择绿雾魔法，然后选择任意颜色即可消除所有该颜色的宝石</entry>
+<entry name="TUTORIAL_SOLDIERS_2">如果在一个回合中您没能摧毁士兵，他们就会前进一格。</entry>
+<entry name="LOSE_DROP_TILES">您没能收集所有特殊道具。</entry>
+<entry name="BOOK_CHAPTER1">章节 I</entry>
+<entry name="BOOK_CHAPTER2">章节 II</entry>
+<entry name="BOOK_CHAPTER3">章节 III</entry>
+<entry name="BOOK_CHAPTER4">章节 IV</entry>
+<entry name="FOR_PRICE">For &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">章节VI</entry>
+<entry name="BOOK_CHAPTER7">章节VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">目标得分</entry>
+<entry name="CONTINUE">继续</entry>
+<entry name="MANA_PACK_0_NAME">魔法瓶</entry>
+<entry name="NEXT_LEVEL">下一关</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">选择2个宝石来互换他们</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">消除4个宝石=指向魔法石</entry>
+<entry name="SCORE_SEPARATOR">,</entry>
+<entry name="BUY_ITEMS">获得更多物品</entry>
+<entry name="ENDING_CONGRATULATIONS">酷毙了！</entry>
+<entry name="LOSE_CONTINUE_MOVES">使用金风魔法（+5步数）继续挑战？</entry>
+<entry name="APP_RATE_BUTTON_RATE">评价此应用</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">消除所有指定宝石！</entry>
+<entry name="LEVEL_TARGET_SCORE">目标得分：</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">点亮格子</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">点亮格子完成挑战</entry>
+<entry name="CONNECT_RECEIVED">您已经收到过了今天的奖励</entry>
+<entry name="GAME_OBJECTIVE_EATER">在所有瓶子中填上相应颜色完成挑战。</entry>
+<entry name="LOADING">准备中…</entry>
+<entry name="TUTORIAL_WOLF_HOWL">选择狼魔法重置所有宝石的位置</entry>
+<entry name="GAME_SCORE">得分</entry>
+<entry name="CONNECT_SERVER">连接服务器</entry>
+<entry name="OUT_OF_LIVES">恢复生命值</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">用户支持</entry>
+<entry name="CROW_UNLOCK_KEY">恭喜！您解锁了恶魔乌鸦魔法！</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">消灭士兵</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">开始玩《沉睡魔咒：缤纷乐》</entry>
+<entry name="RESET_CONFIRMATION">重置所有进度？</entry>
+<entry name="LOSE_EATER">您没能填满所有瓶子</entry>
+<entry name="GAME_MOVES">步数</entry>
+<entry name="BUYMANA_BITTON_01">获得“魔法瓶（40魔法值）”信息费4元，需要发送1条短信，4元/条（不含通信费），是否支付？</entry>
+<entry name="BUYMANA_BITTON_02">获得“一堆魔法瓶（70魔法值）”信息费6元，需要发送1条短信，6元/条（不含通信费），是否支付？</entry>
+<entry name="BUYMANA_BITTON_03">获得“魔法坛（100魔法值）”信息费8元，需要发送1条短信，8元/条（不含通信费），是否支付？</entry>
+<entry name="BUYMANA_BITTON_04">获得“一堆魔法坛（130魔法值）”信息费10元，需要发送1条短信，10元/条（不含通信费），是否支付？</entry>
+<entry name="BUYMANA_BITTON_05">获得“魔法之釜（200魔法值）”信息费15元，需要发送1条短信，15元/条（不含通信费），是否支付？</entry>
+<entry name="BUYHEART_BITTON_01">获得“生命值（5体力）”信息费6元，需要发送一条短信，6元/条（不含通信费），是否支付？</entry>
+<entry name="SIM_TYPE_STORE_FAILED_TEXT">购买失败。不支持的sim卡类型。</entry>
+<entry name="CHANGE_CODE_SUCCESS">兑换码成功！
+获得：</entry>
+<entry name="CHANGE_CODE_WRONG_NOT_EXIST">兑换码不存在，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_HAVE_USED">兑换码已兑换过，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_TIMEOUT">兑换码已过期，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_PACKAGE">渠道版本不支持，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_NULL">兑换码值为空，不能完成兑换。</entry>
+<entry name="CHANGE_CODE_WRONG_USER_USED">抱歉，您已兑换成功一次，不允许多次兑换。</entry>
+<entry name="TIPSFOR_PROPERTY_BUY">关卡挺难,买些道具助你一臂之力吧!</entry>
+<entry name="FIRSTCHARGE_SUCCESS_TIPS">恭喜玩家,你购买首充礼包成功!</entry>
+
+
+</entries>

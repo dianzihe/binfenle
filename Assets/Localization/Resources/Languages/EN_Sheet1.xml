@@ -1,0 +1,586 @@
+<entries>
+<entry name="HOW_TO_PLAY">How to play</entry>
+<entry name="TUTORIAL_GLACIER">Match 5 colors in a row to
+create a Magic Color Power-up! Combine it
+with any Gem to break
+all Gems of the same color</entry>
+<entry name="PURCHASE">Purchase</entry>
+<entry name="PRICE_BUY">Buy now</entry>
+<entry name="CONNECT_REWARD">You need an internet</entry>
+<entry name="MANA_PACK_5_NAME">Cauldron</entry>
+<entry name="HELP_OBJECTIVES">Accomplish each level&apos;s
+objective and beat the
+target score to advance
+the story and unlock
+new levels.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">Maleficent
+Free Fall</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">Break all Chain tiles
+to complete the level.</entry>
+<entry name="ABOUT_DEVELOPER">Developed by</entry>
+<entry name="ENDING_BUTTON">Can&apos;t wait!</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">You didn&apos;t light up the board.</entry>
+<entry name="APP_RATE_MESSAGE">If you&apos;re enjoying Maleficent Free Fall,
+please take a few moments to rate it.</entry>
+<entry name="PRICE_CANCEL">Cancel</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">Congratulations! 
+You unlocked the
+Growing Thorns Power-up!</entry>
+<entry name="APP_RATE_TITLE">Rate Maleficent Free Fall</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">Drop the special items 
+to the bottom of the board.</entry>
+<entry name="TUTORIAL_COMBINE">Combine two Power-ups
+to create a more powerful
+effect. Try it with these 2
+Gem Power-ups!</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">BREAK ALL SHIELDS</entry>
+<entry name="STORE_WAITING_TEXT">Waiting for store...</entry>
+<entry name="ABOUT_VERSION">Version 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">Drop the special items
+to the bottom of the board.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">Grow all the Thorns
+to complete the level.</entry>
+<entry name="NO_MORE_MOVES">No more possible moves</entry>
+<entry name="TUTORIAL_SOLDIERS_3">Destroy them before they 
+get to the top and
+burn the thorn wall!</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">Visit us at:
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">IAP Disclaimer</entry>
+<entry name="LINK_CONFIRMATION">Open link and
+exit the game?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">GROW ALL TARGETS!</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">DROP  THE ITEMS</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">Place the specific colored 
+tile into the top of 
+the bottle to fill it!</entry>
+<entry name="LOSE_SHIELD">You didn&apos;t break all Shields.</entry>
+<entry name="MANA_WON">Magic:</entry>
+<entry name="LEVEL_COMPANION">Your Companion</entry>
+<entry name="STORE_DISABLED_TITLE">Disabled</entry>
+<entry name="MANA_PACK_4_NAME">Set of Demijohns</entry>
+<entry name="CROW_POWER_UP">Raven</entry>
+<entry name="RESUME">Resume</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">Now light up the rest of the board 
+to complete the level!</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">Destroy the soldiers before 
+they burn down the thorn wall.</entry>
+<entry name="END_SHORT_WIN_GOOD">Magical!</entry>
+<entry name="CONGRATULATIONS">Congratulations!</entry>
+<entry name="FINISH_GAME_TITLE">Magnificent!</entry>
+<entry name="WING_WIND_UNLOCK_KEY">Congratulations! 
+You unlocked the
+Wing Wind power-up!</entry>
+<entry name="RESET_PROGRESS">Reset</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">Come back and PLAY! You have a full set of lives!</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">Congratulations! 
+You unlocked the
+Wolf power-up!</entry>
+<entry name="TUTORIAL_CROW_2ND">Select the new Raven
+Power-up!</entry>
+<entry name="GREEN_MAGIC_POWER_UP">Green Magic</entry>
+<entry name="BUTTON_OK">OK</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">Yellow Magic</entry>
+<entry name="HELP_MULTIPLIER">TIP: Having trouble
+reaching the target
+score? Make matches
+quickly to earn score
+multipliers.</entry>
+<entry name="NEXT_LIFE">Next life in:</entry>
+<entry name="TUTORIAL_WIND">Now select the Wing Wind
+Power-up to create a powerful
+wind that breaks random tiles.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">Never rate</entry>
+<entry name="TUTORIAL_ICEBERG">Match colors in a &quot;T&quot; or &quot;L&quot;
+shape to create a Gem Power-up!
+Match it again to break all
+tiles around it.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">Seconds</entry>
+<entry name="FINISH_GAME_MESSAGE">You finished all levels!
+New levels coming SOON!</entry>
+<entry name="ABOUT_PRIVACY_POLICY">Privacy Policy</entry>
+<entry name="MORE_FREE">&lt;percentage&gt; More
+Free!</entry>
+<entry name="CROW_SWIPE_POWER_UP">Raven</entry>
+<entry name="GAME_TIME">Time</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">Break all Shields!</entry>
+<entry name="RETRY">Retry Level</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">Break all Shields 
+to completed the level.</entry>
+<entry name="OFF">Off</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">Break Target Tiles</entry>
+<entry name="FINISH_GAME_BUTTON">Can&apos;t wait!</entry>
+<entry name="LEVEL_NAME">Level</entry>
+<entry name="SALE">SALE</entry>
+<entry name="MANA_PACK_3_NAME">Demijohn</entry>
+<entry name="CONNECT_FAILED">Connection to
+server failed.</entry>
+<entry name="STORE_FAILED_TITLE">Failed</entry>
+<entry name="GAME_OBJECTIVE_SCORE">Reach the target
+score before you
+run out of MOVES!</entry>
+<entry name="MENU_PLAY">Play</entry>
+<entry name="ENDING_MESSAGE">You finished all levels!
+New levels coming soon!</entry>
+<entry name="TUTORIAL_OBJECTIVE">Here are the remaining 
+number of tiles you have
+ left to light up on the board.</entry>
+<entry name="ABOUT_TERMS_OF_USE">Terms of Use</entry>
+<entry name="PLAY_AGAIN">Play Again</entry>
+<entry name="LOSE_SCORE">You didn&apos;t reach
+the target score.</entry>
+<entry name="MAP_OBJECTIVE_EATER">FILL THE BOTTLES</entry>
+<entry name="STORE_PURCHASED_TEXT">Congratulations, your purchase was successful!</entry>
+<entry name="HELP_MAGIC">You can always get magic 
+points by obtaining stars 
+and replaying levels</entry>
+<entry name="HELP_COMBOS">Combine special Power-ups
+to unleash powerful
+effects.</entry>
+<entry name="TUTORIAL_MATCH_3">Swipe the Gem to
+match 3 of the same color.</entry>
+<entry name="TUTORIAL_STAFF">Select the Staff Power-up,
+then swipe across the board to break tiles.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">Congratulations! 
+You have unlocked the 
+Staff Power-up!</entry>
+<entry name="NO">No</entry>
+<entry name="EXIT">Exit Game</entry>
+<entry name="HELP_MATCH">Touch a tile and
+slide it with your finger.
+Match 3 tiles of the
+same color to break them.</entry>
+<entry name="WIND_POWER_UP">Wing Wind</entry>
+<entry name="GOOD_PACK">Good Deal</entry>
+<entry name="LOSE_TARGET_TILES">You didn&apos;t eliminate all
+required tiles.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">Make a match next 
+to a thorn sprout 
+to make it grow!</entry>
+<entry name="MANA_PACK_2_NAME">Bundle of Jars</entry>
+<entry name="ON">On</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; MAGIC</entry>
+<entry name="YES">Yes</entry>
+<entry name="LOSE_TIME">Out of time!</entry>
+<entry name="LEVEL_OBJECTIVE">Objective:</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">Extra 
+Magic</entry>
+<entry name="TUTORIAL_FREE_MANA">Here&apos;s &lt;points&gt; free Magic 
+to use as you wish!</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">Purchased Failed. Please check your network settings and try again later.</entry>
+<entry name="TUTORIAL_TAP">Tap anywhere to skip
+this tutorial.</entry>
+<entry name="END_SHORT_LOSE">Too Bad!</entry>
+<entry name="BEST_PACK">Best Deal</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">Remind me later</entry>
+<entry name="LIFE_LOST">You lost 1 Life</entry>
+<entry name="TUTORIAL_SOLDIERS_1">Make a match near a 
+soldier to destroy them.</entry>
+<entry name="PURCHASES_WARNING">Additional content can be purchased in Maleficent Free Fall. Purchasing this content costs real money and will be charged to your iTunes account. You can adjust your device settings to lock the ability to make in-app purchases.</entry>
+<entry name="STORE_DISABLED_TEXT">In-app purchases disabled. Please enable them in the Device Settings and try again.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">Now grow all Thorns 
+as much as possible 
+to complete the level.</entry>
+<entry name="HOME">Home</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">Congratulations! 
+You unlocked the
+Yellow Magic power-up!</entry>
+<entry name="EXIT_CONFIRMATION">Close application?</entry>
+<entry name="TUTORIAL_MANA">Using a Power-up may cost Magic. 
+But don&apos;t worry you can earn Magic as you play
+through the levels.</entry>
+<entry name="CREDITS">CREDITS</entry>
+<entry name="HOW_TO_PLAY_TITLE">How to Play</entry>
+<entry name="LOSE_SOLDIERS">Soldiers burned the thorn wall.</entry>
+<entry name="LOSE_LOCKED_TILES">You didn&apos;t break all Chain tiles.</entry>
+<entry name="SOUND">Sound:</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">Now fill the rest of the bottles
+to complete the level!</entry>
+<entry name="HELP_FUN">Have Fun!</entry>
+<entry name="MUSIC">Music:</entry>
+<entry name="LOSE_MOVES">Out of moves!</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">Make a match next to 
+the Shields to break them.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">BREAK ALL CHAIN TILES</entry>
+<entry name="END_SHORT_WIN_GREAT">Magnificent!</entry>
+<entry name="HELP_COLOR_BOMB">5 in line = Magic Color Power-up</entry>
+<entry name="TUTORIAL_GROWING_THORNS">Tap the Growing Thorns Power-up, 
+then select eight connecting tiles 
+to destroy them.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">The Chain tile can be broken
+by matching the tile underneath
+with 2 Gems of the same color.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">Set of Jars</entry>
+<entry name="TUTORIAL_CROW">Select the Raven
+Power-up, then select 
+any tile to break it!</entry>
+<entry name="TUTORIAL_WINTERCHILL">Match 4 colors in a row to
+create a Gem Power-up!
+Match it again to break all tiles
+in its path.</entry>
+<entry name="STORE_PURCHASED_TITLE">Success</entry>
+<entry name="END_SHORT_WIN">Impressive!</entry>
+<entry name="LOSE_SOLDIERS_TARGET">Thorn wall burned</entry>
+<entry name="CROW2ND_UNLOCK_KEY">Congratulations! You
+unlocked a new Raven 
+Power-up!</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">Swipe the tile to
+illuminate the board piece!</entry>
+<entry name="LOSE_GROW_TARGETS">You didn&apos;t grow all the targets.</entry>
+<entry name="GROWING_THORNS_POWER_UP">Growing Thorns</entry>
+<entry name="HELP_BOMB">5 in T or L = Bomb Power-up</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">Use the Yellow Magic 
+to add 5 more moves.</entry>
+<entry name="LEVEL_TARGET">Target:</entry>
+<entry name="BOOK_CHAPTER5">Chapter V</entry>
+<entry name="LIVES_PACK_NAME">Lives</entry>
+<entry name="STORE_WAITING_TITLE">Waiting</entry>
+<entry name="HELP_SPECIALS">Match 4 or 5 tiles
+in different shapes to
+create different Gem Power-ups!</entry>
+<entry name="TUTORIAL_MULTIPLIER">TIP: Having trouble reaching the target score?
+Make matches quickly to earn score multipliers.</entry>
+<entry name="WIN_SHORT_FREE_FALL">Free Fall!</entry>
+<entry name="ABOUT">About</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">Congratulations!
+You unlocked the
+Green Magic Power-up!</entry>
+<entry name="BASIC_PACK">Basic Pack</entry>
+<entry name="TUTORIAL_MANA_BALL">Tap the Magic Ball
+to display all
+Maleficent&apos;s Powers.</entry>
+<entry name="RESHUFFLE_MESSAGE">No more moves</entry>
+<entry name="THE_STAFF_POWER_UP">Staff</entry>
+<entry name="LOST_LIFE">You lost 
+1 life</entry>
+<entry name="TUTORIAL_WC_LOCKED">Now break all the Chain tiles
+to complete the level!</entry>
+<entry name="BEST">Best</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">Select the Green Magic Power-up, 
+then select any Gem to break 
+all Gems of the same color.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">Every move that you don&apos;t
+destroy a Soldier, they will
+move up one row.</entry>
+<entry name="LOSE_DROP_TILES">You didn&apos;t drop all
+the special items.</entry>
+<entry name="BOOK_CHAPTER1">Chapter I</entry>
+<entry name="BOOK_CHAPTER2">Chapter II</entry>
+<entry name="BOOK_CHAPTER3">Chapter III</entry>
+<entry name="BOOK_CHAPTER4">Chapter IV</entry>
+<entry name="FOR_PRICE">For &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">Chapter VI</entry>
+<entry name="BOOK_CHAPTER7">Chapter VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">Target Score</entry>
+<entry name="CONTINUE">Continue</entry>
+<entry name="MANA_PACK_0_NAME">Jar</entry>
+<entry name="NEXT_LEVEL">Next Level</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">Now select 2
+Gems to switch them!</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4 in line = Directional Gem Power-up</entry>
+<entry name="SCORE_SEPARATOR">,</entry>
+<entry name="BUY_ITEMS">Get More Items</entry>
+<entry name="ENDING_CONGRATULATIONS">Magnificent!</entry>
+<entry name="LOSE_CONTINUE_MOVES">Use Yellow Magic (+5 moves) to
+continue this level?</entry>
+<entry name="APP_RATE_BUTTON_RATE">Rate this app</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">Eliminate all
+required tiles!</entry>
+<entry name="LEVEL_TARGET_SCORE">Target Score:</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">LIGHT UP THE BOARD</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">Light the board
+to complete the level.</entry>
+<entry name="CONNECT_RECEIVED">You already received
+today&apos;s reward.</entry>
+<entry name="GAME_OBJECTIVE_EATER">Fill all the bottles with 
+the appropriate colors 
+to complete the level.</entry>
+<entry name="LOADING">Loading...</entry>
+<entry name="TUTORIAL_WOLF_HOWL">Select the Wolf
+to reshuffle all the Gems
+on the board.</entry>
+<entry name="GAME_SCORE">Score</entry>
+<entry name="CONNECT_SERVER">Connecting
+to server</entry>
+<entry name="OUT_OF_LIVES">Refill Lives</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">Customer Support</entry>
+<entry name="CROW_UNLOCK_KEY">Congratulations! You
+unlocked Diaval, the 
+Raven Power-up!</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">DESTROY THE SOLDIERS</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">Play Maleficent Free Fall</entry>
+<entry name="RESET_CONFIRMATION">Reset all progress?</entry>
+<entry name="LOSE_EATER">You didn&apos;t fill
+all the bottles.</entry>
+<entry name="GAME_MOVES">Moves</entry>
+</entries>

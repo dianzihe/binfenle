@@ -1,0 +1,541 @@
+<entries>
+<entry name="HOW_TO_PLAY">Как играть</entry>
+<entry name="TUTORIAL_GLACIER">Составь 5 цветов и получи бонус
+Маг. цвета! Используй его
+с камнем любого цвета, 
+чтобы разбивать подобные ему.</entry>
+<entry name="PURCHASE">Купить</entry>
+<entry name="PRICE_BUY">Возьми сейчас!</entry>
+<entry name="CONNECT_REWARD">Необходимо соединение с сетью Интернет</entry>
+<entry name="MANA_PACK_5_NAME">Котел</entry>
+<entry name="HELP_OBJECTIVES">Выполни все задачи на
+каждом уровне и заработай
+нужное количество очков, чтобы продвинуться
+вперед по сюжету
+и открыть новые уровни.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">Малефисента
+Звездопад</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">Разбей цепи, чтобы
+завершить уровень.</entry>
+<entry name="ABOUT_DEVELOPER">Разработчик</entry>
+<entry name="ENDING_BUTTON">Поскорее бы!</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">Не удалось подсветить все плитки.</entry>
+<entry name="APP_RATE_MESSAGE">Если тебе нравится «Малефисента.
+Звездопад», пожалуйста, оцени ее.</entry>
+<entry name="PRICE_CANCEL">Отмена</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">Поздравляем!
+Открыт бонус Растущих шипов!</entry>
+<entry name="APP_RATE_TITLE">Оценить игру «Малефисента. Звездопад»</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">Перемести предметы в нижнюю часть поля.</entry>
+<entry name="TUTORIAL_COMBINE">Используй сразу два бонуса
+для более мощного эффекта!
+Попробуй два Бонуса самоцвета.</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">Разбить все щиты</entry>
+<entry name="STORE_WAITING_TEXT">Ожидание связи с магазином</entry>
+<entry name="ABOUT_VERSION">Версия 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">Перемести предметы в нижнюю часть поля.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">Вырасти все шипы, чтобы завершить уровень.</entry>
+<entry name="NO_MORE_MOVES">Больше нет возможных ходов</entry>
+<entry name="TUTORIAL_SOLDIERS_3">Одолей их прежде чем они
+доберутся до верха и
+и сожгут стену шипов!</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">Посетите наш сайт: 
+http://www.disney.ru</entry>
+<entry name="PURCHASES_WARNING_TITLE">Описание</entry>
+<entry name="LINK_CONFIRMATION">Открыть ссылку
+и выйти из игры?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">Вырастить все шипы</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">Сбросить предметы</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">Помести нужную цветную 
+плитку над бутылкой, 
+чтобы заполнить ее!</entry>
+<entry name="LOSE_SHIELD">Не удалось разбить все щиты.</entry>
+<entry name="MANA_WON">Магия:</entry>
+<entry name="LEVEL_COMPANION">Твой помощник</entry>
+<entry name="STORE_DISABLED_TITLE">Недоступно</entry>
+<entry name="MANA_PACK_4_NAME">Несколько бутылей</entry>
+<entry name="CROW_POWER_UP">Бонус ворона</entry>
+<entry name="RESUME">Продолжить</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">Подсвети остальное поле, чтобы завершить уровень!</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">Одолей солдат, прежде
+чем они сожгут шипы.</entry>
+<entry name="END_SHORT_WIN_GOOD">Превосходно!</entry>
+<entry name="CONGRATULATIONS">Поздравляем!</entry>
+<entry name="FINISH_GAME_TITLE">Прекрасно!</entry>
+<entry name="WING_WIND_UNLOCK_KEY">Поздравляем!
+Открыт Бонус ветра!</entry>
+<entry name="RESET_PROGRESS">Cначала</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">Запас жизней восстановлен. Возвращайся в игру!</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">Поздравляем!
+Открыт новый
+бонус волка!</entry>
+<entry name="TUTORIAL_CROW_2ND">Выбери новый Бонус ворона!</entry>
+<entry name="GREEN_MAGIC_POWER_UP">Ворон</entry>
+<entry name="BUTTON_OK">ОК</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">Желтая магия</entry>
+<entry name="HELP_MULTIPLIER">СОВЕТ: Не удается
+достичь нужного количества
+очков? Быстрее создавай
+последовательности,
+чтобы умножать очки.</entry>
+<entry name="NEXT_LIFE">Новая жизнь через:</entry>
+<entry name="TUTORIAL_WIND">Используй Бонус ветра,
+чтобы разбивать сильным ветром
+случайные плитки.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">Не оценивать</entry>
+<entry name="TUTORIAL_ICEBERG">Расположи цвета в форме буквы T или L и получи Бонус самоцвета! Собери последовательность еще раз, чтобы разбивать все плитки вокруг.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">Сек.</entry>
+<entry name="FINISH_GAME_MESSAGE">Все уровни пройдены!
+Новые появятся совсем скоро!</entry>
+<entry name="ABOUT_PRIVACY_POLICY">Политика конфиденциальности</entry>
+<entry name="MORE_FREE">На &lt;percentage&gt; больше
+бесплатно!</entry>
+<entry name="CROW_SWIPE_POWER_UP">Ворон</entry>
+<entry name="GAME_TIME">Время</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">Разбей все щиты!</entry>
+<entry name="RETRY">Заново</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">Разбей все щиты, чтобы завершить уровень.</entry>
+<entry name="OFF">Выкл.</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">Разбивай нужные плитки</entry>
+<entry name="FINISH_GAME_BUTTON">Поскорее бы!</entry>
+<entry name="LEVEL_NAME">Уровень</entry>
+<entry name="SALE">РАСПРОДАЖА</entry>
+<entry name="MANA_PACK_3_NAME">Бутыль</entry>
+<entry name="CONNECT_FAILED">Не удалось соединиться
+с сервером.</entry>
+<entry name="STORE_FAILED_TITLE">Не удалось</entry>
+<entry name="GAME_OBJECTIVE_SCORE">Заработай нужное
+количество очков,
+пока не закончились ходы!</entry>
+<entry name="MENU_PLAY">Играть</entry>
+<entry name="ENDING_MESSAGE">Все уровни пройдены!
+Скоро появятся новые!</entry>
+<entry name="TUTORIAL_OBJECTIVE">Здесь указано количество
+плиток, которые еще
+осталось подсветить.</entry>
+<entry name="ABOUT_TERMS_OF_USE">Условия использования</entry>
+<entry name="PLAY_AGAIN">Заново</entry>
+<entry name="LOSE_SCORE">Не удалось заработать
+нужное количество очков.</entry>
+<entry name="MAP_OBJECTIVE_EATER">Заполнить бутылки</entry>
+<entry name="STORE_PURCHASED_TEXT">Поздравляем! Покупка совершена.</entry>
+<entry name="HELP_MAGIC">Ты всегда можешь заработать
+очки магии, получая звезды
+и переигрывая уровни.</entry>
+<entry name="HELP_COMBOS">Сочетай бонусы, получая мощный эффект.</entry>
+<entry name="TUTORIAL_MATCH_3">Перемещай самоцветы, чтобы
+составить последовательность из 3 камней одного цвета.</entry>
+<entry name="TUTORIAL_STAFF">Используй Бонус жезла, чтобы разбивать плитки на поле.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">Поздравляем!
+Открыт Бонус жезла!</entry>
+<entry name="NO">Нет</entry>
+<entry name="EXIT">Выйти из игры</entry>
+<entry name="HELP_MATCH">Коснись плитки
+и сдвинь ее пальцем.
+Составь 3 плитки одного цвета,
+и они разобьются!</entry>
+<entry name="WIND_POWER_UP">Ветер</entry>
+<entry name="GOOD_PACK">Выгодное предложение</entry>
+<entry name="LOSE_TARGET_TILES">Не удалось разбить
+все нужные плитки.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">Составляй последовательность рядом с шипом, чтобы он смог вырасти!</entry>
+<entry name="MANA_PACK_2_NAME">Набор банок</entry>
+<entry name="ON">Вкл.</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt;: очк. Магии</entry>
+<entry name="YES">Да</entry>
+<entry name="LOSE_TIME">Время вышло!</entry>
+<entry name="LEVEL_OBJECTIVE">Задача:</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">Дополнительная магия</entry>
+<entry name="TUTORIAL_FREE_MANA">Ты получаешь +&lt;points&gt; бесплатной магии!</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">Не удалось совершить покупку. Проверьте параметры сетевого соединения и попробуйте позже.</entry>
+<entry name="TUTORIAL_TAP">Нажми в любом месте, чтобы пропустить обучение.</entry>
+<entry name="END_SHORT_LOSE">Неудача!</entry>
+<entry name="BEST_PACK">Лучшее предложение</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">Напомнить позже</entry>
+<entry name="LIFE_LOST">Потеряна 1 жизнь</entry>
+<entry name="TUTORIAL_SOLDIERS_1">Составь последовательность рядом
+с солдатом, чтобы одолеть его.</entry>
+<entry name="PURCHASES_WARNING">В игре «Малефисента. Звездопад» можно покупать дополнительный контент за реальные деньги. Потраченная сумма будет зачислена на учетную запись iTunes. Можно изменить параметры мобильного устройства, чтобы запретить внутриигровые покупки.</entry>
+<entry name="STORE_DISABLED_TEXT">Внутриигровые покупки недоступны. Измените параметры вашего устройства и попробуйте снова.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">Вырасти шипы на максимальную длину, чтобы завершить уровень.</entry>
+<entry name="HOME">В начало</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">Поздравляем! Открыт Бонус Желтой магии!</entry>
+<entry name="EXIT_CONFIRMATION">Закрыть приложение?</entry>
+<entry name="TUTORIAL_MANA">Чтобы использовать бонусы, тратится магия. Ее можно заработать на каждом новом уровне!</entry>
+<entry name="CREDITS">АВТОРЫ</entry>
+<entry name="HOW_TO_PLAY_TITLE">Как играть</entry>
+<entry name="LOSE_SOLDIERS">Стена шипов сожжена</entry>
+<entry name="LOSE_LOCKED_TILES">Не удалось разбить все цепи.</entry>
+<entry name="SOUND">Звук:</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">Заполни остальные бутылки, чтобы завершить уровень!</entry>
+<entry name="HELP_FUN">Веселой игры!</entry>
+<entry name="MUSIC">Музыка:</entry>
+<entry name="LOSE_MOVES">Закончились ходы!</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">Чтобы разбить щиты, составь последовательность рядом с ними.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">Разбить все цепи</entry>
+<entry name="END_SHORT_WIN_GREAT">Прекрасно!</entry>
+<entry name="HELP_COLOR_BOMB">За 5 плиток в ряд - бонус Магического цвета</entry>
+<entry name="TUTORIAL_GROWING_THORNS">Коснись бонуса Растущих шипов. Выбери восемь окружающих плиток, чтобы разбить их.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">Чтобы разбить цепи, подбери
+2 самоцвета того же цвета,
+что и самоцвет в цепях.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">Несколько банок</entry>
+<entry name="TUTORIAL_CROW">Используй Бонус ворона, чтобы разбивать любую плитку!</entry>
+<entry name="TUTORIAL_WINTERCHILL">Составь 4 цвета в ряд и получи Бонус самоцвета! Собери последовательность еще раз, чтобы разбивать все плитки на его пути.</entry>
+<entry name="STORE_PURCHASED_TITLE">Удалось!</entry>
+<entry name="END_SHORT_WIN">Отлично!</entry>
+<entry name="LOSE_SOLDIERS_TARGET">Стена шипов сожжена</entry>
+<entry name="CROW2ND_UNLOCK_KEY">Поздравляем!
+Открыт новый Бонус ворона!</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">Перемести плитку, чтобы подсветить участок поля!</entry>
+<entry name="LOSE_GROW_TARGETS">Не удалось выполнить все задания.</entry>
+<entry name="GROWING_THORNS_POWER_UP">Растущие шипы</entry>
+<entry name="HELP_BOMB">За 5 плиток в форме букв T или L - Бонус бомбы</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">Используй Желтую магию,
+чтобы получить еще 5 ходов.</entry>
+<entry name="LEVEL_TARGET">Цель:</entry>
+<entry name="BOOK_CHAPTER5">Глава V</entry>
+<entry name="LIVES_PACK_NAME">Жизни</entry>
+<entry name="STORE_WAITING_TITLE">Ожидание</entry>
+<entry name="HELP_SPECIALS">Составляй 4 или 5 плиток
+в разные фигуры и получай
+различные Бонусы самоцветов!</entry>
+<entry name="TUTORIAL_MULTIPLIER">СОВЕТ: Не можешь набрать нужное количество очков?
+Быстрее составляй последовательности, и счет умножится!</entry>
+<entry name="WIN_SHORT_FREE_FALL">Звездопад!</entry>
+<entry name="ABOUT">Об игре</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">Поздравляем!
+Открыт бонус Зеленой магии!</entry>
+<entry name="BASIC_PACK">Базовый набор</entry>
+<entry name="TUTORIAL_MANA_BALL">Коснись Волшебного шара,
+чтобы увидеть все
+возможности Малефисенты.</entry>
+<entry name="RESHUFFLE_MESSAGE">Больше нет ходов</entry>
+<entry name="THE_STAFF_POWER_UP">Жезл</entry>
+<entry name="LOST_LIFE">Потеряна 1 жизнь</entry>
+<entry name="TUTORIAL_WC_LOCKED">Разбей цепи, чтобы 
+завершить уровень!</entry>
+<entry name="BEST">Лучший</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">Выбери бонус Зеленой магии, а затем - любой самоцвет, чтобы разбивать камни того же цвета.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">Каждый ход, в который ты
+не одолеваешь солдата,
+он перемещается на плитку вверх.</entry>
+<entry name="LOSE_DROP_TILES">Не удалось переместить
+все особые предметы.</entry>
+<entry name="BOOK_CHAPTER1">Глава I</entry>
+<entry name="BOOK_CHAPTER2">Глава II</entry>
+<entry name="BOOK_CHAPTER3">Глава III</entry>
+<entry name="BOOK_CHAPTER4">Глава IV</entry>
+<entry name="FOR_PRICE">За &lt;price&gt;</entry>
+<entry name="BOOK_CHAPTER6">Глава VI</entry>
+<entry name="BOOK_CHAPTER7">Глава VII</entry>
+<entry name="ABOUT_PUBLISHER">© Disney, 2014</entry>
+<entry name="MAP_OBJECTIVE_SCORE">Набрать очки</entry>
+<entry name="CONTINUE">Продолжить</entry>
+<entry name="MANA_PACK_0_NAME">Банка</entry>
+<entry name="NEXT_LEVEL">Продолжить</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">Теперь выбери 2 самоцвета, 
+чтобы поменять их местами.</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4 плитки в ряд = направ. Бонус самоцвета</entry>
+<entry name="SCORE_SEPARATOR"></entry>
+<entry name="BUY_ITEMS">Получи больше предметов</entry>
+<entry name="ENDING_CONGRATULATIONS">Прекрасно!</entry>
+<entry name="LOSE_CONTINUE_MOVES">Применить Желтую магию (+5 ходов),
+чтобы продолжить на том же уровне?</entry>
+<entry name="APP_RATE_BUTTON_RATE">Оценить игру</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">Разбей все
+нужные плитки!</entry>
+<entry name="LEVEL_TARGET_SCORE">Нужно набрать:</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">Подсветить поле</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">Подсвети поле, чтобы завершить уровень.</entry>
+<entry name="CONNECT_RECEIVED">Ежедневная награда
+уже получена.</entry>
+<entry name="GAME_OBJECTIVE_EATER">Заполни бутылки
+соответствующими цветами,
+чтобы завершить уровень.</entry>
+<entry name="LOADING">Загрузка...</entry>
+<entry name="TUTORIAL_WOLF_HOWL">Выбери волка,
+чтобы перемешать
+все самоцветы.</entry>
+<entry name="GAME_SCORE">Счет</entry>
+<entry name="CONNECT_SERVER">Соединение
+с сервером</entry>
+<entry name="OUT_OF_LIVES">Восстановить жизни</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">Поддержка пользователей</entry>
+<entry name="CROW_UNLOCK_KEY">Поздравляем!
+Открыт Бонус ворона!</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">Одолей солдат</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">Запустить игру «Малефисента. Звездопад»</entry>
+<entry name="RESET_CONFIRMATION">Сбросить весь прогресс?</entry>
+<entry name="LOSE_EATER">Не удалось заполнить все бутылки.</entry>
+<entry name="GAME_MOVES">Ходы</entry>
+</entries>

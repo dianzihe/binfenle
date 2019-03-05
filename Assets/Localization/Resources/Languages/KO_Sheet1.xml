@@ -1,0 +1,554 @@
+<entries>
+<entry name="HOW_TO_PLAY">플레이 방법</entry>
+<entry name="TUTORIAL_GLACIER">연속으로 5개 색을 매치해
+마법 색깔 파워업을 만드세요!
+그 마법 색깔 파워업과 보석을 조합해
+같은 색 보석을 전부 깨세요.</entry>
+<entry name="PURCHASE">구매</entry>
+<entry name="PRICE_BUY">지금 구매</entry>
+<entry name="CONNECT_REWARD">인터넷이 필요합니다</entry>
+<entry name="MANA_PACK_5_NAME">가마솥</entry>
+<entry name="HELP_OBJECTIVES">각 레벨의 목표를
+달성하고 목표 점수를 넘어
+스토리를 진행시키고
+새로운 레벨을
+잠금 해제하세요.</entry>
+<entry name="CREDITS_DISNEY_TITLES">PRODUCTION
+
+Managing Producer
+
+
+Technical Director
+
+
+Executive Producer
+
+
+MARKETING
+
+Director, Mobile
+Product Marketing
+
+
+Manager, Mobile
+Product Marketing
+
+
+CENTRAL CREATIVE
+
+Lead Artist
+
+
+Graduate, Graphic Design Intern
+
+
+Senior Manager, Game Design
+
+
+Director, Art &amp; Design
+
+
+Director, Game Content Development
+
+
+
+QUALITY ASSURANCE
+
+QA Project Lead
+
+
+QA Testers
+
+
+
+
+
+
+Sr Functional Manager, Mobile QA
+
+
+Director, Mobile QA &amp;
+Live Operations
+
+
+QA Special Thanks
+
+
+
+
+
+
+
+Music Composed and Produced by
+
+
+SPECIAL THANKS</entry>
+<entry name="ABOUT_TITLE">말레피센트
+프리폴</entry>
+<entry name="GAME_OBJECTIVE_LOCKED_TILES">모든 체인 타일을 깨서 레벨을 완료하세요.</entry>
+<entry name="ABOUT_DEVELOPER">개발사:</entry>
+<entry name="ENDING_BUTTON">기대돼요!</entry>
+<entry name="LIGHT_BOARD_PIECES_LOSE">모든 타일의 불을 밝히지 못했습니다.</entry>
+<entry name="APP_RATE_MESSAGE">말레피센트 프리폴이 재밌었다면,
+잠시 시간을 내서 평가해 주세요.</entry>
+<entry name="PRICE_CANCEL">취소</entry>
+<entry name="GROWING_THORNS_UNLOCK_KEY">축하합니다! 자라는 가시 파워업을
+잠금 해제했습니다!</entry>
+<entry name="APP_RATE_TITLE">말레피센트 프리폴 평가</entry>
+<entry name="TUTORIAL_DROP_ELEMENTS">보드 아래로 특별 아이템을 떨어뜨리세요.</entry>
+<entry name="TUTORIAL_COMBINE">파워업 2개를 조합해
+더 강력한 효과를 만드세요.
+이 보석 파워업 2개로
+해보세요!</entry>
+<entry name="MAP_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">모든 방패 깨기</entry>
+<entry name="STORE_WAITING_TEXT">점수 기다리는 중…</entry>
+<entry name="ABOUT_VERSION">버전 1.0.0</entry>
+<entry name="GAME_OBJECTIVE_DROP_TILES">보드 아래로 특별 아이템을 떨어뜨리세요.</entry>
+<entry name="GAME_OBJECTIVE_GROW_TARGETS">모든 가시들을 성장시켜 레벨을 완료하세요.</entry>
+<entry name="NO_MORE_MOVES">더는 매치할 수 없음</entry>
+<entry name="TUTORIAL_SOLDIERS_3">꼭대기에 도달하여 가시 벽을 
+태워 무너뜨리기 전에
+모두 제거하십시오!</entry>
+<entry name="CREDITS_DISNEY">DISNEY</entry>
+<entry name="ABOUT_VISIT">웹사이트:
+http://disney.com</entry>
+<entry name="PURCHASES_WARNING_TITLE">IAP 면책 조항</entry>
+<entry name="LINK_CONFIRMATION">링크를 열고
+게임을 나가시겠습니까?</entry>
+<entry name="MAP_OBJECTIVE_GROW_TARGETS">모든 가시들을 성장시키기.</entry>
+<entry name="MAP_OBJECTIVE_DROP_TILES">아이템 떨어뜨리기</entry>
+<entry name="TUTORIAL_MATCH_TILE_EATER">병 위에 특정한 색의 타일을 놓아 병을 채우세요!</entry>
+<entry name="LOSE_SHIELD">모든 방패를 깨지 못했습니다.</entry>
+<entry name="MANA_WON">마법:</entry>
+<entry name="LEVEL_COMPANION">동료</entry>
+<entry name="STORE_DISABLED_TITLE">사용 안 함</entry>
+<entry name="MANA_PACK_4_NAME">유리병 더미</entry>
+<entry name="CROW_POWER_UP">까마귀</entry>
+<entry name="RESUME">다시 시작</entry>
+<entry name="TUTORIAL_WC_ILLUMINABLE">이제 보드의 나머지를 밝혀
+레벨을 완료하세요!</entry>
+<entry name="GAME_OBJECTIVE_SOLDIERS">병사들이 가시 벽을 태워
+무너뜨리기 전에 그들을 제거하세요.</entry>
+<entry name="END_SHORT_WIN_GOOD">멋져요!</entry>
+<entry name="CONGRATULATIONS">축하합니다!</entry>
+<entry name="FINISH_GAME_TITLE">대단해요!</entry>
+<entry name="WING_WIND_UNLOCK_KEY">축하합니다! 날개 바람 파워업을
+잠금 해제했습니다!</entry>
+<entry name="RESET_PROGRESS">초기화</entry>
+<entry name="LIVES_NOTIFICATION_MESSAGE">돌아와서 다시 플레이하세요! 생명이 가득 차 있습니다!</entry>
+<entry name="WOLF_HOWL_UNLOCK_KEY">축하합니다!
+늑대 파워업을
+잠금 해제했습니다!</entry>
+<entry name="TUTORIAL_CROW_2ND">새로운 까마귀 파워업을 선택하세요!</entry>
+<entry name="GREEN_MAGIC_POWER_UP">녹색 마법</entry>
+<entry name="BUTTON_OK">확인</entry>
+<entry name="YELLOW_PIXIE_DUST_POWER_UP">노랑 마법</entry>
+<entry name="HELP_MULTIPLIER">팁: 목표 점수 달성이
+힘드신가요?
+더 빠르게 매치해
+배수 점수를
+획득하세요.</entry>
+<entry name="NEXT_LIFE">다음 생명 생성:</entry>
+<entry name="TUTORIAL_WIND">이제 날개 바람 파워업을
+선택해 무작위로 타일을 깨는
+강력한 바람을 만드세요.</entry>
+<entry name="APP_RATE_BUTTON_NEVER">평가 안 함</entry>
+<entry name="TUTORIAL_ICEBERG">&quot;T&quot; 또는 &quot;L&quot; 모양으로
+색을 매치해 보석 파워업을 만드세요!
+다시 매치해 주변의
+모든 타일을 깨세요.</entry>
+<entry name="CREDITS_GENERA">GENERA INTERACTIVE</entry>
+<entry name="GAME_SECONDS">초</entry>
+<entry name="FINISH_GAME_MESSAGE">모든 레벨을 완료했습니다!
+곧 새로운 레벨을 선보입니다!</entry>
+<entry name="ABOUT_PRIVACY_POLICY">개인 정보 보호 정책</entry>
+<entry name="MORE_FREE">&lt;percentage&gt; 추가 무료!</entry>
+<entry name="CROW_SWIPE_POWER_UP">까마귀</entry>
+<entry name="GAME_TIME">시간</entry>
+<entry name="GAME_OBJECTIVE_DESTROY_SHIELDS_OBJECTIVE">모든 방패를 깨세요!</entry>
+<entry name="RETRY">레벨 재시도</entry>
+<entry name="TUTORIAL_WC_REMOVE_SHIELDS">모든 방패를 깨서 레벨을 완료하세요.</entry>
+<entry name="OFF">끄기</entry>
+<entry name="LEVEL_OBJECTIVE_TARGET_TILES">목표 타일 깨기</entry>
+<entry name="FINISH_GAME_BUTTON">기대돼요!</entry>
+<entry name="LEVEL_NAME">레벨</entry>
+<entry name="SALE">할인</entry>
+<entry name="MANA_PACK_3_NAME">유리병</entry>
+<entry name="CONNECT_FAILED">서버 연결을
+실패했습니다.</entry>
+<entry name="STORE_FAILED_TITLE">실패</entry>
+<entry name="GAME_OBJECTIVE_SCORE">주어진 이동횟수로
+목표 점수를
+달성하세요!</entry>
+<entry name="MENU_PLAY">플레이</entry>
+<entry name="ENDING_MESSAGE">모든 레벨을 완료했습니다!
+곧 새로운 레벨을 선보입니다!</entry>
+<entry name="TUTORIAL_OBJECTIVE">보드에 불을 밝히는 데
+필요한 타일의
+남은 숫자입니다.</entry>
+<entry name="ABOUT_TERMS_OF_USE">사용 약관</entry>
+<entry name="PLAY_AGAIN">다시 플레이</entry>
+<entry name="LOSE_SCORE">목표 점수에
+도달하지 못했습니다.</entry>
+<entry name="MAP_OBJECTIVE_EATER">병 채우기</entry>
+<entry name="STORE_PURCHASED_TEXT">축하합니다. 구매에 성공했습니다!</entry>
+<entry name="HELP_MAGIC">언제든 스타를 획득하고
+레벨을 다시 플레이해
+마법 점수를 얻을 수 있습니다.</entry>
+<entry name="HELP_COMBOS">특별한 파워업을 조합해
+강력한 효과를 만드세요.</entry>
+<entry name="TUTORIAL_MATCH_3">보석을 밀어
+같은 색 3개를 매치하세요.</entry>
+<entry name="TUTORIAL_STAFF">지팡이 파워업을 선택한 후 보드 곳곳을 밀어 타일을 깨세요.</entry>
+<entry name="THE_STAFF_UNLOCK_KEY">축하합니다! 지팡이 파워업을
+잠금 해제했습니다!</entry>
+<entry name="NO">아니오</entry>
+<entry name="EXIT">게임 나가기</entry>
+<entry name="HELP_MATCH">타일을 터치해
+손가락으로 미세요.
+같은 색 3개를 매치하면
+타일이 깨집니다.</entry>
+<entry name="WIND_POWER_UP">날개 바람</entry>
+<entry name="GOOD_PACK">좋은 가격</entry>
+<entry name="LOSE_TARGET_TILES">필요한 타일 전부를
+제거하지 못했습니다.</entry>
+<entry name="TUTORIAL_MATCH_TREE_SPROUD">가시 옆에 매치해 가시가 
+성장하게 만드세요!</entry>
+<entry name="MANA_PACK_2_NAME">병 묶음</entry>
+<entry name="ON">켜기</entry>
+<entry name="MANA_PACK_GET_POINTS">&lt;points&gt; 마법</entry>
+<entry name="YES">네</entry>
+<entry name="LOSE_TIME">시간이 다 됐어요!</entry>
+<entry name="LEVEL_OBJECTIVE">목표:</entry>
+<entry name="MANA_PACK_EXTRA_POINTS">추가 마법</entry>
+<entry name="TUTORIAL_FREE_MANA">여기 원하실때 사용 가능한 &lt;points&gt; 무료마법이 있습니다!</entry>
+<entry name="CREDITS_DISNEY_NAMES">Ryan Winterholler
+
+
+Binh Nguyen
+
+
+Scott Humphries
+
+
+
+
+
+Patrick W Sager
+
+
+
+Linda Lee
+
+
+
+
+Young Choi
+
+
+Vanessa Luo
+
+
+Brian Gomez
+
+
+Will Rosas
+
+
+Luigi Priore
+
+
+
+
+
+Bobby Munguia
+
+
+Adam Hale
+Belinda Louie
+Kevin Skorcz
+Rachel Hassid
+
+
+
+Kevin Connors
+
+
+
+Marietta Pashayan
+
+
+Alex Sherer
+Brice Bonnet
+Eric Rodriguez
+Megan Thompson
+Natascha Thomas
+Shin Park
+
+
+James Newton Howard
+
+
+Adam Landenberger
+Amanda Molina
+Amir Hematyar
+Amy Lee
+Angelina Jolie
+Angeline Huang
+Asad Ayaz
+Blair R Meisenheimer
+Bob Iger
+Brooke E. Chaffin-Reid
+Christian Garelli
+CK Kindregan
+Corey Valencia
+Cyril Bornette
+Dale Kennedy
+Daniel Plant
+Caitlin E Dodson
+Dominique Flynn
+Dorothee Pinlet
+Greg Hayes
+Gwen Riley
+James A Pitaro
+Jaquelyn M Bacal
+Jason Blanco
+Jeffrey Sotomayor
+Jeremy Besson
+Johnathan Thompson
+Joshua Valensi
+Justin Kubiak
+Kasim Rehman
+Katrina Tough
+Kelly White
+Manuel Redruello
+Matthew C Bergeron
+Mihai Pohontu
+Molly Petullo
+Narine Moradian
+Nicholas Gallant
+Patricia Myers
+Peter Geiss
+Phillip Batch
+Robert Kalutkiewicz
+Shawn Johnson
+Shin Park
+Sonia Souto-Sieiro
+Stephanie Martinelli
+Todd M Dubester
+Yukiko Morishita
+Walt Disney</entry>
+<entry name="STORE_FAILED_TEXT">구매에 실패했습니다. 네트워크 설정을 확인 후 나중에 다시 시작하세요.</entry>
+<entry name="TUTORIAL_TAP">아무 곳이나 터치해 튜토리얼을 건너뛰세요.</entry>
+<entry name="END_SHORT_LOSE">안타깝네요!</entry>
+<entry name="BEST_PACK">최고의 가격</entry>
+<entry name="APP_RATE_BUTTON_CANCEL">나중에</entry>
+<entry name="LIFE_LOST">생명 1개를 잃었습니다</entry>
+<entry name="TUTORIAL_SOLDIERS_1">병사 주변을 매치해
+병사들을 제거하세요.</entry>
+<entry name="PURCHASES_WARNING">말레피센트 프리폴에서 추가 콘텐츠를 구매할 수 있습니다. 이 콘텐츠 구매는 진짜 돈이 사용되며 iTunes 계정으로 부과됩니다. 기기 설정에서 앱 내 구매를 사용하지 않도록 설정할 수 있습니다.</entry>
+<entry name="STORE_DISABLED_TEXT">앱 내 구매를 사용할 수 없습니다. 기기 설정에서 사용함으로 변경 후 다시 시도하세요.</entry>
+<entry name="TUTORIAL_WC_TREE_SPROUD">이제 모든 가시들을 성장시켜 레벨을 완료하세요.</entry>
+<entry name="HOME">홈</entry>
+<entry name="YELLOW_PIXIE_DUST_UNLOCK_KEY">축하합니다! 노랑 마법 파워업을
+잠금 해제했습니다!</entry>
+<entry name="EXIT_CONFIRMATION">응용 프로그램을 닫으시겠습니까?</entry>
+<entry name="TUTORIAL_MANA">파워업 사용시 매직이 소모됩니다.
+매직은 플레이하면서 
+획득할수 있습니다.</entry>
+<entry name="CREDITS">제작진</entry>
+<entry name="HOW_TO_PLAY_TITLE">플레이 방법</entry>
+<entry name="LOSE_SOLDIERS">가시 벽이 타버렸습니다.</entry>
+<entry name="LOSE_LOCKED_TILES">모든 체인 타일을 깨지 못했습니다.</entry>
+<entry name="SOUND">소리:</entry>
+<entry name="CREDITS_UNITY_TECH">This program was created using Unity 4.3.4
+Portions of this program 
+© 2005 – 2014 Unity Technologies.</entry>
+<entry name="TUTORIAL_WC_TILE_EATER">이제 나머지 병을 채워 레벨을 완료하세요!</entry>
+<entry name="HELP_FUN">즐겨보세요!</entry>
+<entry name="MUSIC">음악:</entry>
+<entry name="LOSE_MOVES">이동횟수가 없어요!</entry>
+<entry name="TUTORIAL_MATCH_SHIELDS">방패 옆에 매치해 방패를 깨세요.</entry>
+<entry name="MAP_OBJECTIVE_LOCKED_TILES">모든 체인 타일 깨기</entry>
+<entry name="END_SHORT_WIN_GREAT">대단해요!</entry>
+<entry name="HELP_COLOR_BOMB">5개 한 줄 = 마법 색 파워업</entry>
+<entry name="TUTORIAL_GROWING_THORNS">자라는 가시 파워업을 터치한 후
+연결된 타일 8개를 선택해 파괴하세요.</entry>
+<entry name="TUTORIAL_MATCH_LOCKED">체인 타일은 밑에 위치한
+보석과 같은 색의 2개의 다른
+보석과 매치해 깰 수 있습니다.</entry>
+<entry name="CREDITS_GENERA_TITLES">Executive Producer
+
+
+Game Producer
+
+
+Technical Lead
+
+
+Lead Artist
+Technical Artist
+
+
+Animation Lead
+
+
+Developers
+
+
+
+
+
+Artists
+
+
+
+
+
+Sounds &amp; FX
+
+
+Level Designers
+
+
+QA</entry>
+<entry name="MANA_PACK_1_NAME">병 더미</entry>
+<entry name="TUTORIAL_CROW">까마귀 파워업을 선택한 후 아무 타일이나 선택해 깨세요!</entry>
+<entry name="TUTORIAL_WINTERCHILL">연속으로 4개 색을 매치해
+보석 파워업을 만드세요!
+그 보석 파워업을 다시 매치해 같은 줄의
+모든 타일을 깨세요.</entry>
+<entry name="STORE_PURCHASED_TITLE">성공</entry>
+<entry name="END_SHORT_WIN">잘했어요!</entry>
+<entry name="LOSE_SOLDIERS_TARGET">가시 벽이 타버렸습니다.</entry>
+<entry name="CROW2ND_UNLOCK_KEY">축하합니다! 새로운
+까마귀 파워업을 잠금 해제했습니다!</entry>
+<entry name="TUTORIAL_MATCH_ILLUMINABLE">타일을 밀어
+보드 조각을 밝히세요!</entry>
+<entry name="LOSE_GROW_TARGETS">모든 가시들을 성장시키지 않았습니다.</entry>
+<entry name="GROWING_THORNS_POWER_UP">자라는 가시</entry>
+<entry name="HELP_BOMB">5개 T 또는 L 모양 = 폭탄 파워업</entry>
+<entry name="TUTORIAL_YELLOW_PIXIE_DUST">노랑 마법을 사용해
+이동횟수 5개를 추가하세요.</entry>
+<entry name="LEVEL_TARGET">목표:</entry>
+<entry name="BOOK_CHAPTER5">챕터 V</entry>
+<entry name="LIVES_PACK_NAME">생명</entry>
+<entry name="STORE_WAITING_TITLE">대기중</entry>
+<entry name="HELP_SPECIALS">다른 모양의 타일을
+4개 또는 5개를 매치해
+다른 보석 파워업을 만드세요!</entry>
+<entry name="TUTORIAL_MULTIPLIER">팁: 목표 점수 달성이 힘드신가요?
+더 빠르게 매치해 배수 점수를 획득하세요.</entry>
+<entry name="WIN_SHORT_FREE_FALL">프리폴!</entry>
+<entry name="ABOUT">정보</entry>
+<entry name="GREEN_MAGIC_UNLOCK_KEY">축하합니다! 녹색 마법 파워업을
+잠금 해제했습니다!</entry>
+<entry name="BASIC_PACK">기본 팩</entry>
+<entry name="TUTORIAL_MANA_BALL">마법볼을 터치해
+말레피센트의
+모든 파워를 보세요.</entry>
+<entry name="RESHUFFLE_MESSAGE">움직일 수 없음</entry>
+<entry name="THE_STAFF_POWER_UP">지팡이</entry>
+<entry name="LOST_LIFE">생명 1개를
+잃었습니다</entry>
+<entry name="TUTORIAL_WC_LOCKED">이제 모든 체인 타일을 깨서 레벨을 완료하세요!</entry>
+<entry name="BEST">최고</entry>
+<entry name="TUTORIAL_GREEN_MAGIC">녹색 마법 파워업을
+선택한 후 아무 보석이나
+선택해 같은 색의
+모든 보석을 깨세요.</entry>
+<entry name="TUTORIAL_SOLDIERS_2">매 이동마다 병사를
+제거하지 못할시, 병사들은
+한줄씩 위로 올라갑니다.</entry>
+<entry name="LOSE_DROP_TILES">모든 특별 아이템을
+떨어뜨리지 못했습니다.</entry>
+<entry name="BOOK_CHAPTER1">챕터 I</entry>
+<entry name="BOOK_CHAPTER2">챕터 II</entry>
+<entry name="BOOK_CHAPTER3">챕터 III</entry>
+<entry name="BOOK_CHAPTER4">챕터 IV</entry>
+<entry name="FOR_PRICE">&lt;price&gt;(으)로</entry>
+<entry name="BOOK_CHAPTER6">챕터 VI</entry>
+<entry name="BOOK_CHAPTER7">챕터 VII</entry>
+<entry name="ABOUT_PUBLISHER">©2014 Disney</entry>
+<entry name="MAP_OBJECTIVE_SCORE">목표 점수</entry>
+<entry name="CONTINUE">계속</entry>
+<entry name="MANA_PACK_0_NAME">병</entry>
+<entry name="NEXT_LEVEL">다음 레벨:</entry>
+<entry name="TUTORIAL_CROW_2ND_SWIPE">이제 보석 2개를
+선택해 바꾸세요!</entry>
+<entry name="CREDITS_GENERA_INTERACTIVE">Jose Miguel Lopez
+
+
+Jesús Bartús
+
+
+Gonzalo Santos
+
+
+
+Petru Neacsu
+
+
+Kike Florido
+
+
+Pedro Muiños
+Xavier Figueras
+Darío Antequera
+Jose Antonio Victoria
+
+
+Carmen Higueras
+Dámaso Benítez
+Álvaro Fernández
+Eloy Valverde
+
+
+Antonio Villalva
+
+
+Félix Enríquez
+
+
+María Jesús Piñas
+Curro Rueda
+Curro Camacho
+Asunta Armenta
+
+
+Thanks to all the
+Mobility Games team
+for their support</entry>
+<entry name="HELP_DIRECTIONAL">4개 한 줄 = 방향 보석 파워업</entry>
+<entry name="SCORE_SEPARATOR">,</entry>
+<entry name="BUY_ITEMS">추가 아이템 얻기</entry>
+<entry name="ENDING_CONGRATULATIONS">대단해요!</entry>
+<entry name="LOSE_CONTINUE_MOVES">노랑 마법(+5 이동횟수)을 사용해
+레벨을 계속하시겠습니까?</entry>
+<entry name="APP_RATE_BUTTON_RATE">앱 평가</entry>
+<entry name="GAME_OBJECTIVE_TARGET_TILES">필요한 타일 전부를
+제거하세요!</entry>
+<entry name="LEVEL_TARGET_SCORE">목표 점수:</entry>
+<entry name="MAP_OBJECTIVE_LIGHT_BOARD_PIECES">보드에 불 밝히기</entry>
+<entry name="GAME_OBJECTIVE_LIGHT_BOARD_PIECES">보드에 불을 밝혀 레벨을 완료하세요.</entry>
+<entry name="CONNECT_RECEIVED">오늘의 보상을
+이미 받았습니다.</entry>
+<entry name="GAME_OBJECTIVE_EATER">올바른 색으로 모든 병을 채워 레벨을 완료하세요.</entry>
+<entry name="LOADING">로딩 중…</entry>
+<entry name="TUTORIAL_WOLF_HOWL">늑대를 선택해
+보드의 모든 보석을
+재배치 하세요.</entry>
+<entry name="GAME_SCORE">점수</entry>
+<entry name="CONNECT_SERVER">서버에
+연결</entry>
+<entry name="OUT_OF_LIVES">생명 재충전</entry>
+<entry name="ABOUT_CUSTOMER_SUPPORT">고객 지원</entry>
+<entry name="CROW_UNLOCK_KEY">축하합니다! 까마귀 파워업을
+잠금 해제했습니다!</entry>
+<entry name="MAP_OBJECTIVE_SOLDIERS">병사 제거</entry>
+<entry name="LIVES_NOTIFICATION_TITLE">말레피센트 프리폴 플레이</entry>
+<entry name="RESET_CONFIRMATION">모든 진행 사항을 초기화하시겠습니까?</entry>
+<entry name="LOSE_EATER">모든 병을
+채우지 못했습니다.</entry>
+<entry name="GAME_MOVES">이동횟수</entry>
+</entries>
