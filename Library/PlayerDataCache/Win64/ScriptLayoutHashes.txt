@@ -1,8 +1,8 @@
 Win64
 PlayerPath?
-D:/source/unity/binfenle/Packages/testbinfenle.exe
+E:/source/unity-src/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
-Assets/Scenes/Home.unity
+Assets/Scenes/test.unity
 SceneListEnd?
 bbaa8d3c7875da14c7567d49c4b53f70 Assembly-CSharp.dll:.BottomCollider
 41f975216b50e59e9b7ff7b3c6d5d5a0 Assembly-CSharp.dll:.TokensSystem
