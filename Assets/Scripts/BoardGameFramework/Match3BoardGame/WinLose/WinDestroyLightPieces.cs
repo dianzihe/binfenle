@@ -20,7 +20,7 @@ public class WinDestroyLightPieces : WinScore
 
 	protected override void Start()
 	{
-		Debug.Log("**** START ****");
+        System.Console.WriteLine("****windestroyLightPieces START ****");
 		base.Start();
 
 		StartCoroutine(_PopulateEmpty());

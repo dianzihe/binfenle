@@ -2,7 +2,7 @@ Win64
 PlayerPath?
 E:/source/unity-src/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
-Assets/Scenes/test.unity
+Assets/Scenes/SampleScene.unity
 SceneListEnd?
 bbaa8d3c7875da14c7567d49c4b53f70 Assembly-CSharp.dll:.BottomCollider
 41f975216b50e59e9b7ff7b3c6d5d5a0 Assembly-CSharp.dll:.TokensSystem
@@ -455,3 +455,5 @@ e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RealTime
+dd48c863d8face8d92e35ee7f789e2f2 Assembly-CSharp.dll:.ObjectiveHintController
+a0175fc247914355226e54c44dabe2c5 Assembly-CSharp.dll:.Align
