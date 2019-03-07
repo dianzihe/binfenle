@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -268,7 +268,6 @@ fe8477122074b2337f09f15ddd8cde42 Assembly-CSharp-firstpass.dll:.FingerUpDetector
 e808d818e72372ed4ea634f58dea95d9 Assembly-CSharp.dll:.TileSpawnerBehavior
 82eaaef41a0fe615d8486036b64353ec Assembly-CSharp.dll:.DMOAnalyticsBlackboardConfig
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.EnablerTest
-76761ba229127c4f2a43a1fb6731d56a Assembly-CSharp.dll:.DropTile
 aecbd573bbc1f7d53dc165c0f3513395 Assembly-CSharp.dll:.InvAttachmentPoint
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:.TBLookAtTap
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AudioEvents
@@ -455,5 +454,29 @@ e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RealTime
-dd48c863d8face8d92e35ee7f789e2f2 Assembly-CSharp.dll:.ObjectiveHintController
+5da2e765c12dbc940700ce5ab8d87707 Assembly-CSharp.dll:.Sword
+0fc505cb104a6db5f797f7c66265eb73 Assembly-CSharp.dll:.IceAxe
+921b6b0a967ae30d142242585d9a7da5 Assembly-CSharp.dll:.Torch
+02dd1b1753ea41e31856d2d58a103f7d Assembly-CSharp.dll:.SunTile
+c59a54e21f5659a603a4f3bdb204640b Assembly-CSharp.dll:.WolfController
+6b03ca5ba6caa5e2ef061b6b1cde7416 Assembly-CSharp.dll:.Hourglass
+53f7f0d260fda704e66ae321fbabc8df Assembly-CSharp.dll:.HotChocolateTriggerItem
+a9f75ef88fd80658700e525704129b76 Assembly-CSharp.dll:.HotChocolate
 a0175fc247914355226e54c44dabe2c5 Assembly-CSharp.dll:.Align
+76761ba229127c4f2a43a1fb6731d56a Assembly-CSharp.dll:.DropTile
+dd48c863d8face8d92e35ee7f789e2f2 Assembly-CSharp.dll:.ObjectiveHintController
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameCheatsController
+75db90ddf790c220c7aeafe56dd9a0a1 Assembly-CSharp.dll:.AutomaticLevelsClicker
+71a46edd838235328d65ee6901e81768 Assembly-CSharp.dll:.Match3AIPlayer
+3707d439c547253c93f1ea67f63de7db Assembly-CSharp.dll:.FreezerController
+8166a2fd4f99e627a7ed3e832315d066 Assembly-CSharp.dll:.TrollMagic
+ab0c5b78b958662354bc1d565bda4dd0 Assembly-CSharp.dll:.Carrot
+fe7d8cd2b199032c5e9c91767d6a43fe Assembly-CSharp.dll:.SnowTile
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SwordCollision
+c698ddaac2fe3784c370bab74bb89089 Assembly-CSharp.dll:.IcePick
+c81d009541a3edc068df4db14323c5b4 Assembly-CSharp.dll:.Snowball
+96e561d845b4e75d23bd68e1ef983be6 Assembly-CSharp.dll:.WolfTile
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TilesTriggerListener
+c962a629c3c2e53decb7f749e295f598 Assembly-CSharp.dll:.FreezerTile
+85ac295d524a14320336b3bb83310d49 Assembly-CSharp.dll:.Glacier
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DropperBehaviour

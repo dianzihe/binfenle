@@ -21,7 +21,7 @@ public class TrollMagic : BasicItem
 		base.Awake();
 		
 		finalEligibleItems = new List<BasicItem>();
-		
+		/* 
 		for (int i = 0; i < eligibleItems.Length; ++i) {
 			if ((LoadLevelButton.lastUnlockedLevel >= unlockLevels[i] || MaleficentBlackboard.Instance.level >= unlockLevels[i]) && 
 				(eligibleItems[i].GetType() != typeof(Snowball) || (Match3BoardRenderer.Instance.loseConditions is LoseMoves)) &&
@@ -34,6 +34,7 @@ public class TrollMagic : BasicItem
 //				Debug.Log("Not Eligible item " + (i + 1) + " : " + eligibleItems[i].ItemName + " level: " + LoadLevelButton.lastUnlockedLevel + " mylevel: " + unlockLevels[i]);
 //			}
 		}
+		*/
 	}
 
 	public override void StartUsingItem(Match3BoardGameLogic _boardLogic)
