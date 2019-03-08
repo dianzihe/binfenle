@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Maleficent\Scripts\CameraOffset.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\IlluminableBoardPiece.cs" />
     <Compile Include="Assets\_Maleficent\Scripts\Game\QualityDisabler.cs" />
     <Compile Include="Assets\_Maleficent\Scripts\UI\IntroAnim.cs" />
     <Compile Include="Assets\_Maleficent\Scripts\UI\PauseAnim.cs" />
@@ -344,7 +345,6 @@
     <Compile Include="Assets\Scripts\Burstly\CloneableMaterial.cs" />
     <Compile Include="Assets\Scripts\Burstly\DMOAnalyticsBlackboardConfig.cs" />
     <Compile Include="Assets\Scripts\Burstly\IBurstlyBinding.cs" />
-    <Compile Include="Assets\Scripts\Burstly\IlluminableBoardPiece.cs" />
     <Compile Include="Assets\Scripts\Burstly\Implementations\AmazonBurstlyBinding.cs" />
     <Compile Include="Assets\Scripts\Burstly\Implementations\FakeBurstlyBinding.cs" />
     <Compile Include="Assets\Scripts\Burstly\Implementations\GoolgePlayBurstlyBinding.cs" />
@@ -602,19 +602,19 @@
     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
     <None Include="Assets\Shaders\Blur.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -818,16 +818,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="HOTween">
-      <HintPath>D:/source/unity/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
