@@ -220,6 +220,7 @@ f8cc0c63272c9086d64b25955eba0720 Assembly-CSharp.dll:.BorderBoardPiece
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 c464afbffea253e874ecddacb287dd9e Assembly-CSharp.dll:.TileBreakEffectController
 10f0130406f98e8316b3c10d77f10ed6 Assembly-CSharp-firstpass.dll:.FingerDebug
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DropperBehaviour
 f80eb5ce0a319c05861df60997a03ab4 Assembly-CSharp.dll:.TweenPosition
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AwardCoinsLabel
 b9e65add29e006d4d1e66e0ca48a00bf Assembly-CSharp.dll:.LayeredBoardPiece
@@ -434,7 +435,6 @@ acd4fee18762886003fb1ed6915529ab Assembly-CSharp.dll:.AnimatedAlpha
 29544c7fc39b6721f8c04e41def17df4 Assembly-CSharp-firstpass.dll:.FGTouchInputProvider
 e06aa123242209769e8a06c82ae0cdce Assembly-CSharp.dll:.LoseReasonLabel
 20d9445fc1a18bf6156877b78eedf0b2 Assembly-CSharp.dll:.UIDragDropItem
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UserManagerCloud
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 4c9b74079f7e46fdcdc7f92fa6975955 Assembly-CSharp.dll:.MaleficentBlackboard
 c7e4512fcd582338edef9bff6c4fe8e1 Assembly-CSharp.dll:.UIKeyBinding
@@ -479,4 +479,4 @@ e93b48235d3574609e308b1affc960ef Assembly-CSharp-firstpass.dll:.PinchRecognizer
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 3728a907847e0d0e07965d011f3ffce4 Assembly-CSharp.dll:.Match3BoardRenderer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RealTime
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DropperBehaviour
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UserManagerCloud

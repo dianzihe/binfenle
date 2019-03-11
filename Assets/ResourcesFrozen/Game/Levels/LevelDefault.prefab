@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LevelDefault
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.75, y: 3.23000002, z: 19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51184aef85d2a47e78c7d6bdf2ea2171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilesPrefabs:
+  - {fileID: 100002, guid: 31e07b00624344247b7eb42b458abe00, type: 2}
+  - {fileID: 100002, guid: d88c08112af954694bfb5972fab01147, type: 2}
+  - {fileID: 100000, guid: 38ae5949d35e942088a9e3208fef4dc4, type: 2}
+  - {fileID: 100000, guid: d8b85e5a8915c4ba98fccf96a99dfbb6, type: 2}
+  - {fileID: 100002, guid: 854d6f8dc38044b6c9025e3f9d76337c, type: 2}
+  - {fileID: 100000, guid: 5da26bcd41f6d440bbd2138ab38d75df, type: 2}
+  - {fileID: 100000, guid: ad339cce2f63e4caf9b6221deb76b207, type: 2}
+  - {fileID: 100000, guid: aaada2801d372415780256149cd2d555, type: 2}
+  - {fileID: 100000, guid: f996cf463dd734841ab1542621e24caf, type: 2}
+  - {fileID: 100000, guid: dfa9e08cdab5d4222b804e7f39f22aa6, type: 2}
+  - {fileID: 100000, guid: 2fef0cebbe87a44b2b405c5f7f68d1a8, type: 2}
+  - {fileID: 100000, guid: 101747670f9be43ec84a582c558e85d0, type: 2}
+  - {fileID: 100000, guid: 52913d954ee9ad146aed2ac8808e9640, type: 2}
+  - {fileID: 100000, guid: 2cb72998578017043bc0006dc0c131a8, type: 2}
+  - {fileID: 100000, guid: 0e4fb833349ad4872a8f9988474ca25f, type: 2}
+  - {fileID: 100008, guid: 4c0c5b6e2c293fa448744ee1697ff86d, type: 2}
+  - {fileID: 100008, guid: 5ad079151e35ec741923426409c68eed, type: 2}
+  - {fileID: 100000, guid: ad35897be6e304479a84b60529d33c36, type: 2}
+  - {fileID: 100006, guid: 9f97d9e3243d7da4081c5f664b3079e2, type: 2}
+  - {fileID: 100006, guid: 2f79ad04924b7614da3d9f1862e840cf, type: 2}
+  - {fileID: 100006, guid: b146cb0334b0f4780a9bba82e2e19420, type: 2}
+  - {fileID: 100006, guid: b5c98fa8fda4b42ea814b824dd7cd285, type: 2}
+  prefabsPieces:
+  - {fileID: 100000, guid: 5411f8478e47e4b938c7d2c2e7212e27, type: 2}
+  - {fileID: 100000, guid: 989bece7df93047f0adecde7ca23d208, type: 2}
+  - {fileID: 100000, guid: 55a2601a8db564b8a972cac3058bb43b, type: 2}
+  - {fileID: 100000, guid: 3b4e1f905a5852545a013f1bda8098fe, type: 2}
+  winConditions: {fileID: 0}
+  loseConditions: {fileID: 0}
+  maximumNumBoardColors: 6
+  horizontalTileDistance: 1.00800002
+  horizontalTileOffset: 0
+  verticalTileDistance: 1.00800002
+  verticalTileOffset: 0
+  autoGenerateRandom: 1
+  useEditorMode: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b3922e0179a43038b25fd2e053febb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numColumns: 8
+  numRows: 8
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100002}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

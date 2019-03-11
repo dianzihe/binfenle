@@ -36,10 +36,11 @@ public class WinDestroyLightPieces : WinScore
 		//Match3BoardPiece bp = new Match3BoardPiece();
 		Match3BoardGameLogic.Instance.boardData.ApplyActionToAll((boardPiece) => {
 			if (typeof(Match3BoardPiece) == boardPiece.GetType()) {
-
+                /*
 				GameObject illuminableCopy = GameObject.Instantiate(illuminableBackground) as GameObject;
 				illuminableCopy.transform.parent = boardPiece.transform;
 				illuminableCopy.transform.localPosition = new Vector3(0, 0, 1);
+                */
 			}
 		});
 	}
