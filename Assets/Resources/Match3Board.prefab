@@ -109,11 +109,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592507847537461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2bdbf7ed491d4cf6814fb910a6c3b6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e259c758183bfc44b71d33231faa7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
   textKey: 
+  unlockableitems: []
 --- !u!1 &67592508943559989
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,18 +159,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592508943559989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78b1efb7133b34fb2b477814514bd40b, type: 3}
+  m_Script: {fileID: 11500000, guid: d06443306c1acd04ca8d6e66762b9e1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winConditions: {fileID: 0}
   loseConditions: {fileID: 0}
   boardRenderer: {fileID: 0}
-  boardAnimations: {fileID: 67592509209965442}
-  boardVisualContainer: {fileID: 67592509203440623}
-  boardBackground: {fileID: 67592509193179059}
+  boardAnimations: {fileID: 0}
+  boardVisualContainer: {fileID: 0}
+  boardBackground: {fileID: 0}
   firstRowEmptyCheckInterval: 0.1
   gameCamera: {fileID: 0}
-  match3Board: {fileID: 67592507847537460}
+  match3Board: {fileID: 0}
   unstableLock: 0
   immediateSpawnList: []
   OnLosePending:
@@ -182,7 +183,6 @@ MonoBehaviour:
     eventName: OnBoardLoseFinished
     targets:
     - {fileID: 0}
-    - {fileID: 0}
     messages:
     - SendFsmEvent
   OnWinPending:
@@ -194,7 +194,6 @@ MonoBehaviour:
   OnWinFinished:
     eventName: OnBoardWinFinished
     targets:
-    - {fileID: 0}
     - {fileID: 0}
     messages:
     - SendFsmEvent
@@ -220,7 +219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592508943559989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da0fc076b130e47ffa6750ca5d4c2951, type: 3}
+  m_Script: {fileID: 11500000, guid: 333cc75ff4f83fd47acda2c5b6f53773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   multiplier: 0
@@ -228,7 +227,7 @@ MonoBehaviour:
   manaPer2Stars: 2
   manaPer3Stars: 3
   manaPerRepeatedStars: 1
-  manaForStars: 
+  manaForStars: 32000000960000002c010000
   manaForReplay: 100
 --- !u!114 &67592508943559993
 MonoBehaviour:
@@ -239,10 +238,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592508943559989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 477a4fdb81d8d4722bfd603260c1e44c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9070e194044ea2a428e857ebedbf1c86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hintEffectPrefab: {fileID: 100008, guid: f68aa92b0c1860f4dbe4aa17bdf1f67b, type: 3}
+  hintEffectPrefab: {fileID: 0}
   showNextHintDelay: 4
 --- !u!114 &67592508943559992
 MonoBehaviour:
@@ -253,11 +252,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592508943559989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c4a40444973d462a9bed4e8e228a4dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 94cf1d1fdb649a74fbaeb68835afafe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabEffectReshuffle: {fileID: 100000, guid: 6ec7b44c0b20adc41b1aa3864227f7f9,
-    type: 3}
+  prefabEffectReshuffle: {fileID: 0}
   OnReshuffleRequired:
     eventName: OnBoardReshuffleStart
     targets:
@@ -279,7 +277,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592508943559989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c66d0a2d375461792fa3ffc67f56a5, type: 3}
+  m_Script: {fileID: 11500000, guid: a8b40761623f67848b4c2eb04b96fa70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &67592509193179087
@@ -340,7 +338,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: c304cf1d652c04998bc23890e73bdf86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -467,7 +465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 67592509209965440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77bb12b8668db425aa220d78fc324044, type: 3}
+  m_Script: {fileID: 11500000, guid: 12cf50b8dd16f4f4f89d1e1812a38b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boardRenderer: {fileID: 0}

@@ -61,7 +61,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Maleficent\Scripts\CameraOffset.cs" />
-    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\IlluminableBoardPiece.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Items\ManaItem.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\MaleficentMatch3Animations.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Pieces\GrowingThornBoardPiece.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Pieces\IlluminableBoardPiece.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Pieces\IlluminableBoardPiece_old.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Pieces\MatchCounterBoardPiece.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\SoldiersController.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\AreaBlockerTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\ChangeColorTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\ColorBombColorChange.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\EaterTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\GrowingTargetTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\ShieldTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\SliderTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\SoldierTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\StubbornTile.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\WinLose\WinDestroyAreaBlocker.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\WinLose\WinDestroyGrowTargets.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\WinLose\WinDestroyLightPieces.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\WinLose\WinDestroyLockedTiles.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\WinLose\WinDestroySoldiers.cs" />
+    <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\WinLose\WinDestroyTilesEater.cs" />
     <Compile Include="Assets\_Maleficent\Scripts\Game\QualityDisabler.cs" />
     <Compile Include="Assets\_Maleficent\Scripts\UI\IntroAnim.cs" />
     <Compile Include="Assets\_Maleficent\Scripts\UI\PauseAnim.cs" />
@@ -263,86 +284,6 @@
     <Compile Include="Assets\Scripts\ApplicationSystems\iCloud\UserEventArgs.cs" />
     <Compile Include="Assets\Scripts\ApplicationSystems\iCloud\UserManagerCloud.cs" />
     <Compile Include="Assets\Scripts\Blackboard.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\BoardPatterns\ColumnPattern.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Data\BoardData.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Data\SerializerUtils.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Events\GameObjectEvent.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardAnimations.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardGameLogic.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardPiece.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardRenderer.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractLevelSerializer.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractLoseCondition.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractPatternShape.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\CoreBoardGame\Generics\AbstractWinCondition.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\BorderBoardPiece.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\EmptyBoardPiece.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\LayeredBoardPiece.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\Match3BoardPiece.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\PieceBehaviors\DropperBehaviour.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\ProbabilisticSpawnController.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\RuleEntry.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\TileSpawnerBehavior.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\TileSpawnRule.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\CrossBombCombineVisualEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\DestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\FreezeEffectMaterialPicker.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\FrostDestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\GlacierSpikeEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\GrowingTargetTileDestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\SnowDestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\SunTileDestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\TileBombDestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\TileBreakEffect\TileBreakEffectController.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\TileBreakEffect\TileBreakEffectSpawner.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\TileDestroyEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\VisualEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Effects\WinterchillEffect.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Input\TileSwitchInput.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Items\BasicItem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardPieceTouchController.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\BoardShuffleController.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\MatchesFinder.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\MatchesUndoer.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\PossibleMatchesController.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\PossibleMatchesFinder.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\PossibleMatchGenerator.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\CoinsSystem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\Match3BoardAnimations.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\Match3BoardGameLogic.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\Match3BoardRenderer.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\ScoreSystem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\TilesDictionary.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\TileSelectInput.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\TokensSystem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\TutorialsSystem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\TweaksSystem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Game\UnlockSystem.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3Globals.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Match3LevelSerializer.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\BombTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\ColorBombTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\ColumnDestroyTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\CrossDestroyTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\DirectionalDestroyTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\LockedTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\Match3Tile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\MatchCounterBoardPiece.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\NormalTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\RowDestroyTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\TimeBombTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\TimeColorBomb.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\Tiles\TriggerTile.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\BoardHolesMaskGenerator.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\LoseFree.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\LoseMoves.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\LoseTimer.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyLightPieces.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTiles.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesDrop.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesFrost.cs" />
-    <Compile Include="Assets\Scripts\BoardGameFramework\Match3BoardGame\WinLose\WinScore.cs" />
     <Compile Include="Assets\Scripts\Burstly\BurstlyBlackboardConfig.cs" />
     <Compile Include="Assets\Scripts\Burstly\BurstlyManager.cs" />
     <Compile Include="Assets\Scripts\Burstly\CloneableMaterial.cs" />
@@ -357,6 +298,91 @@
     <Compile Include="Assets\Scripts\Burstly\RotateAccelerometer.cs" />
     <Compile Include="Assets\Scripts\Burstly\RotateAccelerometer2.cs" />
     <Compile Include="Assets\Scripts\CustomInput.cs" />
+    <Compile Include="Assets\Scripts\Effects\ParticleSystemManager\ParticleBurstQuantity.cs" />
+    <Compile Include="Assets\Scripts\Effects\ParticleSystemManager\ParticleSystemManager.cs" />
+    <Compile Include="Assets\Scripts\Effects\Randomrotate_MG.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\BoardPatterns\ColumnPattern.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Data\BoardData.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Data\SerializerUtils.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Events\GameObjectEvent.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardAnimations.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardGameLogic.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardPiece.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractBoardRenderer.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractLevelSerializer.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractLoseCondition.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractPatternShape.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\CoreBoardGame\Generics\AbstractWinCondition.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\BorderBoardPiece.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\EmptyBoardPiece.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\LayeredBoardPiece.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\Match3BoardPiece.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\PieceBehaviors\DropperBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\ProbabilisticSpawnController.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\RuleEntry.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\SunTileSpawnController.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\TileSpawnerBehavior.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\BoardPieces\TileSpawnLogic\TileSpawnRule.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\CrossBombCombineVisualEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\DestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\FreezeEffectMaterialPicker.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\FrostDestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\GlacierSpikeEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\GrowingTargetTileDestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\SnowDestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\SunTileDestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\TileBombDestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\TileBreakEffect\TileBreakEffectController.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\TileBreakEffect\TileBreakEffectSpawner.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\TileDestroyEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\VisualEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Effects\WinterchillEffect.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Input\TileSwitchInput.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Items\BasicItem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardPieceTouchController.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\BoardShuffleController.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\MatchesFinder.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\MatchesUndoer.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\PossibleMatchesController.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\PossibleMatchesFinder.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\BoardUtilities\PossibleMatchGenerator.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\CoinsSystem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\Match3BoardAnimations.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\Match3BoardGameLogic.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\Match3BoardRenderer.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\ScoreSystem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\TilesDictionary.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\TileSelectInput.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\TokensSystem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\TutorialsSystem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\TweaksSystem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Game\UnlockSystem.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3Globals.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Match3LevelSerializer.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\BombTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\ColorBombTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\ColumnDestroyTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\CrossDestroyTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\DirectionalDestroyTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\LockedTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\Match3Tile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\NormalTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\RowDestroyTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\TimeBombTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\TimeColorBomb.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\Tiles\TriggerTile.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\BoardHolesMaskGenerator.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\LoseFree.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\LoseMoves.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\LoseSoldiers.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\LoseTimer.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTiles.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesDrop.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesFrost.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesSnow.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\WinDestroyTilesWolf.cs" />
+    <Compile Include="Assets\Scripts\Game\BoardGameFramework\Match3BoardGame\WinLose\WinScore.cs" />
     <Compile Include="Assets\Scripts\Game\BottomCollider.cs" />
     <Compile Include="Assets\Scripts\Game\FrozenMatch3\FreezerController.cs" />
     <Compile Include="Assets\Scripts\Game\FrozenMatch3\Items\Carrot.cs" />
@@ -383,9 +409,13 @@
     <Compile Include="Assets\Scripts\Game\FrozenMatch3\TilesTriggerListener.cs" />
     <Compile Include="Assets\Scripts\Game\FrozenMatch3\WolfController.cs" />
     <Compile Include="Assets\Scripts\Game\ObjectiveHintController.cs" />
+    <Compile Include="Assets\Scripts\GameObjectsPool.cs" />
     <Compile Include="Assets\Scripts\HorizontalFOVCamera.cs" />
     <Compile Include="Assets\Scripts\IgnoreForRenderToTexture.cs" />
     <Compile Include="Assets\Scripts\InGameSoundEventsHandler.cs" />
+    <Compile Include="Assets\Scripts\Libs\Audio\SoundEffect.cs" />
+    <Compile Include="Assets\Scripts\Libs\Audio\SoundEffectController.cs" />
+    <Compile Include="Assets\Scripts\Libs\Audio\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Localization\LocalizableImage.cs" />
     <Compile Include="Assets\Scripts\Localization\LocalizableText.cs" />
     <Compile Include="Assets\Scripts\Localization\LocalizationManager.cs" />
@@ -437,9 +467,7 @@
     <Compile Include="Assets\Scripts\NGUI Actions\WinStars.cs" />
     <Compile Include="Assets\Scripts\OrientationListener.cs" />
     <Compile Include="Assets\Scripts\RenderBufferSize.cs" />
-    <Compile Include="Assets\Scripts\SoundEffect.cs" />
-    <Compile Include="Assets\Scripts\SoundEffectController.cs" />
-    <Compile Include="Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\UVAnim.cs" />
     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor-Intensity.shader" />
     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\TextGlow.shader" />
@@ -604,19 +632,19 @@
     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
     <None Include="Assets\Shaders\Blur.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/source/unity-src/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -820,16 +848,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="HOTween">
-      <HintPath>E:/source/unity-src/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/source/unity-src/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/source/unity/binfenle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
