@@ -528,7 +528,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	public Match3BoardPiece SpawnBoardPiece(int rowIdx, int colIdx, System.Type pieceType, bool autoDestroyOldRef = true) {
 		Match3BoardPiece boardPiece = (Instantiate(piecesDictionary[pieceType].gameObject) as GameObject).GetComponent<Match3BoardPiece>();
 		
-		//boardPiece.cachedTransform.position = Vector3.zero;
+		boardPiece.cachedTransform.position = Vector3.zero;
 		
 		boardPiece.name = string.Format("[{0},{1}] {2}", rowIdx, colIdx, boardPiece.name);
 		boardPiece.InitComponent(this);

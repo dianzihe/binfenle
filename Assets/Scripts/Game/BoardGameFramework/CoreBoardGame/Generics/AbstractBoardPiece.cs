@@ -68,7 +68,7 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 		BoardRenderer = _boardRenderer;
 
         // Parent this board piece to the owner's transform.
-        //cachedTransform.parent = BoardRenderer.cachedTransform;
+        cachedTransform.parent = BoardRenderer.cachedTransform;
 	}
 	
 	public virtual bool IsEmpty {
