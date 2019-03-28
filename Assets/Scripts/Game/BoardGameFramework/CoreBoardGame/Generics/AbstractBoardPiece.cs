@@ -43,8 +43,8 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 	[SerializeField]
 	private bool isBorderPiece;
 
-	[System.NonSerialized]
-	public Transform cachedTransform;
+    [System.NonSerialized]
+    public Transform cachedTransform;
 
 	/// <summary>
 	/// Reference to the board renderer that draws the tile for this boardPiece.
@@ -52,21 +52,33 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 	private AbstractBoardRenderer boardRenderer;
 	
 	public virtual void Awake() {
-		cachedTransform = transform;
-		
-		// Apply values currently set on the prefab.
-		IsEmpty = isEmpty;
+        System.Console.WriteLine("AbstractBoardPiece->awake");
+        if (null == transform) {
+            cachedTransform = Instantiate(transform) as Transform;
+            System.Console.WriteLine("AbstractBoardPiece->awake->new transform");
+        }
+        else
+            cachedTransform = transform;
+        // Apply values currently set on the prefab.
+        IsEmpty = isEmpty;
 		IsBorderPiece = isBorderPiece;
 	}
 	
 	public virtual void Start() {
-	}
-	
-	public virtual void InitComponent(AbstractBoardRenderer _boardRenderer) {
+        System.Console.WriteLine("AbstractBoardPiece->start");
+
+    }
+
+    public virtual void InitComponent(AbstractBoardRenderer _boardRenderer) {
 //		Board = owner;
 		BoardPosition = new BoardCoord(-1, -1);
 		BoardRenderer = _boardRenderer;
 
+        if (null == cachedTransform)
+        {
+            cachedTransform = Instantiate(transform) as Transform;
+            System.Console.WriteLine("AbstractBoardPiece->InitComponent->new transform");
+        }
         // Parent this board piece to the owner's transform.
         cachedTransform.parent = BoardRenderer.cachedTransform;
 	}

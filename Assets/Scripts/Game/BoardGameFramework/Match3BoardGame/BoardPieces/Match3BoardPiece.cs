@@ -105,14 +105,15 @@ public class Match3BoardPiece : AbstractBoardPiece {
 
 	public override void Awake ()
 	{
-		base.Awake ();
+        base.Awake ();
 		
 		// Apply value currently set on the prefab first.
 		IsTileSpawner = isTileSpawner;
 		
 		if (links == null || links.Length < (int)LinkType.Count) {
-			links = new Match3BoardPiece[(int)LinkType.Count];
-		}
+            links = new Match3BoardPiece[(int)LinkType.Count];
+            System.Console.WriteLine("Match3BoardPiece->awake->" + links.Length);
+        }
 		
 		if(eligibleSpawnList == null)
 		{
@@ -465,7 +466,8 @@ public class Match3BoardPiece : AbstractBoardPiece {
 
 	public Match3BoardPiece TopLink {
 		get {
-			return links[(int)LinkType.Top];
+            System.Console.WriteLine("Match3BoardPiece->TopLink->" + links.Length + "--" + (int)LinkType.Top);
+            return links[(int)LinkType.Top];
 		}
 		set {
 			links[(int)LinkType.Top] = value;
@@ -649,8 +651,9 @@ public class Match3BoardPiece : AbstractBoardPiece {
 	/// </summary>
 	public void UpdateLinks() 
 	{
-		// If the board piece can't be a link piece to someone else then it doesn't have any linked board pieces to it.
-		if ( !CanBeLink ) 
+        System.Console.WriteLine("Match3BoardPiece->UpdateLinks");
+        // If the board piece can't be a link piece to someone else then it doesn't have any linked board pieces to it.
+        if ( !CanBeLink ) 
 		{
 			if (IsEmpty) 
 			{

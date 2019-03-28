@@ -493,12 +493,12 @@ PrefabInstance:
     - target: {fileID: 67592507847537460, guid: 89e4bc96e29e9144296dbe18f041740b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.09
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 67592507847537460, guid: 89e4bc96e29e9144296dbe18f041740b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 67592507847537460, guid: 89e4bc96e29e9144296dbe18f041740b,
         type: 3}
@@ -600,6 +600,21 @@ PrefabInstance:
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 611414166}
+    - target: {fileID: 67592509193179059, guid: 89e4bc96e29e9144296dbe18f041740b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67592509193179059, guid: 89e4bc96e29e9144296dbe18f041740b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67592509193179059, guid: 89e4bc96e29e9144296dbe18f041740b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 67592507847537462, guid: 89e4bc96e29e9144296dbe18f041740b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 89e4bc96e29e9144296dbe18f041740b, type: 3}

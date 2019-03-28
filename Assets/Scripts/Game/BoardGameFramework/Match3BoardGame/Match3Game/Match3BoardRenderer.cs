@@ -183,7 +183,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 		for(int i = 0; i < prefabsPieces.Length; i++) {
 			Match3BoardPiece boardPiece = prefabsPieces[i].GetComponent<Match3BoardPiece>();
 			piecesDictionary.Add(boardPiece.GetType(), boardPiece);
-		}
+            System.Console.WriteLine("User Name is {0} --->The id is {1}", boardPiece.GetType().ToString(), System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
+            //Debug.Log(" Match3BoardRenderer -> RaiseBoardStartedSetupEvent " + boardPiece.GetType().ToString() + "---" + System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
+        }
 		
 		if (autoGenerateRandom) {
 			GenerateRandomBoard(Board.NumRows, Board.NumColumns);
@@ -526,9 +528,16 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	}
 
 	public Match3BoardPiece SpawnBoardPiece(int rowIdx, int colIdx, System.Type pieceType, bool autoDestroyOldRef = true) {
-		Match3BoardPiece boardPiece = (Instantiate(piecesDictionary[pieceType].gameObject) as GameObject).GetComponent<Match3BoardPiece>();
-		
-		boardPiece.cachedTransform.position = Vector3.zero;
+        /*
+        foreach (KeyValuePair<System.Type, Match3BoardPiece> pair in piecesDictionary) {
+            System.Console.WriteLine("Key:{0}", pair.Key.ToString());
+        }
+        */
+        Match3BoardPiece boardPiece = (Instantiate(piecesDictionary[pieceType].gameObject) as GameObject).GetComponent<Match3BoardPiece>();
+        //System.Console.WriteLine("SpawnBoardPiece-> {0}-{1}", pieceType.ToString(), boardPiece.GetType().ToString());
+        //if(null == boardPiece.cachedTransform)
+        //    boardPiece.cachedTransform = Instantiate(transform) as Transform;
+        //boardPiece.cachedTransform.position = Vector3.zero;
 		
 		boardPiece.name = string.Format("[{0},{1}] {2}", rowIdx, colIdx, boardPiece.name);
 		boardPiece.InitComponent(this);
