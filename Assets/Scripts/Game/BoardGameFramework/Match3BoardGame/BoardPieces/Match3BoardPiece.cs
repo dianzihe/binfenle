@@ -112,7 +112,7 @@ public class Match3BoardPiece : AbstractBoardPiece {
 		
 		if (links == null || links.Length < (int)LinkType.Count) {
             links = new Match3BoardPiece[(int)LinkType.Count];
-            System.Console.WriteLine("Match3BoardPiece->awake->" + links.Length);
+            System.Console.WriteLine("Match3BoardPiece->" + name + "--awake->" + links.Length);
         }
 		
 		if(eligibleSpawnList == null)
@@ -466,7 +466,7 @@ public class Match3BoardPiece : AbstractBoardPiece {
 
 	public Match3BoardPiece TopLink {
 		get {
-            System.Console.WriteLine("Match3BoardPiece->TopLink->" + links.Length + "--" + (int)LinkType.Top);
+            System.Console.WriteLine("Match3BoardPiece->" + name + "->TopLink->" + links.Length + "--" + (int)LinkType.Top);
             return links[(int)LinkType.Top];
 		}
 		set {

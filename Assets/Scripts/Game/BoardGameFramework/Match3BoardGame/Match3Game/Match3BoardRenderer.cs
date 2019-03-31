@@ -186,8 +186,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
             System.Console.WriteLine("User Name is {0} --->The id is {1}", boardPiece.GetType().ToString(), System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
             //Debug.Log(" Match3BoardRenderer -> RaiseBoardStartedSetupEvent " + boardPiece.GetType().ToString() + "---" + System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
         }
-		
-		if (autoGenerateRandom) {
+        autoGenerateRandom = false;
+
+        if (autoGenerateRandom) {
 			GenerateRandomBoard(Board.NumRows, Board.NumColumns);
 		} else {
 			LoadBoardSetupFromHierarchy();
@@ -207,7 +208,8 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// based on their type and color for quick access at run-time.
 	/// </summary>
 	public override void SetupBoardTiles() {
-		tilesDictionary = new TilesDictionary();
+        System.Console.WriteLine("Match3BoardRenderer -> SetupBoardTiles");
+        tilesDictionary = new TilesDictionary();
 
 		for(int i = 0; i < tilesPrefabs.Length; i++) {
 			Match3Tile tile = tilesPrefabs[i].GetComponent<Match3Tile>();
@@ -216,7 +218,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	}
 
 	protected override void SetupBoardRendering() {
-		Vector3 boardPiecePos = Vector3.zero;
+        System.Console.WriteLine("Match3BoardRenderer -> SetupBoardRendering");
+
+        Vector3 boardPiecePos = Vector3.zero;
 		
 		if (autoGenerateRandom) {
 			Board.ApplyActionToRow(0, (boardPiece) => { 
@@ -349,8 +353,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// </summary>
 	public void InitBoardTiles()
 	{
-		// Ensure the board has at least one possible match (but not already made matches).
-		int numTries = 0;
+        System.Console.WriteLine("Match3BoardRenderer -> InitBoardTiles");
+        // Ensure the board has at least one possible match (but not already made matches).
+        int numTries = 0;
 //		matchesUndoer.OnNewTileSpawned = (newTile) => {
 //			newTile.enabled = false;
 //		};
@@ -534,7 +539,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
         }
         */
         Match3BoardPiece boardPiece = (Instantiate(piecesDictionary[pieceType].gameObject) as GameObject).GetComponent<Match3BoardPiece>();
-        //System.Console.WriteLine("SpawnBoardPiece-> {0}-{1}", pieceType.ToString(), boardPiece.GetType().ToString());
+        System.Console.WriteLine("SpawnBoardPiece-> {0}-{1}", pieceType.ToString(), boardPiece.GetType().ToString());
         //if(null == boardPiece.cachedTransform)
         //    boardPiece.cachedTransform = Instantiate(transform) as Transform;
         //boardPiece.cachedTransform.position = Vector3.zero;
