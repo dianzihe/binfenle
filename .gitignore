@@ -1,5 +1,8 @@
 /Library/metadata/*
 /Packages/*
+/Library/*
+.vs/*
+obj/*
 /Library/PlayerDataCache/Win64/Data/resources.assets.resS
 /Packages/testbinfenle_Data/resources.assets.resS
 
