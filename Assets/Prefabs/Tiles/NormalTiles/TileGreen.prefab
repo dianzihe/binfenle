@@ -80,14 +80,15 @@ MonoBehaviour:
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
-  prefabDestroyEffect: {fileID: 0}
+  prefabDestroyEffect: {fileID: 100008, guid: 42c6aaeb2d7dfd040a49f7968b35b621, type: 3}
   canBeMatched: 1
   gravityUpdateEnabled: 1
-  color: 0
+  color: 2
   switchBackOnMatchFail: 1
   freezeOffset: {x: 0, y: 0, z: -4.25}
-  prefabFreezeEffect: {fileID: 0}
-  freezeDestroyMaterial: {fileID: 0}
+  prefabFreezeEffect: {fileID: 100004, guid: eaafa6bbd7b154301b7992c40255b9b6, type: 3}
+  freezeDestroyMaterial: {fileID: 2100000, guid: d085c589fee511640911c4c5efbfa219,
+    type: 2}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,12 +3,13 @@
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 400006}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400006}
+  - component: {fileID: 11400000}
   m_Layer: 0
   m_Name: Effect_Break_Fragments
   m_TagString: Untagged
@@ -18,28 +19,32 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &400006
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.75185394, y: 2.67149019, z: -5}
+  m_LocalPosition: {x: 2.751854, y: 2.6714902, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1492fb4cb05f43218f880117f6e103f, type: 3}
+  m_Script: {fileID: 11500000, guid: ae37885e59937994991c2024d4ccc156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 5
-  destroyTileTime: .150000006
+  destroyTileTime: 0.15
   coloredMaterials:
   - {fileID: 2100000, guid: 811cd201fc74fad4b91a500035e7b353, type: 2}
   - {fileID: 2100000, guid: f1b24df7ecab5954496c10978a1aea81, type: 2}
@@ -48,15 +53,3 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 5c22cc95e72ee314cb38ac76ddac1888, type: 2}
   - {fileID: 2100000, guid: cff75940676730243a455557018e528e, type: 2}
   renderersForMaterialUpdate: []
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100008}
-  m_IsPrefabParent: 1
-  m_IsExploded: 1

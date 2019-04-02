@@ -183,7 +183,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 		for(int i = 0; i < prefabsPieces.Length; i++) {
 			Match3BoardPiece boardPiece = prefabsPieces[i].GetComponent<Match3BoardPiece>();
 			piecesDictionary.Add(boardPiece.GetType(), boardPiece);
-            System.Console.WriteLine("User Name is {0} --->The id is {1}", boardPiece.GetType().ToString(), System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
+            //System.Console.WriteLine("User Name is {0} --->The id is {1}", boardPiece.GetType().ToString(), System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
             //Debug.Log(" Match3BoardRenderer -> RaiseBoardStartedSetupEvent " + boardPiece.GetType().ToString() + "---" + System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
         }
         autoGenerateRandom = false;
@@ -194,32 +194,37 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 			LoadBoardSetupFromHierarchy();
 		}
 	}
-	
-//	public override void RaiseBoardFinishedSetupEvent ()
-//	{
-//		base.RaiseBoardFinishedSetupEvent();
-//		
-//		BoardTilesInitializer initializer = new BoardTilesInitializer(Board);
-//		initializer.Initialize();
-//	}
-	
-	/// <summary>
-	/// Setup the board tiles prefabs specified in the <see cref="tilesPrefabs"/> array,
-	/// based on their type and color for quick access at run-time.
-	/// </summary>
-	public override void SetupBoardTiles() {
-        System.Console.WriteLine("Match3BoardRenderer -> SetupBoardTiles");
+
+    //	public override void RaiseBoardFinishedSetupEvent ()
+    //	{
+    //		base.RaiseBoardFinishedSetupEvent();
+    //		
+    //		BoardTilesInitializer initializer = new BoardTilesInitializer(Board);
+    //		initializer.Initialize();
+    //	}
+
+    /// <summary>
+    /// Setup the board tiles prefabs specified in the <see cref="tilesPrefabs"/> array,
+    /// based on their type and color for quick access at run-time.
+    /// </summary>
+    public override void SetupBoardTiles() {
+        System.Console.WriteLine("Match3BoardRenderer -> SetupBoardTiles->");
         tilesDictionary = new TilesDictionary();
 
-		for(int i = 0; i < tilesPrefabs.Length; i++) {
-			Match3Tile tile = tilesPrefabs[i].GetComponent<Match3Tile>();
+        for (int i = 0; i < tilesPrefabs.Length; i++) {
+            Match3Tile tile = tilesPrefabs[i].GetComponent<Match3Tile>();
 			tilesDictionary[tile.GetType(), tile.TileColor] = tile;
-		}
-	}
+            System.Console.WriteLine("Match3BoardRenderer -> SetupBoardTiles->" + i + "--" + tile.GetType() + "--" + tile.TileColor.ToString());
+
+        }
+    }
 
 	protected override void SetupBoardRendering() {
         System.Console.WriteLine("Match3BoardRenderer -> SetupBoardRendering");
-
+        if (null == tilesDictionary)
+            System.Console.WriteLine("SpawnSpecificTile-> is null");
+        else
+            System.Console.WriteLine("SpawnSpecificTile-> is not null");
         Vector3 boardPiecePos = Vector3.zero;
 		
 		if (autoGenerateRandom) {
@@ -616,7 +621,16 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	
 	public Match3Tile SpawnSpecificTile(System.Type tileType, TileColorType prefabDefaultColor, bool isBoardSetup = false) 
 	{
-		Match3Tile newTile = (Instantiate(tilesDictionary[tileType, prefabDefaultColor].gameObject) as GameObject).GetComponent<Match3Tile>();
+        System.Console.WriteLine("SpawnSpecificTile-> {0}-{1}", tileType.ToString(), prefabDefaultColor.ToString());
+        //foreach (KeyValuePair<System.Type, Match3BoardPiece> pair in piecesDictionary) {
+        //    System.Console.WriteLine("Key:{0}", pair.Key.ToString());
+        //}
+        if (null == tilesDictionary)
+            System.Console.WriteLine("SpawnSpecificTile-> is null");
+        else
+            System.Console.WriteLine("SpawnSpecificTile-> is not null");
+        tilesDictionary.toString();
+        Match3Tile newTile = (Instantiate(tilesDictionary[tileType, prefabDefaultColor].gameObject) as GameObject).GetComponent<Match3Tile>();
 		
 		newTile.cachedTransform.parent = cachedTransform;
 		newTile.BoardRenderer = this;

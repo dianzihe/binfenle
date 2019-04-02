@@ -55,7 +55,7 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
         //System.Console.WriteLine("AbstractBoardPiece->awake");
         if (null == transform) {
             cachedTransform = Instantiate(transform) as Transform;
-            System.Console.WriteLine("AbstractBoardPiece->awake->new transform");
+            //System.Console.WriteLine("AbstractBoardPiece->awake->new transform");
         }
         else
             cachedTransform = transform;
@@ -74,7 +74,7 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 		BoardPosition = new BoardCoord(-1, -1);
 		BoardRenderer = _boardRenderer;
 
-        System.Console.WriteLine("AbstractBoardPiece->InitComponent->" + name);
+        //System.Console.WriteLine("AbstractBoardPiece->InitComponent->" + name);
         if (null == cachedTransform)
         {
             cachedTransform = Instantiate(transform) as Transform;

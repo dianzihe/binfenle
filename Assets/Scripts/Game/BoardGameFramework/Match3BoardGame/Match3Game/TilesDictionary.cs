@@ -29,7 +29,8 @@ public class TilesDictionary {
 	
 	public Match3Tile this[System.Type tileType, TileColorType tileColor] {
 		get {
-			return tilesDictionary[tileType][(int)tileColor];
+
+            return tilesDictionary[tileType][(int)tileColor];
 		}
 		
 		set {
@@ -39,8 +40,19 @@ public class TilesDictionary {
 			}
 			
 			tiles[(int)tileColor] = value;
-			tilesDictionary[tileType] = tiles;
-		}
+            //System.Console.WriteLine("-" + (int)tileColor + "-" + value.ToString() + "-" + value);
+            tilesDictionary[tileType] = tiles;
+            /*
+            foreach (KeyValuePair<System.Type, Match3Tile[]> pair in tilesDictionary)
+            {
+                System.Console.WriteLine("Key:{0}", pair.Key.ToString());
+                foreach (Match3Tile i in pair.Value as Match3Tile[]) { 
+                    if(null != i)
+                        System.Console.WriteLine("-" + i + "-" + i.ToString());
+                }
+            }
+            */
+        }
 	}
 	
 	/// <summary>
@@ -49,5 +61,18 @@ public class TilesDictionary {
 	public void Clear() {
 		tilesDictionary.Clear();
 	}
-	
+    public void toString()
+    {
+        foreach (KeyValuePair<System.Type, Match3Tile[]> pair in tilesDictionary)
+        {
+            System.Console.WriteLine("---------------Key:{0}", pair.Key.ToString());
+            foreach (Match3Tile i in pair.Value as Match3Tile[])
+            {
+                if (null != i)
+                    System.Console.WriteLine("-" + i + "-" + i.ToString());
+                else
+                    System.Console.WriteLine("-");
+            }
+        }
+    }
 }
