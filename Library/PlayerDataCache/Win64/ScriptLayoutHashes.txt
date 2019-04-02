@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/dq.unity
 SceneListEnd?

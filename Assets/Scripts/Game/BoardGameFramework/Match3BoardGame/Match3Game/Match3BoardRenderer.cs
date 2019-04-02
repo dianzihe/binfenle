@@ -222,9 +222,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	protected override void SetupBoardRendering() {
         System.Console.WriteLine("Match3BoardRenderer -> SetupBoardRendering");
         if (null == tilesDictionary)
-            System.Console.WriteLine("SpawnSpecificTile-> is null");
+            System.Console.WriteLine("SetupBoardRendering SpawnSpecificTile -> is null");
         else
-            System.Console.WriteLine("SpawnSpecificTile-> is not null");
+            System.Console.WriteLine("SetupBoardRendering  SpawnSpecificTile-> is not null");
         Vector3 boardPiecePos = Vector3.zero;
 		
 		if (autoGenerateRandom) {
@@ -324,6 +324,8 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 
 				if (autoGenerateRandom) 
 				{
+                    System.Console.WriteLine("SetupBoardRendering -----");
+
 					//TODO: Fallback for the old method of level generation. This should be removed at some point....or not...
 					if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece && boardPiece.Tile == null && rowIdx < Board.NumRows - 3) {
 						SpawnTileAt(rowIdx, colIdx, false, true, true);
@@ -331,7 +333,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 				}
 				else 
 				{
-					if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece) 
+                    System.Console.WriteLine("SetupBoardRendering ========");
+
+                    if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece) 
 					{
 						// Only override this flag if it hasn't been already set to true.
 						if ( !boardPiece.initialTileSpawnRule.isTileIgnoredByAntiMatchSystems ) {
@@ -607,10 +611,13 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 
 	public Match3Tile SpawnSpecificTileAt(int rowIdx, int columnIdx, System.Type tileType, TileColorType prefabDefaultColor, bool offBoardTile = false, bool isBoardSetup = false) 
 	{
-//		Debug.LogWarning("[SpawnSpecificTileAt] " + tileType.ToString() + " " + prefabDefaultColor);
-
-		// Spawn the specified tile
-		Match3Tile newTile = SpawnSpecificTile(tileType, prefabDefaultColor, isBoardSetup);
+        //		Debug.LogWarning("[SpawnSpecificTileAt] " + tileType.ToString() + " " + prefabDefaultColor);
+        if (null == tilesDictionary)
+            System.Console.WriteLine("SpawnSpecificTileAt SpawnSpecificTile-> is null");
+        else
+            System.Console.WriteLine("SpawnSpecificTileAt SpawnSpecificTile-> is not null");
+        // Spawn the specified tile
+        Match3Tile newTile = SpawnSpecificTile(tileType, prefabDefaultColor, isBoardSetup);
 		newTile.name = string.Format("[{0},{1}] {2}", rowIdx, columnIdx, newTile.name);
 
 		// Assign the tile to the specified BoardPiece.

@@ -52,7 +52,7 @@ MonoBehaviour:
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
-  prefabDestroyEffect: {fileID: 0}
+  prefabDestroyEffect: {fileID: 100004, guid: 2eeee2445fe95f64aa977f4a03ecd21a, type: 3}
   canBeMatched: 1
   gravityUpdateEnabled: 1
   color: 0
@@ -60,19 +60,57 @@ MonoBehaviour:
   freezeOffset: {x: 0, y: 0, z: -4.25}
   prefabFreezeEffect: {fileID: 0}
   freezeDestroyMaterial: {fileID: 0}
-  prefabDoubleDestroyEffect: {fileID: 0}
-  coloredMaterials: []
+  prefabDoubleDestroyEffect: {fileID: 100012, guid: b6db0336918d0ba408f84436d92e7620,
+    type: 3}
+  coloredMaterials:
+  - {fileID: 2100000, guid: a6b8401eb85264e89ba5b386dfcdf605, type: 2}
+  - {fileID: 2100000, guid: 58c30e855f5844c88a2a013fdb3fd2ea, type: 2}
+  - {fileID: 2100000, guid: 2d2bfbcfbb43a4f4880dbd757c50e753, type: 2}
+  - {fileID: 2100000, guid: b3c91176838a5834facec57d3c078180, type: 2}
+  - {fileID: 2100000, guid: 413c4578019ac4db2874b5e08b888512, type: 2}
+  - {fileID: 2100000, guid: c3d0f9e10a8104ea5b8f4a88f9a429ee, type: 2}
+  - {fileID: 2100000, guid: 6335066bb04bce04f837d41619dda81a, type: 2}
+  - {fileID: 2100000, guid: 5740d5c206719324c935ca2e0d3e5dce, type: 2}
+  - {fileID: 2100000, guid: 34cdda64eef639d41b8f43934defea90, type: 2}
+  - {fileID: 2100000, guid: 8cb50c0acb1b21b4d8e8a1ebd62aaf15, type: 2}
+  - {fileID: 2100000, guid: fe118860cbb9c8f4cb3f074175545ca3, type: 2}
+  - {fileID: 2100000, guid: ae10bdca21863f04aa3eed53db03c0ef, type: 2}
   spawnTimeBomb: 1
   useBigTimeBomb: 0
   tileModelAdditionalRenderer: {fileID: 0}
   tileEffectAnimation: {fileID: 0}
-  PrefabEffectBreakFragments: {fileID: 0}
-  FreezeEffectPrefabArray: []
-  PrefabFreezeDestroyMaterialArray: []
-  backLightMaterials: []
-  breakEffectMaterials: []
-  backLightRenderer: {fileID: 0}
-  breakEffectRenderer: {fileID: 0}
+  PrefabEffectBreakFragments: {fileID: 100008, guid: 42c6aaeb2d7dfd040a49f7968b35b621,
+    type: 3}
+  FreezeEffectPrefabArray:
+  - {fileID: 100004, guid: 6a2bbafcdb4b94e848ce8ce5695cef66, type: 3}
+  - {fileID: 100004, guid: 40013fb9ed98fb642a8afa49212adae1, type: 3}
+  - {fileID: 100004, guid: eaafa6bbd7b154301b7992c40255b9b6, type: 3}
+  - {fileID: 100004, guid: e41982df46fbc41d89a5e08a2a449e72, type: 3}
+  - {fileID: 100004, guid: 7cf44b1415c0545db9e367f2f6e59bb0, type: 3}
+  - {fileID: 100004, guid: 6f0f3f8df7c80452baaee05c3110dadc, type: 3}
+  PrefabFreezeDestroyMaterialArray:
+  - {fileID: 2100000, guid: 637ef8691266e49408a130df709dbe6c, type: 2}
+  - {fileID: 2100000, guid: fa498c5a7d498db4fb96f84f7e917af5, type: 2}
+  - {fileID: 2100000, guid: 3a041ef139477cf468ce5d63a98ec182, type: 2}
+  - {fileID: 2100000, guid: f37e0ee87bcdaf942bb56cd97c178d77, type: 2}
+  - {fileID: 2100000, guid: 39a776e8651087849b2f98226abeaba7, type: 2}
+  - {fileID: 2100000, guid: 88fd4a7d1096e6b4c9be52d141749ae4, type: 2}
+  backLightMaterials:
+  - {fileID: 2100000, guid: 29772c76e4e248548bd68bb35b9dcea4, type: 2}
+  - {fileID: 2100000, guid: b254e09edda18194b9ce4c2253e86fa0, type: 2}
+  - {fileID: 2100000, guid: 40cd346fe477eb740a4b9e15b343104d, type: 2}
+  - {fileID: 2100000, guid: b1e5ce5760e2f8f43b72a9cfea06cedf, type: 2}
+  - {fileID: 2100000, guid: 082fa7d9c459b674da5490b409f3e276, type: 2}
+  - {fileID: 2100000, guid: aefd86b1e51a7124a9c30065847f886c, type: 2}
+  breakEffectMaterials:
+  - {fileID: 2100000, guid: 2beb570ac7bd0f7499b9295255b7bdfb, type: 2}
+  - {fileID: 2100000, guid: 0038a0009d99c6b46812da6ee6b4d34e, type: 2}
+  - {fileID: 2100000, guid: d73e37c39846cb04bbfe638cf0a700cb, type: 2}
+  - {fileID: 2100000, guid: 8670d10f0b3b7d4419b67e64d75328cd, type: 2}
+  - {fileID: 2100000, guid: 8670d10f0b3b7d4419b67e64d75328cd, type: 2}
+  - {fileID: 2100000, guid: 65c21ad2153b9bc4caa057826116cdd8, type: 2}
+  backLightRenderer: {fileID: 2300006}
+  breakEffectRenderer: {fileID: 2300000}
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 0

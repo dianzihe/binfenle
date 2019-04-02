@@ -339,7 +339,9 @@ public class Match3BoardPiece : AbstractBoardPiece {
 	}
 	
 	public void ExecuteInitialSpawnRule() {
-		if (initialTileSpawnRule != null)
+        System.Console.WriteLine("ExecuteInitialSpawnRule -----");
+
+        if (initialTileSpawnRule != null)
 		{
 			List<RuleEntry> tempRuleEntryList;
 			List<TileSpawnRule> immediateSpawnList = Match3BoardGameLogic.Instance.immediateSpawnList;

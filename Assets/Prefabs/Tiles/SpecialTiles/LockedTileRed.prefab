@@ -83,7 +83,7 @@ MonoBehaviour:
   prefabDestroyEffect: {fileID: 0}
   canBeMatched: 1
   gravityUpdateEnabled: 1
-  color: 0
+  color: 1
   switchBackOnMatchFail: 1
   freezeOffset: {x: 0, y: 0, z: -4.25}
   prefabFreezeEffect: {fileID: 0}

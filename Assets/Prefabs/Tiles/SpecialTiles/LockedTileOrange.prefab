@@ -83,12 +83,13 @@ MonoBehaviour:
   prefabDestroyEffect: {fileID: 0}
   canBeMatched: 1
   gravityUpdateEnabled: 1
-  color: 0
+  color: 6
   switchBackOnMatchFail: 1
   freezeOffset: {x: 0, y: 0, z: -4.25}
-  prefabFreezeEffect: {fileID: 0}
+  prefabFreezeEffect: {fileID: 100008, guid: 3db5a0aa981e6424890f0985998ea183, type: 3}
   freezeDestroyMaterial: {fileID: 0}
-  prefabIceDestroyEffect: {fileID: 0}
+  prefabIceDestroyEffect: {fileID: 100000, guid: 981d3634bd2fb6449a59f06658ec66a3,
+    type: 3}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
