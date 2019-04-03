@@ -79,7 +79,8 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 
 	
 	protected override void Awake () {
-		base.Awake ();
+        System.Console.WriteLine("Match3BoardRenderer -> Awake->");
+        base.Awake ();
 		instance = this;
 				
 		// Initialize static board renderer properties for easier access
@@ -105,12 +106,15 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	public static Match3BoardRenderer Instance 
 	{
 		get {
-			return instance;
+            System.Console.WriteLine("Match3BoardRenderer -> get Instance->");
+            return instance;
 		}
 	}
 
 	void OnDestroy() {
-		instance = null;
+        System.Console.WriteLine("Match3BoardRenderer -> destroy Instance->");
+
+        instance = null;
 	}
 	
 	/// <summary>

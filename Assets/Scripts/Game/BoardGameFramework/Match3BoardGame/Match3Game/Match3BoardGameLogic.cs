@@ -145,15 +145,16 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 
 	protected override void Awake ()
 	{
-		instance = this;
+        System.Console.WriteLine("Match3BoardGameLogic -> Awake->");
+        instance = this;
 
 		base.Awake ();
 		
 		waitEndFrame = new WaitForEndOfFrame();
 			
 		HOTween.Init(false, false, false);
-		
-		/* 
+
+        /* 
 		characterUsed = CharacterSpecialAnimations.CharIdx < 0 || CharacterSpecialAnimations.CharIdx >= CompanionSelect.icons.Length ? "" : CompanionSelect.icons[CharacterSpecialAnimations.CharIdx];
 	
 		if(characterUsed == "") {
@@ -161,8 +162,8 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		}
 		*/
 
-        
-		LoadLevel(MaleficentBlackboard.Instance.level);
+        MaleficentBlackboard.Instance.level = 1;
+        LoadLevel(MaleficentBlackboard.Instance.level);
 		
 		// Once the level is loaded get the reference to the board data
 		boardData = boardRenderer.GetComponent<BoardData>();
@@ -170,12 +171,13 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		gameSoundEventsHandler = new InGameSoundEventsHandler();
 		gameSoundEventsHandler.RegisterSoundEvents();
 
-        InitComponent();
+        //InitComponent();
     }
 		
 	public override void InitComponent() 
 	{
-		base.InitComponent();
+        System.Console.WriteLine("Match3BoardGameLogic -> InitComponent->");
+        base.InitComponent();
 		
 		SetupBoardHoles();
 		
@@ -258,8 +260,9 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	/// Number level.
 	/// </param>
 	public void LoadLevel(int numLevel) {
-		// Check if there isn't a level already in the hierarchy before trying to instatiate one.
-		Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
+        System.Console.WriteLine("Match3BoardGameLogic -> numLevel->" + numLevel);
+        // Check if there isn't a level already in the hierarchy before trying to instatiate one.
+        Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
         numLevel = 1;
 
         if (level == null) 

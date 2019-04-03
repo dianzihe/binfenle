@@ -58,7 +58,6 @@ GameObject:
   m_Component:
   - component: {fileID: 67592507847537460}
   - component: {fileID: 67592507847537463}
-  - component: {fileID: 67592507847537462}
   m_Layer: 0
   m_Name: Match3Board
   m_TagString: Untagged
@@ -100,21 +99,6 @@ MonoBehaviour:
   referenceAspectV: 0.75
   alignH: 0
   alignV: 0
---- !u!114 &67592507847537462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67592507847537461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e259c758183bfc44b71d33231faa7a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iconName: 
-  textKey: 
-  unlockableitems: []
 --- !u!1 &67592508943559989
 GameObject:
   m_ObjectHideFlags: 0
