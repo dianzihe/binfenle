@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/dq.unity
 SceneListEnd?
@@ -508,3 +508,27 @@ c718032eb978a18bba40838e29bf86e9 Assembly-CSharp.dll:.IlluminableBoardPiece_old
 721a35fb37d0724d253d29b50af221ca Assembly-CSharp.dll:.WinDestroySoldiers
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RealTime
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.InputHandler
+8f6074c278f37e6fafd9bdedc50be0c6 Assembly-CSharp.dll:.IngameCrow
+5048b252b406d0b35789d633d3e0d913 Assembly-CSharp.dll:.AvatarParticles
+b40466b69c0fcac57623da59b270bec1 Assembly-CSharp.dll:.AnimationTest
+24407e3df08611367a43d5f2aea4dc21 Assembly-CSharp.dll:.CharacterItems
+52d17e2cbe4b680b39b9144352c176d1 Assembly-CSharp.dll:.ManaPowerBallController
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FSM
+2279641cd66322c28ff749fd14407aab Assembly-CSharp.dll:.CharacterConfig
+8db9782bcb4d0ec71ca0e58192a19e4e Assembly-CSharp.dll:.WolfHowl
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MaleficentTools
+993c1e3cbd7410a3f141003a24d671e9 Assembly-CSharp.dll:.CameraManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ManaAddWidget
+2c78508d67df37094377b29be4b72d85 Assembly-CSharp.dll:.AvatarParticlesEffect
+1952bd4e3c684c8ae7186bab11601762 Assembly-CSharp.dll:.BackgroundLoader
+26633dd8638fb9ea179b92848e857304 Assembly-CSharp.dll:.Crow
+9aee96f120cc98510ec898b757e1e5fb Assembly-CSharp.dll:.BravoInputManager
+cf0d86861624670ff6be2a800f82e0fa Assembly-CSharp.dll:.Crow2nd
+d37a430dcd9082192edf2654d052fe3f Assembly-CSharp.dll:.ManaPowerUpSelector
+7f3e9d9ccc732abc6986f4b7ade5cacd Assembly-CSharp.dll:.WolfConfig
+c4026e8fb98cdd39b82881e615660271 Assembly-CSharp.dll:.UIControl
+faba18530296252708e50bc54f9f5227 Assembly-CSharp.dll:.ManaItemHolder
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SceneLoader
+fd3dd5fd96bab732f6c31da0f9b7f872 Assembly-CSharp.dll:.MaleficentTransition
+bbc7dc1604aec693691c2353be60747d Assembly-CSharp.dll:.PowerUpSmoke

@@ -305,7 +305,10 @@ namespace HutongGames.PlayMakerEditor
                     {
                         if (logCheckFindingToggle)
                 	    {
-
+                		    System.Console.WriteLine(
+	                		    "PlayMaker Pre-UpdateCheck Found the following file (click to Ping):\n" + checkFile,
+	                		    AssetDatabase.LoadAssetAtPath(checkFile, typeof(Object))
+                		    );
                 	    }
 
 	                    foundFile =  true;
