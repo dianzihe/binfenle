@@ -174,7 +174,8 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
         //InitComponent();
     }
 		
-	public override void InitComponent() 
+	//public override void InitComponent() 
+	protected virtual void Start()
 	{
         System.Console.WriteLine("Match3BoardGameLogic -> InitComponent->");
         base.InitComponent();
@@ -260,46 +261,48 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	/// Number level.
 	/// </param>
 	public void LoadLevel(int numLevel) {
-        System.Console.WriteLine("Match3BoardGameLogic -> numLevel->" + numLevel);
+        System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel->");
         // Check if there isn't a level already in the hierarchy before trying to instatiate one.
         Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
-        numLevel = 1;
 
         if (level == null) 
 		{
-			//Debug.Log("[Match3BoardGameLogic] Trying to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel);
+			System.Console.WriteLine("[Match3BoardGameLogic] Trying to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel);
 			
 			GameObject levelPrefab = Resources.Load(Match3BoardRenderer.baseLevelPathName + numLevel) as GameObject;
 			// If for some reason we can't find this level, load the default level
 			if (levelPrefab == null) {
-				Debug.LogWarning("[Match3BoardGameLogic] Failed to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel + ". Falling back to default level!");
+				System.Console.WriteLine("[Match3BoardGameLogic] Failed to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel + ". Falling back to default level!");
 				levelPrefab = Resources.Load(Match3BoardRenderer.baseLevelPathName + "_Dummy") as GameObject;
 			}				
-			
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 1");
 			GameObject newLevelGO = Instantiate(levelPrefab) as GameObject;
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 2");
 			level = newLevelGO.GetComponent<Match3BoardRenderer>();
-			
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 3");
+
 			Vector3 prefabLocalPos = level.cachedTransform.localPosition;
 			level.cachedTransform.parent = boardVisualContainer;
 			level.cachedTransform.localPosition = prefabLocalPos;
 			level.cachedTransform.localScale = Vector3.one;
-		} 
-		else 
-		{
-			Debug.Log("[Match3BoardGameLogic] Level already found in the scene! Loading that one: " + level.name);
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 4");
+		} else {
+			System.Console.WriteLine("[Match3BoardGameLogic] Level already found in the scene! Loading that one: " + level.name);
 		}
-		
+		System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 5");
 		// Couple the Match3BoardRenderer that contains the level configuration.
 		boardRenderer = level;
 		boardAnimations.boardRenderer = level;
-		
+		System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 6");
 
 		winConditions = level.winConditions;
 		loseConditions = level.loseConditions;
+		System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 7");
 	}
 	
 	public void SetupBoardHoles() 
 	{
+		System.Console.WriteLine("Match3BoardGameLogic -> SetupBoardHoles->");
 		// Create the level board holes mask
 		BoardHolesMaskGenerator boardHoles = new BoardHolesMaskGenerator(boardData);
 		boardHolesMask = boardHoles.CreateMaskTexture(256, 256);
@@ -314,6 +317,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	/// </param>
 	public void SetBoardEnabledState(bool isEnabled)
 	{
+		System.Console.WriteLine("Match3BoardGameLogic -> SetBoardEnabledState->");
 		// Pause/Resume possible matches controller
 		if (isEnabled)
 		{	
@@ -353,7 +357,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	public void StartGame()
 	{		
 		Debug.Log("[Match3BoardGameLogic] StartGame called...");
-		
+		System.Console.WriteLine("Match3BoardGameLogic -> StartGame->");
 		//AnalyticsBinding.LogEventGameAction(GetLevelType(), "game_start", null, null, MaleficentBlackboard.Instance.level);
 		SetLevelStartAnalyticTimeEvent();
 		
@@ -371,6 +375,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	
 	public void SetLevelStartAnalyticTimeEvent(bool levelFinished = false)
 	{
+		System.Console.WriteLine("Match3BoardGameLogic -> SetLevelStartAnalyticTimeEvent->");
 		//TODO: when facebook will be integrated we must log per user analytics stats here.
 		int level = MaleficentBlackboard.Instance.level;
 		string analyticsLevelKey = string.Format("AnalyticsPlayedLevelTime{0}", level);
@@ -961,6 +966,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 
 	
 	void OnDestroy() {
+		System.Console.WriteLine("Match3BoardGameLogic -> OnDestroy->");
 		if (boardHolesMask != null) {
 			Debug.Log("[Match3BoardGameLogic] Destroying the board holes mask texture...");
 			Destroy(boardHolesMask);

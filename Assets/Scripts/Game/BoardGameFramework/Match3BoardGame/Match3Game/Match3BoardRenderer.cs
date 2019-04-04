@@ -123,6 +123,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// </summary>
 	public void InitializeRandomGenericColors() 
 	{
+		System.Console.WriteLine("Match3BoardRenderer -> InitializeRandomGenericColors->");
 		// Get the needed colors from the win condition
 		List<TileColorType> neededColors = new List<TileColorType>();
 		WinDestroyTiles winDestroy = winConditions as WinDestroyTiles;
@@ -174,12 +175,14 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 #region Overridden methods from AbstractBoardRenderer
 	public override void InitComponent ()
 	{	
+		System.Console.WriteLine("Match3BoardRenderer -> InitComponent->");
 		InitializeRandomGenericColors();
 		base.InitComponent();
 	}
 	
 	public override void RaiseBoardStartedSetupEvent () 
 	{
+		System.Console.WriteLine("Match3BoardRenderer -> RaiseBoardStartedSetupEvent->");
 		base.RaiseBoardStartedSetupEvent ();
 		
 		// Setup board pieces prefabs
@@ -429,6 +432,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// Thus it will fall through the empty pieces.
 	/// </summary>
 	public void DetermineBoardLinksAndNeighbors() {
+		System.Console.WriteLine("Match3BoardRenderer -> DetermineBoardLinksAndNeighbors->");
 		// Auto-determine board pieces neighbors. (only for pieces that have the "autoDetermineNeighbors" flag set)
 		Board.ApplyActionToAll((boardPiece) => 
 		{
@@ -450,6 +454,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// </summary>
 	public void LoadBoardSetupFromHierarchy()
 	{
+		System.Console.WriteLine("Match3BoardRenderer -> LoadBoardSetupFromHierarchy->");
 //		List<Match3Tile> tilesPlacedAtDesignTime = new List<Match3Tile>(30);
 		
 		// Enable all the board pieces and initialize them
@@ -509,6 +514,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// with correct data types.
 	/// </summary>
 	public void GenerateRandomBoard(int numRows, int numCols) {	
+		System.Console.WriteLine("Match3BoardRenderer -> GenerateRandomBoard->");
 		Debug.LogWarning("Generating random board: " + numRows + " rows,  " + numCols + " cols");
 		
 		for(int rowIdx = 0; rowIdx < Board.NumRows; rowIdx++) {
@@ -661,6 +667,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	
 	public Match3BoardPiece AttachTileToBoardAt(int rowIdx, int columnIdx, Match3Tile tile, bool offBoardTile, bool isBoardSetup = false, bool resetTilePosition = true) 
 	{
+		System.Console.WriteLine("Match3BoardRenderer -> AttachTileToBoardAt->");
 		// Assign the tile to the specified BoardPiece.
 		Match3BoardPiece targetBoardPiece = Board[rowIdx, columnIdx] as Match3BoardPiece;
 		

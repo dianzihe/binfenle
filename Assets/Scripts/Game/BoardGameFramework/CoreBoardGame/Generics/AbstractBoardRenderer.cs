@@ -25,6 +25,7 @@ public abstract class AbstractBoardRenderer : MonoBehaviour {
 	}
 		
 	protected virtual void Start() {
+		System.Console.WriteLine("AbstractBoardRenderer -> start->");
 	}
 	
 	/// <summary>

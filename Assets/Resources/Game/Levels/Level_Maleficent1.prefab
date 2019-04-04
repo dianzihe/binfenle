@@ -4331,8 +4331,6 @@ GameObject:
   - component: {fileID: 400128}
   - component: {fileID: 11400146}
   - component: {fileID: 11400144}
-  - component: {fileID: 11400142}
-  - component: {fileID: 11400132}
   m_Layer: 0
   m_Name: Level_Maleficent1
   m_TagString: Untagged
@@ -4475,45 +4473,8 @@ MonoBehaviour:
   - {fileID: 100000, guid: 55a2601a8db564b8a972cac3058bb43b, type: 3}
   - {fileID: 100000, guid: 3b4e1f905a5852545a013f1bda8098fe, type: 3}
   - {fileID: 100000, guid: e4abcabd16d7546079530c57d19a83f9, type: 3}
-  winConditions: {fileID: 0}
-  loseConditions: {fileID: 0}
-  maximumNumBoardColors: 6
-  horizontalTileDistance: 1.008
-  horizontalTileOffset: 0
-  verticalTileDistance: 1.008
-  verticalTileOffset: 0
-  autoGenerateRandom: 1
-  useEditorMode: 0
---- !u!114 &11400142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b3922e0179a43038b25fd2e053febb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numColumns: 8
-  numRows: 8
---- !u!114 &11400132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75278f002c750b14ebf994b26e5e6adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tilesPrefabs: []
-  prefabsPieces: []
-  winConditions: {fileID: 0}
-  loseConditions: {fileID: 0}
+  winConditions: {fileID: 11400090}
+  loseConditions: {fileID: 11400150}
   maximumNumBoardColors: 6
   horizontalTileDistance: 1.008
   horizontalTileOffset: 0
