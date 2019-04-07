@@ -3,4 +3,5 @@
 /Library/*
 .vs/*
 obj/*
-
+*.meta
+Assembly-*.csproj

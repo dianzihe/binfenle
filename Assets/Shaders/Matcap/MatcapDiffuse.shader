@@ -71,4 +71,5 @@ Shader "Bravo/MatCap/MatCap Diffuse" {
 			ENDCG
 		}
 	}
+	FallBack Off 
 }

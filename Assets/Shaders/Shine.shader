@@ -69,4 +69,5 @@ Shader "_Maleficent/Shine" {
 			ENDCG
 		}
 	}
+	FallBack Off 
 }

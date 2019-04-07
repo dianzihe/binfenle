@@ -32,10 +32,10 @@ public class WinDestroyLightPieces : WinScore
 		yield return new WaitForEndOfFrame();
 
 		GameObject illuminableBackground = Resources.Load("Game/Tiles/IlluminableModelBack") as GameObject;
-		System.Console.WriteLine("WinDestroyLightPieces->_PopulateEmpty-> " + Match3BoardGameLogic.Instance.boardData.ToString());
+		//System.Console.WriteLine("WinDestroyLightPieces->_PopulateEmpty-> " + Match3BoardGameLogic.Instance.boardData.ToString());
 		//Match3BoardPiece bp = new Match3BoardPiece();
 		Match3BoardGameLogic.Instance.boardData.ApplyActionToAll((boardPiece) => {
-			System.Console.WriteLine("WinDestroyLightPieces->_PopulateEmpty  {0}-{1}", boardPiece.name, boardPiece.GetType());
+			//System.Console.WriteLine("WinDestroyLightPieces->_PopulateEmpty  {0}-{1}", boardPiece.name, boardPiece.GetType());
 			if (typeof(Match3BoardPiece) == boardPiece.GetType()) {
 
 				GameObject illuminableCopy = GameObject.Instantiate(illuminableBackground) as GameObject;

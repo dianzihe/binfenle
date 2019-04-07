@@ -3,12 +3,13 @@
 --- !u!1 &100000
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
   m_Layer: 0
   m_Name: MapAtlas
   m_TagString: Untagged
@@ -18,20 +19,24 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -39,541 +44,385 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9d83f3ec7675445f193a7c9edb0f8514, type: 2}
-  sprites:
+  mSprites:
   - name: star_map_01
-    outer:
-      serializedVersion: 2
-      x: 525
-      y: 80
-      width: 128
-      height: 48
-    inner:
-      serializedVersion: 2
-      x: 525
-      y: 80
-      width: 128
-      height: 48
-    rotated: 0
+    x: 525
+    y: 80
+    width: 128
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: star_map_03
-    outer:
-      serializedVersion: 2
-      x: 525
-      y: 31
-      width: 128
-      height: 48
-    inner:
-      serializedVersion: 2
-      x: 525
-      y: 31
-      width: 128
-      height: 48
-    rotated: 0
+    x: 525
+    y: 31
+    width: 128
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: star_map_02
-    outer:
-      serializedVersion: 2
-      x: 1899
-      y: 1846
-      width: 128
-      height: 48
-    inner:
-      serializedVersion: 2
-      x: 1899
-      y: 1846
-      width: 128
-      height: 48
-    rotated: 0
+    x: 1899
+    y: 1846
+    width: 128
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_lives
-    outer:
-      serializedVersion: 2
-      x: 781
-      y: 449
-      width: 165
-      height: 98
-    inner:
-      serializedVersion: 2
-      x: 781
-      y: 449
-      width: 165
-      height: 98
-    rotated: 0
+    x: 781
+    y: 449
+    width: 165
+    height: 98
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: map_location_01
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 24
-      width: 256
-      height: 256
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 24
-      width: 256
-      height: 256
-    rotated: 0
+    x: 0
+    y: 24
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: map_location_01_off
-    outer:
-      serializedVersion: 2
-      x: 268
-      y: 291
-      width: 256
-      height: 256
-    inner:
-      serializedVersion: 2
-      x: 268
-      y: 291
-      width: 256
-      height: 256
-    rotated: 0
+    x: 268
+    y: 291
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: textshadow
-    outer:
-      serializedVersion: 2
-      x: 268
-      y: 9
-      width: 254
-      height: 82
-    inner:
-      serializedVersion: 2
-      x: 268
-      y: 9
-      width: 254
-      height: 82
-    rotated: 0
+    x: 268
+    y: 9
+    width: 254
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: textshadow2
-    outer:
-      serializedVersion: 2
-      x: 696
-      y: 1
-      width: 142
-      height: 144
-    inner:
-      serializedVersion: 2
-      x: 696
-      y: 1
-      width: 142
-      height: 144
-    rotated: 0
+    x: 696
+    y: 1
+    width: 142
+    height: 144
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: storeicon
-    outer:
-      serializedVersion: 2
-      x: 268
-      y: 92
-      width: 199
-      height: 198
-    inner:
-      serializedVersion: 2
-      x: 268
-      y: 92
-      width: 199
-      height: 198
-    rotated: 0
+    x: 268
+    y: 92
+    width: 199
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: book_sign_01
-    outer:
-      serializedVersion: 2
-      x: 525
-      y: 428
-      width: 255
-      height: 119
-    inner:
-      serializedVersion: 2
-      x: 525
-      y: 428
-      width: 255
-      height: 119
-    rotated: 0
+    x: 525
+    y: 428
+    width: 255
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: book_sign_02
-    outer:
-      serializedVersion: 2
-      x: 525
-      y: 308
-      width: 255
-      height: 119
-    inner:
-      serializedVersion: 2
-      x: 525
-      y: 308
-      width: 255
-      height: 119
-    rotated: 0
+    x: 525
+    y: 308
+    width: 255
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_lives_icon
-    outer:
-      serializedVersion: 2
-      x: 1869
-      y: 800
-      width: 150
-      height: 150
-    inner:
-      serializedVersion: 2
-      x: 1869
-      y: 800
-      width: 150
-      height: 150
-    rotated: 0
+    x: 1869
+    y: 800
+    width: 150
+    height: 150
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: arrow
-    outer:
-      serializedVersion: 2
-      x: 468
-      y: 168
-      width: 24
-      height: 54
-    inner:
-      serializedVersion: 2
-      x: 468
-      y: 168
-      width: 24
-      height: 54
-    rotated: 0
-    paddingLeft: .125
-    paddingRight: .0416666679
-    paddingTop: .0925925896
-    paddingBottom: .0925925896
+    x: 468
+    y: 168
+    width: 24
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 1
+    paddingTop: 5
+    paddingBottom: 5
   - name: baoxiang
-    outer:
-      serializedVersion: 2
-      x: 468
-      y: 223
-      width: 56
-      height: 67
-    inner:
-      serializedVersion: 2
-      x: 468
-      y: 223
-      width: 56
-      height: 67
-    rotated: 0
-    paddingLeft: .178571433
-    paddingRight: .178571433
-    paddingTop: .074626863
-    paddingBottom: .179104477
+    x: 468
+    y: 223
+    width: 56
+    height: 67
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 5
+    paddingBottom: 12
   - name: duihuankuang2
-    outer:
-      serializedVersion: 2
-      x: 1001
-      y: 407
-      width: 250
-      height: 39
-    inner:
-      serializedVersion: 2
-      x: 1001
-      y: 407
-      width: 250
-      height: 39
-    rotated: 0
+    x: 1001
+    y: 407
+    width: 250
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: sign-icon
-    outer:
-      serializedVersion: 2
-      x: 1001
-      y: 1102
-      width: 897
-      height: 946
-    inner:
-      serializedVersion: 2
-      x: 1001
-      y: 1102
-      width: 897
-      height: 946
-    rotated: 0
-    paddingLeft: .0278706793
-    paddingRight: .113712378
-    paddingTop: .0750528574
-    paddingBottom: .00739957718
+    x: 1001
+    y: 1102
+    width: 897
+    height: 946
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 102
+    paddingTop: 71
+    paddingBottom: 7
   - name: sign-red
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 281
-      width: 267
-      height: 266
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 281
-      width: 267
-      height: 266
-    rotated: 0
+    x: 0
+    y: 281
+    width: 267
+    height: 266
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: sign-bg
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 548
-      width: 1000
-      height: 1500
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 548
-      width: 1000
-      height: 1500
-    rotated: 0
+    x: 0
+    y: 548
+    width: 1000
+    height: 1500
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: 3open
-    outer:
-      serializedVersion: 2
-      x: 1869
-      y: 951
-      width: 158
-      height: 150
-    inner:
-      serializedVersion: 2
-      x: 1869
-      y: 951
-      width: 158
-      height: 150
-    rotated: 0
+    x: 1869
+    y: 951
+    width: 158
+    height: 150
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: 2open
-    outer:
-      serializedVersion: 2
-      x: 839
-      y: 14
-      width: 140
-      height: 131
-    inner:
-      serializedVersion: 2
-      x: 839
-      y: 14
-      width: 140
-      height: 131
-    rotated: 0
+    x: 839
+    y: 14
+    width: 140
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: 4
-    outer:
-      serializedVersion: 2
-      x: 525
-      y: 129
-      width: 170
-      height: 178
-    inner:
-      serializedVersion: 2
-      x: 525
-      y: 129
-      width: 170
-      height: 178
-    rotated: 0
+    x: 525
+    y: 129
+    width: 170
+    height: 178
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .00561797759
+    paddingTop: 1
     paddingBottom: 0
   - name: 1open
-    outer:
-      serializedVersion: 2
-      x: 781
-      y: 326
-      width: 108
-      height: 101
-    inner:
-      serializedVersion: 2
-      x: 781
-      y: 326
-      width: 108
-      height: 101
-    rotated: 0
+    x: 781
+    y: 326
+    width: 108
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: 1
-    outer:
-      serializedVersion: 2
-      x: 890
-      y: 325
-      width: 98
-      height: 102
-    inner:
-      serializedVersion: 2
-      x: 890
-      y: 325
-      width: 98
-      height: 102
-    rotated: 0
+    x: 890
+    y: 325
+    width: 98
+    height: 102
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
-    paddingRight: .0102040814
+    paddingRight: 1
     paddingTop: 0
     paddingBottom: 0
   - name: 4open
-    outer:
-      serializedVersion: 2
-      x: 696
-      y: 146
-      width: 171
-      height: 161
-    inner:
-      serializedVersion: 2
-      x: 696
-      y: 146
-      width: 171
-      height: 161
-    rotated: 0
+    x: 696
+    y: 146
+    width: 171
+    height: 161
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: 2
-    outer:
-      serializedVersion: 2
-      x: 868
-      y: 175
-      width: 126
-      height: 132
-    inner:
-      serializedVersion: 2
-      x: 868
-      y: 175
-      width: 126
-      height: 132
-    rotated: 0
+    x: 868
+    y: 175
+    width: 126
+    height: 132
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: button2
-    outer:
-      serializedVersion: 2
-      x: 1899
-      y: 1771
-      width: 64
-      height: 74
-    inner:
-      serializedVersion: 2
-      x: 1899
-      y: 1771
-      width: 64
-      height: 74
-    rotated: 0
+    x: 1899
+    y: 1771
+    width: 64
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: button
-    outer:
-      serializedVersion: 2
-      x: 1964
-      y: 1771
-      width: 64
-      height: 74
-    inner:
-      serializedVersion: 2
-      x: 1964
-      y: 1771
-      width: 64
-      height: 74
-    rotated: 0
+    x: 1964
+    y: 1771
+    width: 64
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: 3
-    outer:
-      serializedVersion: 2
-      x: 1899
-      y: 1895
-      width: 148
-      height: 153
-    inner:
-      serializedVersion: 2
-      x: 1899
-      y: 1895
-      width: 148
-      height: 153
-    rotated: 0
+    x: 1899
+    y: 1895
+    width: 148
+    height: 153
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: channel
-    outer:
-      serializedVersion: 2
-      x: 1001
-      y: 447
-      width: 867
-      height: 654
-    inner:
-      serializedVersion: 2
-      x: 1001
-      y: 447
-      width: 867
-      height: 654
-    rotated: 0
+    x: 1001
+    y: 447
+    width: 867
+    height: 654
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
-    paddingRight: .00230680499
+    paddingRight: 2
     paddingTop: 0
     paddingBottom: 0
-  mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
-  m_IsExploded: 1
+  mCoordinates: 0
+  sprites: []

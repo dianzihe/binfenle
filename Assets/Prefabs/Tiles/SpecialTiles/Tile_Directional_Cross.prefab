@@ -309,12 +309,21 @@ MonoBehaviour:
   freezeOffset: {x: 0, y: 0, z: -4.25}
   prefabFreezeEffect: {fileID: 0}
   freezeDestroyMaterial: {fileID: 0}
-  additionalChildAnimationComponent: {fileID: 0}
-  prefabTilesDestroyEffect: {fileID: 0}
-  prefabBombCombineDestroyEffect: {fileID: 0}
-  prefabBombCombinedTileEffect: {fileID: 0}
+  additionalChildAnimationComponent: {fileID: 11100000}
+  prefabTilesDestroyEffect: {fileID: 100004, guid: 065df726dd85ca04aaf5c979062d2bf0,
+    type: 3}
+  prefabBombCombineDestroyEffect: {fileID: 100006, guid: 18b22551bd9c9fb44bad76fc17f475bb,
+    type: 3}
+  prefabBombCombinedTileEffect: {fileID: 100000, guid: eb8bc82410a37b64891e4db5ae49b4a9,
+    type: 3}
   touchController: {fileID: 0}
-  coloredMaterials: []
+  coloredMaterials:
+  - {fileID: 2100000, guid: 217641f2450d9224697837661bb38fd7, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   FreezeEffectPrefabArray: []
   PrefabEffectBreakFragments: {fileID: 0}
   PrefabFreezeDestroyMaterialArray: []

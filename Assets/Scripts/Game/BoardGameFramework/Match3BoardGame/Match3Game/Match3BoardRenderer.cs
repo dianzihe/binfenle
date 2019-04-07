@@ -79,7 +79,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 
 	
 	protected override void Awake () {
-        System.Console.WriteLine("Match3BoardRenderer -> Awake->");
         base.Awake ();
 		instance = this;
 				
@@ -106,14 +105,11 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	public static Match3BoardRenderer Instance 
 	{
 		get {
-            System.Console.WriteLine("Match3BoardRenderer -> get Instance->");
             return instance;
 		}
 	}
 
 	void OnDestroy() {
-        System.Console.WriteLine("Match3BoardRenderer -> destroy Instance->");
-
         instance = null;
 	}
 	
@@ -123,7 +119,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// </summary>
 	public void InitializeRandomGenericColors() 
 	{
-		System.Console.WriteLine("Match3BoardRenderer -> InitializeRandomGenericColors->");
 		// Get the needed colors from the win condition
 		List<TileColorType> neededColors = new List<TileColorType>();
 		WinDestroyTiles winDestroy = winConditions as WinDestroyTiles;
@@ -175,14 +170,12 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 #region Overridden methods from AbstractBoardRenderer
 	public override void InitComponent ()
 	{	
-		System.Console.WriteLine("Match3BoardRenderer -> InitComponent->");
 		InitializeRandomGenericColors();
 		base.InitComponent();
 	}
 	
 	public override void RaiseBoardStartedSetupEvent () 
 	{
-		System.Console.WriteLine("Match3BoardRenderer -> RaiseBoardStartedSetupEvent->");
 		base.RaiseBoardStartedSetupEvent ();
 		
 		// Setup board pieces prefabs
@@ -215,23 +208,15 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
     /// based on their type and color for quick access at run-time.
     /// </summary>
     public override void SetupBoardTiles() {
-        System.Console.WriteLine("Match3BoardRenderer -> SetupBoardTiles->");
         tilesDictionary = new TilesDictionary();
 
         for (int i = 0; i < tilesPrefabs.Length; i++) {
             Match3Tile tile = tilesPrefabs[i].GetComponent<Match3Tile>();
 			tilesDictionary[tile.GetType(), tile.TileColor] = tile;
-            System.Console.WriteLine("Match3BoardRenderer -> SetupBoardTiles->" + i + "--" + tile.GetType() + "--" + tile.TileColor.ToString());
-
         }
     }
 
 	protected override void SetupBoardRendering() {
-        System.Console.WriteLine("Match3BoardRenderer -> SetupBoardRendering");
-        if (null == tilesDictionary)
-            System.Console.WriteLine("SetupBoardRendering SpawnSpecificTile -> is null");
-        else
-            System.Console.WriteLine("SetupBoardRendering  SpawnSpecificTile-> is not null");
         Vector3 boardPiecePos = Vector3.zero;
 		
 		if (autoGenerateRandom) {
@@ -331,17 +316,11 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 
 				if (autoGenerateRandom) 
 				{
-                    System.Console.WriteLine("SetupBoardRendering -----");
-
 					//TODO: Fallback for the old method of level generation. This should be removed at some point....or not...
 					if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece && boardPiece.Tile == null && rowIdx < Board.NumRows - 3) {
 						SpawnTileAt(rowIdx, colIdx, false, true, true);
 					}
-				}
-				else 
-				{
-                    System.Console.WriteLine("SetupBoardRendering ========");
-
+				} else  {
                     if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece) 
 					{
 						// Only override this flag if it hasn't been already set to true.
@@ -369,7 +348,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// </summary>
 	public void InitBoardTiles()
 	{
-        System.Console.WriteLine("Match3BoardRenderer -> InitBoardTiles");
         // Ensure the board has at least one possible match (but not already made matches).
         int numTries = 0;
 //		matchesUndoer.OnNewTileSpawned = (newTile) => {
@@ -432,7 +410,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// Thus it will fall through the empty pieces.
 	/// </summary>
 	public void DetermineBoardLinksAndNeighbors() {
-		System.Console.WriteLine("Match3BoardRenderer -> DetermineBoardLinksAndNeighbors->");
 		// Auto-determine board pieces neighbors. (only for pieces that have the "autoDetermineNeighbors" flag set)
 		Board.ApplyActionToAll((boardPiece) => 
 		{
@@ -454,7 +431,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// </summary>
 	public void LoadBoardSetupFromHierarchy()
 	{
-		System.Console.WriteLine("Match3BoardRenderer -> LoadBoardSetupFromHierarchy->");
 //		List<Match3Tile> tilesPlacedAtDesignTime = new List<Match3Tile>(30);
 		
 		// Enable all the board pieces and initialize them
@@ -514,7 +490,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// with correct data types.
 	/// </summary>
 	public void GenerateRandomBoard(int numRows, int numCols) {	
-		System.Console.WriteLine("Match3BoardRenderer -> GenerateRandomBoard->");
 		Debug.LogWarning("Generating random board: " + numRows + " rows,  " + numCols + " cols");
 		
 		for(int rowIdx = 0; rowIdx < Board.NumRows; rowIdx++) {
@@ -622,10 +597,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	public Match3Tile SpawnSpecificTileAt(int rowIdx, int columnIdx, System.Type tileType, TileColorType prefabDefaultColor, bool offBoardTile = false, bool isBoardSetup = false) 
 	{
         //		Debug.LogWarning("[SpawnSpecificTileAt] " + tileType.ToString() + " " + prefabDefaultColor);
-        if (null == tilesDictionary)
-            System.Console.WriteLine("SpawnSpecificTileAt SpawnSpecificTile-> is null");
-        else
-            System.Console.WriteLine("SpawnSpecificTileAt SpawnSpecificTile-> is not null");
         // Spawn the specified tile
         Match3Tile newTile = SpawnSpecificTile(tileType, prefabDefaultColor, isBoardSetup);
 		newTile.name = string.Format("[{0},{1}] {2}", rowIdx, columnIdx, newTile.name);
@@ -638,15 +609,10 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	
 	public Match3Tile SpawnSpecificTile(System.Type tileType, TileColorType prefabDefaultColor, bool isBoardSetup = false) 
 	{
-        System.Console.WriteLine("SpawnSpecificTile-> {0}-{1}", tileType.ToString(), prefabDefaultColor.ToString());
+        //System.Console.WriteLine("SpawnSpecificTile-> {0}-{1}", tileType.ToString(), prefabDefaultColor.ToString());
         //foreach (KeyValuePair<System.Type, Match3BoardPiece> pair in piecesDictionary) {
         //    System.Console.WriteLine("Key:{0}", pair.Key.ToString());
         //}
-        if (null == tilesDictionary)
-            System.Console.WriteLine("SpawnSpecificTile-> is null");
-        else
-            System.Console.WriteLine("SpawnSpecificTile-> is not null");
-        tilesDictionary.toString();
         Match3Tile newTile = (Instantiate(tilesDictionary[tileType, prefabDefaultColor].gameObject) as GameObject).GetComponent<Match3Tile>();
 		
 		newTile.cachedTransform.parent = cachedTransform;
@@ -667,7 +633,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	
 	public Match3BoardPiece AttachTileToBoardAt(int rowIdx, int columnIdx, Match3Tile tile, bool offBoardTile, bool isBoardSetup = false, bool resetTilePosition = true) 
 	{
-		System.Console.WriteLine("Match3BoardRenderer -> AttachTileToBoardAt->");
 		// Assign the tile to the specified BoardPiece.
 		Match3BoardPiece targetBoardPiece = Board[rowIdx, columnIdx] as Match3BoardPiece;
 		

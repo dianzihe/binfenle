@@ -3,12 +3,13 @@
 --- !u!1 &100000
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
   m_Layer: 0
   m_Name: GenericAtlas
   m_TagString: Untagged
@@ -18,20 +19,24 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -39,595 +44,424 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: a04fe536d65e2425ebc5ac096dc8da20, type: 2}
-  sprites:
+  mSprites:
   - name: menu_button_x
-    outer:
-      serializedVersion: 2
-      x: 353
-      y: 732
-      width: 99
-      height: 90
-    inner:
-      serializedVersion: 2
-      x: 353
-      y: 732
-      width: 99
-      height: 90
-    rotated: 0
+    x: 353
+    y: 732
+    width: 99
+    height: 90
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_button
-    outer:
-      serializedVersion: 2
-      x: 474
-      y: 590
-      width: 248
-      height: 53
-    inner:
-      serializedVersion: 2
-      x: 524
-      y: 590
-      width: 148
-      height: 53
-    rotated: 0
-    paddingLeft: .0322580636
-    paddingRight: .0282258056
-    paddingTop: .113207549
-    paddingBottom: .169811323
+    x: 474
+    y: 590
+    width: 248
+    height: 53
+    borderLeft: 50
+    borderRight: 50
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 7
+    paddingTop: 6
+    paddingBottom: 9
   - name: menu_button_down
-    outer:
-      serializedVersion: 2
-      x: 474
-      y: 457
-      width: 248
-      height: 53
-    inner:
-      serializedVersion: 2
-      x: 524
-      y: 457
-      width: 148
-      height: 53
-    rotated: 0
-    paddingLeft: .0322580636
-    paddingRight: .0282258056
-    paddingTop: .113207549
-    paddingBottom: .169811323
+    x: 474
+    y: 457
+    width: 248
+    height: 53
+    borderLeft: 50
+    borderRight: 50
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 7
+    paddingTop: 6
+    paddingBottom: 9
   - name: menu_icon_music
-    outer:
-      serializedVersion: 2
-      x: 106
-      y: 328
-      width: 53
-      height: 22
-    inner:
-      serializedVersion: 2
-      x: 106
-      y: 328
-      width: 53
-      height: 22
-    rotated: 0
-    paddingLeft: .0377358496
-    paddingRight: .094339624
-    paddingTop: .454545468
-    paddingBottom: .363636374
+    x: 106
+    y: 328
+    width: 53
+    height: 22
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 5
+    paddingTop: 10
+    paddingBottom: 8
   - name: menu_icon_sound
-    outer:
-      serializedVersion: 2
-      x: 655
-      y: 813
-      width: 59
-      height: 39
-    inner:
-      serializedVersion: 2
-      x: 655
-      y: 813
-      width: 59
-      height: 39
-    rotated: 0
-    paddingLeft: .0169491526
+    x: 655
+    y: 813
+    width: 59
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
     paddingRight: 0
-    paddingTop: .025641026
+    paddingTop: 1
     paddingBottom: 0
   - name: menu_icon_retrylevel
-    outer:
-      serializedVersion: 2
-      x: 655
-      y: 774
-      width: 60
-      height: 38
-    inner:
-      serializedVersion: 2
-      x: 655
-      y: 774
-      width: 60
-      height: 38
-    rotated: 0
-    paddingLeft: .166666672
-    paddingRight: .166666672
-    paddingTop: .0526315793
+    x: 655
+    y: 774
+    width: 60
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 2
     paddingBottom: 0
   - name: menu_icon_exitgame
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 351
-      width: 60
-      height: 37
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 351
-      width: 60
-      height: 37
-    rotated: 0
+    x: 0
+    y: 351
+    width: 60
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .0540540554
-    paddingBottom: .0270270277
+    paddingTop: 2
+    paddingBottom: 1
   - name: menu_icon_moredisney
-    outer:
-      serializedVersion: 2
-      x: 53
-      y: 313
-      width: 52
-      height: 37
-    inner:
-      serializedVersion: 2
-      x: 53
-      y: 313
-      width: 52
-      height: 37
-    rotated: 0
-    paddingLeft: .15384616
+    x: 53
+    y: 313
+    width: 52
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
     paddingRight: 0
-    paddingTop: .0810810775
+    paddingTop: 3
     paddingBottom: 0
   - name: menu_icon_about
-    outer:
-      serializedVersion: 2
-      x: 685
-      y: 995
-      width: 35
-      height: 28
-    inner:
-      serializedVersion: 2
-      x: 685
-      y: 995
-      width: 35
-      height: 28
-    rotated: 0
-    paddingLeft: .342857152
-    paddingRight: .371428579
-    paddingTop: .214285716
-    paddingBottom: .214285716
+    x: 685
+    y: 995
+    width: 35
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 13
+    paddingTop: 6
+    paddingBottom: 6
   - name: menu_button_play
-    outer:
-      serializedVersion: 2
-      x: 474
-      y: 644
-      width: 210
-      height: 76
-    inner:
-      serializedVersion: 2
-      x: 529
-      y: 644
-      width: 100
-      height: 76
-    rotated: 0
-    paddingLeft: .0380952395
-    paddingRight: .0142857144
-    paddingTop: .276315778
-    paddingBottom: .210526317
+    x: 474
+    y: 644
+    width: 210
+    height: 76
+    borderLeft: 55
+    borderRight: 55
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 3
+    paddingTop: 21
+    paddingBottom: 16
   - name: menu_icon_nextlevel
-    outer:
-      serializedVersion: 2
-      x: 61
-      y: 351
-      width: 60
-      height: 37
-    inner:
-      serializedVersion: 2
-      x: 61
-      y: 351
-      width: 60
-      height: 37
-    rotated: 0
+    x: 61
+    y: 351
+    width: 60
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .0540540554
-    paddingBottom: .0270270277
+    paddingTop: 2
+    paddingBottom: 1
   - name: menu_button_buy1
-    outer:
-      serializedVersion: 2
-      x: 201
-      y: 256
-      width: 352
-      height: 79
-    inner:
-      serializedVersion: 2
-      x: 201
-      y: 256
-      width: 352
-      height: 79
-    rotated: 0
+    x: 201
+    y: 256
+    width: 352
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: gui_powerup_bg
-    outer:
-      serializedVersion: 2
-      x: 554
-      y: 893
-      width: 130
-      height: 130
-    inner:
-      serializedVersion: 2
-      x: 554
-      y: 893
-      width: 130
-      height: 130
-    rotated: 0
+    x: 554
+    y: 893
+    width: 130
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_button_x_down
-    outer:
-      serializedVersion: 2
-      x: 453
-      y: 754
-      width: 85
-      height: 68
-    inner:
-      serializedVersion: 2
-      x: 453
-      y: 754
-      width: 85
-      height: 68
-    rotated: 0
-    paddingLeft: .0588235296
-    paddingRight: .105882354
-    paddingTop: .176470593
-    paddingBottom: .14705883
+    x: 453
+    y: 754
+    width: 85
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 9
+    paddingTop: 12
+    paddingBottom: 10
   - name: menu_button_play_down
-    outer:
-      serializedVersion: 2
-      x: 474
-      y: 511
-      width: 210
-      height: 76
-    inner:
-      serializedVersion: 2
-      x: 474
-      y: 511
-      width: 210
-      height: 76
-    rotated: 0
-    paddingLeft: .0380952395
-    paddingRight: .0142857144
-    paddingTop: .276315778
-    paddingBottom: .210526317
+    x: 474
+    y: 511
+    width: 210
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 3
+    paddingTop: 21
+    paddingBottom: 16
   - name: menu_icon_sound_on
-    outer:
-      serializedVersion: 2
-      x: 554
-      y: 721
-      width: 60
-      height: 40
-    inner:
-      serializedVersion: 2
-      x: 554
-      y: 721
-      width: 60
-      height: 40
-    rotated: 0
+    x: 554
+    y: 721
+    width: 60
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_icon_retrylevel_on
-    outer:
-      serializedVersion: 2
-      x: 655
-      y: 853
-      width: 60
-      height: 39
-    inner:
-      serializedVersion: 2
-      x: 655
-      y: 853
-      width: 60
-      height: 39
-    rotated: 0
-    paddingLeft: .166666672
-    paddingRight: .166666672
-    paddingTop: .025641026
+    x: 655
+    y: 853
+    width: 60
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 1
     paddingBottom: 0
   - name: menu_icon_nextlevel_on
-    outer:
-      serializedVersion: 2
-      x: 655
-      y: 735
-      width: 60
-      height: 38
-    inner:
-      serializedVersion: 2
-      x: 655
-      y: 735
-      width: 60
-      height: 38
-    rotated: 0
+    x: 655
+    y: 735
+    width: 60
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .0263157897
-    paddingBottom: .0263157897
+    paddingTop: 1
+    paddingBottom: 1
   - name: menu_icon_music_on
-    outer:
-      serializedVersion: 2
-      x: 453
-      y: 729
-      width: 55
-      height: 24
-    inner:
-      serializedVersion: 2
-      x: 453
-      y: 729
-      width: 55
-      height: 24
-    rotated: 0
-    paddingLeft: .0181818176
-    paddingRight: .0727272704
-    paddingTop: .333333343
-    paddingBottom: .333333343
+    x: 453
+    y: 729
+    width: 55
+    height: 24
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 8
   - name: menu_icon_about_on
-    outer:
-      serializedVersion: 2
-      x: 509
-      y: 725
-      width: 37
-      height: 28
-    inner:
-      serializedVersion: 2
-      x: 509
-      y: 725
-      width: 37
-      height: 28
-    rotated: 0
-    paddingLeft: .270270258
-    paddingRight: .351351351
-    paddingTop: .214285716
-    paddingBottom: .214285716
+    x: 509
+    y: 725
+    width: 37
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 13
+    paddingTop: 6
+    paddingBottom: 6
   - name: menu_icon_exitgame_on
-    outer:
-      serializedVersion: 2
-      x: 122
-      y: 351
-      width: 60
-      height: 37
-    inner:
-      serializedVersion: 2
-      x: 122
-      y: 351
-      width: 60
-      height: 37
-    rotated: 0
+    x: 122
+    y: 351
+    width: 60
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .0540540554
-    paddingBottom: .0270270277
+    paddingTop: 2
+    paddingBottom: 1
   - name: menu_icon_moredisney_on
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 310
-      width: 52
-      height: 40
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 310
-      width: 52
-      height: 40
-    rotated: 0
-    paddingLeft: .15384616
+    x: 0
+    y: 310
+    width: 52
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: LoseScreen_glow
-    outer:
-      serializedVersion: 2
-      x: 201
-      y: 336
-      width: 297
-      height: 118
-    inner:
-      serializedVersion: 2
-      x: 201
-      y: 336
-      width: 297
-      height: 118
-    rotated: 0
+    x: 201
+    y: 336
+    width: 297
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .0932203382
+    paddingTop: 11
     paddingBottom: 0
   - name: pause_m_clicked_01
-    outer:
-      serializedVersion: 2
-      x: 554
-      y: 762
-      width: 100
-      height: 130
-    inner:
-      serializedVersion: 2
-      x: 554
-      y: 762
-      width: 100
-      height: 130
-    rotated: 0
+    x: 554
+    y: 762
+    width: 100
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: pause_m_01
-    outer:
-      serializedVersion: 2
-      x: 101
-      y: 392
-      width: 92
-      height: 127
-    inner:
-      serializedVersion: 2
-      x: 101
-      y: 392
-      width: 92
-      height: 127
-    rotated: 0
-    paddingLeft: .0434782617
-    paddingRight: .0434782617
-    paddingTop: .00787401572
-    paddingBottom: .0157480314
+    x: 101
+    y: 392
+    width: 92
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 2
   - name: pause_button_01
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 721
-      width: 352
-      height: 302
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 721
-      width: 352
-      height: 302
-    rotated: 0
+    x: 0
+    y: 721
+    width: 352
+    height: 302
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
-    paddingRight: .0397727266
-    paddingTop: .043046359
+    paddingRight: 14
+    paddingTop: 13
     paddingBottom: 0
   - name: play_enter
-    outer:
-      serializedVersion: 2
-      x: 201
-      y: 588
-      width: 272
-      height: 132
-    inner:
-      serializedVersion: 2
-      x: 201
-      y: 588
-      width: 272
-      height: 132
-    rotated: 0
+    x: 201
+    y: 588
+    width: 272
+    height: 132
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_character_youngmaleficent
-    outer:
-      serializedVersion: 2
-      x: 353
-      y: 823
-      width: 200
-      height: 200
-    inner:
-      serializedVersion: 2
-      x: 353
-      y: 823
-      width: 200
-      height: 200
-    rotated: 0
+    x: 353
+    y: 823
+    width: 200
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: menu_character_adultmaleficent3
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 520
-      width: 200
-      height: 200
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 520
-      width: 200
-      height: 200
-    rotated: 0
+    x: 0
+    y: 520
+    width: 200
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: play_enter_down
-    outer:
-      serializedVersion: 2
-      x: 201
-      y: 455
-      width: 272
-      height: 132
-    inner:
-      serializedVersion: 2
-      x: 201
-      y: 455
-      width: 272
-      height: 132
-    rotated: 0
+    x: 201
+    y: 455
+    width: 272
+    height: 132
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: D_logo
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 389
-      width: 100
-      height: 130
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 389
-      width: 100
-      height: 130
-    rotated: 0
+    x: 0
+    y: 389
+    width: 100
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: bg4
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1024
-      width: 734
-      height: 1024
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1024
-      width: 734
-      height: 1024
-    rotated: 0
-    paddingLeft: .0572207086
-    paddingRight: .0326975472
+    x: 0
+    y: 1024
+    width: 734
+    height: 1024
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 42
+    paddingRight: 24
     paddingTop: 0
     paddingBottom: 0
-  mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
-  m_IsExploded: 1
+  mCoordinates: 0
+  sprites: []

@@ -99,16 +99,17 @@ MonoBehaviour:
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
-  prefabDestroyEffect: {fileID: 0}
+  prefabDestroyEffect: {fileID: 100008, guid: 42c6aaeb2d7dfd040a49f7968b35b621, type: 3}
   canBeMatched: 1
   gravityUpdateEnabled: 1
   color: 0
   switchBackOnMatchFail: 1
   freezeOffset: {x: 0, y: 0, z: -4.25}
-  prefabFreezeEffect: {fileID: 0}
+  prefabFreezeEffect: {fileID: 100004, guid: 46371d83f3661434f86b799de4be0e5e, type: 3}
   freezeDestroyMaterial: {fileID: 0}
   destroyColor: 0
-  prefabTilesDestroyEffect: {fileID: 0}
+  prefabTilesDestroyEffect: {fileID: 100000, guid: 65b53bd9678d6e442b6c1406eb01afff,
+    type: 3}
   iceTrailEffect: {fileID: 0}
   switchToDirectionalEffect: {fileID: 0}
   iceTrailTravelTime: 0.5

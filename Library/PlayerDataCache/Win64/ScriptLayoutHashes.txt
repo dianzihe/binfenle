@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/source/unity-src/binfenle/Packages/testbinfenle.exe
+D:/source/unity/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/dq.unity
 SceneListEnd?
@@ -99,6 +99,8 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TweaksSystem
 2af6735bed47b18b19f3d04df9e44d49 Assembly-CSharp.dll:.ScoreLabel
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 9b9e9bf8a43c99232987acaae5d1e9ce Assembly-CSharp.dll:.LoseSoldiers
 8ddad4acd6db924b08ed345b7d53dbc5 Assembly-CSharp.dll:.UIDragObject
 daec223e948e8bed351d94a26d5a124f Assembly-CSharp.dll:.GameObjectsPool
@@ -139,6 +141,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 7b1c07748d4e7471fa09a9b3c7689ae7 Assembly-CSharp-firstpass.dll:.DragRecognizer
 921b6b0a967ae30d142242585d9a7da5 Assembly-CSharp.dll:.Torch
 c3361a535659aef250ba37e70d1f5e83 Assembly-CSharp.dll:.AudioBlock
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CustomAnimationEvents
 5048b252b406d0b35789d633d3e0d913 Assembly-CSharp.dll:.AvatarParticles
 396f5951f443c02f04ebd115ac8d0447 Assembly-CSharp.dll:.DirectionalDestroyTile
 dbd4de5b28444cf2e259c5714e57bcfa Assembly-CSharp.dll:.DestroyFrostLabel

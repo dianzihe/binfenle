@@ -41,11 +41,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c43854d49c55440cea9c594cd8278662, type: 3}
+  m_Script: {fileID: 11500000, guid: d3a8f61eafe07af47b7c276123d4f2c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
-  destroyTileTime: 0
+  lifeTime: 1.5
+  destroyTileTime: 0.1
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
