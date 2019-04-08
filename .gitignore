@@ -1,7 +1,12 @@
-/Library/metadata/*
 /Packages/*
+Packages/*
+Library/*
 /Library/*
 .vs/*
 obj/*
 *.meta
 Assembly-*.csproj
+*.log
+*.pdb
+*.dll
+*.cache
