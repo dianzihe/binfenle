@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_5;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_5;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -101,7 +101,24 @@
      <Compile Include="Assets\_Maleficent\Scripts\Game\Mana\ManaPowerUpSelector.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\PowerUpSmoke.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\QualityDisabler.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\Game\QualitySetter.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\AlphaListener.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\AlphaSetter.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\ArrowButton.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\AvatarAlphaListener.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\BookAnimations.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\CameraLimits.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\CameraMovement.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\Chapter.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\ChaptersManager.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\CharacterWinPanel.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\ChildrenProjector.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\CustomLineRender2.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\IntroAnim.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\LevelButtons.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\LinkerLineAlphaListener.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\MapElementAlphaListener.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\PathDrawer.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\PauseAnim.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\Texts\TextStyle.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\Texts\TextStyleManager.cs" />
@@ -1174,6 +1191,7 @@
      <Compile Include="Assets\Scripts\Burstly\ResourceDisplayer.cs" />
      <Compile Include="Assets\Scripts\Burstly\RotateAccelerometer.cs" />
      <Compile Include="Assets\Scripts\Burstly\RotateAccelerometer2.cs" />
+     <Compile Include="Assets\Scripts\CharacterSpecialAnimations.cs" />
      <Compile Include="Assets\Scripts\CustomInput.cs" />
      <Compile Include="Assets\Scripts\Effects\ParticleSystemManager\ParticleBurstQuantity.cs" />
      <Compile Include="Assets\Scripts\Effects\ParticleSystemManager\ParticleSystemManager.cs" />
@@ -1310,12 +1328,15 @@
      <Compile Include="Assets\Scripts\NGUI Actions\AwardCoinsLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\BestScoreLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\CoinsLabel.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\CompanionSelect.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\CompanionsManager.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\DestroyFrostLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\EnablerTest.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\EndLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ExitAppButton.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\FacebookConnectButton.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\FinalScoreLabel.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\FireAnimations.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\FriendAvatar.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ItemDescriptionLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\LevelDestroyTargets.cs" />
@@ -1351,6 +1372,12 @@
      <Compile Include="Assets\Scripts\RenderBufferSize.cs" />
      <Compile Include="Assets\Scripts\test.cs" />
      <Compile Include="Assets\Scripts\UVAnim.cs" />
+     <Compile Include="Assets\TalkingDataScripts\TalkingDataDemoScript.cs" />
+     <Compile Include="Assets\TalkingDataScripts\TalkingDataGA.cs" />
+     <Compile Include="Assets\TalkingDataScripts\TDGAAccount.cs" />
+     <Compile Include="Assets\TalkingDataScripts\TDGAItem.cs" />
+     <Compile Include="Assets\TalkingDataScripts\TDGAMission.cs" />
+     <Compile Include="Assets\TalkingDataScripts\TDGAVirtualCurrency.cs" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor-Intensity.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\TextGlow.shader" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />

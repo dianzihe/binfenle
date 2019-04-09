@@ -145,6 +145,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 
 	protected override void Awake ()
 	{
+        System.Console.WriteLine("Match3BoardGameLogic -> Awake->");
         instance = this;
 
 		base.Awake ();
@@ -181,7 +182,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		
 		SetupBoardHoles();
 		
-		// Create an instance of the board matches finder.
+		// Create an instance of the board matche  s finder.
 		matchesFinder = new MatchesFinder(boardData);
 		//TODO:remove this bug trap after finishing the bug fix
 //		matchesFinder.useBugTrap = true;
@@ -260,6 +261,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	/// Number level.
 	/// </param>
 	public void LoadLevel(int numLevel) {
+        System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel->");
         // Check if there isn't a level already in the hierarchy before trying to instatiate one.
         Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
 
@@ -272,27 +274,35 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 			if (levelPrefab == null) {
 				System.Console.WriteLine("[Match3BoardGameLogic] Failed to load level: " + Match3BoardRenderer.baseLevelPathName + numLevel + ". Falling back to default level!");
 				levelPrefab = Resources.Load(Match3BoardRenderer.baseLevelPathName + "_Dummy") as GameObject;
-			}
-            GameObject newLevelGO = Instantiate(levelPrefab) as GameObject;
+			}				
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 1");
+			GameObject newLevelGO = Instantiate(levelPrefab) as GameObject;
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 2");
 			level = newLevelGO.GetComponent<Match3BoardRenderer>();
-			
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 3");
+
 			Vector3 prefabLocalPos = level.cachedTransform.localPosition;
 			level.cachedTransform.parent = boardVisualContainer;
 			level.cachedTransform.localPosition = prefabLocalPos;
 			level.cachedTransform.localScale = Vector3.one;
+			System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 4");
 		} else {
 			System.Console.WriteLine("[Match3BoardGameLogic] Level already found in the scene! Loading that one: " + level.name);
 		}
+		System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 5");
 		// Couple the Match3BoardRenderer that contains the level configuration.
 		boardRenderer = level;
 		boardAnimations.boardRenderer = level;
+		System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 6");
 
 		winConditions = level.winConditions;
 		loseConditions = level.loseConditions;
+		System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel -> 7");
 	}
 	
 	public void SetupBoardHoles() 
 	{
+		System.Console.WriteLine("Match3BoardGameLogic -> SetupBoardHoles->");
 		// Create the level board holes mask
 		BoardHolesMaskGenerator boardHoles = new BoardHolesMaskGenerator(boardData);
 		boardHolesMask = boardHoles.CreateMaskTexture(256, 256);
@@ -307,6 +317,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	/// </param>
 	public void SetBoardEnabledState(bool isEnabled)
 	{
+		System.Console.WriteLine("Match3BoardGameLogic -> SetBoardEnabledState->");
 		// Pause/Resume possible matches controller
 		if (isEnabled)
 		{	
@@ -955,6 +966,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 
 	
 	void OnDestroy() {
+		System.Console.WriteLine("Match3BoardGameLogic -> OnDestroy->");
 		if (boardHolesMask != null) {
 			Debug.Log("[Match3BoardGameLogic] Destroying the board holes mask texture...");
 			Destroy(boardHolesMask);
