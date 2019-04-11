@@ -139,6 +139,7 @@
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+     <Compile Include="Assets\PlayMaker NGUI\Scripts\Editor\NGuiEventsToPlaymakerFsmEventsInspector.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\BaseClasses\OnAnimatorUpdateActionEditorBase.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorAnimatorRootActionEditor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBodyActionEditor.cs" />
