@@ -81,6 +81,9 @@
      <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Pieces\IlluminableBoardPiece_old.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Pieces\MatchCounterBoardPiece.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\SoldiersController.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Targets\AbstractLevelTargetGUI.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Targets\AreaBlockerTargetGUI.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Targets\LightPiecesTargetGUI.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\AreaBlockerTile.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\ChangeColorTile.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\Game\MaleficentMatch3\Tiles\ColorBombColorChange.cs" />
@@ -112,6 +115,7 @@
      <Compile Include="Assets\_Maleficent\Scripts\UI\Chapter.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\ChaptersManager.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\CharacterWinPanel.cs" />
+     <Compile Include="Assets\_Maleficent\Scripts\UI\CheatButton.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\ChildrenProjector.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\CustomLineRender2.cs" />
      <Compile Include="Assets\_Maleficent\Scripts\UI\IntroAnim.cs" />
@@ -1356,6 +1360,7 @@
      <Compile Include="Assets\Scripts\NGUI Actions\CompanionSelect.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\CompanionsManager.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\DestroyFrostLabel.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\DestroyTargetLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\EnablerTest.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\EndLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ExitAppButton.cs" />
@@ -1372,10 +1377,12 @@
      <Compile Include="Assets\Scripts\NGUI Actions\LivesTimer.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\LoadLevelButton.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\LocalizedPosition.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\LoseLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\LoseReasonLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ManaAmountLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ManaLabel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\MapLevelObjective.cs" />
+     <Compile Include="Assets\Scripts\NGUI Actions\NextLevel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\ObjectiveLevel.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\OpenLinkButton.cs" />
      <Compile Include="Assets\Scripts\NGUI Actions\PlayAnimation.cs" />
