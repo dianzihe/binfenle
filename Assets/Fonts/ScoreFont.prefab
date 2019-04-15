@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ScoreFont
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mSize: 60
+    mBase: 46
+    mWidth: 160
+    mHeight: 160
+    mSpriteName: multiplier_font_01_0
+    mSaved:
+    - index: 43
+      x: 105
+      y: 83
+      width: 34
+      height: 33
+      offsetX: -4
+      offsetY: 14
+      advance: 26
+      channel: 15
+      kerning: 
+    - index: 48
+      x: 0
+      y: 84
+      width: 38
+      height: 40
+      offsetX: -3
+      offsetY: 10
+      advance: 32
+      channel: 15
+      kerning: 
+    - index: 49
+      x: 134
+      y: 0
+      width: 22
+      height: 40
+      offsetX: -5
+      offsetY: 10
+      advance: 13
+      channel: 15
+      kerning: 
+    - index: 50
+      x: 35
+      y: 0
+      width: 32
+      height: 41
+      offsetX: -4
+      offsetY: 10
+      advance: 24
+      channel: 15
+      kerning: 
+    - index: 51
+      x: 68
+      y: 0
+      width: 32
+      height: 41
+      offsetX: -4
+      offsetY: 10
+      advance: 25
+      channel: 15
+      kerning: 
+    - index: 52
+      x: 39
+      y: 84
+      width: 33
+      height: 40
+      offsetX: -4
+      offsetY: 10
+      advance: 26
+      channel: 15
+      kerning: 
+    - index: 53
+      x: 101
+      y: 0
+      width: 32
+      height: 41
+      offsetX: -4
+      offsetY: 10
+      advance: 25
+      channel: 15
+      kerning: 
+    - index: 54
+      x: 0
+      y: 0
+      width: 34
+      height: 41
+      offsetX: -3
+      offsetY: 10
+      advance: 28
+      channel: 15
+      kerning: 
+    - index: 55
+      x: 73
+      y: 84
+      width: 31
+      height: 40
+      offsetX: -4
+      offsetY: 10
+      advance: 23
+      channel: 15
+      kerning: 
+    - index: 56
+      x: 0
+      y: 42
+      width: 32
+      height: 41
+      offsetX: -3
+      offsetY: 10
+      advance: 26
+      channel: 15
+      kerning: 
+    - index: 57
+      x: 33
+      y: 42
+      width: 32
+      height: 41
+      offsetX: -3
+      offsetY: 10
+      advance: 26
+      channel: 15
+      kerning: 
+    - index: 115
+      x: 66
+      y: 42
+      width: 30
+      height: 41
+      offsetX: -3
+      offsetY: 10
+      advance: 24
+      channel: 15
+      kerning: 
+    - index: 120
+      x: 97
+      y: 42
+      width: 39
+      height: 40
+      offsetX: -4
+      offsetY: 10
+      advance: 31
+      channel: 15
+      kerning: 
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+  mPixelSize: 1
+  mSymbols: []
+  mDynamicFont: {fileID: 12800000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0
+  mDynamicFontOffset: -5.9296875
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

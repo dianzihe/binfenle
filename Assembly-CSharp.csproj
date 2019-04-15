@@ -1414,6 +1414,7 @@
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor-Intensity.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\TextGlow.shader" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Fonts\multiplier_font_01.fnt" />
      <None Include="Assets\NGUI\ReadMe - 3.12.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
      <None Include="Assets\Shaders\Matcap\MatcapDiffuse.shader" />
@@ -1462,6 +1463,7 @@
      <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-god-rays.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentOverlay.shader" />
      <None Include="Assets\_Maleficent\Shaders\HalfLambertTransparent.shader" />
+     <None Include="Assets\Fonts\menu_font_05.fnt" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
      <None Include="Assets\Localization\Resources\Languages\IT_Sheet1.xml" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaZWrite.shader" />
@@ -1472,6 +1474,7 @@
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\Fill-Transparent.shader" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\ColoredAlphaMask.shader" />
+     <None Include="Assets\Fonts\menu_font_01.fnt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\VertexColor.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorBatching.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\LineRenderer-TransparentEnd.shader" />
@@ -1501,10 +1504,12 @@
      <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularLightProbes.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
      <None Include="Assets\Localization\Resources\Languages\FR_Sheet1.xml" />
+     <None Include="Assets\Fonts\menu_font_03.fnt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Binormals.shader" />
      <None Include="Assets\Localization\README.txt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\AlphaMaskWithDetail.shader" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\RadialFeather.shader" />
+     <None Include="Assets\Fonts\menu_font_02.fnt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glitch.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
      <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentTexturedAlpha.shader" />
@@ -1539,6 +1544,7 @@
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\Mobile Rim Unlit.shader" />
      <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentDiffuse.shader" />
+     <None Include="Assets\Fonts\menu_font_04.fnt" />
      <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor.shader" />
      <None Include="Assets\Shaders\DiffuseSpecularMap.shader" />
      <None Include="Assets\ResourcesFrozen\Generic\Ice.shader" />
