@@ -566,3 +566,5 @@ D:\source\unity\binfenle\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileI
 D:\source\unity\binfenle\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 D:\source\unity\binfenle\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\source\unity\binfenle\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\source\unity\binfenle\Temp\bin\Debug\ConditionalExpression.dll
+D:\source\unity\binfenle\Temp\bin\Debug\PlayMaker.dll

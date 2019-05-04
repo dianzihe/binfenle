@@ -462,7 +462,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3028
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: Resume
   mFontSize: 16
   mFontStyle: 0
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuButton
 --- !u!1 &100016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1184,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: Exit game
   mFontSize: 16
   mFontStyle: 0
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuButton
 --- !u!1 &100026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1522,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: 'Sound: ON'
   mFontSize: 16
   mFontStyle: 0
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuButton
 --- !u!1 &100032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: 'Music: ON'
   mFontSize: 16
   mFontStyle: 0
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuButton
 --- !u!1 &100038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,7 +2164,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: Level 300
   mFontSize: 16
   mFontStyle: 0
@@ -2217,7 +2217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +2292,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: Retry Level
   mFontSize: 16
   mFontStyle: 0
@@ -2349,7 +2349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuButton
 --- !u!1 &100050
 GameObject:
   m_ObjectHideFlags: 0

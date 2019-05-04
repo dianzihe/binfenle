@@ -159,7 +159,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 0
   mFontSize: 16
   mFontStyle: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3006
+  startingRenderQueue: 3043
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -549,7 +549,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 99
   mFontSize: 16
   mFontStyle: 0
@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,7 +1077,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 99
   mFontSize: 16
   mFontStyle: 0
@@ -1135,7 +1135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,7 +1335,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 'Score: 25000 / 30000'
   mFontSize: 16
   mFontStyle: 0
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 'Use 1 Snowball to
 
     get 5 Moves and
@@ -1508,7 +1508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 99
   mFontSize: 16
   mFontStyle: 0
@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100042
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: No
   mFontSize: 16
   mFontStyle: 0
@@ -2082,7 +2082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: Yes
   mFontSize: 16
   mFontStyle: 0
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuButton
 --- !u!1 &100050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,7 +2534,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: Out of time
   mFontSize: 16
   mFontStyle: 0
@@ -2576,10 +2576,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameLogic: {fileID: 0}
-  questionLabel: {fileID: 0}
-  itemsLabel: {fileID: 0}
-  itemsBg: {fileID: 0}
-  itemsIcon: {fileID: 0}
+  questionLabel: {fileID: 11400024}
+  itemsLabel: {fileID: 11400002}
+  itemsBg: {fileID: 11400044}
+  itemsIcon: {fileID: 11400000}
   movesTimeItem: {fileID: 0}
   fsm: {fileID: 0}
   m_BuyFSM: {fileID: 0}
@@ -2597,7 +2597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2940,7 +2940,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 99
   mFontSize: 16
   mFontStyle: 0
@@ -2981,7 +2981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,7 +3072,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mTexture: {fileID: 2800000, guid: 5125615a929f143bd89c8ac63aacfa8a, type: 3}
+  mTexture: {fileID: 2800000, guid: 93b417591c3e7fb4f9efa988bb58cfb5, type: 3}
   mShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -3088,7 +3088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100068
 GameObject:
   m_ObjectHideFlags: 0

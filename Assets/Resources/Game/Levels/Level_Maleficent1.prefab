@@ -4475,12 +4475,12 @@ MonoBehaviour:
   - {fileID: 100000, guid: e4abcabd16d7546079530c57d19a83f9, type: 3}
   winConditions: {fileID: 11400090}
   loseConditions: {fileID: 11400150}
-  maximumNumBoardColors: 6
-  horizontalTileDistance: 1.008
+  maximumNumBoardColors: 5
+  horizontalTileDistance: 0.99
   horizontalTileOffset: 0
-  verticalTileDistance: 1.008
+  verticalTileDistance: 0.99
   verticalTileOffset: 0
-  autoGenerateRandom: 1
+  autoGenerateRandom: 0
   useEditorMode: 0
 --- !u!1 &100130
 GameObject:
@@ -4588,9 +4588,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a2583acc5ab7848b11d57ed8dd4e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoves: 0
+  startMoves: 15
   remainingMoves: 0
-  offerMoves: 0
+  offerMoves: 5
 --- !u!1 &100134
 GameObject:
   m_ObjectHideFlags: 0

@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 11400010}
   - component: {fileID: 11400000}
   - component: {fileID: 11400002}
+  - component: {fileID: 638371146995110594}
   m_Layer: 8
   m_Name: TapLabel
   m_TagString: Untagged
@@ -206,7 +207,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: 'You have to clear
 
     all the frost on the
@@ -305,7 +306,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
+--- !u!114 &638371146995110594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8cdd642e044e4f64ac409f17da5778c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 1
+  targetFSM: {fileID: 0}
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +680,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3004
+  startingRenderQueue: 3032
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0

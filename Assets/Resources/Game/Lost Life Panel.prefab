@@ -160,7 +160,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: d4f92860ee66245ec9a680c294a9c935, type: 3}
   mText: You lost 1 Life.
   mFontSize: 16
   mFontStyle: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTile
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3030
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 7aea6ec4d11dd4db585e03d1602432b3, type: 3}
   mText: -1
   mFontSize: 16
   mFontStyle: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: MenuTitle
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 0

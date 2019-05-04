@@ -114,7 +114,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3096
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: +5
   mFontSize: 16
   mFontStyle: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7938bb1b04d9440857d6ca53afbada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  styleName: 
+  styleName: GameLabel
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3101
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -964,7 +964,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3101
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3105
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -1358,7 +1358,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3103
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -1576,7 +1576,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3107
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3105
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3107
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -2257,7 +2257,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3107
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -2329,7 +2329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &400044
 Transform:
   m_ObjectHideFlags: 0
@@ -2423,7 +2423,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0
@@ -2586,7 +2586,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: + 100 MANA
   mFontSize: 16
   mFontStyle: 0
@@ -2687,7 +2687,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0
@@ -2850,7 +2850,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0
@@ -3068,7 +3068,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0
@@ -3299,19 +3299,19 @@ MonoBehaviour:
   m_AddSignIcon: {fileID: 0}
   selectableItemName: 
   boardLogic: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 100000, guid: d5b373d6521d04250a7f60907596a35a, type: 3}
   itemPosition: {fileID: 0}
-  manaCostLabel: {fileID: 0}
-  twinItem: {fileID: 0}
+  manaCostLabel: {fileID: 11400088}
+  twinItem: {fileID: 11400090}
   itemPrefabManaItem: {fileID: 0}
-  itemBg: {fileID: 0}
-  spriteOn: 
-  spriteOff: 
-  spriteSelected: 
-  itemIcon: {fileID: 0}
-  itemCancelIcon: {fileID: 0}
-  colorCostLabelOn: {r: 0, g: 0, b: 0, a: 0}
-  colorCostLabelOff: {r: 0, g: 0, b: 0, a: 0}
+  itemBg: {fileID: 11400092}
+  spriteOn: mana_power_normal
+  spriteOff: mana_power_off
+  spriteSelected: mana_power_selected
+  itemIcon: {fileID: 11400086}
+  itemCancelIcon: {fileID: 11400084}
+  colorCostLabelOn: {r: 0.5921569, g: 1, b: 0.5019608, a: 0}
+  colorCostLabelOff: {r: 0.627451, g: 0.30980393, b: 0.6313726, a: 0}
   ignoreInputs: 0
   manaPowerBall: {fileID: 0}
 --- !u!1 &100072
@@ -3614,7 +3614,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3109
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -3744,7 +3744,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3109
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -3827,7 +3827,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0
@@ -4163,7 +4163,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3111
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -4295,7 +4295,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3113
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -4424,7 +4424,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0
@@ -9339,7 +9339,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: "99,99\x039"
   mFontSize: 16
   mFontStyle: 0
@@ -9441,7 +9441,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3113
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -9573,7 +9573,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3115
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -9905,7 +9905,7 @@ MonoBehaviour:
   aspectRatio: 1
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 999
   mFontSize: 16
   mFontStyle: 0

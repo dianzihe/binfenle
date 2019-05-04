@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Holoville.HOTween;
+using Logic;
 
 public enum TileMoveDirection
 {
@@ -148,7 +149,12 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
         System.Console.WriteLine("Match3BoardGameLogic -> Awake->");
         instance = this;
 
-		base.Awake ();
+
+        EventCenter.Self = new EventCenter();
+        EventCenter.Self.InitSetTimeManager(new GameTimeManager());
+        EventCenter.Self.SetLog(new CLog());
+
+        base.Awake ();
 		
 		waitEndFrame = new WaitForEndOfFrame();
 			
@@ -174,10 +180,11 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
         //InitComponent();
     }
 		
-	//public override void InitComponent() 
-	protected virtual void Start()
+	public override void InitComponent() 
+	//protected virtual void Start()
 	{
         System.Console.WriteLine("Match3BoardGameLogic -> InitComponent->");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic -> InitComponent->dq");
         base.InitComponent();
 		
 		SetupBoardHoles();
@@ -253,14 +260,19 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		}
 	}
 
-	/// <summary>
-	/// Loads the level. Indexed from 1.
-	/// If the level is not found it will load a  default level prefab called: DefaultLevel.
-	/// </summary>
-	/// <param name='numLevel'>
-	/// Number level.
-	/// </param>
-	public void LoadLevel(int numLevel) {
+    public void LoadLeveldq()
+    {
+        System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel->dq");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic -> LoadLevel->dq");
+    }
+        /// <summary>
+        /// Loads the level. Indexed from 1.
+        /// If the level is not found it will load a  default level prefab called: DefaultLevel.
+        /// </summary>
+        /// <param name='numLevel'>
+        /// Number level.
+        /// </param>
+        public void LoadLevel(int numLevel) {
         System.Console.WriteLine("Match3BoardGameLogic -> LoadLevel->");
         // Check if there isn't a level already in the hierarchy before trying to instatiate one.
         Match3BoardRenderer level = cachedTransform.parent.GetComponentInChildren<Match3BoardRenderer>();
@@ -355,9 +367,9 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 	}
 	
 	public void StartGame()
-	{		
-		Debug.Log("[Match3BoardGameLogic] StartGame called...");
-		System.Console.WriteLine("Match3BoardGameLogic -> StartGame->");
+	{
+        //System.Console.WriteLine("[Match3BoardGameLogic] StartGame called...");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic -> StartGame->");
 		//AnalyticsBinding.LogEventGameAction(GetLevelType(), "game_start", null, null, MaleficentBlackboard.Instance.level);
 		SetLevelStartAnalyticTimeEvent();
 		

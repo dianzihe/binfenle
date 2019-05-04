@@ -568,3 +568,5 @@ D:\source\unity\binfenle\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cach
 D:\source\unity\binfenle\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\source\unity\binfenle\obj\Debug\Assembly-CSharp.dll
 D:\source\unity\binfenle\obj\Debug\Assembly-CSharp.pdb
+D:\source\unity\binfenle\Temp\bin\Debug\ConditionalExpression.dll
+D:\source\unity\binfenle\Temp\bin\Debug\PlayMaker.dll
