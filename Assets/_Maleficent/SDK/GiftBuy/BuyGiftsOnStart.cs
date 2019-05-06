@@ -28,21 +28,21 @@ public class BuyGiftsOnStart : MonoBehaviour {
 		{
 			gameObject.SetActive(true);
 			if (TaoZSel == 1) {
-				transform.FindChild ("taozhuang1").gameObject.SetActive (true);
-				transform.FindChild ("taozhuang2").gameObject.SetActive (false);
-				transform.FindChild ("taozhuang3").gameObject.SetActive (false);
+				transform.Find ("taozhuang1").gameObject.SetActive (true);
+				transform.Find ("taozhuang2").gameObject.SetActive (false);
+				transform.Find ("taozhuang3").gameObject.SetActive (false);
 			} else if (TaoZSel == 2) {
-				transform.FindChild ("taozhuang1").gameObject.SetActive (false);
-				transform.FindChild ("taozhuang2").gameObject.SetActive (true);
-				transform.FindChild ("taozhuang3").gameObject.SetActive (false);
+				transform.Find ("taozhuang1").gameObject.SetActive (false);
+				transform.Find ("taozhuang2").gameObject.SetActive (true);
+				transform.Find ("taozhuang3").gameObject.SetActive (false);
 			} else if (TaoZSel == 3) {
-				transform.FindChild ("taozhuang1").gameObject.SetActive (false);
-				transform.FindChild ("taozhuang2").gameObject.SetActive (false);
-				transform.FindChild ("taozhuang3").gameObject.SetActive (true);
+				transform.Find ("taozhuang1").gameObject.SetActive (false);
+				transform.Find ("taozhuang2").gameObject.SetActive (false);
+				transform.Find ("taozhuang3").gameObject.SetActive (true);
 			} else {
-				transform.FindChild ("taozhuang1").gameObject.SetActive (true);
-				transform.FindChild ("taozhuang2").gameObject.SetActive (false);
-				transform.FindChild ("taozhuang3").gameObject.SetActive (false);
+				transform.Find ("taozhuang1").gameObject.SetActive (true);
+				transform.Find ("taozhuang2").gameObject.SetActive (false);
+				transform.Find ("taozhuang3").gameObject.SetActive (false);
 			}
 		}
 		if(showsel==1)
@@ -231,6 +231,6 @@ public class BuyGiftsOnStart : MonoBehaviour {
 	}
 	void closeGift(GameObject go)
 	{
-		transform.FindChild("Close Anchor").transform.FindChild("Close Button").GetComponent<NGuiEventsToPlaymakerFsmEvents>();
+		transform.Find("Close Anchor").transform.Find("Close Button").GetComponent<NGuiEventsToPlaymakerFsmEvents>();
 	}
 }

@@ -140,8 +140,8 @@ public class SigninSystem : MonoBehaviour {
 			redObj.SetActive (true);
 			for(int i=1;i<=PlayerPrefs.GetInt("count");i++)
 			{
-				clickObjback.transform.FindChild ("signbg"+i).GetComponent<UISprite> ().enabled = false;
-				clickObjfront.transform.FindChild ("signbg"+i).GetComponent<UISprite> ().enabled = true;
+				clickObjback.transform.Find ("signbg"+i).GetComponent<UISprite> ().enabled = false;
+				clickObjfront.transform.Find ("signbg"+i).GetComponent<UISprite> ().enabled = true;
 			}
 			issign=false;
 			PlayerPrefs.SetString("issign",issign.ToString());
@@ -157,8 +157,8 @@ public class SigninSystem : MonoBehaviour {
 				
 				for(int i=1;i<=PlayerPrefs.GetInt("count");i++)
 				{
-					clickObjback.transform.FindChild("signbg"+i).GetComponent<UISprite>().enabled=true;
-					clickObjfront.transform.FindChild("signbg"+i).GetComponent<UISprite>().enabled=false;
+					clickObjback.transform.Find("signbg"+i).GetComponent<UISprite>().enabled=true;
+					clickObjfront.transform.Find("signbg"+i).GetComponent<UISprite>().enabled=false;
 				}
 				
 			}else
@@ -168,8 +168,8 @@ public class SigninSystem : MonoBehaviour {
 				redObj.SetActive (true);
 				for(int i=1;i<=PlayerPrefs.GetInt("count");i++)
 				{
-					clickObjback.transform.FindChild("signbg"+i).GetComponent<UISprite>().enabled=true;
-					clickObjfront.transform.FindChild("signbg"+i).GetComponent<UISprite>().enabled=false;
+					clickObjback.transform.Find("signbg"+i).GetComponent<UISprite>().enabled=true;
+					clickObjfront.transform.Find("signbg"+i).GetComponent<UISprite>().enabled=false;
 				}
 			}
 			
@@ -179,8 +179,8 @@ public class SigninSystem : MonoBehaviour {
 		if (MonthArray.Length - Convert.ToInt32 (DayTimeArray [2]) == 0) {
 			for(int i=1;i<31;i++)
 			{
-				clickObjback.transform.Find("Signfinishlist").FindChild("signbg"+i).gameObject.SetActive(false);
-				clickObjfront.transform.Find("Signlist").FindChild("signbg"+i).gameObject.SetActive(true);
+				clickObjback.transform.Find("Signfinishlist").Find("signbg"+i).gameObject.SetActive(false);
+				clickObjfront.transform.Find("Signlist").Find("signbg"+i).gameObject.SetActive(true);
 			}
 		}
 		
@@ -213,9 +213,9 @@ public class SigninSystem : MonoBehaviour {
 			//			SignTimeArray=SignTime.Split('/');
 			++count;
 			//count=++PlayerPrefs.GetInt("count");
-			clickObjback.transform.FindChild("signbg"+count).GetComponent<UISprite>().enabled=true;
-			clickObjfront.transform.FindChild("signbg"+count).GetComponent<UISprite>().enabled=false;
-			clickObjback.transform.FindChild("signbg"+count).gameObject. GetComponent<Animation>().Play("signani");
+			clickObjback.transform.Find("signbg"+count).GetComponent<UISprite>().enabled=true;
+			clickObjfront.transform.Find("signbg"+count).GetComponent<UISprite>().enabled=false;
+			clickObjback.transform.Find("signbg"+count).gameObject. GetComponent<Animation>().Play("signani");
 
 			string[] daojuname={"乌鸦魔法","恶魔乌鸦魔法","权杖魔法","绿雾魔法","风之翼魔法","金风魔法","狼魔法","荆棘丛生魔法"};
 			string[] daoju={"Crow_Prop_Count","Crow2nd_Prop_Count","TheStaffCost_Prop_Count","GreenMagicCost_Prop_Count","WingWindCost_Prop_Count","YellowPixieDustCost_Prop_Count","WolfHowlCost_Prop_Count","ThorwnCost_Prop_Count"};

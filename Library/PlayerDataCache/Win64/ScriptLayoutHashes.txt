@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/source/unity/binfenle/Packages/testbinfenle.exe
+E:/source/unity-src/binfenle/Packages/testbinfenle.exe
 SceneListBegin?
 Assets/Scenes/dq.unity
 SceneListEnd?
@@ -66,7 +66,9 @@ d7eb5423d443dd019c0473f0450a1f00 Assembly-CSharp.dll:.TweenScale
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmazonBurstlyBinding
 73b5bfb772a2ba237fd7c1e14f5f2f22 Assembly-CSharp.dll:.TweenColor
 2684fe2011fee21b4f41f5f0a322949d Assembly-CSharp.dll:.UIViewport
+648a856d50813cbbcd73b79cf418e532 Assembly-CSharp.dll:.Pauser
 d8aa7b31528af45883bf204f99315cda Assembly-CSharp.dll:.UIWidget
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SubscriberComponent
 9356faa32b668669ac8d145c596568ae Assembly-CSharp.dll:.Block
 32485f9ea0d5d1414c6872c0a01121aa Assembly-CSharp.dll:.SpringPosition
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -102,17 +104,21 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.NguiSetActiveChildren
+584c378e014deb2d12c2511235f6dfc7 Assembly-CSharp.dll:.InAppPurchasesSystemIOS
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShareLoadingPanel
 002020d0363e1d2fc6726436c90292ce Assembly-CSharp.dll:.SpinWithMouse
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TweaksSystem
 2af6735bed47b18b19f3d04df9e44d49 Assembly-CSharp.dll:.ScoreLabel
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 9b9e9bf8a43c99232987acaae5d1e9ce Assembly-CSharp.dll:.LoseSoldiers
 f62753f41b70a94b15d356ed09197501 Assembly-CSharp.dll:.GiftIceShow
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.NGuiPlayMakerProxy
 5688c2582518830468a5e6f146898294 Assembly-CSharp.dll:.NGuiEventsToPlaymakerFsmEvents
 8ddad4acd6db924b08ed345b7d53dbc5 Assembly-CSharp.dll:.UIDragObject
 daec223e948e8bed351d94a26d5a124f Assembly-CSharp.dll:.GameObjectsPool
+31a8844cbccd686c1fc9ea16c0b8935a Assembly-CSharp.dll:.ManaInAppHolder
 fe8477122074b2337f09f15ddd8cde42 Assembly-CSharp-firstpass.dll:.FingerHoverDetector
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -227,10 +233,12 @@ d89b4609775a2b77188075c206732132 Assembly-CSharp.dll:.ArrowBlock
 63d41ca3339bd6ff43037dcab8177810 Assembly-CSharp.dll:.NumberPickerController
 b4abea0bd6e6399af93575fb80a41417 Assembly-CSharp.dll:.IsBuylives
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GiftBagHeartCreator
+584c378e014deb2d12c2511235f6dfc7 Assembly-CSharp.dll:.InAppPurchasesSystemAndroid
 c79137f36738778f9e59b8446de44e5f Assembly-CSharp.dll:HutongGames.PlayMaker.PlayMakerUiFloatValueChangedEvent
 a79c753f9423575fed05fd876b3f28f7 Assembly-CSharp.dll:.SoldiersController
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AnimationEvents
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
+3de297fd37277280daa1affb8a542202 Assembly-CSharp.dll:.NoMoreMovesDetector
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityThreadHelper
 74dab8f2a6959aa072e210a89f425fad Assembly-CSharp-firstpass.dll:.TapRecognizer
 5621eaeed2fe1f72184c73640f14342d Assembly-CSharp.dll:.UIPlayTween
@@ -287,6 +295,8 @@ e79e97cd5778bc6c2f13a35f3fd22a8a Assembly-CSharp.dll:.FakeBurstlyBinding
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ClearInput
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LifeRefillLabel
 621606edacea1b4f270e8806fa6dad9d Assembly-CSharp-firstpass.dll:.TwistRecognizer
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AndroidUserProgressResetFix
+99519ed57cac4c541393389edaa0a4df Assembly-CSharp.dll:.DeviceDependentAssets
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AvatarAlphaListener
 54de91311f6f4ff5056b9a29009ac457 Assembly-CSharp.dll:.FreezeEffectMaterialPicker
 4e84590696942d75730d70255f4da44f Assembly-CSharp.dll:.AudioController
@@ -326,6 +336,7 @@ dd6ebbcf42d6da3de6ad72c6401edb33 Assembly-CSharp.dll:.changeres
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CostItemBase
 ed47c75080c4c454ff715ac3fdacd134 Assembly-CSharp.dll:.BombTile
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AndroidLockRotationController
 a62543c6444fc1dfdac7db37b43181bd Assembly-CSharp.dll:.dkopenc
 10f0130406f98e8316b3c10d77f10ed6 Assembly-CSharp-firstpass.dll:.FingerDebug
 f80eb5ce0a319c05861df60997a03ab4 Assembly-CSharp.dll:.TweenPosition
@@ -333,6 +344,7 @@ f80eb5ce0a319c05861df60997a03ab4 Assembly-CSharp.dll:.TweenPosition
 e87ea6afc3fb59fee583e0f492b161c4 Assembly-CSharp.dll:.GrowingTargetTileDestroyEffect
 113e4ba7cd347bc6ae7a395fe06fc4a6 Assembly-CSharp.dll:.UnlockSystem
 30ee38233b7d4f2d9b0ece7e5eae58fa Assembly-CSharp.dll:.SignServerReadText
+584c378e014deb2d12c2511235f6dfc7 Assembly-CSharp.dll:.InAppPurchasesSystem
 c54e5d238d05f0415928866fafbf602e Assembly-CSharp.dll:.LoadLevelOnClick
 eea5432127e1c2d004b5b21205ff5a02 Assembly-CSharp.dll:.ExampleDragDropSurface
 f84c5c925d0bf978838be693611c0f4a Assembly-CSharp.dll:.ScenesController
@@ -380,6 +392,7 @@ d1c6014c0db9f39eaa4fe9bdba8ce940 Assembly-CSharp.dll:.MapPanelLimit
 35f8bed8999bbeed1965de9debc506c4 Assembly-CSharp-firstpass.dll:.FingerMotionDetector
 6b03ca5ba6caa5e2ef061b6b1cde7416 Assembly-CSharp.dll:.Hourglass
 b7981929821abd132370246ec4d57571 Assembly-CSharp.dll:.PropertyBinding
+b5c07422d7c8a98b8ce49ef3258a1750 Assembly-CSharp.dll:.DeviceBackButtonController
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ResourceDisplayer
 14a71b262db23785deef59b9660eb41c Assembly-CSharp.dll:.LagRotation
 6294bcd2299a6357882bbc5b3aaa1035 Assembly-CSharp.dll:.Chapter
@@ -392,6 +405,7 @@ dbdccb0e98ff1830d47bcd6083bc7b08 Assembly-CSharp-firstpass.dll:.ScreenRaycaster
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Chalinger
 ef38414f2b34499b99363dc8ac0affc5 Assembly-CSharp.dll:.SunTileSpawnController
 1edda90bd56ec046791e104758f27481 Assembly-CSharp.dll:.UIToggle
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Utilities.Routines.RoutineComponent
 f672cf9a788d7f2a0a1b4974d6db0e99 Assembly-CSharp.dll:.UITexture
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ExitAppButton
 c67802fce38d26e1ef9d76c265bbeb6a Assembly-CSharp.dll:.LocalizedAsset
@@ -744,6 +758,7 @@ c962a629c3c2e53decb7f749e295f598 Assembly-CSharp.dll:.FreezerTile
 0d13e58bdd2a7251a6900ae22499cc79 Assembly-CSharp.dll:.FlowController
 d3cfeb0b2ec8b729f9e0584c546c10e6 Assembly-CSharp.dll:.EquipItems
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+81ff1f3b437eb24dc6079e1b7903e13a Assembly-CSharp.dll:.LivesDestroyer
 85ac295d524a14320336b3bb83310d49 Assembly-CSharp.dll:.Glacier
 e2f33780f2ed353b40695f4b7e9d62dd Assembly-CSharp.dll:.EquipRandomItem
 a44fc12174990fd438dba3c71c9fd42a Assembly-CSharp.dll:.BoardShuffleController
@@ -769,16 +784,3 @@ c718032eb978a18bba40838e29bf86e9 Assembly-CSharp.dll:.IlluminableBoardPiece_old
 5905d6e92089144317a2cedf0085a9ee Assembly-CSharp.dll:.FirstChargeContentPanel
 699ed0fa2e9fca4df94ef0820728f6a7 Assembly-CSharp-firstpass.dll:.TBPinchZoom
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RealTime
-31a8844cbccd686c1fc9ea16c0b8935a Assembly-CSharp.dll:.ManaInAppHolder
-584c378e014deb2d12c2511235f6dfc7 Assembly-CSharp.dll:.InAppPurchasesSystemIOS
-584c378e014deb2d12c2511235f6dfc7 Assembly-CSharp.dll:.InAppPurchasesSystemAndroid
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AndroidUserProgressResetFix
-99519ed57cac4c541393389edaa0a4df Assembly-CSharp.dll:.DeviceDependentAssets
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AndroidLockRotationController
-584c378e014deb2d12c2511235f6dfc7 Assembly-CSharp.dll:.InAppPurchasesSystem
-b5c07422d7c8a98b8ce49ef3258a1750 Assembly-CSharp.dll:.DeviceBackButtonController
-81ff1f3b437eb24dc6079e1b7903e13a Assembly-CSharp.dll:.LivesDestroyer
-3de297fd37277280daa1affb8a542202 Assembly-CSharp.dll:.NoMoreMovesDetector
-648a856d50813cbbcd73b79cf418e532 Assembly-CSharp.dll:.Pauser
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SubscriberComponent
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Utilities.Routines.RoutineComponent
