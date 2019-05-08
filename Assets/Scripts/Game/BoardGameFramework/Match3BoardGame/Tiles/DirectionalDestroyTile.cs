@@ -103,8 +103,9 @@ public class DirectionalDestroyTile : TriggerTile
 //		tileModelTransform.Find("tile_directional2").renderer.material = coloredMaterials[(int)TileColor - 1];
 		
 //		NEW
-		tileModelTransform.GetComponent<Renderer>().material = coloredMaterials[(int)TileColor - 1];
-		prefabFreezeEffect = FreezeEffectPrefabArray[(int)TileColor - 1];
+		//tileModelTransform.renderer.material = coloredMaterials[(int)TileColor - 1];
+        tileModelTransform.GetComponent<Renderer>().material = coloredMaterials[(int)TileColor - 1];
+        prefabFreezeEffect = FreezeEffectPrefabArray[(int)TileColor - 1];
 	}
 	
 	#region implemented abstract members of TriggerTile
@@ -266,8 +267,9 @@ public class DirectionalDestroyTile : TriggerTile
 				}
 				//--------------------------------------------------------------------------------------
 				
-				GetComponent<Animation>().Play(parentDestroyAnimationName, PlayMode.StopAll);
-				additionalChildAnimationComponent.Play(childDestroyAnimationName, PlayMode.StopAll);
+				//animation.Play(parentDestroyAnimationName, PlayMode.StopAll);
+                GetComponent<Animation>().Play(parentDestroyAnimationName, PlayMode.StopAll);
+                additionalChildAnimationComponent.Play(childDestroyAnimationName, PlayMode.StopAll);
 			}
 			
 			if(freezeEffect) {

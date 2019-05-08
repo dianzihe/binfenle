@@ -63,7 +63,7 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 400000}
+  m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
   isEmpty: 0
-  isBorderPiece: 0
+  isBorderPiece: 1
   canDrawGizmos: 1
   initialTileSpawnRule:
     isTileIgnoredByAntiMatchSystems: 0

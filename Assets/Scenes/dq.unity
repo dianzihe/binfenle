@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -336,7 +336,7 @@ Transform:
   m_GameObject: {fileID: 27621655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 454.2588, y: 0, z: 0}
-  m_LocalScale: {x: 0.0025873221, y: 0.0025873221, z: 0.0025873221}
+  m_LocalScale: {x: 0.003773585, y: 0.003773585, z: 0.003773585}
   m_Children:
   - {fileID: 1175666374}
   m_Father: {fileID: 0}
@@ -586,7 +586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90825686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -541, y: 384, z: 0}
+  m_LocalPosition: {x: -265, y: 384, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 683946038}
@@ -7377,7 +7377,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3004
+  startingRenderQueue: 3003
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -10986,7 +10986,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: 5fcb585fbdfc643f3b7eb330d9fbcaf3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5fcb585fbdfc643f3b7eb330d9fbcaf3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12882,6 +12882,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e02bb11a734a0482791b4dfcee52289a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e02bb11a734a0482791b4dfcee52289a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13009,6 +13013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objective Panel Portrait
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 04f1b5d6e170b48388e5ce14ec51d46a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 04f1b5d6e170b48388e5ce14ec51d46a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1997.8281
@@ -13056,7 +13064,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11400004, guid: 04f1b5d6e170b48388e5ce14ec51d46a, type: 3}
       propertyPath: mText
-      value: 
+      value: 'You have to clear
+
+        all the frost on the
+
+        board.'
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 04f1b5d6e170b48388e5ce14ec51d46a, type: 3}
       propertyPath: mMaxLineCount
@@ -16140,6 +16152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Panel Portrait
       objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1527.3438
@@ -16741,7 +16757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16829,13 +16845,13 @@ PrefabInstance:
       propertyPath: mEffectStyle
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400004, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
-      propertyPath: mMat
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: startingRenderQueue
       value: 3012
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
+      propertyPath: mMat
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
@@ -16953,6 +16969,10 @@ PrefabInstance:
     - target: {fileID: 100004, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
+      propertyPath: mMat
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17525,10 +17545,6 @@ PrefabInstance:
       propertyPath: gameLogic
       value: 
       objectReference: {fileID: 915355630}
-    - target: {fileID: 11400020, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
-      propertyPath: mMat
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 11400026, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: mMat
       value: 
@@ -18228,6 +18244,10 @@ PrefabInstance:
       propertyPath: mTex
       value: 
       objectReference: {fileID: 2800000, guid: 76b02276e37db4bf6ac499a7fba51188, type: 3}
+    - target: {fileID: 11400014, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
+      propertyPath: startingRenderQueue
+      value: 3003
+      objectReference: {fileID: 0}
     - target: {fileID: 11400072, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
       propertyPath: mMat
       value: 
@@ -18248,10 +18268,6 @@ PrefabInstance:
       propertyPath: mTex
       value: 
       objectReference: {fileID: 2800000, guid: 76b02276e37db4bf6ac499a7fba51188, type: 3}
-    - target: {fileID: 11400014, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
-      propertyPath: startingRenderQueue
-      value: 3003
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
 --- !u!4 &813037368 stripped
@@ -19422,6 +19438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Win Panel Portrait
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf59cdf89ce284366b7210f2e5a5396b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf59cdf89ce284366b7210f2e5a5396b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2823.2578
@@ -20283,7 +20303,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939770573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -721, y: 512, z: 0}
+  m_LocalPosition: {x: -354, y: 512, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 746399786}
@@ -33468,7 +33488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 4719e042c9b4e445aabe6002bf5d69f8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 4719e042c9b4e445aabe6002bf5d69f8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33936,7 +33956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1263940725
 Transform:
   m_ObjectHideFlags: 0
@@ -34007,7 +34027,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3030
+  startingRenderQueue: 3022
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -34338,13 +34358,13 @@ PrefabInstance:
       propertyPath: mTex
       value: 
       objectReference: {fileID: 2800000, guid: 76b02276e37db4bf6ac499a7fba51188, type: 3}
-    - target: {fileID: 11400014, guid: 5fcb585fbdfc643f3b7eb330d9fbcaf3, type: 3}
-      propertyPath: mMat
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5fcb585fbdfc643f3b7eb330d9fbcaf3, type: 3}
       propertyPath: startingRenderQueue
       value: 3007
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: 5fcb585fbdfc643f3b7eb330d9fbcaf3, type: 3}
+      propertyPath: mMat
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fcb585fbdfc643f3b7eb330d9fbcaf3, type: 3}
@@ -34376,7 +34396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1268068739
 Transform:
   m_ObjectHideFlags: 0
@@ -34431,7 +34451,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3030
+  startingRenderQueue: 3024
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -37898,18 +37918,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 100048, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 100058, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 100056, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 11400090, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
       propertyPath: boardLogic
       value: 
@@ -37994,6 +38002,18 @@ PrefabInstance:
       propertyPath: boardLogic
       value: 
       objectReference: {fileID: 915355630}
+    - target: {fileID: 100048, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100058, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100082, guid: 49e48b2a05afa44c692a40e64db898d2, type: 3}
       propertyPath: m_Layer
       value: 14
@@ -41535,7 +41555,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
+      propertyPath: mMat
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42095,10 +42119,6 @@ PrefabInstance:
       propertyPath: myTexture
       value: 
       objectReference: {fileID: 2009660628}
-    - target: {fileID: 11400020, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
-      propertyPath: mMat
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 11400026, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: mMat
       value: 
@@ -42160,6 +42180,10 @@ PrefabInstance:
       propertyPath: mMat
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
+      propertyPath: startingRenderQueue
+      value: 3001
+      objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -42191,10 +42215,6 @@ PrefabInstance:
     - target: {fileID: 11400042, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
       propertyPath: mTex
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400004, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
-      propertyPath: startingRenderQueue
-      value: 3001
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400086, guid: fbcbf0c82928e43ce88b2ce4b8d0aa46, type: 3}
@@ -43068,7 +43088,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1482976944
 Transform:
   m_ObjectHideFlags: 0
@@ -43123,7 +43143,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3036
+  startingRenderQueue: 3025
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -43422,7 +43442,7 @@ MonoBehaviour:
   Cameras: []
   IgnoreLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294965047
   RayThickness: 0
   VisualizeRaycasts: 1
   UsePhysics2D: 1
@@ -43789,7 +43809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
@@ -54621,7 +54641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54678,6 +54698,26 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.001953125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
+      propertyPath: m_Depth
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
+      propertyPath: gameCamera
+      value: 
+      objectReference: {fileID: 1430955698}
+    - target: {fileID: 11400010, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
+      propertyPath: eventType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
+      propertyPath: deactivateOnLandscape
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
+      propertyPath: deactivateOnPortrait
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
@@ -54982,7 +55022,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936197467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1661622663}
@@ -59871,10 +59911,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileBreakEffectMaterials:
   - {fileID: 2100000, guid: f7c9dbd56ab352a4f80304dd7bcbde4b, type: 2}
-  - {fileID: 2100000, guid: 811cd201fc74fad4b91a500035e7b353, type: 2}
   - {fileID: 2100000, guid: f1b24df7ecab5954496c10978a1aea81, type: 2}
   - {fileID: 2100000, guid: cff75940676730243a455557018e528e, type: 2}
-  - {fileID: 2100000, guid: 84de05d3478a4dc42b976b26b3177c5d, type: 2}
+  - {fileID: 2100000, guid: 5c22cc95e72ee314cb38ac76ddac1888, type: 2}
+  - {fileID: 2100000, guid: 811cd201fc74fad4b91a500035e7b353, type: 2}
   - {fileID: 2100000, guid: 510f9b2808a344c4daebf6fbc8ed30a8, type: 2}
   - {fileID: 2100000, guid: fa498c5a7d498db4fb96f84f7e917af5, type: 2}
   - {fileID: 2100000, guid: 3a041ef139477cf468ce5d63a98ec182, type: 2}
@@ -59882,8 +59922,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 39a776e8651087849b2f98226abeaba7, type: 2}
   - {fileID: 2100000, guid: 637ef8691266e49408a130df709dbe6c, type: 2}
   - {fileID: 2100000, guid: 88fd4a7d1096e6b4c9be52d141749ae4, type: 2}
+  - {fileID: 2100000, guid: 84de05d3478a4dc42b976b26b3177c5d, type: 2}
   - {fileID: 2100000, guid: 0b092261ed37a0a47b0391f2605789c5, type: 2}
-  - {fileID: 2100000, guid: 5c22cc95e72ee314cb38ac76ddac1888, type: 2}
   tileBreakEffectPrefab: {fileID: 100008, guid: f1e69298bceb1401cb783f1d7b431f49,
     type: 3}
 --- !u!4 &2126442200

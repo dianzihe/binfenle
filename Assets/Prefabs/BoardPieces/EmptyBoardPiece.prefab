@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:

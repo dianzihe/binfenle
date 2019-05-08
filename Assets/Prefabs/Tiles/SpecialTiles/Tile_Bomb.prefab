@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUserMoveable: 1
-  numPoints: 0
+  numPoints: 100
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
@@ -77,8 +77,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: ae10bdca21863f04aa3eed53db03c0ef, type: 2}
   spawnTimeBomb: 1
   useBigTimeBomb: 0
-  tileModelAdditionalRenderer: {fileID: 0}
-  tileEffectAnimation: {fileID: 0}
+  tileModelAdditionalRenderer: {fileID: 2300004}
+  tileEffectAnimation: {fileID: 11100000}
   PrefabEffectBreakFragments: {fileID: 100008, guid: 42c6aaeb2d7dfd040a49f7968b35b621,
     type: 3}
   FreezeEffectPrefabArray:

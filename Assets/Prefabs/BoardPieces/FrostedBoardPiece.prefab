@@ -82,7 +82,8 @@ MonoBehaviour:
   eligibleSpawnList: []
   editorSceneLabel: 
   particleLifeTime: 1
-  FrostDestroyEffectPrefab: {fileID: 0}
+  FrostDestroyEffectPrefab: {fileID: 100032, guid: 38b605903cef61441b52726e97ad0ffc,
+    type: 3}
   backModel: {fileID: 100002}
   numLayers: 1
 --- !u!1 &100002

@@ -45,7 +45,6 @@ public class GameObjectsPool : MonoBehaviour
 		// Setup each type of tile break effect for each require material type and cache the particle system instances based on the material.
 		for(int i = 0; i < tileBreakEffectMaterials.Length; i++)
 		{
-			/* 
 			TileBreakEffectController breakEffectInstance = (Instantiate(targetTileBreakEffectPrefab) as GameObject).GetComponent<TileBreakEffectController>();
 			breakEffectInstance.UpdateTileRenderersMaterial(targetTileBreakEffectMaterials[i]);
 
@@ -53,7 +52,6 @@ public class GameObjectsPool : MonoBehaviour
 			
 			// Add particle system to objects pool.
 			objectsPool.Add(tileBreakEffectMaterials[i], breakEffectInstance.gameObject);
-			*/
 		}
 			
 	}

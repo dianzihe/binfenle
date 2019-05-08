@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUserMoveable: 1
-  numPoints: 0
+  numPoints: 500
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1

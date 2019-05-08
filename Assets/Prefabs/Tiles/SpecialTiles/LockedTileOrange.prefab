@@ -76,13 +76,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUserMoveable: 1
-  numPoints: 0
+  numPoints: 1000
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
   prefabDestroyEffect: {fileID: 0}
   canBeMatched: 1
-  gravityUpdateEnabled: 1
+  gravityUpdateEnabled: 0
   color: 6
   switchBackOnMatchFail: 1
   freezeOffset: {x: 0, y: 0, z: -4.25}
