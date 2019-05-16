@@ -17,4 +17,55 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/test.unity
     guid: 04d66ae4186d6a34abcf303d2e89c65a
+  - enabled: 0
+    path: Assets/Scenes/empty.unity
+    guid: 57dec85fae9b5b2448bbc05838919254
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 0 - Control Widgets.unity
+    guid: 33872ef6c1d9b03418a3c571f1e6bcc4
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 1 - Anchors.unity
+    guid: a1a629371c484164e85541902c003f93
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 2 - Interaction.unity
+    guid: d07112ae35e3b49439de26a882a05e95
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 3 - Menu.unity
+    guid: 474217fc05d321a42a8e55d9b14c7f0a
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 4 - Controller Input.unity
+    guid: 9ea6b02917b630644ad13e20afbe4f6e
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 5 - Lights and Refraction.unity
+    guid: 3179bb385b3703449b588ae70428dd3d
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 6 - Draggable Window.unity
+    guid: b7b5ccaa3ff373a4ea0eb310cb86421d
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 7 - Scroll View (Panel).unity
+    guid: 651a1500e5e710b4b94d6b620741138a
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example X - Character.unity
+    guid: 0a5a55ad607f621418e7ca710de5ba04
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 10 - Localization.unity
+    guid: c56710aac7fb7714fabd339ec0832f7b
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 11 - Drag & Drop.unity
+    guid: 7d9c1ac4eded11d46b40e7949b834ca1
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 12 - Chat Window.unity
+    guid: f7405180428fe944f9c9e0185cf9366e
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 13 - Tabs.unity
+    guid: 14fe17db4f51e4d4b9b0f63f3fdc8600
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 14 - Endless Scroll Views.unity
+    guid: f1f9c736228c5e6418db57dd42570c03
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 15 - Animated Letters.unity
+    guid: ba9955452ecac9448afa4bdd700402ce
+  - enabled: 0
+    path: Assets/NGUI/Examples/Scenes/Example 8 - Scroll View (Camera).unity
+    guid: 53c9f540c7228b54e8593bc0b0db1415
   m_configObjects: {}

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D7F1ADA1-150B-F218-8AB4-3BCF01B2B3BE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Effects\DeadTime.js" />
+     <Compile Include="Assets\Scripts\Effects\ExplosionObject_MG.js" />
+     <Compile Include="Assets\Scripts\Effects\ParticleSetting_MG.js" />
+     <Compile Include="Assets\Scripts\Effects\Randommove_MG.js" />
+     <Compile Include="Assets\Scripts\Effects\TailTransformer_MG.js" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor-Intensity.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\TextGlow.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuse.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Blink.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\Waves.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive-Culled-Overlay.shader" />
+     <None Include="Assets\Shaders\HalfLambert.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\Fill-Transparent-Alpha.shader" />
+     <None Include="Assets\_Maleficent\Shaders\DiffuseSpecularMap.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
+     <None Include="Assets\Shaders\BlackAndWhite.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlpha.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Mask\DepthMask.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumped.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseLightProbes.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentCullOff.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\BottleShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Shaders\Shine.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug UV Channel 2.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask2.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentDiffuse.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug UV Channel 1.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Tangents.shader" />
+     <None Include="Assets\_Maleficent\Shaders\FlorinCharacterShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-Lightmap-Unlit-VirtualVertexGlossy-Add.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-god-rays.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentOverlay.shader" />
+     <None Include="Assets\_Maleficent\Shaders\HalfLambertTransparent.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaZWrite.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularFastLightProbes.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\ParamAlphaMask.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColor.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\Fill-Transparent.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\ColoredAlphaMask.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\VertexColor.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorBatching.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\LineRenderer-TransparentEnd.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush-Transparent.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaTint.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color ZWriteOn.shader" />
+     <None Include="Assets\_Maleficent\Shaders\HalfLambert.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaTint.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glass-Stained-BumpDistortAlpha.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Blur.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\Additive.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedLightProbes.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\SpecularBumped.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\SingleTexture-CullOff.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitCutoutCullOff.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\VertexColor.shader" />
+     <None Include="Assets\Shaders\FlorinCharacterShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\Shaders\Matcap\MatcapDiffuseBumpedSpecularLightProbes.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Binormals.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\AlphaMaskWithDetail.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\RadialFeather.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glitch.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentTexturedAlpha.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorCubemap.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Shaders\BlackAndWhiteTRN2.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\VertexColor-AlphaTest.shader" />
+     <None Include="Assets\_Maleficent\Shaders\BlackAndWhite.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Blur.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Normals.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lit\Mobile Rim Lit.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush-Hulk.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaCullOff.shader" />
+     <None Include="Assets\Resources\Generic\Ice.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\TexturedAlphaMask.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorOverlay.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Snow.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\Specular.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\ColoredDetailAlphaMask.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\SingleTexture.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\Mobile Rim Unlit.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentDiffuse.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor.shader" />
+     <None Include="Assets\Shaders\DiffuseSpecularMap.shader" />
+     <None Include="Assets\ResourcesFrozen\Generic\Ice.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lit\Mobile Vertex Colored Specular.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\BottleShader.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color ZOffset.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Shaders\HalfLambertTransparent.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentTexturedAlpha.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\MobileTransparentVertexColorZWriteOnCullOff.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive-Culled.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Additive.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\_Maleficent\Shaders\BlackAndWhiteTRN2.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug VertexColor.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\2TextureBlending.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitAlpha.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\diamond shader.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleAlphaMask.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Pixelate-Transparent.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitAlpha.shader" />
+     <None Include="Assets\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
+     <None Include="Assets\Shaders\Blur.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>C:/Users/dq/Documents/binfenle/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="ConditionalExpression">
+ <HintPath>C:/Users/dq/Documents/binfenle/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>C:/Users/dq/Documents/binfenle/Assets/Plugins/PlayMaker/Metro/PlayMaker.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{A64E898D-25AF-C24E-753F-2374E4F42A72}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
