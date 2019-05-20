@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/NGUI/Examples/Scenes/Example 0 - Control Widgets.unity
+- path: Assets/Scenes/dq.unity
   isLoaded: 1
   isActive: 1
