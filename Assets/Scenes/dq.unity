@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.003998276, g: 0.00021808657, b: 0.000000051661203,
+  m_IndirectSpecularColor: {r: 0.003998273, g: 0.00021808635, b: 0.000000051661203,
     a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -869,7 +869,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3000
+  startingRenderQueue: 3043
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -927,7 +927,7 @@ Transform:
   m_GameObject: {fileID: 27621655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 454.2588, y: 0, z: 0}
-  m_LocalScale: {x: 0.00625, y: 0.00625, z: 0.00625}
+  m_LocalScale: {x: 0.004255319, y: 0.004255319, z: 0.004255319}
   m_Children:
   - {fileID: 1175666374}
   m_Father: {fileID: 0}
@@ -1232,7 +1232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102823085}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -537, y: 510, z: 0}
+  m_LocalPosition: {x: -449, y: 512, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438777082}
@@ -7882,6 +7882,18 @@ PrefabInstance:
       propertyPath: uiCamera
       value: 
       objectReference: {fileID: 1430955698}
+    - target: {fileID: 11400030, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
+      propertyPath: targetFSM
+      value: 
+      objectReference: {fileID: 1173027318}
+    - target: {fileID: 11400050, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
+      propertyPath: targetFSM
+      value: 
+      objectReference: {fileID: 1403486123}
+    - target: {fileID: 11400064, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
+      propertyPath: targetFSM
+      value: 
+      objectReference: {fileID: 1584400827}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cdc693f18a7d432eb92ca2bfdfdd53b, type: 3}
 --- !u!4 &282476253 stripped
@@ -13919,7 +13931,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3024
+  startingRenderQueue: 3045
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -16028,7 +16040,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3028
+  startingRenderQueue: 3045
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -16690,7 +16702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794147175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1297365106}
@@ -19269,7 +19281,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3029
+  startingRenderQueue: 3046
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -27071,7 +27083,7 @@ MonoBehaviour:
         customNames:
         - 
         - 
-        actionEnabled: 0000
+        actionEnabled: 0100
         actionIsOpen: 0101
         actionStartIndex: 0000000007000000
         actionHashCodes: 4f3836004f383600
@@ -27085,7 +27097,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1075970475}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -27189,7 +27201,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010001
+        actionEnabled: 00000001
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: 055316000553160059f9a0045e69bb04
@@ -30374,7 +30386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184384045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 26995171}
@@ -36099,7 +36111,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3031
+  startingRenderQueue: 3046
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -38536,7 +38548,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3034
+  startingRenderQueue: 3047
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -40248,7 +40260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400044, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
       propertyPath: m_infoToggle
@@ -41520,7 +41532,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3035
+  startingRenderQueue: 3047
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -51646,7 +51658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936197467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1661622663}
@@ -56385,7 +56397,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093070707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -537, y: 510, z: 0}
+  m_LocalPosition: {x: -449, y: 512, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2009841047}
