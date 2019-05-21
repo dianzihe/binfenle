@@ -168,7 +168,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		}
 		*/
 
-        MaleficentBlackboard.Instance.level = 10;
+        MaleficentBlackboard.Instance.level = 1;
         LoadLevel(MaleficentBlackboard.Instance.level);
 		
 		// Once the level is loaded get the reference to the board data
