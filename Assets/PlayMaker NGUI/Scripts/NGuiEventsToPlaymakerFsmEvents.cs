@@ -2,6 +2,7 @@
 using System;
 using HutongGames.PlayMaker;
 using UnityEngine;
+using Logic;
 
 /// <summary>
 /// Put this component on the GameObject with the Collider used by NGUI.
@@ -26,15 +27,30 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 	void Awake() 
 	{
 		debug = false;
-		/* 
-		if (InputDisableOnLoad.instance == null)
-		{
-			justLoaded = false;
-		}
-		*/
+        justLoaded = false;		
 	}
-	
-	public int getUsage(NGuiPlayMakerDelegates fsmEventDelegate)
+    void Start()
+    {
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "NGuiEventsToPlaymakerFsmEvents->Start");
+        /*
+        //1.UIEventListener的使用
+        UIEventListener.Get(this.gameObject).onClick += OnClick;
+
+        //2.UIEventTrigger的使用
+        this.GetComponent<UIEventTrigger>().onHoverOver.Add(new EventDelegate(OnHoverOver));
+        this.GetComponent<UIEventTrigger>().onHoverOut.Add(new EventDelegate(OnHoverOut));
+        */
+        UIButton button = this.GetComponent<UIButton>();
+        //EventDelegate eventDelegate = new EventDelegate(this, "ButtonClickHandler");
+        //第二种写法
+        EventDelegate eventDelegate = new EventDelegate(OnClick);
+        //第一种添加回调的写法
+        //EventDelegate.Add(button.onClick, eventDelegate);
+        //第二种添加回调的写法
+        button.onClick.Add(eventDelegate);
+    }
+
+    public int getUsage(NGuiPlayMakerDelegates fsmEventDelegate)
 	{
 		//Debug.Log("get usage for "+fsmEventDelegate);
 		if (_usage==null)
@@ -133,16 +149,23 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 
 	void OnClick()
 	{
-		if (justLoaded)
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "OnClick");
+
+        if (justLoaded)
 		{
 			return;
 		}
 		
-		if (!enabled || targetFSM == null) return;
+		if (/*!enabled || */targetFSM == null) return;
 		
 		_usage[(int)NGuiPlayMakerDelegates.OnClickEvent] ++;
 		
-		if (debug)	Debug.Log("NGuiEventsToPlaymakerFsmEvents OnClick() "+_usage[(int)NGuiPlayMakerDelegates.OnClickEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
+		if (debug)
+        {
+            Debug.Log("NGuiEventsToPlaymakerFsmEvents OnClick() " + _usage[(int)NGuiPlayMakerDelegates.OnClickEvent] + " to " + targetFSM.gameObject.name + "/" + targetFSM.FsmName);
+
+            Logic.EventCenter.Log(LOG_LEVEL.WARN, "NGuiEventsToPlaymakerFsmEvents OnClick() " + _usage[(int)NGuiPlayMakerDelegates.OnClickEvent] + " to " + targetFSM.gameObject.name + "/" + targetFSM.FsmName);
+        }
 
 		currentTouch = UICamera.currentTouch;
 		
