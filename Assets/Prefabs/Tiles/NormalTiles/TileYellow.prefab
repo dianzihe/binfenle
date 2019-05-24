@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUserMoveable: 1
-  numPoints: 0
+  numPoints: 50
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
   switchBackOnMatchFail: 1
   freezeOffset: {x: 0, y: 0, z: -4.25}
   prefabFreezeEffect: {fileID: 100004, guid: 6f0f3f8df7c80452baaee05c3110dadc, type: 3}
-  freezeDestroyMaterial: {fileID: 2100000, guid: 5db1fbcd60c5999428ad04375f53c488,
+  freezeDestroyMaterial: {fileID: 2100000, guid: 88fd4a7d1096e6b4c9be52d141749ae4,
     type: 2}
 --- !u!1 &100002
 GameObject:

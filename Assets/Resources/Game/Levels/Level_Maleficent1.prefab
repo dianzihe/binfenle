@@ -117,11 +117,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -139,7 +139,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,11 +180,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -202,7 +202,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,11 +243,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -265,7 +265,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,11 +306,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -328,7 +328,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,11 +369,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -391,7 +391,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100012
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,11 +432,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100012}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -454,7 +454,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100014
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdc548e2168b1d245933e390dd4ffb2e, type: 3}
+  m_Script: {fileID: 11500000, guid: a697ccd72b4654269a097fcf0f3a1f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawnRules: []
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdc548e2168b1d245933e390dd4ffb2e, type: 3}
+  m_Script: {fileID: 11500000, guid: a697ccd72b4654269a097fcf0f3a1f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawnRules: []
@@ -651,11 +651,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -673,7 +673,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100020
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -903,11 +903,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100026}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -925,7 +925,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100028
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,11 +966,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -988,7 +988,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,11 +1029,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,7 +1092,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -1155,7 +1155,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdc548e2168b1d245933e390dd4ffb2e, type: 3}
+  m_Script: {fileID: 11500000, guid: a697ccd72b4654269a097fcf0f3a1f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawnRules: []
@@ -1594,7 +1594,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2177,7 +2177,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdc548e2168b1d245933e390dd4ffb2e, type: 3}
+  m_Script: {fileID: 11500000, guid: a697ccd72b4654269a097fcf0f3a1f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawnRules: []
@@ -2222,7 +2222,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2285,7 +2285,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2349,7 +2349,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2381,7 +2381,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdc548e2168b1d245933e390dd4ffb2e, type: 3}
+  m_Script: {fileID: 11500000, guid: a697ccd72b4654269a097fcf0f3a1f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawnRules: []
@@ -2724,7 +2724,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2787,7 +2787,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2850,7 +2850,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2914,7 +2914,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f05594100da427478f7ac5b08f71149, type: 3}
+  m_Script: {fileID: 11500000, guid: a65929eb6a0644afbbca911972515fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
@@ -2946,7 +2946,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdc548e2168b1d245933e390dd4ffb2e, type: 3}
+  m_Script: {fileID: 11500000, guid: a697ccd72b4654269a097fcf0f3a1f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawnRules: []
@@ -3289,11 +3289,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3311,7 +3311,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100096
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,11 +3352,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100096}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3374,7 +3374,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100098
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,11 +3415,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3437,7 +3437,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3478,11 +3478,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3500,7 +3500,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100102
 GameObject:
   m_ObjectHideFlags: 0
@@ -3541,11 +3541,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3563,7 +3563,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100104
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,11 +3604,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3626,7 +3626,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100106
 GameObject:
   m_ObjectHideFlags: 0
@@ -3667,11 +3667,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100106}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3689,7 +3689,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,11 +3730,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3752,7 +3752,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,11 +3793,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3815,7 +3815,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3856,11 +3856,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100112}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3878,7 +3878,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100114
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,11 +3919,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -3941,7 +3941,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100116
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,11 +3982,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4004,7 +4004,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4045,11 +4045,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100118}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4067,7 +4067,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100120
 GameObject:
   m_ObjectHideFlags: 0
@@ -4108,11 +4108,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4130,7 +4130,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100122
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,11 +4171,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4193,7 +4193,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100124
 GameObject:
   m_ObjectHideFlags: 0
@@ -4234,11 +4234,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4256,7 +4256,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4297,11 +4297,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4319,7 +4319,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4446,11 +4446,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilesPrefabs:
   - {fileID: 100002, guid: 31e07b00624344247b7eb42b458abe00, type: 3}
-  - {fileID: 100000, guid: 5da26bcd41f6d440bbd2138ab38d75df, type: 3}
   - {fileID: 100002, guid: d88c08112af954694bfb5972fab01147, type: 3}
-  - {fileID: 100002, guid: 854d6f8dc38044b6c9025e3f9d76337c, type: 3}
   - {fileID: 100000, guid: 38ae5949d35e942088a9e3208fef4dc4, type: 3}
   - {fileID: 100000, guid: d8b85e5a8915c4ba98fccf96a99dfbb6, type: 3}
+  - {fileID: 100002, guid: 854d6f8dc38044b6c9025e3f9d76337c, type: 3}
+  - {fileID: 100000, guid: 5da26bcd41f6d440bbd2138ab38d75df, type: 3}
   - {fileID: 100000, guid: ad339cce2f63e4caf9b6221deb76b207, type: 3}
   - {fileID: 100000, guid: aaada2801d372415780256149cd2d555, type: 3}
   - {fileID: 100000, guid: f996cf463dd734841ab1542621e24caf, type: 3}
@@ -4522,11 +4522,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a29d4f9e4ff0444b6919283a0c2b9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9116a668224aa43a69ae2f57c1afa6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  isEmpty: 0
+  isEmpty: 1
   isBorderPiece: 0
   canDrawGizmos: 1
   initialTileSpawnRule:
@@ -4544,7 +4544,7 @@ MonoBehaviour:
   links: []
   autoDetermineLinks: 1
   eligibleSpawnList: []
-  editorSceneLabel: 
+  editorSceneLabel: Empty
 --- !u!1 &100132
 GameObject:
   m_ObjectHideFlags: 0

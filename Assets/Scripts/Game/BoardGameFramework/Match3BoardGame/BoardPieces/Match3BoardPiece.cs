@@ -105,15 +105,14 @@ public class Match3BoardPiece : AbstractBoardPiece {
 
 	public override void Awake ()
 	{
-        base.Awake ();
+		base.Awake ();
 		
 		// Apply value currently set on the prefab first.
 		IsTileSpawner = isTileSpawner;
 		
 		if (links == null || links.Length < (int)LinkType.Count) {
-            links = new Match3BoardPiece[(int)LinkType.Count];
-            //System.Console.WriteLine("Match3BoardPiece->" + name + "--awake->" + links.Length);
-        }
+			links = new Match3BoardPiece[(int)LinkType.Count];
+		}
 		
 		if(eligibleSpawnList == null)
 		{
@@ -339,7 +338,7 @@ public class Match3BoardPiece : AbstractBoardPiece {
 	}
 	
 	public void ExecuteInitialSpawnRule() {
-        if (initialTileSpawnRule != null)
+		if (initialTileSpawnRule != null)
 		{
 			List<RuleEntry> tempRuleEntryList;
 			List<TileSpawnRule> immediateSpawnList = Match3BoardGameLogic.Instance.immediateSpawnList;
@@ -466,8 +465,7 @@ public class Match3BoardPiece : AbstractBoardPiece {
 
 	public Match3BoardPiece TopLink {
 		get {
-            //System.Console.WriteLine("Match3BoardPiece->" + name + "->TopLink->" + links.Length + "--" + (int)LinkType.Top);
-            return links[(int)LinkType.Top];
+			return links[(int)LinkType.Top];
 		}
 		set {
 			links[(int)LinkType.Top] = value;
@@ -651,9 +649,8 @@ public class Match3BoardPiece : AbstractBoardPiece {
 	/// </summary>
 	public void UpdateLinks() 
 	{
-        //System.Console.WriteLine("Match3BoardPiece->UpdateLinks");
-        // If the board piece can't be a link piece to someone else then it doesn't have any linked board pieces to it.
-        if ( !CanBeLink ) 
+		// If the board piece can't be a link piece to someone else then it doesn't have any linked board pieces to it.
+		if ( !CanBeLink ) 
 		{
 			if (IsEmpty) 
 			{

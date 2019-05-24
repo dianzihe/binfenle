@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93a7393faf6e2f24a9d99e6dc8cd5254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isUserMoveable: 1
+  isUserMoveable: 0
   numPoints: 1000
   isDestructible: 1
   canDrawGizmos: 1
