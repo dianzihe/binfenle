@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scalingStyle: 1
+  scalingStyle: 0
   manualWidth: 1280
   manualHeight: 1024
   minimumHeight: 1024
@@ -95,7 +95,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3000
+  startingRenderQueue: 3044
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a92b5d748695fd44aac9feef17ba415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventType: 1
+  eventType: 0
   eventsGoToColliders: 0
   eventReceiverMask:
     serializedVersion: 2
@@ -300,8 +300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b677e20471d607546abb75826b5d1fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deactivateOnPortrait: 1
-  deactivateOnLandscape: 0
+  deactivateOnPortrait: 0
+  deactivateOnLandscape: 1
   keepFOVLandscape: 0
   keepFOVPortrait: 0
   overrideFOVLandscape: 0
@@ -309,9 +309,9 @@ MonoBehaviour:
   specificTransformLandscape: {fileID: 0}
   specificTransformPortrait: {fileID: 0}
   posOffsetLandscape: {x: 0, y: 0, z: 0}
-  posOffsetPortrait: {x: 0, y: 0, z: 0}
+  posOffsetPortrait: {x: 190, y: 175, z: 0}
   scalePercentLandscape: 1
-  scalePercentPortrait: 1
+  scalePercentPortrait: 0.75
   referenceAspectRatio: 1.3333334
   landscapeNormalizedViewPort:
     serializedVersion: 2

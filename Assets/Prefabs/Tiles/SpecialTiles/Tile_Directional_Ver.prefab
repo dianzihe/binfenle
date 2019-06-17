@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUserMoveable: 1
-  numPoints: 0
+  numPoints: 100
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
@@ -378,7 +378,7 @@ MonoBehaviour:
   freezeOffset: {x: 0, y: 0, z: -4.25}
   prefabFreezeEffect: {fileID: 0}
   freezeDestroyMaterial: {fileID: 0}
-  additionalChildAnimationComponent: {fileID: 0}
+  additionalChildAnimationComponent: {fileID: 11100000}
   prefabTilesDestroyEffect: {fileID: 100004, guid: 065df726dd85ca04aaf5c979062d2bf0,
     type: 3}
   prefabBombCombineDestroyEffect: {fileID: 100006, guid: 18b22551bd9c9fb44bad76fc17f475bb,
@@ -388,27 +388,27 @@ MonoBehaviour:
   touchController: {fileID: 0}
   coloredMaterials:
   - {fileID: 2100000, guid: a6b8401eb85264e89ba5b386dfcdf605, type: 2}
-  - {fileID: 2100000, guid: 58c30e855f5844c88a2a013fdb3fd2ea, type: 2}
   - {fileID: 2100000, guid: 2d2bfbcfbb43a4f4880dbd757c50e753, type: 2}
+  - {fileID: 2100000, guid: 58c30e855f5844c88a2a013fdb3fd2ea, type: 2}
+  - {fileID: 2100000, guid: c3d0f9e10a8104ea5b8f4a88f9a429ee, type: 2}
   - {fileID: 2100000, guid: 413c4578019ac4db2874b5e08b888512, type: 2}
   - {fileID: 2100000, guid: b3c91176838a5834facec57d3c078180, type: 2}
-  - {fileID: 2100000, guid: c3d0f9e10a8104ea5b8f4a88f9a429ee, type: 2}
   FreezeEffectPrefabArray:
-  - {fileID: 100004, guid: 40013fb9ed98fb642a8afa49212adae1, type: 3}
-  - {fileID: 100004, guid: eaafa6bbd7b154301b7992c40255b9b6, type: 3}
-  - {fileID: 100004, guid: e41982df46fbc41d89a5e08a2a449e72, type: 3}
-  - {fileID: 100004, guid: 7cf44b1415c0545db9e367f2f6e59bb0, type: 3}
   - {fileID: 100004, guid: 6a2bbafcdb4b94e848ce8ce5695cef66, type: 3}
+  - {fileID: 100004, guid: eaafa6bbd7b154301b7992c40255b9b6, type: 3}
+  - {fileID: 100004, guid: 40013fb9ed98fb642a8afa49212adae1, type: 3}
   - {fileID: 100004, guid: 6f0f3f8df7c80452baaee05c3110dadc, type: 3}
+  - {fileID: 100004, guid: 7cf44b1415c0545db9e367f2f6e59bb0, type: 3}
+  - {fileID: 100004, guid: e41982df46fbc41d89a5e08a2a449e72, type: 3}
   PrefabEffectBreakFragments: {fileID: 100008, guid: 42c6aaeb2d7dfd040a49f7968b35b621,
     type: 3}
   PrefabFreezeDestroyMaterialArray:
-  - {fileID: 2100000, guid: fa498c5a7d498db4fb96f84f7e917af5, type: 2}
-  - {fileID: 2100000, guid: 3a041ef139477cf468ce5d63a98ec182, type: 2}
-  - {fileID: 2100000, guid: f37e0ee87bcdaf942bb56cd97c178d77, type: 2}
-  - {fileID: 2100000, guid: 39a776e8651087849b2f98226abeaba7, type: 2}
   - {fileID: 2100000, guid: 637ef8691266e49408a130df709dbe6c, type: 2}
+  - {fileID: 2100000, guid: 3a041ef139477cf468ce5d63a98ec182, type: 2}
+  - {fileID: 2100000, guid: fa498c5a7d498db4fb96f84f7e917af5, type: 2}
   - {fileID: 2100000, guid: 88fd4a7d1096e6b4c9be52d141749ae4, type: 2}
+  - {fileID: 2100000, guid: 39a776e8651087849b2f98226abeaba7, type: 2}
+  - {fileID: 2100000, guid: f37e0ee87bcdaf942bb56cd97c178d77, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

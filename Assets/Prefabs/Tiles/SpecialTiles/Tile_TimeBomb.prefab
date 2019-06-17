@@ -47,13 +47,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81063bf2cedb598438d48a7d28cf9af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isUserMoveable: 1
-  numPoints: 0
+  isUserMoveable: 0
+  numPoints: 100
   isDestructible: 1
   canDrawGizmos: 1
   canHaveColor: 1
   prefabDestroyEffect: {fileID: 100004, guid: 2eeee2445fe95f64aa977f4a03ecd21a, type: 3}
-  canBeMatched: 1
+  canBeMatched: 0
   gravityUpdateEnabled: 1
   color: 0
   switchBackOnMatchFail: 1

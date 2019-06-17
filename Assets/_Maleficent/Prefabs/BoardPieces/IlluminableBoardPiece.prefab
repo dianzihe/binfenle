@@ -64,12 +64,14 @@ MonoBehaviour:
   autoDetermineLinks: 1
   eligibleSpawnList: []
   editorSceneLabel: 
-  matchesLimit: 0
-  backModel: {fileID: 0}
+  matchesLimit: 1
+  backModel: {fileID: 2300000}
   points: 1000
-  stagesMaterials: []
-  beatAnimationFromColor: {r: 0, g: 0, b: 0, a: 0}
-  beatAnimationToColor: {r: 0, g: 0, b: 0, a: 0}
+  stagesMaterials:
+  - {fileID: 2100000, guid: 923a808b5dbbeb141bd24bee32e99119, type: 2}
+  - {fileID: 2100000, guid: bff801f022f91df4c8bb7cad2acddcde, type: 2}
+  beatAnimationFromColor: {r: 0.76470596, g: 1, b: 0.7058824, a: 0}
+  beatAnimationToColor: {r: 0.20000002, g: 0.9960785, b: 0, a: 0}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0

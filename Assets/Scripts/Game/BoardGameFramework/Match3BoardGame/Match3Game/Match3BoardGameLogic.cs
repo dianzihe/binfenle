@@ -168,7 +168,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		}
 		*/
 
-        MaleficentBlackboard.Instance.level = 1;
+        MaleficentBlackboard.Instance.level = 2;
         LoadLevel(MaleficentBlackboard.Instance.level);
 		
 		// Once the level is loaded get the reference to the board data
@@ -999,7 +999,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic {
 		instance = null;
 	}
 
-	//public PlayMakerFSM buyFSM;
+	public PlayMakerFSM buyFSM;
 	//public PlayMakerFSM fsm;
 	void ConfirmDelegateFunc()
 	{
