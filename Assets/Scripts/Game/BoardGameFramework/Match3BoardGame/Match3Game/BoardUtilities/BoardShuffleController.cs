@@ -86,9 +86,9 @@ public class BoardShuffleController : MonoBehaviour
 
 	public void OnStableBoardEvent()
 	{
-//		Debug.Log("[BoardShuffleController] OnStableBoardEvent called: " + Time.frameCount);
-		
-		if ( !hasPossibleMatchesCheckPending ) 
+        //		Debug.Log("[BoardShuffleController] OnStableBoardEvent called: " + Time.frameCount);
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] OnStableBoardEvent called: " + Time.frameCount);
+        if ( !hasPossibleMatchesCheckPending ) 
 		{
 			hasPossibleMatchesCheckPending = true;
 			StartCoroutine( DoPossibleMatchesCheck() );

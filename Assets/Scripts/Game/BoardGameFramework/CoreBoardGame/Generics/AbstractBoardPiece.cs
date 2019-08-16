@@ -78,7 +78,6 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
         if (null == cachedTransform)
         {
             cachedTransform = Instantiate(transform) as Transform;
-            System.Console.WriteLine("AbstractBoardPiece->InitComponent->new transform");
         }
         // Parent this board piece to the owner's transform.
         cachedTransform.parent = BoardRenderer.cachedTransform;
@@ -155,15 +154,15 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 			return tile;
 		}
 		set {
-			tile = value;
+            tile = value;
 
 			if (tile != null) {
 				tile.BoardPiece = this;
 				tile.Board = Board;
-			}
+            }
 			
 			RaiseTileChangedEvent(tile);
-		}
+        }
 	}
 
 	/// <summary>
@@ -314,7 +313,7 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 	/// Changed tile.
 	/// </param>
 	public virtual void RaiseTileChangedEvent(AbstractTile newTile) {
-		if (onTileChanged != null) {
+        if (onTileChanged != null) {
 			onTileChanged(this, newTile);
 		}
 	}

@@ -156,7 +156,8 @@ public class NormalTile : Match3Tile
 	}
 
 	public IEnumerator ApplyTileBounceEffect(float bounceStiffness, float bouncePower, float firstBounceBackFactor = 0.4f) {
-		if (fallBounceAnimEnabled) {
+
+        if (fallBounceAnimEnabled) {
 //			Debug.LogError(name + " Bounce anim already running here!");
 			// Don't start the bounce anim if it's already running on this tile
 			yield break;
@@ -292,7 +293,7 @@ public class NormalTile : Match3Tile
 	
 	protected override void TileDestroy(bool useEffect) 
 	{
-		if(useEffect)
+        if (useEffect)
 		{
 			CheckForSpawnPatterns();
 		}
@@ -317,7 +318,7 @@ public class NormalTile : Match3Tile
 		else {
 			base.TileDestroy(false);
 		}
-	}
+    }
 	
 	protected Transform SpawnDestroyEffect(Vector3 offset) {
 		return SpawnDestroyEffect(WorldPosition, offset);
@@ -466,8 +467,8 @@ public class NormalTile : Match3Tile
 	}
 	
 	protected IEnumerator DelayedDestroy()
-	{	
-		tileModelTransform.gameObject.SetActive(false);
+	{
+        tileModelTransform.gameObject.SetActive(false);
 		return DelayedDestroy(destroyEffect.destroyTileTime);
 	}
 	

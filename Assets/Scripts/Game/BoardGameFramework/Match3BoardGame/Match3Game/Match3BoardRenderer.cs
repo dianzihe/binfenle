@@ -188,7 +188,8 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 		if (autoGenerateRandom) {
 			GenerateRandomBoard(Board.NumRows, Board.NumColumns);
 		} else {
-			LoadBoardSetupFromHierarchy();
+            //GenerateRandomBoard(Board.NumRows, Board.NumColumns);
+            LoadBoardSetupFromHierarchy();
 		}
 	}
 	
@@ -214,7 +215,8 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	}
 
 	protected override void SetupBoardRendering() {
-		Vector3 boardPiecePos = Vector3.zero;
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> SetupBoardRendering-->" + autoGenerateRandom);
+        Vector3 boardPiecePos = Vector3.zero;
 		
 		if (autoGenerateRandom) {
 			Board.ApplyActionToRow(0, (boardPiece) => { 
@@ -289,7 +291,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 			//TODO: ======END TESTING GROUND FOR CODE-GENERATED BOARD CONFIGURATIONS======
 		}
 		
-		
 		// Determine the board pieces neighbors and logical links.
 		DetermineBoardLinksAndNeighbors();
 		
@@ -311,7 +312,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 				
 				boardPiece.LocalPosition = boardPiecePos;
 
-				if (autoGenerateRandom) 
+
+                /*
+                if (autoGenerateRandom) 
 				{
 					//TODO: Fallback for the old method of level generation. This should be removed at some point....or not...
 					if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece && boardPiece.Tile == null && rowIdx < Board.NumRows - 3) {
@@ -330,22 +333,27 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 						boardPiece.ExecuteInitialSpawnRule();
 					}
 				}
+                */
 			}
-		}
-				
-		// Attach the board tiles to the board pieces to trigger corresponding board events and initialize tiles.
-		InitBoardTiles();
-	}
-		
-#endregion
-	
-#region Match3BoardRenderer specific methods
-	/// <summary>
-	/// Inits any manully placed tiles. This is required because some tiles may be placed manually in the level
-	/// prefab at design time which wouldn't allow them to get initialized in the same order with other spawned tiles.
-	/// So these have to be separatelly inititalized after the board determines its neighbors and links.
-	/// </summary>
-	public void InitBoardTiles()
+        }
+        SpawnTileAt(3, 4, false, true, true);
+        SpawnTileAt(4, 3, false, true, true);
+
+        // Attach the board tiles to the board pieces to trigger corresponding board events and initialize tiles.
+        InitBoardTiles();
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> SetupBoardRendering--end");
+
+    }
+
+    #endregion
+
+    #region Match3BoardRenderer specific methods
+    /// <summary>
+    /// Inits any manully placed tiles. This is required because some tiles may be placed manually in the level
+    /// prefab at design time which wouldn't allow them to get initialized in the same order with other spawned tiles.
+    /// So these have to be separatelly inititalized after the board determines its neighbors and links.
+    /// </summary>
+    public void InitBoardTiles()
 	{
 		// Ensure the board has at least one possible match (but not already made matches).
 		int numTries = 0;
@@ -424,16 +432,51 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 			OnDetermineBoardLinksAndNeighbors();
 		}
 	}
-	
-	/// <summary>
-	/// Scans the hierarchy children of the board renderer and sets up the BoardData accordingly.
-	/// </summary>
-	public void LoadBoardSetupFromHierarchy()
+    public void dqLoadBoardSetupFromHierarchy(int a)
+    {
+        // Enable all the board pieces and initialize them
+        Match3BoardPiece[] childBoardPieces = GetComponentsInChildren<Match3BoardPiece>(true);
+        for (int i = 0; i < childBoardPieces.Length; i++)
+        {
+            childBoardPieces[i].gameObject.SetActive(true);
+            childBoardPieces[i].InitComponent(this);
+
+            // Destroy tiles that are on board pieces that have a spawn rule. 
+            // Leave only custom configured tiles that are on board pieces without any spawn RuleEntries.
+            if (childBoardPieces[i].Tile != null && childBoardPieces[i].initialTileSpawnRule.ruleEntries.Count > 0)
+            {
+                //				Debug.LogWarning("Destroying " + childBoardPieces[i].Tile.name);
+                DestroyImmediate(childBoardPieces[i].Tile.gameObject);
+            }
+            else if (childBoardPieces[i].Tile != null)
+            {
+                // If we let the tile placed by the designer, we need to manually activate it and initialize it later.
+                //				tilesPlacedAtDesignTime.Add(childBoardPieces[i].Tile as Match3Tile);
+                childBoardPieces[i].Tile.gameObject.SetActive(true);
+                //				Debug.LogWarning("Activated custom tile: " + childBoardPieces[i].Tile.name);
+            }
+
+            BoardCoord boardPos = BoardCoord.ParseCoordFromString(childBoardPieces[i].name);
+            // Set this board piece in the corresponding Board position
+            Board[boardPos] = childBoardPieces[i];
+        }
+
+        //		// Manually activate and initialize tiles placed at design time. (not spawned by the game)
+        //		for(int i = 0; i < tilesPlacedAtDesignTime.Count; i++) 
+        //		{
+        //			tilesPlacedAtDesignTime[i].gameObject.SetActive(true);
+        //			tilesPlacedAtDesignTime[i].InitComponent();
+        //		}
+    }
+    /// <summary>
+    /// Scans the hierarchy children of the board renderer and sets up the BoardData accordingly.
+    /// </summary>
+    public void LoadBoardSetupFromHierarchy()
 	{
-//		List<Match3Tile> tilesPlacedAtDesignTime = new List<Match3Tile>(30);
-		
-		// Enable all the board pieces and initialize them
-		Match3BoardPiece[] childBoardPieces = GetComponentsInChildren<Match3BoardPiece>(true);
+        //		List<Match3Tile> tilesPlacedAtDesignTime = new List<Match3Tile>(30);
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> LoadBoardSetupFromHierarchy");
+        // Enable all the board pieces and initialize them
+        Match3BoardPiece[] childBoardPieces = GetComponentsInChildren<Match3BoardPiece>(true);
 		for(int i = 0; i < childBoardPieces.Length; i++) {
 			childBoardPieces[i].gameObject.SetActive(true);
 			childBoardPieces[i].InitComponent(this);
@@ -488,8 +531,8 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	/// TODO: the Match3BoardSerializeer will be overridding AbstractBoardSerializer to handle accordingly the loading of match3 level files and populating the BoardData
 	/// with correct data types.
 	/// </summary>
-	public void GenerateRandomBoard(int numRows, int numCols) {	
-		Debug.LogWarning("Generating random board: " + numRows + " rows,  " + numCols + " cols");
+	public void GenerateRandomBoard(int numRows, int numCols) {
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Generating random board: " + numRows + " rows,  " + numCols + " cols");
 		
 		for(int rowIdx = 0; rowIdx < Board.NumRows; rowIdx++) {
 			for(int colIdx = 0; colIdx < Board.NumColumns; colIdx++) {
@@ -622,8 +665,9 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 	
 	public Match3BoardPiece AttachTileToBoardAt(int rowIdx, int columnIdx, Match3Tile tile, bool offBoardTile, bool isBoardSetup = false, bool resetTilePosition = true) 
 	{
-		// Assign the tile to the specified BoardPiece.
-		Match3BoardPiece targetBoardPiece = Board[rowIdx, columnIdx] as Match3BoardPiece;
+        
+        // Assign the tile to the specified BoardPiece.
+        Match3BoardPiece targetBoardPiece = Board[rowIdx, columnIdx] as Match3BoardPiece;
 		
 		if (isBoardSetup) {
 			targetBoardPiece.TileRef = tile;
@@ -637,31 +681,31 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 //				newTile.moveVel = Mathf.Clamp(nextTile.moveVel - newTile.initialVel, -newTile.initialVel, newTile.maxVel);
 //			}
 		}
-		
-		if (resetTilePosition) {
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> AttachTileToBoardAt-->" + tile.name + "==" + targetBoardPiece.name);
+        if (resetTilePosition) {
 			targetBoardPiece.ResetTilePosition();
 		}
-		
-//		if (offBoardTile) 
-//		{
-//			Match3BoardPiece bottomLinkPiece = targetBoardPiece.BottomLink;
-//			Vector3 tileLocalPos = newTile.LocalPosition;
-//			
-//			if (bottomLinkPiece != null && bottomLinkPiece.Tile != null && bottomLinkPiece.LocalPosition.y < bottomLinkPiece.Tile.LocalPosition.y) 
-//			{
-//				tileLocalPos.y = bottomLinkPiece.Tile.LocalPosition.y + verticalTileDistance + verticalTileOffset;
-//			}
-//			else {
-//				tileLocalPos.y = targetBoardPiece.LocalPosition.y + verticalTileDistance + verticalTileOffset;
-//			}
-//			
-//			newTile.LocalPosition = tileLocalPos;
-//
-////			Debug.LogWarning("Spawning offboard tile at : " + tileLocalPos);
-//			//Debug.Break();
-//		}
-		
-		if ( !isBoardSetup && !offBoardTile ) {
+
+        //		if (offBoardTile) 
+        //		{
+        //			Match3BoardPiece bottomLinkPiece = targetBoardPiece.BottomLink;
+        //			Vector3 tileLocalPos = newTile.LocalPosition;
+        //			
+        //			if (bottomLinkPiece != null && bottomLinkPiece.Tile != null && bottomLinkPiece.LocalPosition.y < bottomLinkPiece.Tile.LocalPosition.y) 
+        //			{
+        //				tileLocalPos.y = bottomLinkPiece.Tile.LocalPosition.y + verticalTileDistance + verticalTileOffset;
+        //			}
+        //			else {
+        //				tileLocalPos.y = targetBoardPiece.LocalPosition.y + verticalTileDistance + verticalTileOffset;
+        //			}
+        //			
+        //			newTile.LocalPosition = tileLocalPos;
+        //
+        ////			Debug.LogWarning("Spawning offboard tile at : " + tileLocalPos);
+        //			//Debug.Break();
+        //		}
+        //Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> AttachTileToBoardAt-->" + tile.name);
+        if ( !isBoardSetup && !offBoardTile ) {
 			tile.InitAfterAttachedToBoard();
 		}
 		

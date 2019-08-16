@@ -76,7 +76,7 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 		
 		immediateSpawnList = Match3BoardGameLogic.Instance.immediateSpawnList;
 		
-		boardPiece.OnTileChanged += OnBoardPieceTileChanged;
+		//boardPiece.OnTileChanged += OnBoardPieceTileChanged;
 		
 		InitComponent();
 	}
@@ -109,13 +109,12 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 	protected IEnumerator RaiseTileSpawnEventNextFrame(AbstractBoardPiece sender, AbstractTile newtile)
 	{
 		yield return null;
-		
-		OnBoardPieceTileChanged(sender, newtile);
+        OnBoardPieceTileChanged(sender, newtile);
 	}
 	
 	protected void OnBoardPieceTileChanged(AbstractBoardPiece sender, AbstractTile newTile) {
-		
-		if ((sender as Match3BoardPiece).IsBlocked)
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[TileSpawnerBehavior]" + "--> OnBoardPieceTileChanged");
+        if ((sender as Match3BoardPiece).IsBlocked)
 		{
 			StartCoroutine(RaiseTileSpawnEventNextFrame(sender, newTile));
 			return;
@@ -129,20 +128,20 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 		if (OnTileSpawnerPieceEmpty != null) {
 			OnTileSpawnerPieceEmpty(this);
 		}
-	
-//			Debug.Log(name + " => at frame: " + Time.frameCount);
+
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "???" + name + " => at frame: " + Time.frameCount + "--"+ immediateSpawnList.Count +"-count-" +tileSpawnRules.Count);
 		// Execute the next spawn rule from the list.
 		
 		if( immediateSpawnList.Count > 0 &&
 		    Match3BoardRenderer.minDelayForceSpawnRules + lastImmediateRuleSpawnTime < Time.time)
 		{
-//				Debug.LogError("ImediateSpawnList has " + immediateSpawnList.Count + " items!");
+            Logic.EventCenter.Log(LOG_LEVEL.WARN, "???" + "ImediateSpawnList has " + immediateSpawnList.Count + " items!");
 			for(int i = 0; i < immediateSpawnList.Count; i++)
 			{
-//					Debug.LogError("Checking for [i] = " + i);
+                Logic.EventCenter.Log(LOG_LEVEL.WARN, "???" + "Checking for [i] = " + i);
 				for(int j = 0; j < boardPiece.eligibleSpawnList.Count; j++)
 				{
-//						Debug.LogError("Checking for [i][j]" + i + " " + j);
+                    Logic.EventCenter.Log(LOG_LEVEL.WARN, "???" + "Checking for [i][j]" + i + " " + j);
 					if ( immediateSpawnList[i].ruleEntries[0].Equals(boardPiece.eligibleSpawnList[j]) )
 					{
 						SpawnImmediateRule(i);
@@ -160,11 +159,11 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 				currentSpawnRuleIdx = 0;
 			}
 		}
-	}
+    }
 	
 	protected void SpawnImmediateRule(int ruleIndex)
 	{
-		lastImmediateRuleSpawnTime = Time.time;
+        lastImmediateRuleSpawnTime = Time.time;
 //		immediateSpawnList[ruleIndex].SpawnNewTile();
 		SpawnNewTileInQueue(immediateSpawnList[ruleIndex]);
 		immediateSpawnList.RemoveAt(ruleIndex);
@@ -172,7 +171,8 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 	
 	protected void SpawnNewTileInQueue(TileSpawnRule spawnRule)
 	{
-		Match3Tile newTile = spawnRule.SpawnNewTile();
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "TileSpawnerBehavior --> SpawnNewTileInQueue-->");
+        Match3Tile newTile = spawnRule.SpawnNewTile();
 		newTile.LocalPosition = spawnPoint;
 		
 		// Deactivate and hide the tile until the spawn queue is processed.
@@ -190,10 +190,9 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 	{
 		Match3Tile nextTile = null;
 		Vector3 tileLocalPos = Vector3.zero;
-		
-		isSpawnQueueUpdating = true;
-		
-		while(spawnQueue.Count > 0)
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "TileSpawnerBehavior --> ProcessSpawnQueue-->");
+        isSpawnQueueUpdating = true;
+        while (spawnQueue.Count > 0)
 		{			
 			nextTile = spawnQueue.Peek();
 										
@@ -223,15 +222,16 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 				}
 
 			}
-			
-			yield return null;
+
+            yield return null;
 		}
 		
 		isSpawnQueueUpdating = false;
-	}
-	
-	#region ICustomSerializable implementation
-	public void WriteToStream (System.IO.BinaryWriter writeStream)
+
+    }
+
+    #region ICustomSerializable implementation
+    public void WriteToStream (System.IO.BinaryWriter writeStream)
 	{
 		throw new System.NotImplementedException ();
 	}

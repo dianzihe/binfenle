@@ -106,13 +106,13 @@ public abstract class Match3Tile : AbstractTile
 	/// If this is false, changing the "GravityEnabled" property won't have any effect.
 	/// </summary>
 	[SerializeField]
-	private bool gravityUpdateEnabled = true;
+	private bool gravityUpdateEnabled = false;
 	
 	/// <summary>
 	/// Flag for temporarilly disabling gravity for a tile. This property is not meant for level design usage. It's internally changed 
 	/// for example when the user is switching 2 tiles so the tiles won't start falling down.
 	/// </summary>
-	private bool gravityEnabled = true;
+	private bool gravityEnabled = false;
 	
 	// Inidicates if a tile has just moved diagonally
 	[System.NonSerialized]
@@ -178,8 +178,8 @@ public abstract class Match3Tile : AbstractTile
 	/// </summary>
 	public virtual void InitAfterAttachedToBoard()
 	{
-		// Apply editor setting to make sure this property sets up any required internal stuff like the starting/stopping the "UpdateGravity()" coroutine.
-		GravityUpdateEnabled = gravityUpdateEnabled;
+        // Apply editor setting to make sure this property sets up any required internal stuff like the starting/stopping the "UpdateGravity()" coroutine.
+        GravityUpdateEnabled = gravityUpdateEnabled;
 
 		if(OnTileInitAfterAttachedToBoard != null)
 		{
@@ -270,9 +270,9 @@ public abstract class Match3Tile : AbstractTile
 		get {
 			return gravityUpdateEnabled;
 		}
-		set {			
-			// Restart gravity checker coroutine making sure we stop any previous ones already running.
-			if (value) 
+		set {
+            // Restart gravity checker coroutine making sure we stop any previous ones already running.
+            if (value) 
 			{
 				debugGravityEnabled = false;
 				StopCoroutine("UpdateGravity");
@@ -281,13 +281,12 @@ public abstract class Match3Tile : AbstractTile
 			else 
 			{
 				debugGravityEnabled = false;
-//				Debug.LogWarning(name + " stopping gravity.");
 				StopCoroutine("UpdateGravity");
 			}
 
 			gravityUpdateEnabled = value;
-		}
-	}	
+        }
+    }	
 
 	public System.Action<AbstractTile> OnTileSwitchAnimEnded {
 		get {
@@ -478,16 +477,12 @@ public abstract class Match3Tile : AbstractTile
 	private bool debugGravityEnabled = false;
 	public IEnumerator UpdateGravity() 
 	{
-		// Safety check
-//		if (debugGravityEnabled) {
-//			Debug.LogWarning("!!! UpdateGravity coroutine started a second time for tile: " + name);
-//		}
-		
-		debugGravityEnabled = true;
+        // Safety check
+        debugGravityEnabled = true;
 		
 		while(GravityUpdateEnabled) 
 		{
-			if (!enabled || !GravityEnabled || BoardPiece == null) {
+            if (!enabled || !GravityEnabled || BoardPiece == null) {
 				yield return null;
 				
 				continue;
@@ -499,7 +494,7 @@ public abstract class Match3Tile : AbstractTile
 		}
 		
 		debugGravityEnabled = false;
-	}
+    }
 
 	/// <summary>
 	/// Passive gravity check coroutine.
@@ -509,16 +504,17 @@ public abstract class Match3Tile : AbstractTile
 	/// </returns>
 	protected IEnumerator PassiveGravityChecker() {
 		Match3BoardPiece curPiece = null;
-		
-		while(GravityUpdateEnabled) 
-		{	
-			if (!enabled || !GravityEnabled || BoardPiece == null) 
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "<Match3Tile>PassiveGravityChecker->:" + BoardPiece.name);
+        while (GravityUpdateEnabled) 
+		{
+            
+            if (!enabled || !GravityEnabled || BoardPiece == null) 
 			{
 				yield return null;
 				continue;
 			}
-						
-			debugPassiveGravity = true;
+            Logic.EventCenter.Log(LOG_LEVEL.WARN, "<Match3Tile>PassiveGravityChecker->&&&&&&&&&:" + BoardPiece.name);			
+            debugPassiveGravity = true;
 			curPiece = BoardPiece as Match3BoardPiece;
 			
 			// Check for active gravity enabling only if we're not moving and we're in a board piece that has no lock set on it.
@@ -536,26 +532,13 @@ public abstract class Match3Tile : AbstractTile
 					 curPiece.BottomRightLink.Tile == null && 
 					 (curPiece.Right == null || curPiece.Right.IsBlocked || curPiece.Right.IsOrphan)) ) 
 				{
-					
-//					if (curPiece.BoardPosition.row == 0) {
-//						Debug.LogWarning("PassiveGravity started for: " + curPiece.name + "\n" +
-//							"curPiece.BottomRightLink != null => " + (curPiece.BottomLeftLink != null) + "\n" +
-//							"!curPiece.BottomRightLink.IsBlocked => " + (!curPiece.BottomRightLink.IsBlocked) + "\n" +
-//							"curPiece.BottomRightLink.Tile == null => " + (curPiece.BottomRightLink.Tile == null) + "\n" + 
-//							"curPiece.Right == null => " + (curPiece.Right == null) + "\n" +
-//							"curPiece.Right.IsBlocked => " + (curPiece.Right.IsBlocked) + "\n" +
-//							"curPiece.Right.IsOrphan => " + (curPiece.Right.IsOrphan) + "\n");
-//						
-//						Debug.Break();
-//					}
-					
-					// Pass the control to the Active gravity checker.
-					IsMoving = true;
+                    // Pass the control to the Active gravity checker.
+                    IsMoving = true;
 					// Add the initial velocity to the current move velocity (that should be reset to zero when the tile finishes falling).
 					moveVel += initialVel;
 					tileMovedDiagonally = false;
 
-					RaiseEventTileStartedActiveGravity();
+                    RaiseEventTileStartedActiveGravity();
 					
 					break;
 				}
@@ -563,8 +546,7 @@ public abstract class Match3Tile : AbstractTile
 			
 			yield return null;
 		}
-		
-		debugPassiveGravity = false;
+        debugPassiveGravity = false;
 	}
 	
 	/// <summary>
@@ -581,11 +563,14 @@ public abstract class Match3Tile : AbstractTile
 		
 		bool waitedForOtherTile = false;
 		bool boardCoordUpdated;
-		
-		while(GravityUpdateEnabled) 
+
+        
+
+        while (GravityUpdateEnabled) 
 		{
-			// Safety check block. (especially for when a tile might be removed from the board meaning it has no BoardPiece that it doesn't belong to it.
-			if (!enabled || !GravityEnabled || BoardPiece == null) 
+            //Logic.EventCenter.Log(LOG_LEVEL.WARN, ">");
+            // Safety check block. (especially for when a tile might be removed from the board meaning it has no BoardPiece that it doesn't belong to it.
+            if (!enabled || !GravityEnabled || BoardPiece == null) 
 			{
 				yield return null;
 				continue;
@@ -597,28 +582,27 @@ public abstract class Match3Tile : AbstractTile
 			if (startingPiece == null) {
 				startingPiece = curPiece;
 			}
-			
-			fallDestination = curPiece.LocalPosition;
+            fallDestination = curPiece.LocalPosition;
 			boardCoordUpdated = false;
 			waitedForOtherTile = false;
 			bool hasReachedBoardPieceArea = HasReachedBoardPieceArea();
 			
 			// If the tile has previously moved diagonally, we must wait for it to reach it's new current board piece position first and then
 			// continue to fall down vertically.
-			if (/*hasReachedBoardPieceArea &&*/ curPiece.LockCount <= 0 && curPiece.BottomLink != null
+			if (curPiece.LockCount <= 0 && curPiece.BottomLink != null
 				&& !curPiece.BottomLink.IsBlocked && (tileMovedDiagonally && hasReachedBoardPieceArea || !tileMovedDiagonally))
 			{
-				//TODO: to the same loop check like below for the diagonal tiles to fix the bug where 2 tiles one above the other can start to move diagonally at the same time
-				if (curPiece.BottomLink.Tile == null)
+                //TODO: to the same loop check like below for the diagonal tiles to fix the bug where 2 tiles one above the other can start to move diagonally at the same time
+                if (curPiece.BottomLink.Tile == null)
 				{
-					nextPiece = curPiece.BottomLink;
+                    nextPiece = curPiece.BottomLink;
 					boardCoordUpdated = true;
 					tileMovedDiagonally = false;
 				}
 				else if (curPiece.BottomLink.Tile.IsMoving && HasTileInArea(curPiece.BottomLink.Tile as Match3Tile)) 
 				{
-					// Adopt the velocity of the moving tile in front only if it's in the vicinity of this current tile.
-					moveVel = (curPiece.BottomLink.Tile as Match3Tile).moveVel;					
+                    // Adopt the velocity of the moving tile in front only if it's in the vicinity of this current tile.
+                    moveVel = (curPiece.BottomLink.Tile as Match3Tile).moveVel;					
 				}
 			}
 			
@@ -628,18 +612,22 @@ public abstract class Match3Tile : AbstractTile
 			// Don't move sideways if we can already move vertically and until the tile has reached it's target fallDestination.
 			if ( !boardCoordUpdated && hasReachedBoardPieceArea )
 			{
-				if (curPiece.BottomLeftLink != null && !curPiece.BottomLeftLink.IsBlocked && !curPiece.BottomLeftLink.IsTileSpawner)
+                //Logic.EventCenter.Log(LOG_LEVEL.WARN, ">>>ActiveGravityChecker-***Don't move sideways if we can already move verticallyy*");
+
+                if (curPiece.BottomLeftLink != null && !curPiece.BottomLeftLink.IsBlocked && !curPiece.BottomLeftLink.IsTileSpawner)
 				{
 					if (curPiece.Left == null || curPiece.Left.IsBlocked || curPiece.Left.IsOrphan || curPiece.Left.IsTemporaryOrphan)	
 					{
-						if (curPiece.BottomLeftLink.Tile != null && curPiece.BottomLeftLink.Tile.IsMoving) 
+                        Logic.EventCenter.Log(LOG_LEVEL.WARN, "+++");
+                        if (curPiece.BottomLeftLink.Tile != null && curPiece.BottomLeftLink.Tile.IsMoving) 
 						{
 							float nextVel = initialVel;
 							bool raisedTileStoppedMoving = false;
 							
 							do
 							{
-								if ( !raisedTileStoppedMoving && UpdateTilePhysics(curPiece) ) 
+                                Logic.EventCenter.Log(LOG_LEVEL.WARN, "@@@ActiveGravityChecker--BottomLeftLink");
+                                if ( !raisedTileStoppedMoving && UpdateTilePhysics(curPiece) ) 
 								{
 									raisedTileStoppedMoving = true;
 									TileStoppedMoving(ref startingPiece);
@@ -680,14 +668,17 @@ public abstract class Match3Tile : AbstractTile
 				{
 					if (curPiece.Right == null || curPiece.Right.IsBlocked || curPiece.Right.IsOrphan || curPiece.Right.IsTemporaryOrphan)
 					{
-						if (curPiece.BottomRightLink.Tile != null && curPiece.BottomRightLink.Tile.IsMoving)
+                        Logic.EventCenter.Log(LOG_LEVEL.WARN, "++++");
+
+                        if (curPiece.BottomRightLink.Tile != null && curPiece.BottomRightLink.Tile.IsMoving)
 						{
 							float nextVel = initialVel;
 							bool raisedTileStoppedMoving = false;
 
 							do
 							{
-								if ( !raisedTileStoppedMoving && UpdateTilePhysics(curPiece) ) 
+                                Logic.EventCenter.Log(LOG_LEVEL.WARN, "@@@ActiveGravityChecker--BottomRightLink");
+                                if ( !raisedTileStoppedMoving && UpdateTilePhysics(curPiece) ) 
 								{
 									raisedTileStoppedMoving = true;
 									TileStoppedMoving(ref startingPiece);
@@ -728,8 +719,8 @@ public abstract class Match3Tile : AbstractTile
 			
 			if (boardCoordUpdated) 
 			{
-				fallDestination = nextPiece.LocalPosition;
-				curPiece.MoveTileTo(nextPiece);
+                fallDestination = nextPiece.LocalPosition;
+                curPiece.MoveTileTo(nextPiece);
 				curPiece.UpdateOrphanState();
 			}
 			
@@ -752,33 +743,28 @@ public abstract class Match3Tile : AbstractTile
 				
 				// Reset the current move velocity of the tile
 				moveVel = 0f;
-				
-				break;
+                break;
 			}
 
 			yield return null;
 		}
-		
-		debugActiveGravity = false;
+
+        debugActiveGravity = false;
 	}
 	
 	protected virtual void TileStoppedMoving(ref Match3BoardPiece startingPiece) { }
 	
 	public bool UpdateTilePhysics(Match3BoardPiece curPiece) {
-		// Update tile physics (apply gravity).
-//			if (!waitingForOtherTile) {
-		UpdateFallingTilePosition(curPiece);
+        UpdateFallingTilePosition(curPiece);
 
 		bool hasTileReachedFallDestination = HasTileReachedFallDestination(ref fallDestination);
 		if ( !hasTileReachedFallDestination ) {
 			// Update and limit tile maximum speed.
 			moveVel = Mathf.Min(moveVel + accel * Time.smoothDeltaTime, maxVel);
-		}
-		else {
+		} else {
 			LocalPosition = fallDestination;
 		}
-		
-		return hasTileReachedFallDestination;
+        return hasTileReachedFallDestination;
 	}
 	
 	/// <summary>
@@ -838,11 +824,11 @@ public abstract class Match3Tile : AbstractTile
 	}
 	
 	protected override void TileDestroy(bool useEffect) 
-	{		
-		AddScore();
+	{
+        AddScore();
 		
 		base.TileDestroy(useEffect);
-	}
+    }
 	
 	public override string ToString ()
 	{

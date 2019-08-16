@@ -63,7 +63,7 @@ public class Match3BoardPiece : AbstractBoardPiece {
 	/// through them or not depending on level design. But it can theoretically be used for other board pieces that can block tiles inside them by design.
 	/// </summary>
 	[SerializeField]
-	private bool allowTileFalling = true;
+	private bool allowTileFalling = false;
 
 	/// <summary>
 	/// The lock count indicates when any external effect or power or anything can make this board piece temporary blocked by increasing the lock count.

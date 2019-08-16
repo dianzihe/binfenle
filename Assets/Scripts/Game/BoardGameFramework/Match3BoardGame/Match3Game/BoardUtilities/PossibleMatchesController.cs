@@ -87,8 +87,9 @@ public class PossibleMatchesController : MonoBehaviour
 	/// </summary>
 	public void OnStableBoardEvent()
 	{
-//		Debug.Log("[PossibleMatchesController] OnStableBoard event received...");
-		if ( !nextHintDisplayPending ) {
+        //		Debug.Log("[PossibleMatchesController] OnStableBoard event received...");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[PossibleMatchesController] OnStableBoard event received...");
+        if ( !nextHintDisplayPending ) {
 			StartCoroutine("ShowNextHintAfterDelay", showNextHintDelay);
 		}
 	}

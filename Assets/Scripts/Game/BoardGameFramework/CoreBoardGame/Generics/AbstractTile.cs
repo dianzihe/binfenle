@@ -188,8 +188,8 @@ public abstract class AbstractTile : MonoBehaviour, ICustomSerializable {
 			return isMoving;
 		}
 		set {
-			
-			bool lastValue = isMoving;
+            Logic.EventCenter.Log(LOG_LEVEL.WARN, "AbstractTile --> IsMoving-->" + BoardPiece.name);
+            bool lastValue = isMoving;
 			isMoving = value;
 			
 			if (isMoving != lastValue) {
@@ -277,7 +277,7 @@ public abstract class AbstractTile : MonoBehaviour, ICustomSerializable {
 	/// the gameobject won't be destroyed and you could do various animations first and the manually destroy the game object.
 	/// </returns>
 	protected virtual bool PreDestroy() {
-		IsDestroying = true;
+        IsDestroying = true;
 		
 		return true;
 	}
@@ -286,8 +286,8 @@ public abstract class AbstractTile : MonoBehaviour, ICustomSerializable {
 	/// Does the actual destroying of the tile game object.
 	/// </summary>
 	protected virtual void TileDestroy(bool useEffect) {
-		// Actual destroying the gameobject.
-		if (BoardPiece) {
+        // Actual destroying the gameobject.
+        if (BoardPiece) {
 			BoardPiece.RemoveTile(this);
 		}
 		
@@ -297,20 +297,22 @@ public abstract class AbstractTile : MonoBehaviour, ICustomSerializable {
 //			}
 			Destroy(gameObject);
 		}
-	}
-	
-	/// <summary>
-	/// Destroy this tile and remove it from it's parent board piece.
-	/// Raises OnTileDestroyed event on it's parent board piece if it has one.
-	/// </summary>
-	public virtual void Destroy() {
-		if ( IsDestructible && !IsDestroying && PreDestroy()) {
-			TileDestroy(true);
+
+    }
+
+    /// <summary>
+    /// Destroy this tile and remove it from it's parent board piece.
+    /// Raises OnTileDestroyed event on it's parent board piece if it has one.
+    /// </summary>
+    public virtual void Destroy() {
+        if ( IsDestructible && !IsDestroying && PreDestroy()) {
+            TileDestroy(true);
 		}
-	}
-	
-	#region ICustomSerializable implementation
-	public virtual void WriteToStream (BinaryWriter writeStream) {
+
+    }
+
+    #region ICustomSerializable implementation
+    public virtual void WriteToStream (BinaryWriter writeStream) {
 		Debug.Log("[WriteToStream] Serializing tile " + name + ": ");
 		
 		Debug.Log("[WriteToStream] -> Tile ObjType: " + this.GetType().Name);

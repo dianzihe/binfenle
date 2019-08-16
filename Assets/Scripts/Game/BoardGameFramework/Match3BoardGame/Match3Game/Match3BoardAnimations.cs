@@ -31,9 +31,8 @@ public class Match3BoardAnimations : AbstractBoardAnimations {
 		}
 	}
 		
-	public void RaiseEventTilesSwitchAnimFinished(bool canRaiseGlobalSwitchEvent, AbstractBoardAnimations sender, AbstractTile src, AbstractTile dst) {
-		// These 2 tiles aren't animating anymore.
-		src.IsMoving = false;
+	public void RaiseEventTilesSwitchAnimFinished(bool canRaiseGlobalSwitchEvent, AbstractBoardAnimations sender, AbstractTile src, AbstractTile dst) {        // These 2 tiles aren't animating anymore.
+        src.IsMoving = false;
 		dst.IsMoving = false;
 		
 		(src as Match3Tile).GravityEnabled = true;
@@ -42,11 +41,10 @@ public class Match3BoardAnimations : AbstractBoardAnimations {
 		if (canRaiseGlobalSwitchEvent && onTilesSwitchAnimFinished != null) {
 			onTilesSwitchAnimFinished(sender, src, dst);
 		}
-	}
+    }
 	
 	public void SwitchTilesAnim(bool canRaiseGlobalSwitchEvent, Match3Tile src, Match3Tile dst, System.Action<Match3BoardAnimations, Match3Tile, Match3Tile> onAnimFinished = null) {
-//		Debug.Log("[" + this.GetType().Name + "] SwitchTilesAnim " + src.name + " -> " + dst.name);
-		src.IsMoving = true;
+ 		src.IsMoving = true;
 		dst.IsMoving = true;
 		
 		src.GravityEnabled = false;
@@ -78,10 +76,9 @@ public class Match3BoardAnimations : AbstractBoardAnimations {
 		
 		src.RaiseEventTileSwitchAnimBegan(dst);
 		dst.RaiseEventTileSwitchAnimBegan(src);
-		
-//		srcToDstAnim.Play();
-//		dstToSrcAnim.Play();
-	}
+        //		srcToDstAnim.Play();
+        //		dstToSrcAnim.Play();
+    }
 	
 	//TODO: temporary test method for intro anim
 	public void StartIntroAnim() {
