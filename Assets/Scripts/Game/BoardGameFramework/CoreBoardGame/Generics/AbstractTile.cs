@@ -188,7 +188,6 @@ public abstract class AbstractTile : MonoBehaviour, ICustomSerializable {
 			return isMoving;
 		}
 		set {
-            Logic.EventCenter.Log(LOG_LEVEL.WARN, "AbstractTile --> IsMoving-->" + BoardPiece.name);
             bool lastValue = isMoving;
 			isMoving = value;
 			

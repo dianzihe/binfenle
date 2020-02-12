@@ -18,7 +18,7 @@ public class WinStars : MonoBehaviour
 	
 	void Start () 
 	{
-		winCondition = boardLogic.winConditions as WinScore;
+		//winCondition = boardLogic.winConditions as WinScore;
 
 		UpdateStars(0);
 		manaLabel.SetActive(false);

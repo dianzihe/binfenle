@@ -57,6 +57,7 @@ public class PowerUpSmoke : MonoBehaviour {
 			fsm.transform.Translate(-Vector3.up * speed * Time.deltaTime);
 
 			light.intensity = Mathf.Lerp(light.intensity, 0.0f, 0.04f);
+			/*
 			foreach(Light l in backgroundLoader.lights) {
 				l.intensity = Mathf.Lerp(l.intensity, backgroundLoader.defaultLightIntensity, 0.04f);
 			}
@@ -67,6 +68,7 @@ public class PowerUpSmoke : MonoBehaviour {
 				}
 				fsm.gameObject.SetActive(false);
 			}
+			*/
 		}
 	}
 }

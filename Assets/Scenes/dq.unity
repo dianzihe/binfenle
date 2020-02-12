@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.003998276, g: 0.00021808657, b: 0.000000051661203,
+  m_IndirectSpecularColor: {r: 0.003998272, g: 0.00021808631, b: 0.000000051661203,
     a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -55,7 +55,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 10
     m_AtlasSize: 512
@@ -63,6 +63,7 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -77,10 +78,16 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 256
     m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -88,7 +95,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -927,7 +935,7 @@ Transform:
   m_GameObject: {fileID: 27621655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 454.2588, y: 0, z: 0}
-  m_LocalScale: {x: 0.0037664783, y: 0.0037664783, z: 0.0037664783}
+  m_LocalScale: {x: 0.004842615, y: 0.004842615, z: 0.004842615}
   m_Children:
   - {fileID: 1175666374}
   m_Father: {fileID: 0}
@@ -1723,6 +1731,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4184,9 +4193,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -4241,7 +4251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4273,7 +4283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 104
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: f23b26f8e90aa46749f125f44ac7e63c, type: 3}
       propertyPath: mMat
@@ -4464,9 +4474,10 @@ Camera:
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -12179,7 +12190,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3042
+  startingRenderQueue: 3005
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -12382,7 +12393,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 180
   mHeight: 180
-  mDepth: 1
+  mDepth: 10
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
@@ -12536,9 +12547,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -12673,7 +12685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395297901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11, y: -30, z: -15}
+  m_LocalPosition: {x: 11, y: -44, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1289054254}
@@ -12739,19 +12751,19 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.38062286, g: 0.9411765, b: 0.43087938, a: 1}
   mPivot: 0
-  mWidth: 100
-  mHeight: 100
+  mWidth: 196
+  mHeight: 38
   mDepth: 7
   mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 5.1578946
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 9,949,605
-  mFontSize: 16
+  mFontSize: 36
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -12805,7 +12817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401810058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -780, y: -133, z: -15}
+  m_LocalPosition: {x: -786, y: -112, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 219203286}
@@ -12870,19 +12882,19 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.38062286, g: 0.9411765, b: 0.43087938, a: 1}
   mPivot: 5
-  mWidth: 100
-  mHeight: 100
+  mWidth: 82
+  mHeight: 40
   mDepth: 7
   mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 2.05
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: '100 '
-  mFontSize: 16
+  mFontSize: 36
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -13360,7 +13372,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448886690}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 642392249}
@@ -14526,9 +14538,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -16175,7 +16188,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3042
+  startingRenderQueue: 3027
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -16259,7 +16272,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3043
+  startingRenderQueue: 3028
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -16467,9 +16480,10 @@ Camera:
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -16835,7 +16849,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3048
+  startingRenderQueue: 3033
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -16937,24 +16951,24 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.38062286, g: 0.9411765, b: 0.43087938, a: 1}
   mPivot: 0
-  mWidth: 100
-  mHeight: 100
+  mWidth: 74
+  mHeight: 30
   mDepth: 7
   mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 2.4666667
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: 100
-  mFontSize: 16
+  mFontSize: 32
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
   mMaxLineCount: 1
-  mEffectStyle: 2
+  mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
@@ -17003,7 +17017,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686662250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -155, y: -30, z: -15}
+  m_LocalPosition: {x: -125, y: -22, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 219203286}
@@ -17066,19 +17080,19 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.38062286, g: 0.9411765, b: 0.43087938, a: 1}
   mPivot: 4
-  mWidth: 128
-  mHeight: 100
+  mWidth: 276
+  mHeight: 36
   mDepth: 7
   mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.28
+  aspectRatio: 7.6666665
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: 'Target: 160,000'
-  mFontSize: 16
+  mFontSize: 32
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -17206,7 +17220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &726078971
 Transform:
   m_ObjectHideFlags: 0
@@ -17283,9 +17297,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.4901961, g: 0.4901961, b: 0.4901961, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -19119,7 +19134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893600557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -315, y: 383, z: 0}
+  m_LocalPosition: {x: -735, y: 385, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1140460666}
@@ -19160,7 +19175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &894862136
 Transform:
   m_ObjectHideFlags: 0
@@ -19419,6 +19434,7 @@ MonoBehaviour:
   match3Board: {fileID: 651253431}
   unstableLock: 0
   immediateSpawnList: []
+  dqTileSpawner: {fileID: 0}
   OnLosePending:
     eventName: OnBoardLosePending
     targets:
@@ -19933,7 +19949,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013732500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 645481466}
@@ -20094,9 +20110,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -24791,9 +24808,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -25522,7 +25540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158907032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 48, y: 35, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1018140158}
@@ -25561,7 +25579,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 100
   mHeight: 90
-  mDepth: 2
+  mDepth: 12
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
@@ -31704,9 +31722,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -32003,9 +32022,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -32720,6 +32740,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -32765,7 +32786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284017159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118, y: -145, z: -3}
+  m_LocalPosition: {x: 118, y: -140, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 894862136}
@@ -32802,14 +32823,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 128
-  mHeight: 128
+  mWidth: 42
+  mHeight: 40
   mDepth: 8
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 1.05
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -37321,7 +37342,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3049
+  startingRenderQueue: 3037
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -37378,7 +37399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289054253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -315, y: 383, z: 0}
+  m_LocalPosition: {x: -735, y: 385, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2006549256}
@@ -37978,7 +37999,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
       propertyPath: mText
-      value: 
+      value: 'Congratulations,You
+
+        unlocked Pabbie and
+
+        his Troll Magic!'
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
       propertyPath: mMaxLineCount
@@ -37986,31 +38011,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
       propertyPath: mEffectStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: mWidth
+      value: 344
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: mHeight
+      value: 152
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: aspectRatio
+      value: 2.2631578
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: mFontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400008, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400008, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
+    - target: {fileID: 400002, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -85
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
+      propertyPath: m_LocalPosition.z
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 572d11437b283304590d5c41aa8747dc, type: 3}
       propertyPath: mWidth
@@ -39742,7 +39795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406941855}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -768, y: -102, z: -15}
+  m_LocalPosition: {x: -767, y: -71, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 219203286}
@@ -39807,21 +39860,21 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.38062286, g: 0.9411765, b: 0.43087938, a: 1}
   mPivot: 5
-  mWidth: 100
-  mHeight: 100
+  mWidth: 101
+  mHeight: 38
   mDepth: 7
   mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 2.6578948
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: b330ed1c7b536cc4684a6c734ce4a229, type: 3}
   mText: 'Moves
 
 '
-  mFontSize: 16
+  mFontSize: 36
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -39914,9 +39967,10 @@ Camera:
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -40220,9 +40274,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -40329,7 +40384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40377,7 +40432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: mDepth
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: mMat
@@ -40390,7 +40445,7 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: mText
-      value: 
+      value: chongxinlai
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: mMaxLineCount
@@ -40400,6 +40455,18 @@ PrefabInstance:
       propertyPath: mEffectStyle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
+      propertyPath: mHeight
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
+      propertyPath: aspectRatio
+      value: 3.7083333
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
+      propertyPath: mWidth
+      value: 178
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -40407,6 +40474,14 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4808cc2e3a156684092a17d645f82987, type: 3}
@@ -40664,6 +40739,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -40786,7 +40862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40834,7 +40910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: mDepth
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: mMat
@@ -40847,7 +40923,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11400000, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: mText
-      value: 
+      value: 'Too Bad!
+
+        Cool Job!'
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: mMaxLineCount
@@ -40855,7 +40933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: mEffectStyle
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b53f093f92d95c44b2b397ee4934ed3, type: 3}
       propertyPath: m_LocalScale.x
@@ -41605,9 +41683,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -42104,9 +42183,10 @@ Camera:
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -42195,11 +42275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 11400044, guid: 4e1ae0ad329a7e4438383b7af99e4f10, type: 3}
       propertyPath: m_infoToggle
@@ -43379,6 +43459,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -43939,6 +44020,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -44093,9 +44175,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -44214,9 +44297,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -47571,6 +47655,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -53454,6 +53539,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -53531,15 +53617,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.001607717
+      value: 0.001953125
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.001607717
+      value: 0.001953125
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.001607717
+      value: 0.001953125
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 5f33a083581fe4ad8b341df43948c69e, type: 3}
       propertyPath: gameCamera
@@ -53862,12 +53948,13 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954164691}
   m_Enabled: 1
-  serializedVersion: 8
+  serializedVersion: 9
   m_Type: 1
   m_Color: {r: 0.59249496, g: 1, b: 0.39705884, a: 1}
   m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -53877,6 +53964,24 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -53884,12 +53989,15 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &1954698100
@@ -56156,7 +56264,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 1
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 7
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -57836,19 +57944,19 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.38062286, g: 0.9411765, b: 0.43087938, a: 1}
   mPivot: 0
-  mWidth: 100
-  mHeight: 100
+  mWidth: 154
+  mHeight: 37
   mDepth: 7
   mMat: {fileID: 2100000, guid: 5c3b53aace4671b42a90ba055a5d1dbe, type: 3}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 4.1621623
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 52675d200563d4504bce5bd86b8822c2, type: 3}
   mText: Score
-  mFontSize: 16
+  mFontSize: 36
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1

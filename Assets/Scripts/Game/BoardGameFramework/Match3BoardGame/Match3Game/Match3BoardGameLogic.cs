@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Holoville.HOTween;
 using Logic;
 
-public enum TileMoveDirection
+public enum TileMoveDirection : int
 {
     Left = 0,
     Top,
@@ -30,6 +30,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
     /// Occurs when matches are found and they are destroyed.
     /// </summary>
     public static event System.Action OnDestroyLastFoundMatches;
+    public static TileMoveDirection onMoveDirection;
 
     /// <summary>
     /// Occurs when the user started a tiles switch.
@@ -76,17 +77,17 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
 
     //List of imediate spawn rules that need to be picked up asap by the spawners
     public List<TileSpawnRule> immediateSpawnList = new List<TileSpawnRule>(10);
-
+    public DQTileSpawnerBehavior dqTileSpawner = new DQTileSpawnerBehavior();
     protected WaitForEndOfFrame waitEndFrame;
 
     private bool isGameOver = false;
 
-    public GameObjectEvent OnLosePending = new GameObjectEvent(null, "SendFsmEvent", "OnBoardLosePending");
-    public GameObjectEvent OnLoseFinished = new GameObjectEvent(null, "SendFsmEvent", "OnBoardLoseFinished");
-    public GameObjectEvent OnWinPending = new GameObjectEvent(null, "SendFsmEvent", "OnBoardWinPending");
-    public GameObjectEvent OnWinFinished = new GameObjectEvent(null, "SendFsmEvent", "OnBoardWinFinished");
-    public GameObjectEvent OnFreeFall = new GameObjectEvent(null, "SendFsmEvent", "OnBoardFreeFall");
-    public GameObjectEvent OnGameOver = new GameObjectEvent(null, "SendFsmEvent", "OnGameOver");
+    public GameObjectEvent OnLosePending    = new GameObjectEvent(null, "SendFsmEvent", "OnBoardLosePending");
+    public GameObjectEvent OnLoseFinished   = new GameObjectEvent(null, "SendFsmEvent", "OnBoardLoseFinished");
+    public GameObjectEvent OnWinPending     = new GameObjectEvent(null, "SendFsmEvent", "OnBoardWinPending");
+    public GameObjectEvent OnWinFinished    = new GameObjectEvent(null, "SendFsmEvent", "OnBoardWinFinished");
+    public GameObjectEvent OnFreeFall       = new GameObjectEvent(null, "SendFsmEvent", "OnBoardFreeFall");
+    public GameObjectEvent OnGameOver       = new GameObjectEvent(null, "SendFsmEvent", "OnGameOver");
 
     /// <summary>
     /// List of Match3BoardPieces that act as spawners for the current level.
@@ -254,6 +255,18 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
         }
     }
 
+    public int getDQMoveDirection
+    {
+        get
+        {
+            return (int)onMoveDirection;
+        }
+        set
+        {
+            onMoveDirection = (TileMoveDirection)value;
+        }
+    }
+
     public bool IsGameOver
     {
         get
@@ -335,18 +348,13 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
     /// </param>
     public void SetBoardEnabledState(bool isEnabled)
     {
-        System.Console.WriteLine("[Match3BoardGameLogic] -> SetBoardEnabledState->");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardGameLogic] -> SetBoardEnabledState->" + isEnabled);
         // Pause/Resume possible matches controller
-        if (isEnabled)
-        {
+        if (isEnabled) {
             PossibleMatchesController.Instance.EnabledCount++;
-        }
-        else
-        {
+        } else {
             PossibleMatchesController.Instance.EnabledCount--;
         }
-
-        //		PossibleMatchesController.Instance.enabled = isEnabled;
 
         // Pause/Resume lose and win conditions controllers
         if (loseConditions != null)
@@ -365,13 +373,17 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
             if (boardPiece.Tile != null)
             {
                 boardPiece.Tile.enabled = isEnabled;
+                //Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardGameLogic] -> SetBoardEnabledState->" + boardPiece.name + isEnabled);
             }
-
+            
             TileSpawnerBehavior tileSpawner = boardPiece.GetComponent<TileSpawnerBehavior>();
-            if (tileSpawner != null)
-            {
+            if (tileSpawner != null){
+                Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardGameLogic] -> SetBoardEnabledState->tileSpawner->" + boardPiece.name + ":" + isEnabled);
+
                 tileSpawner.enabled = isEnabled;
+            }else {
             }
+            
         });
     }
 
@@ -391,7 +403,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
             OnStartGame();
         }
 
-        TryCheckStableBoard();
+        //TryCheckStableBoard();
     }
 
     public void SetLevelStartAnalyticTimeEvent(bool levelFinished = false)
@@ -555,6 +567,10 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
         // -> update board state (check all tiles that should be falling and set them to fall and let them update their positions until they stop
 
         //BoardCoord offsetDir = tilesMoveDirections[(int)moveDirection];
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardGameLogic] Drag event started! Start Selection: -> totalMove = " + moveDirection);
+        
+        //CheckForMoves();
+        return true;
         BoardCoord targetBoardPos = tile.BoardPiece.BoardPosition;
 
         if (OnTryingToMoveTile != null)
@@ -567,8 +583,58 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
 
         //		Debug.Log("[Match3BoardGameLogic] BeginMoveTile " + tile.name + " -> from: " + tile.BoardPiece.BoardPosition + 
         //			" to " + (tile.BoardPiece.BoardPosition.row + offsetDir.row)  + ", " + (tile.BoardPiece.BoardPosition.col + offsetDir.col));
-
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardGameLogic]Drag event started! Start Selection: -> totalMove = " + moveDirection + "end");
         return TryToMoveTile(tile, boardData[targetBoardPos].Tile);
+    }
+
+
+
+
+    public void DestroyFoundMatches()
+    {
+        bool foundMatches = matchesFinder.FindMatches();
+
+        bool matchesFound = matchesFinder.lastFoundMatches.Count > 0;
+
+        for (int i = 0; i < matchesFinder.lastFoundMatches.Count; i++)
+        {
+            matchesFinder.lastFoundMatches[i].Destroy();
+        }
+
+        if (matchesFound)
+        {
+            ScoreSystem.Instance.IncreaseMultiplier();
+
+            if (OnDestroyLastFoundMatches != null)
+            {
+                OnDestroyLastFoundMatches();
+            }
+
+            TryCheckStableBoard();
+        }
+    }
+    public bool CheckForMoves(TileMoveDirection moveDirection)
+    {
+        //Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardGameLogic] CheckForMoves ");
+        onMoveDirection = moveDirection;
+        
+        /*
+        if (tiles.Count < rows * cols)
+        {
+            return true;
+        }
+        */
+
+        if (moveDirection == TileMoveDirection.Left) { matchesFinder.FindDQ2MatchesLeft(); }
+        else if (moveDirection == TileMoveDirection.Right) { matchesFinder.FindDQ2MatchesRight(); }
+        else if (moveDirection == TileMoveDirection.Bottom) { matchesFinder.FindDQ2MatchesDown(); }
+        else if (moveDirection == TileMoveDirection.Top) { matchesFinder.FindDQ2MatchesUp(); }
+
+        DestroyLastFoundMatches();
+
+        //dqTileSpawner.OnBoardPieceTileChanged(targetBoardPiece, );
+
+        return false;
     }
 
     public override void TileMoving(AbstractTile targetTile)
@@ -584,6 +650,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
     public void OnTilesSwitchAnimFinished(AbstractBoardAnimations sender, AbstractTile srcTile, AbstractTile dstTile)
     {
         //		Debug.Log("Switch anim finished!");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "OnTilesSwitchAnimFinished");
         // Update the board positions of the animated tiles (update the board logic after the animation finishes).
         boardData.SwitchTiles(srcTile, dstTile);
 
@@ -640,35 +707,87 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
         }
 
         DestroyLastFoundMatches();
+
     }
 
     public void DestroyLastFoundMatches()
     {
-        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> DestroyLastFoundMatches");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> DestroyLastFoundMatches" + matchesFinder.lastFoundMatches);
         bool matchesFound = matchesFinder.lastFoundMatches.Count > 0;
 
         for (int i = 0; i < matchesFinder.lastFoundMatches.Count; i++)
         {
+            AbstractBoardPiece chosen = matchesFinder.lastFoundMatches[i].BoardPiece;
+            Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> DestroyLastFoundMatches->" + matchesFinder.lastFoundMatches[i].name);
             matchesFinder.lastFoundMatches[i].Destroy();
+            if (i % 2 == 0) {
+                Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> DestroyLastFoundMatches-> i:" + i);
+                (boardRenderer as Match3BoardRenderer).SpawnTileAt(chosen.BoardPosition, false, true, true);
+            }
         }
 
-        if (matchesFound)
-        {
+        if (matchesFound) {
             ScoreSystem.Instance.IncreaseMultiplier();
 
-            if (OnDestroyLastFoundMatches != null)
-            {
+            if (OnDestroyLastFoundMatches != null) {
                 OnDestroyLastFoundMatches();
             }
 
             TryCheckStableBoard();
         }
 
+        List<AbstractBoardPiece> allTriggers = new List<AbstractBoardPiece>(65);
+        allTriggers.Clear();
+
+        boardData.ApplyActionToAll((boardPiece) =>
+        {
+            Match3Tile tile = boardPiece.Tile as Match3Tile;
+            if (tile == null) {
+                allTriggers.Add(boardPiece);
+            }
+         });
+
+        if (allTriggers.Count > 0)
+        {
+            int index = Random.Range(0, allTriggers.Count);
+            AbstractBoardPiece chosen = allTriggers[index];
+            allTriggers.RemoveAt(index);
+            (boardRenderer as Match3BoardRenderer).SpawnTileAt(chosen.BoardPosition, false, true, true);
+
+            IsBoardStable = false;
+        }
+
+        NormalTile tileIterator;
+        for (int rowIdx = 0; rowIdx < boardData.NumRows; rowIdx++)
+        {
+            for (int colIdx = 0; colIdx < boardData.NumColumns; colIdx++)
+            {
+                tileIterator = boardData[rowIdx, colIdx].Tile as NormalTile;
+
+                if (tileIterator != null)
+                {
+                    //Logic.EventCenter.Log(LOG_LEVEL.WARN, "CheckForMoves --> [" + rowIdx + "," + colIdx + "]-->["+ tileIterator.IsMoving + "," + tileIterator.IsTileSwitching + "," + tileIterator.IsDestroying  + "]");
+                    tileIterator.GravityUpdateEnabled = true;
+                    tileIterator.GravityEnabled = true;
+                    tileIterator.enabled = true;
+
+                    if (tileIterator.IsMoving || tileIterator.IsTileSwitching || tileIterator.IsDestroying)
+                    {
+                        break;
+                    }
+                    else if (tileIterator is TimeBombTile || tileIterator.IsFrozen())
+                    {
+                        //hasDelayedActionInProgress = true;
+                    }
+                }
+            }
+        }
+
     }
 
     public void OnTileMovingChanged(AbstractTile tile)
     {
-        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> OnTileMovingChanged-->" + tile.BoardPiece.name);
+        //Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> OnTileMovingChanged-->" + tile.BoardPiece.name);
         if (!tile.IsMoving)
         {
             TryCheckStableBoard();
@@ -703,7 +822,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
 
     public void TryCheckStableBoard()
     {
-        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> TryCheckStableBoard-->");
+        //Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> TryCheckStableBoard-->");
         if (!IsCheckingStableBoard)
         {
             StartCoroutine(CheckStableBoard());
@@ -716,7 +835,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
         IsCheckingStableBoard = true;
 
         yield return waitEndFrame;
-        Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> CheckStableBoard-->");
+        //Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> CheckStableBoard-->");
         bool stable = false;
         float waitTime = 0.3f;
         bool hasDelayedActionInProgress = false;
@@ -747,7 +866,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
                             {
                                 stable = false;
                                 IsBoardStable = false;
-                                Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> 1");
+                                //Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardGameLogic --> 1");
                                 break;
                             }
                             else if (tileIterator is TimeBombTile || tileIterator.IsFrozen())
@@ -775,14 +894,14 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
                 {
                     waitTime = 0.3f;
                 }
-
+				/*
                 if (matchesFinder.FindMatches())
                 {
                     DestroyLastFoundMatches();
                     stable = false;
                     waitTime = 0.3f;
                 }
-
+				*/
                 // Exit the loop now while we're out of waitTime and the board is stable; not the next frame at the end of this while because things
                 // can start changing in one frame. (like a directional combine + bomb switch can be put in motion)
                 if (waitTime < 0f)
@@ -793,7 +912,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
             else
             {
                 waitTime = 0.3f;
-                Logic.EventCenter.Log(LOG_LEVEL.WARN, "...Reset 3: " + Time.frameCount);
+                //Logic.EventCenter.Log(LOG_LEVEL.WARN, "...Reset 3: " + Time.frameCount);
             }
 
             //TODO: we're trying at every frame because there were some issues when OnStableBoard was being called during certain events on the table.
@@ -801,7 +920,7 @@ public class Match3BoardGameLogic : AbstractBoardGameLogic
 
             yield return waitEndFrame;
 
-            Logic.EventCenter.Log(LOG_LEVEL.WARN, "...CheckStableBoard!!->" );
+            //Logic.EventCenter.Log(LOG_LEVEL.WARN, "...CheckStableBoard!!->" );
         }
         
         IsCheckingStableBoard = false;

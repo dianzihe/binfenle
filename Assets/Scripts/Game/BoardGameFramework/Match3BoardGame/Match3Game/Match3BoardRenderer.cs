@@ -218,79 +218,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
         Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> SetupBoardRendering-->" + autoGenerateRandom);
         Vector3 boardPiecePos = Vector3.zero;
 		
-		if (autoGenerateRandom) {
-			Board.ApplyActionToRow(0, (boardPiece) => { 
-	//			(boardPiece as Match3BoardPiece).IsTileSpawner = true;
-				boardPiece.gameObject.AddComponent<TileSpawnerBehavior>();
-			});
-
-			//TODO: ======BEGIN TESTING GROUND FOR CODE-GENERATED BOARD CONFIGURATIONS======
-	//		BombTile bombTile = SpawnSpecificTileAt(1, 3, typeof(BombTile), TileColorType.None, false) as BombTile;
-	//		bombTile.TileColor = TileColorType.Orange;
-	//		bombTile.UpdateMaterial();
-	//
-	//		RowDestroyTile rowTile = SpawnSpecificTileAt(2, 3, typeof(RowDestroyTile), TileColorType.None, false) as RowDestroyTile;
-	//		rowTile.TileColor = TileColorType.Blue;
-	//		rowTile.UpdateMaterial();
-			if (MaleficentBlackboard.Instance.level == 0) {
-				SpawnBoardPiece(3, 2, typeof(LayeredBoardPiece));
-				SpawnBoardPiece(3, 3, typeof(LayeredBoardPiece));
-				SpawnBoardPiece(3, 4, typeof(LayeredBoardPiece));
-				SpawnBoardPiece(3, 5, typeof(LayeredBoardPiece));
-				
-//				SpawnSpecificTileAt(3, 3, typeof(DropTile), TileColorType.Red, false);
-//				SpawnSpecificTileAt(3, 4, typeof(DropTile), TileColorType.Green, false);
-				SpawnSpecificTileAt(4, 1, typeof(SnowTile), TileColorType.None, false, true);
-				SpawnSpecificTileAt(5, 2, typeof(SnowTile), TileColorType.None, false, true);
-				SpawnSpecificTileAt(5, 5, typeof(SnowTile), TileColorType.None, false, true);
-				SpawnSpecificTileAt(4, 6, typeof(SnowTile), TileColorType.None, false, true);
-			}
-	
-			if (MaleficentBlackboard.Instance.level == 1) {
-				SpawnSpecificTileAt(4, 1, typeof(LockedTile), (TileColorType)Random.Range(1, (int)TileColorType.Count), false, true);
-				SpawnSpecificTileAt(5, 2, typeof(LockedTile), (TileColorType)Random.Range(1, (int)TileColorType.Count), false, true);
-				SpawnSpecificTileAt(5, 5, typeof(LockedTile), (TileColorType)Random.Range(1, (int)TileColorType.Count), false, true);
-				SpawnSpecificTileAt(4, 6, typeof(LockedTile), (TileColorType)Random.Range(1, (int)TileColorType.Count), false, true);
-			}
-			else if (MaleficentBlackboard.Instance.level == 2) {
-//				Match3BoardGameLogic.Instance.boardBackground.renderer.material.SetTexture("_AlphaMask", Resources.Load("Test/board_ice_mask_02") as Texture);
-				SpawnBoardPiece(2, 3, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(2, 4, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 2, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 3, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 4, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 5, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(4, 2, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(4, 3, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(4, 4, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(4, 5, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(5, 3, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(5, 4, typeof(EmptyBoardPiece));
-			}
-			else if (MaleficentBlackboard.Instance.level == 3) {
-//				Match3BoardGameLogic.Instance.boardBackground.renderer.material.SetTexture("_AlphaMask", Resources.Load("Test/board_ice_mask_01") as Texture);
-				
-				SpawnBoardPiece(4, 1, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(2, 1, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 1, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 2, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(4, 6, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(2, 6, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 6, typeof(EmptyBoardPiece));
-				SpawnBoardPiece(3, 5, typeof(EmptyBoardPiece));
-				
-				(Board[4, 1] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[2, 1] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[3, 1] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[3, 2] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[4, 6] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[2, 6] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[3, 6] as Match3BoardPiece).AllowTileFalling = false;
-				(Board[3, 5] as Match3BoardPiece).AllowTileFalling = false;
-			}
-			//TODO: ======END TESTING GROUND FOR CODE-GENERATED BOARD CONFIGURATIONS======
-		}
-		
 		// Determine the board pieces neighbors and logical links.
 		DetermineBoardLinksAndNeighbors();
 		
@@ -311,33 +238,10 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 				}
 				
 				boardPiece.LocalPosition = boardPiecePos;
-
-
-                /*
-                if (autoGenerateRandom) 
-				{
-					//TODO: Fallback for the old method of level generation. This should be removed at some point....or not...
-					if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece && boardPiece.Tile == null && rowIdx < Board.NumRows - 3) {
-						SpawnTileAt(rowIdx, colIdx, false, true, true);
-					}
-				}
-				else 
-				{
-					if (!boardPiece.IsEmpty && !boardPiece.IsBorderPiece) 
-					{
-						// Only override this flag if it hasn't been already set to true.
-						if ( !boardPiece.initialTileSpawnRule.isTileIgnoredByAntiMatchSystems ) {
-							boardPiece.initialTileSpawnRule.isTileIgnoredByAntiMatchSystems = boardPiece.initialTileSpawnRule.ShouldSpawnedTileIgnoreAntiMatchSystems();
-						}
-						
-						boardPiece.ExecuteInitialSpawnRule();
-					}
-				}
-                */
 			}
         }
-        SpawnTileAt(3, 4, false, true, true);
-        SpawnTileAt(4, 3, false, true, true);
+        SpawnTileAt(1, 4, false, true, true);
+        SpawnTileAt(6, 3, false, true, true);
 
         // Attach the board tiles to the board pieces to trigger corresponding board events and initialize tiles.
         InitBoardTiles();
@@ -378,7 +282,6 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 		}
 //		matchesUndoer.OnNewTileSpawned = null;
 //		possibleMatchGenerator.OnNewTileSpawned = null;
-
 		
 		List<Match3Tile> tilesToInitAfterBoardAttach = new List<Match3Tile>(32);
 		
@@ -674,36 +577,13 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 		}
 		else 
 		{
-			targetBoardPiece.Tile = tile;
-			
-//			if (targetBoardPiece.BottomLink != null && targetBoardPiece.BottomLink.Tile != null && targetBoardPiece.BottomLink.Tile.IsMoving) {
-//				Match3Tile nextTile = targetBoardPiece.BottomLink.Tile as Match3Tile;
-//				newTile.moveVel = Mathf.Clamp(nextTile.moveVel - newTile.initialVel, -newTile.initialVel, newTile.maxVel);
-//			}
+			targetBoardPiece.Tile = tile;		
 		}
         Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> AttachTileToBoardAt-->" + tile.name + "==" + targetBoardPiece.name);
         if (resetTilePosition) {
 			targetBoardPiece.ResetTilePosition();
 		}
 
-        //		if (offBoardTile) 
-        //		{
-        //			Match3BoardPiece bottomLinkPiece = targetBoardPiece.BottomLink;
-        //			Vector3 tileLocalPos = newTile.LocalPosition;
-        //			
-        //			if (bottomLinkPiece != null && bottomLinkPiece.Tile != null && bottomLinkPiece.LocalPosition.y < bottomLinkPiece.Tile.LocalPosition.y) 
-        //			{
-        //				tileLocalPos.y = bottomLinkPiece.Tile.LocalPosition.y + verticalTileDistance + verticalTileOffset;
-        //			}
-        //			else {
-        //				tileLocalPos.y = targetBoardPiece.LocalPosition.y + verticalTileDistance + verticalTileOffset;
-        //			}
-        //			
-        //			newTile.LocalPosition = tileLocalPos;
-        //
-        ////			Debug.LogWarning("Spawning offboard tile at : " + tileLocalPos);
-        //			//Debug.Break();
-        //		}
         //Logic.EventCenter.Log(LOG_LEVEL.WARN, "Match3BoardRenderer --> AttachTileToBoardAt-->" + tile.name);
         if ( !isBoardSetup && !offBoardTile ) {
 			tile.InitAfterAttachedToBoard();
@@ -711,7 +591,7 @@ public class Match3BoardRenderer : AbstractBoardRenderer {
 		
 		return targetBoardPiece;
 	}
-		
+
 #if UNITY_EDITOR
 	private float lastHorizTileDistance = Mathf.Infinity;
 	private float lastHorizTileOffset = Mathf.Infinity;

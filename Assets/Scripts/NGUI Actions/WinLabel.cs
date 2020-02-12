@@ -9,12 +9,12 @@ public class WinLabel : MonoBehaviour
 	void Start () 
 	{
 		label = GetComponent<UILabel>();
-		label.text = gameLogic.winConditions.GetWinString();
+		//label.text = gameLogic.winConditions.GetWinString();
 	}
 	
 	void Update () 
 	{
-		label.text = gameLogic.winConditions.GetWinString();
+		//label.text = gameLogic.winConditions.GetWinString();
 	}
 }
 

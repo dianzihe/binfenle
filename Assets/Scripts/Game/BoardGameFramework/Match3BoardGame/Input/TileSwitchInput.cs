@@ -102,19 +102,26 @@ public class TileSwitchInput : MonoBehaviour
 		}
 		
 		// Check if we've selected any tile.
-		if (eventData.StartSelection != null && eventData.StartSelection.layer == Match3Globals.Instance.layerBoardTile) {
-			if (eventData.Phase == ContinuousGesturePhase.Started) {
+		if (eventData.StartSelection != null /*&& eventData.StartSelection.layer == Match3Globals.Instance.layerBoardTile*/) {
+            //Logic.EventCenter.Log(LOG_LEVEL.WARN, "-----------");
+            if (eventData.Phase == ContinuousGesturePhase.Started) {
 				// Cancel the tap selected tile if we've done a drag gesture.
 				tapSelectedTile = null;
 				
 				AbstractTile dragSelectedTile = eventData.StartSelection.GetComponent<AbstractTile>();
 				TileMoveDirection moveDirection = Match3BoardGameLogic.GetTileMoveDirection(eventData.TotalMove);
-				
+                Logic.EventCenter.Log(LOG_LEVEL.WARN, "Drag event started! Start Selection: -> totalMove = " + moveDirection);
+				boardGameLogic.CheckForMoves(moveDirection);
+				return;
 				if (InputFilter == null || InputFilter(dragSelectedTile, null, moveDirection)) {
-//					Debug.Log("Drag event started! Start Selection: " + eventData.StartSelection + " -> totalMove = " + eventData.TotalMove);
+                    //Debug.Log("Drag event started! Start Selection: " + eventData.StartSelection + " -> totalMove = " + eventData.TotalMove);
+                    //Logic.EventCenter.Log("Drag event started! Start Selection: " + eventData.StartSelection + " -> totalMove = " + eventData.TotalMove);
+                    /*
 					if (boardGameLogic.TryToMoveTile(dragSelectedTile, moveDirection)) {
 						//boardGameLogic.loseConditions.NewMove();
 					}
+					*/
+					
 				}
 			}
 		}

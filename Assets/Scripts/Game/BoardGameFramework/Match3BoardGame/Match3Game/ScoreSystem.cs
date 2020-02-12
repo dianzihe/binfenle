@@ -244,6 +244,7 @@ public class ScoreSystem : MonoBehaviour
 	
 	public int AddScore(int newScore, bool multiplied = true)
 	{
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[ScoreSystem] AddScore ");
 		int earnedPoints = newScore + (multiplied ? TweaksSystem.Instance.intValues["MultipliedScore"] * (multiplier - 1) : 0);
 		Score += earnedPoints;
 		return earnedPoints;

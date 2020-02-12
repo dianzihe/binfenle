@@ -3,12 +3,13 @@
 --- !u!1 &100000
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
   m_Layer: 0
   m_Name: YellowPixieDust
   m_TagString: Untagged
@@ -18,27 +19,31 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 443.86911, y: -30.8850288, z: 0}
+  m_LocalPosition: {x: 443.8691, y: -30.885029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de9e6940339144d6d9621947e25aa4db, type: 3}
+  m_Script: {fileID: 11500000, guid: e89d34dde41362243acb1b940a1589d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 100010, guid: 6070cc46b02924c9abb8a8717a610e87, type: 2}
+  effectPrefab: {fileID: 100010, guid: 6070cc46b02924c9abb8a8717a610e87, type: 3}
   effectPosition: {fileID: 0}
   effectOffset: {x: 0, y: 0, z: 0}
   nameSingularKey: YELLOW_PIXIE_DUST_POWER_UP
@@ -46,24 +51,12 @@ MonoBehaviour:
   iconName: powerups_yellowdust
   defaultManaPointsCost: 10
   unlockLevel: 7
-  unlockTextKey: YELLOW_PIXIE_DUST_UNLOCK_KEY
+  unlockTextKey: YELLOW_PIXIE_DUST_UNKOCK_KEY
   canBeCancelled: 0
   useItemDelay: 1
   tweaksSystemCostId: YellowPixieDustCost
-  animState: Use Yellow Pixie Dust
+  animState: Use Power Up
   m_strPropertyCostID: YellowPixieDustCost_Prop_Cost
   m_ndefaultPropertyCost: 1
   m_strPropertyName: YellowPixieDustCost_Prop_Count
   extraMoves: 5
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
-  m_IsExploded: 1

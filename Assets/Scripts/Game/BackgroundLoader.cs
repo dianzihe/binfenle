@@ -11,7 +11,7 @@ public class BackgroundLoader : MonoBehaviour
 	void Start() {
 		lights = new Light[2];
 
-		GameObject bgLandscape = GameObject.Instantiate(Resources.Load("Game/Backgrounds/Landscape/BGLandscape_" + MaleficentBlackboard.Instance.levelBg.ToString("000"))) as GameObject;
+		GameObject bgLandscape = GameObject.Instantiate(Resources.Load("Game/Backgrounds/Landscape/BGLandscape_001")) as GameObject;
 		if(OrientationListener.IsInstantiated())
 			OrientationListener.Instance.activateOnLandscape.Add(bgLandscape);
 		lights[0] = bgLandscape.GetComponentInChildren< Light >();
@@ -19,7 +19,7 @@ public class BackgroundLoader : MonoBehaviour
 		bgLandscape.SetActive(Screen.width > Screen.height);
 		bgLandscape.transform.parent = transform;
 
-		GameObject bgPortrait = GameObject.Instantiate(Resources.Load("Game/Backgrounds/Portrait/BGPortrait_" + MaleficentBlackboard.Instance.levelBg.ToString("000"))) as GameObject;
+		GameObject bgPortrait = GameObject.Instantiate(Resources.Load("Game/Backgrounds/Portrait/BGPortrait_001" )) as GameObject;
 		if(OrientationListener.IsInstantiated())
 			OrientationListener.Instance.activateOnPortrait.Add(bgPortrait);
 		lights[1] = bgPortrait.GetComponentInChildren< Light >();

@@ -39,7 +39,186 @@ public class MatchesFinder
 			boardData = value;
 		}
 	}
-	
+	private bool CanUpgrade(NormalTile thisTile, NormalTile thatTile)
+	{
+		if (thisTile.TileColor == thatTile.TileColor)
+			return true;
+		return false;
+		//return (thisTile.value != maxValue && thisTile.power == thatTile.power && !thisTile.upgradedThisTurn && !thatTile.upgradedThisTurn);
+	}
+
+	public bool FindDQ2MatchesDown()
+	{
+		Match3Tile targetTile = null;
+
+		lastFoundMatches.Clear();
+		matchesBatch.Clear();
+
+		// Clear the match count status for all tiles before looking new matches.
+		boardData.ApplyActionToAll((boardPiece) =>
+		{
+			Match3Tile tile = boardPiece.Tile as Match3Tile;
+
+			if (tile != null)
+			{
+				tile.ResetMatchCountDirections();
+			}
+		});
+
+		// Vertical matches check 
+		//rowIdx  NumRows  
+		//colIdx  NumColumns 
+		for (int colIdx = 0; colIdx < boardData.NumColumns; colIdx++)
+		{
+			targetTile = null;
+			// Reset the targetTile that will be used to detect batches of matches. 
+			for (int rowIdx = 0; rowIdx < boardData.NumRows; rowIdx++)
+			{
+				CheckMatch(boardData[rowIdx, colIdx].Tile as Match3Tile, ref targetTile, true);
+			}
+			matchesBatch.Clear();
+		}
+
+		if (lastFoundMatches.Count > 0)
+		{
+			if (OnBoardMatchesFound != null)
+			{
+				OnBoardMatchesFound(this);
+			}
+
+		}
+
+		return lastFoundMatches.Count > 0;
+	}
+
+	public bool FindDQ2MatchesUp()
+	{
+		Match3Tile targetTile = null;
+
+		lastFoundMatches.Clear();
+		matchesBatch.Clear();
+
+		// Clear the match count status for all tiles before looking new matches.
+		boardData.ApplyActionToAll((boardPiece) =>
+		{
+			Match3Tile tile = boardPiece.Tile as Match3Tile;
+
+			if (tile != null)
+			{
+				tile.ResetMatchCountDirections();
+			}
+		});
+
+		// Vertical matches check rowIdx colIdx NumRows NumColumns .
+		for (int colIdx = 0; colIdx < boardData.NumColumns; colIdx++)
+		{
+			targetTile = null;
+			for (int rowIdx = boardData.NumRows - 1; rowIdx > 0; rowIdx--)
+			{
+				CheckMatch(boardData[rowIdx, colIdx].Tile as Match3Tile, ref targetTile, true);
+			}
+
+			matchesBatch.Clear();
+		}
+
+		if (lastFoundMatches.Count > 0)
+		{
+			if (OnBoardMatchesFound != null)
+			{
+				OnBoardMatchesFound(this);
+			}
+
+		}
+
+		return lastFoundMatches.Count > 0;
+	}
+
+
+	public bool FindDQ2MatchesLeft()
+	{
+		Match3Tile targetTile = null;
+
+		lastFoundMatches.Clear();
+		matchesBatch.Clear();
+
+		// Clear the match count status for all tiles before looking new matches.
+		boardData.ApplyActionToAll((boardPiece) =>
+		{
+			Match3Tile tile = boardPiece.Tile as Match3Tile;
+
+			if (tile != null)
+			{
+				tile.ResetMatchCountDirections();
+			}
+		});
+
+		//rowIdx  NumRows  
+		//colIdx  NumColumns 
+		for (int rowIdx = 0; rowIdx < boardData.NumRows; rowIdx++)
+		{
+			targetTile = null;
+			// Reset the targetTile that will be used to detect batches of matches. 
+			for (int colIdx = boardData.NumColumns - 1 ; colIdx > 0; colIdx--)
+			{
+				CheckMatch(boardData[rowIdx, colIdx].Tile as Match3Tile, ref targetTile, true);
+			}
+			matchesBatch.Clear();
+		}
+
+		if (lastFoundMatches.Count > 0)
+		{
+			if (OnBoardMatchesFound != null)
+			{
+				OnBoardMatchesFound(this);
+			}
+
+		}
+
+		return lastFoundMatches.Count > 0;
+	}
+
+	public bool FindDQ2MatchesRight()
+	{
+		Match3Tile targetTile = null;
+
+		lastFoundMatches.Clear();
+		matchesBatch.Clear();
+
+		// Clear the match count status for all tiles before looking new matches.
+		boardData.ApplyActionToAll((boardPiece) =>
+		{
+			Match3Tile tile = boardPiece.Tile as Match3Tile;
+
+			if (tile != null)
+			{
+				tile.ResetMatchCountDirections();
+			}
+		});
+
+		//rowIdx  NumRows  
+		//colIdx  NumColumns 
+		for (int rowIdx = 0; rowIdx < boardData.NumRows; rowIdx++)
+		{
+			targetTile = null;
+			for (int colIdx = 0; colIdx < boardData.NumColumns; colIdx++) {
+				CheckMatch(boardData[rowIdx, colIdx].Tile as Match3Tile, ref targetTile, true);
+			}
+
+			matchesBatch.Clear();
+		}
+
+		if (lastFoundMatches.Count > 0)
+		{
+			if (OnBoardMatchesFound != null)
+			{
+				OnBoardMatchesFound(this);
+			}
+
+		}
+
+		return lastFoundMatches.Count > 0;
+	}
+
 	public bool FindMatches() 
 	{
 //		Debug.LogWarning("[Match3BoardGameLogic] FindBoardMatches()...");
@@ -69,7 +248,7 @@ public class MatchesFinder
 				CheckMatch(boardData[rowIdx, colIdx].Tile as Match3Tile, ref targetTile, true);
 			}
 			
-			if (matchesBatch.Count >= 3) {
+			if (matchesBatch.Count >= 2) {
 				CollectNewFoundMatches(matchesBatch, true);
 			}
 			matchesBatch.Clear();
@@ -115,42 +294,40 @@ public class MatchesFinder
 	
 	protected void CheckMatch(Match3Tile currentTile, ref Match3Tile targetTile, bool isVerticalPass) 
 	{
-//		Debug.Log("Current tile: " + currentTile + "\n" + "targetTile: " + targetTile);
-		if ( targetTile == null || !targetTile.CanBeMatched ) 
+		//		Debug.Log("Current tile: " + currentTile + "\n" + "targetTile: " + targetTile);
+		if (targetTile == null || !targetTile.CanBeMatched)
 		{
-			// If there is no target tile to check matches with yet, try to set the currentTile as the targetTile and 
-			// get back to the loop so we can move to the next tile to compare it with the new targetTile.
-			if (currentTile != null && currentTile.CanBeMatched) 
+			if (currentTile != null && currentTile.CanBeMatched)
 			{
 				targetTile = currentTile;
-				if (matchesBatch.Count > 0) {
+				if (matchesBatch.Count > 0)
+				{
 					matchesBatch.Clear();
 				}
 				matchesBatch.Add(targetTile);
 			}
-		} else if (currentTile != null && currentTile.IsMatchWith(targetTile)) {
+		}
+		else if (currentTile != null && currentTile.IsMatchWith(targetTile))
+		{
 			// If we found a matching tile with the targetTile add it to our temporary matches buffer.
 			matchesBatch.Add(currentTile);
-		} else {
-			// If we found a tile different from the targetTile then we finished collecting tiles for the current batch and
-			// we must check if we found at least 3 to add to our final "lastFoundMatches" result.
-			// We also make the current tile the new targetTile because it belongs in a different batch of matches.
-			targetTile = currentTile;
-			if (matchesBatch.Count >= 3) {
-				CollectNewFoundMatches(matchesBatch, isVerticalPass);
-			}
-			// Clear the current temporary matches buffer.
+			currentTile.CanBeMatched = false;
+			CollectNewFoundMatches(matchesBatch, isVerticalPass);
 			matchesBatch.Clear();
-			
-			// We check here if the new target tile can be matched then we already add it to the new batch of matches.
-			if (targetTile != null && targetTile.CanBeMatched) {
-				matchesBatch.Add(currentTile);
-			}
-		}		
+		}
+		else if (currentTile != null && !currentTile.IsMatchWith(targetTile))
+		{
+			targetTile = currentTile;
+			matchesBatch.Clear();
+		}
+		else { 
+		}
 	}
 
 	protected void CollectNewFoundMatches(List<Match3Tile> newMatches, bool isVerticalPass) 
 	{
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[MatchesFinder] CollectNewFoundMatches -================");
+		/*
 		if (isVerticalPass) {
 			for(int i = 0; i < newMatches.Count; i++) {
 				newMatches[i].matchCount[(int)TileMatchDirection.Left] = 0;
@@ -166,73 +343,13 @@ public class MatchesFinder
 				newMatches[i].matchCount[(int)TileMatchDirection.Right] = newMatches.Count - 1 - i;
 			}
 		}
+		*/
+		for (int i = 0; i < newMatches.Count; i++)
+		{
+			Logic.EventCenter.Log(LOG_LEVEL.WARN, "[MatchesFinder] CollectNewFoundMatches -> " + newMatches[i].name);
 
+		}
 		lastFoundMatches.AddRange(newMatches);
+
 	}
 }
-
-// Alternate recursive implementation:
-//	public void RecursiveFindBoardMatches() 
-//	{
-//		lastFoundMatches.Clear();
-//		// Vertical matches check.
-//		for(int colIdx = 0; colIdx < boardData.NumColumns; colIdx++) {
-//			BottomMatches(boardData[0, colIdx], null, 0);
-//		}
-//		
-//		// Horizontal matches check.
-//		for(int rowIdx = 0; rowIdx < boardData.NumRows; rowIdx++) {
-//			RightMatches(boardData[rowIdx, 0], null, 0);
-//		}
-//	}
-//	
-//	protected int RightMatches(AbstractBoardPiece currentPiece, AbstractBoardPiece previousPiece, int leftMatches)
-//	{
-//		return DetectMatches(currentPiece, previousPiece, leftMatches, TileMatchDirection.Left, TileMatchDirection.Right, 0, 1);
-//	}
-//	
-//	protected int BottomMatches(AbstractBoardPiece currentPiece, AbstractBoardPiece previousPiece, int topMatches)
-//	{
-//		return DetectMatches(currentPiece, previousPiece, topMatches, TileMatchDirection.Top, TileMatchDirection.Bottom, 1, 0);
-//	}
-//	
-//	protected int DetectMatches(AbstractBoardPiece currentPiece, AbstractBoardPiece prevPiece, int prevMatches, TileMatchDirection prevDir, TileMatchDirection nextDir, int rowOffset, int colOffset)
-//	{
-//		BoardCoord nextPos = currentPiece.BoardPosition;
-//		nextPos.OffsetByAndClamp(rowOffset, colOffset, boardData.NumRows - 1, boardData.NumColumns - 1);
-//		
-//		if (currentPiece.Tile == null) {
-//			if (nextPos != currentPiece.BoardPosition) {
-//				DetectMatches(boardData[nextPos], currentPiece, 0, prevDir, nextDir, rowOffset, colOffset);
-//			}
-//			
-//			return -1;
-//		}
-//		
-//		Match3Tile currentTile = currentPiece.Tile as Match3Tile;
-//		Match3Tile prevTile = prevPiece != null ? prevPiece.Tile as Match3Tile : null;
-//		
-//		currentTile.matchCount[(int)nextDir] = 0;
-//		int result = -1;
-//		
-//		if (prevTile == null || !prevTile.IsMatchWith(currentTile)) {
-//			currentTile.matchCount[(int)prevDir] = 0;
-//			if (nextPos != currentPiece.BoardPosition) {
-//				currentTile.matchCount[(int)nextDir] = DetectMatches(boardData[nextPos], currentPiece, 0, prevDir, nextDir, rowOffset, colOffset) + 1;
-//			} 
-//		} 
-//		else {
-//			currentTile.matchCount[(int)prevDir] = prevMatches + 1;
-//			if (nextPos != currentPiece.BoardPosition) {
-//				currentTile.matchCount[(int)nextDir] = DetectMatches(boardData[nextPos], currentPiece, prevMatches + 1, prevDir, nextDir, rowOffset, colOffset) + 1;
-//			}
-//			
-//			result = currentTile.matchCount[(int)nextDir];
-//		}
-//		
-//		if (currentTile.matchCount[(int)prevDir] + currentTile.matchCount[(int)nextDir] >= 2) {
-//			lastFoundMatches.Add(currentTile);
-//		}
-//		
-//		return result;
-//	}

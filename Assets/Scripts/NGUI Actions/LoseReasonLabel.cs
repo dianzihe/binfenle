@@ -9,12 +9,12 @@ public class LoseReasonLabel : MonoBehaviour
 	void Start () 
 	{
 		label = GetComponent<UILabel>();
-		gameLogic.loseConditions.OnLoseChecked += UpdateReason;
+		//gameLogic.loseConditions.OnLoseChecked += UpdateReason;
 	}
 	
 	public void UpdateReason()
 	{
-		label.text = gameLogic.winConditions.GetLoseReason();
+		//label.text = gameLogic.winConditions.GetLoseReason();
 	}
 }
 

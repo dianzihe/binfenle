@@ -154,7 +154,9 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 			return tile;
 		}
 		set {
-            tile = value;
+			//Logic.EventCenter.Log(LOG_LEVEL.WARN, "[AbstractBoardPiece] Tile set " + name);
+
+			tile = value;
 
 			if (tile != null) {
 				tile.BoardPiece = this;
@@ -325,7 +327,9 @@ public abstract class AbstractBoardPiece: MonoBehaviour, ICustomSerializable {
 	/// Destroyed tile.
 	/// </param>
 	public virtual void RaiseEventTileDestroyed(AbstractTile destroyedTile) {
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[AbstractBoardPiece] -> RaiseEventTileDestroyed->1");
 		if (onTileDestroyed != null) {
+			Logic.EventCenter.Log(LOG_LEVEL.WARN, "[AbstractBoardPiece] -> RaiseEventTileDestroyed->2");
 			onTileDestroyed(this, destroyedTile);
 		}
 	}

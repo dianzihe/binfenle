@@ -279,12 +279,12 @@ public class Match3BoardPiece : AbstractBoardPiece {
 			int registeredAtIdx = Match3BoardGameLogic.Instance.tileSpawners.IndexOf(this);
 			if (isTileSpawner && registeredAtIdx < 0) 
 			{
-//				Debug.Log("[Match3BoardPiece] Registered " + name + " to game logic tile spawner list...");
+				Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardPiece] Registered " + name + " to game logic tile spawner list...");
 				Match3BoardGameLogic.Instance.tileSpawners.Add(this);
 			} 
 			else if (!isTileSpawner && registeredAtIdx >= 0) 
 			{
-//				Debug.Log("[Match3BoardPiece] Unregistered " + name + " from game logic tile spawner list...");
+				Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3BoardPiece] Unregistered " + name + " from game logic tile spawner list...");
 				Match3BoardGameLogic.Instance.tileSpawners.RemoveAt(registeredAtIdx);
 			}
 		}

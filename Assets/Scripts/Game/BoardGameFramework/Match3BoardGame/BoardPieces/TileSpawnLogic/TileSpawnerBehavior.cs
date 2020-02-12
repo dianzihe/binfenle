@@ -77,7 +77,7 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 		immediateSpawnList = Match3BoardGameLogic.Instance.immediateSpawnList;
 		
 		//boardPiece.OnTileChanged += OnBoardPieceTileChanged;
-		
+		boardPiece.OnTileDestroyed += OnBoardPieceTileChanged;
 		InitComponent();
 	}
 	
@@ -113,7 +113,7 @@ public class TileSpawnerBehavior : MonoBehaviour, ICustomSerializable {
 	}
 	
 	protected void OnBoardPieceTileChanged(AbstractBoardPiece sender, AbstractTile newTile) {
-        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[TileSpawnerBehavior]" + "--> OnBoardPieceTileChanged");
+        Logic.EventCenter.Log(LOG_LEVEL.WARN, "[TileSpawnerBehavior]" + "--> OnBoardPieceTileChanged-->"+ sender.name);
         if ((sender as Match3BoardPiece).IsBlocked)
 		{
 			StartCoroutine(RaiseTileSpawnEventNextFrame(sender, newTile));

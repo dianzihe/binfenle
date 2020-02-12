@@ -144,13 +144,13 @@ public class ManaItemHolder : MonoBehaviour, ISelectableItem
 		
 		itemPrefab = prefab;
 		itemPrefabManaItem = itemPrefab.GetComponent<ManaItem>();
-
+		/*
 		if (!itemPrefabManaItem.IsAvailable()) {
 			manaCostLabel.text = "";
 			transform.parent.gameObject.SetActive(false);
 			return;
 		}
-
+		*/
 		if (itemBg == null) {
 			itemBg = GetComponent<UISprite>();
 		}

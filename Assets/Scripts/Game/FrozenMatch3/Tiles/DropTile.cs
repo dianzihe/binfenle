@@ -76,7 +76,7 @@ public class DropTile : NormalTile {
 			yield return null;
 		}
 	
-		GravityUpdateEnabled = false;
+		GravityUpdateEnabled = true;
 		tileModelTransform.gameObject.layer = LayerMask.NameToLayer("DropTile");
 		
 		AddScore();

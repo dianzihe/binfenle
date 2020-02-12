@@ -20,7 +20,8 @@ public class LoseLabel : MonoBehaviour
 	void Start () 
 	{
 		label = GetComponent<UILabel>();
-		label.text = gameLogic.loseConditions.GetLoseString();
+		//label.text = gameLogic.loseConditions.GetLoseString();
+		label.text = "dqdqdq";
 
 		if (questionLabel != null) {
 			if (gameLogic.loseConditions is LoseMoves)

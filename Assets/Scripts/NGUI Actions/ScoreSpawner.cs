@@ -20,6 +20,7 @@ public class ScoreSpawner : MonoBehaviour {
 	
 	//MIO TODO: This his written in a hurry. Rewrite the smart way
 	public void SpawnScore(Vector3 position, int value) {
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[ScoreSpawner] SpawnScore -> " + value);
 		Transform scorePrefabTransform = (Instantiate(scorePrefab, position, Quaternion.identity) as GameObject).transform;
 		scorePrefabTransform.parent = transform;
 

@@ -46,7 +46,8 @@ public abstract class Match3Tile : AbstractTile
 	/// Indicates if this tile can have a color (even if it initially has the "TileColor" property set to None)
 	/// </summary>
 	public bool canHaveColor = true;
-		
+	//public bool dqMatch = false;
+
 	/// <summary>
 	/// If this is false the tile destroy shouldn't do it's destroy effect. 
 	/// TODO: It's used hackishly and inconsistently applied. Review if there's time.
@@ -178,8 +179,9 @@ public abstract class Match3Tile : AbstractTile
 	/// </summary>
 	public virtual void InitAfterAttachedToBoard()
 	{
-        // Apply editor setting to make sure this property sets up any required internal stuff like the starting/stopping the "UpdateGravity()" coroutine.
-        GravityUpdateEnabled = gravityUpdateEnabled;
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[InitAfterAttachedToBoard] --> " + gravityUpdateEnabled);
+		// Apply editor setting to make sure this property sets up any required internal stuff like the starting/stopping the "UpdateGravity()" coroutine.
+		GravityUpdateEnabled = gravityUpdateEnabled;
 
 		if(OnTileInitAfterAttachedToBoard != null)
 		{
@@ -271,8 +273,9 @@ public abstract class Match3Tile : AbstractTile
 			return gravityUpdateEnabled;
 		}
 		set {
-            // Restart gravity checker coroutine making sure we stop any previous ones already running.
-            if (value) 
+			Logic.EventCenter.Log(LOG_LEVEL.WARN, "[GravityUpdateEnabled] ");
+			// Restart gravity checker coroutine making sure we stop any previous ones already running.
+			if (value) 
 			{
 				debugGravityEnabled = false;
 				StopCoroutine("UpdateGravity");
@@ -351,6 +354,7 @@ public abstract class Match3Tile : AbstractTile
 	
 	protected override bool PreDestroy ()
 	{
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3Tile] -> PreDestroy->");
 		if ( !base.PreDestroy() ) {
 			return false;
 		}
@@ -363,8 +367,9 @@ public abstract class Match3Tile : AbstractTile
 		if (OnAnyTileDestroyed != null) {
 			OnAnyTileDestroyed(this);
 		}
-		
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3Tile] -> PreDestroy->1");
 		if (BoardPiece != null) {
+			Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3Tile] -> PreDestroy->2");
 			BoardPiece.RaiseEventTileDestroyed(this);
 		}
 		
@@ -437,7 +442,27 @@ public abstract class Match3Tile : AbstractTile
 		Debug.Log("[WriteToStream] -> TileColor: " + TileColor);
 		writeStream.Write((int)TileColor);
 	}
-	
+
+	public Match3BoardPiece GetDQNextLink(Match3BoardPiece curPiece ) {
+		
+		if (Match3BoardGameLogic.Instance.getDQMoveDirection == 0)
+		{
+			return curPiece.LeftLink;
+		}
+		else if (Match3BoardGameLogic.Instance.getDQMoveDirection == 1)
+		{
+			return curPiece.TopLink;
+		}
+		else if (Match3BoardGameLogic.Instance.getDQMoveDirection == 2)
+		{
+			return curPiece.RightLink;
+		}
+		else if (Match3BoardGameLogic.Instance.getDQMoveDirection == 3)
+		{
+			return curPiece.BottomLink;
+		}
+		return curPiece.BottomLink;
+	}
 	public override void ReadFromStream (int fileVersion, System.IO.BinaryReader readStream)
 	{
 		base.ReadFromStream (fileVersion, readStream);
@@ -479,16 +504,19 @@ public abstract class Match3Tile : AbstractTile
 	{
         // Safety check
         debugGravityEnabled = true;
-		
-		while(GravityUpdateEnabled) 
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "UpdateGravity===>" + BoardPiece.name + "->" + "[" + enabled + "," + GravityEnabled  + "]");
+		//yield return StartCoroutine(PassiveGravityChecker());
+		//yield return StartCoroutine(ActiveGravityChecker());
+		while (GravityUpdateEnabled) 
 		{
             if (!enabled || !GravityEnabled || BoardPiece == null) {
+				//Logic.EventCenter.Log(LOG_LEVEL.WARN, "[UpdateGravity] 1");
 				yield return null;
-				
+				//Logic.EventCenter.Log(LOG_LEVEL.WARN, "[UpdateGravity] 2");
 				continue;
 			}
 			
-			yield return StartCoroutine(PassiveGravityChecker());
+			//yield return StartCoroutine(PassiveGravityChecker());
 			
 			yield return StartCoroutine(ActiveGravityChecker());
 		}
@@ -507,7 +535,6 @@ public abstract class Match3Tile : AbstractTile
         Logic.EventCenter.Log(LOG_LEVEL.WARN, "<Match3Tile>PassiveGravityChecker->:" + BoardPiece.name);
         while (GravityUpdateEnabled) 
 		{
-            
             if (!enabled || !GravityEnabled || BoardPiece == null) 
 			{
 				yield return null;
@@ -564,18 +591,20 @@ public abstract class Match3Tile : AbstractTile
 		bool waitedForOtherTile = false;
 		bool boardCoordUpdated;
 
-        
+		//Logic.EventCenter.Log(LOG_LEVEL.WARN, "<Match3Tile>ActiveGravityChecker->:" + BoardPiece.name + "-->" + GravityUpdateEnabled);
 
-        while (GravityUpdateEnabled) 
+		while (GravityUpdateEnabled) 
 		{
-            //Logic.EventCenter.Log(LOG_LEVEL.WARN, ">");
-            // Safety check block. (especially for when a tile might be removed from the board meaning it has no BoardPiece that it doesn't belong to it.
-            if (!enabled || !GravityEnabled || BoardPiece == null) 
-			{
+			//  Logic.EventCenter.Log(LOG_LEVEL.WARN, "ActiveGravityChecker===>" + "[" + enabled + "," + GravityEnabled + "," + BoardPiece + "]");
+			//Logic.EventCenter.Log(LOG_LEVEL.WARN, ">");
+			// Safety check block. (especially for when a tile might be removed from the board meaning it has no BoardPiece that it doesn't belong to it.
+			//if (!enabled || !GravityEnabled || BoardPiece == null)
+			if (!enabled || BoardPiece == null)
+				{
 				yield return null;
 				continue;
 			}
-
+			//Logic.EventCenter.Log(LOG_LEVEL.WARN, "ActiveGravityChecker===>111");
 			debugActiveGravity = true;
 			
 			curPiece = BoardPiece as Match3BoardPiece;
@@ -586,23 +615,23 @@ public abstract class Match3Tile : AbstractTile
 			boardCoordUpdated = false;
 			waitedForOtherTile = false;
 			bool hasReachedBoardPieceArea = HasReachedBoardPieceArea();
-			
+
 			// If the tile has previously moved diagonally, we must wait for it to reach it's new current board piece position first and then
 			// continue to fall down vertically.
-			if (curPiece.LockCount <= 0 && curPiece.BottomLink != null
-				&& !curPiece.BottomLink.IsBlocked && (tileMovedDiagonally && hasReachedBoardPieceArea || !tileMovedDiagonally))
+			if (curPiece.LockCount <= 0 &&  GetDQNextLink(curPiece) != null
+				&& !GetDQNextLink(curPiece).IsBlocked && (tileMovedDiagonally && hasReachedBoardPieceArea || !tileMovedDiagonally))
 			{
                 //TODO: to the same loop check like below for the diagonal tiles to fix the bug where 2 tiles one above the other can start to move diagonally at the same time
-                if (curPiece.BottomLink.Tile == null)
+                if (GetDQNextLink(curPiece).Tile == null)
 				{
-                    nextPiece = curPiece.BottomLink;
+                    nextPiece = GetDQNextLink(curPiece);
 					boardCoordUpdated = true;
 					tileMovedDiagonally = false;
 				}
-				else if (curPiece.BottomLink.Tile.IsMoving && HasTileInArea(curPiece.BottomLink.Tile as Match3Tile)) 
+				else if (GetDQNextLink(curPiece).Tile.IsMoving && HasTileInArea(GetDQNextLink(curPiece).Tile as Match3Tile)) 
 				{
                     // Adopt the velocity of the moving tile in front only if it's in the vicinity of this current tile.
-                    moveVel = (curPiece.BottomLink.Tile as Match3Tile).moveVel;					
+                    moveVel = (GetDQNextLink(curPiece).Tile as Match3Tile).moveVel;					
 				}
 			}
 			
@@ -610,9 +639,9 @@ public abstract class Match3Tile : AbstractTile
 			//Was left like this for easier debugging and code flow following.
 			
 			// Don't move sideways if we can already move vertically and until the tile has reached it's target fallDestination.
-			if ( !boardCoordUpdated && hasReachedBoardPieceArea )
+			if ( !boardCoordUpdated && hasReachedBoardPieceArea && false)
 			{
-                //Logic.EventCenter.Log(LOG_LEVEL.WARN, ">>>ActiveGravityChecker-***Don't move sideways if we can already move verticallyy*");
+                Logic.EventCenter.Log(LOG_LEVEL.WARN, ">>>ActiveGravityChecker-***Don't move sideways if we can already move verticallyy*");
 
                 if (curPiece.BottomLeftLink != null && !curPiece.BottomLeftLink.IsBlocked && !curPiece.BottomLeftLink.IsTileSpawner)
 				{
@@ -719,8 +748,9 @@ public abstract class Match3Tile : AbstractTile
 			
 			if (boardCoordUpdated) 
 			{
-                fallDestination = nextPiece.LocalPosition;
-                curPiece.MoveTileTo(nextPiece);
+				//Logic.EventCenter.Log(LOG_LEVEL.WARN, "ActiveGravityChecker===>1");
+				fallDestination = nextPiece.LocalPosition;
+				curPiece.MoveTileTo(nextPiece);
 				curPiece.UpdateOrphanState();
 			}
 			
@@ -731,6 +761,7 @@ public abstract class Match3Tile : AbstractTile
 					(nextPiece == null || (nextPiece.Tile != null && !nextPiece.Tile.IsMoving) || 
 					curPiece == nextPiece || curPiece.LockCount > 0) )
 			{
+			//	Logic.EventCenter.Log(LOG_LEVEL.WARN, "ActiveGravityChecker===>2");
 				// Attach this tile to its current board piece. (correctly updating all other internal states of the board piece)
 				curPiece.Tile = this;
 
@@ -825,7 +856,9 @@ public abstract class Match3Tile : AbstractTile
 	
 	protected override void TileDestroy(bool useEffect) 
 	{
-        AddScore();
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[Match3Tile] -> TileDestroy->");
+
+		AddScore();
 		
 		base.TileDestroy(useEffect);
     }

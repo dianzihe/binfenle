@@ -76,7 +76,7 @@ public class BoardShuffleController : MonoBehaviour
 		
 		// Register to the board's OnStable event.
 		Debug.Log("[BoardShuffleController] Registering to the board's OnStableBoard event...");
-		Match3BoardGameLogic.OnStableBoard += OnStableBoardEvent;
+		//Match3BoardGameLogic.OnStableBoard += OnStableBoardEvent;
 		
 		matchesFinder = new MatchesFinder(board);
 		possibleMatchesFinder = new PossibleMatchesFinder(board);
@@ -161,7 +161,8 @@ public class BoardShuffleController : MonoBehaviour
 	}
 
 	protected void StartReshuffleTilesAnim()
-	{		
+	{
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] StartReshuffleTilesAnim start");
 		// Start their re-shuffle tween animation.
 		Match3Tile tile;
 		
@@ -217,15 +218,17 @@ public class BoardShuffleController : MonoBehaviour
 				ReshuffleTiles();
 			});
 		}
-//		else {
-//			Debug.LogWarning("[StartReshuffleTilesAnim] Error lastTween is NULL");
-//		}
+		//		else {
+		//			Debug.LogWarning("[StartReshuffleTilesAnim] Error lastTween is NULL");
+		//		}
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] StartReshuffleTilesAnim end");
 	}
 
 	protected void ReshuffleTiles()
 	{
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] ReshuffleTiles start");
 		// Re-shuffle tiles
-		for(int i = 0; i < piecesToReshuffle.Count; i++) 
+		for (int i = 0; i < piecesToReshuffle.Count; i++) 
 		{
 			int randomIdx = Random.Range(0, piecesToReshuffle.Count);
 			
@@ -312,6 +315,7 @@ public class BoardShuffleController : MonoBehaviour
 			OnReshuffleFinished.RaiseEvent();
 //			Debug.LogWarning("[StartReshuffleTilesAnim] Error lastTween is NULL");
 		}
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] ReshuffleTiles end");
 	}
 		
 	/// <summary>
@@ -319,6 +323,7 @@ public class BoardShuffleController : MonoBehaviour
 	/// </summary>
 	protected void RaiseBoardShuffleFinishedEvent()
 	{
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] RaiseBoardShuffleFinishedEvent start");
 		IsBoardReshuffling = false;
 		Match3BoardGameLogic.Instance.unstableLock--;
 		
@@ -356,20 +361,22 @@ public class BoardShuffleController : MonoBehaviour
 		// Reset the IsBoardStable flag because the board has been reshuffled. 
 		Match3BoardGameLogic.Instance.IsBoardStable = false;
 		Match3BoardGameLogic.Instance.TryCheckStableBoard();
+		Logic.EventCenter.Log(LOG_LEVEL.WARN, "[BoardShuffleController] RaiseBoardShuffleFinishedEvent end");
+
 	}
 
-//	void OnGUI()
-//	{
-//		GUILayout.BeginVertical();
-//		{
-//			if ( GUILayout.Button("\nReshuffle\n") )
-//			{
-//				RaiseBoardShuffleRequiredEvent();
-//			}
-//		}
-//		GUILayout.EndVertical();
-//	}
-	
+	//	void OnGUI()
+	//	{
+	//		GUILayout.BeginVertical();
+	//		{
+	//			if ( GUILayout.Button("\nReshuffle\n") )
+	//			{
+	//				RaiseBoardShuffleRequiredEvent();
+	//			}
+	//		}
+	//		GUILayout.EndVertical();
+	//	}
+
 	void OnDestroy() 
 	{
 		Debug.Log("[BoardShuffleController] Unregistering to the board's OnStableBoard event...");
